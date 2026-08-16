@@ -4,11 +4,18 @@ $ErrorActionPreference = 'Stop'
 
 $repoRoot = Split-Path -Parent $PSScriptRoot
 $dataDir = Join-Path $repoRoot "data"
+$iconsDir = Join-Path $repoRoot "icons"
 $templatePath = Join-Path $PSScriptRoot "search_template.html"
 $outPath = Join-Path $repoRoot "search.html"
 
+$iconHashes = @{}
+if (Test-Path $iconsDir) {
+    Get-ChildItem -Path $iconsDir -Filter "*.png" | ForEach-Object { $iconHashes[$_.BaseName] = $true }
+}
+
 $pages = @()
 $dataFiles = Get-ChildItem -Path $dataDir -Filter "*.md" | Where-Object { $_.Name -ne "README.md" } | Sort-Object Name
+$iconedPages = 0
 
 foreach ($file in $dataFiles) {
     $text = Get-Content $file.FullName -Raw -Encoding UTF8
@@ -23,15 +30,22 @@ foreach ($file in $dataFiles) {
         $title = $m.Groups[1].Value.Trim()
         $body = $m.Groups[2].Value.Trim()
         if ([string]::IsNullOrWhiteSpace($title)) { continue }
-        $pages += [PSCustomObject]@{
+
+        $page = [PSCustomObject]@{
             t = $title
             f = $file.Name
             b = $body
         }
+        $hashMatch = [regex]::Match($body, "(?m)^-\s*\*\*Prefab Hash:\*\*\s*(-?\d+)\s*$")
+        if ($hashMatch.Success -and $iconHashes.ContainsKey($hashMatch.Groups[1].Value)) {
+            $page | Add-Member -MemberType NoteProperty -Name "i" -Value "icons/$($hashMatch.Groups[1].Value).png"
+            $iconedPages++
+        }
+        $pages += $page
     }
 }
 
-Write-Output "Parsed $($pages.Count) pages from $($dataFiles.Count) files."
+Write-Output "Parsed $($pages.Count) pages from $($dataFiles.Count) files. $iconedPages have icons."
 
 $json = $pages | ConvertTo-Json -Depth 3 -Compress
 # ConvertTo-Json on a single-element array doesn't wrap in [] - force it.

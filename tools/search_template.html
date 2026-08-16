@@ -170,10 +170,12 @@
   }
   #results { overflow-y: auto; border-right: 1px solid var(--border); background: var(--bg-2); }
   .result-item {
-    display: block;
+    display: flex;
+    align-items: center;
+    gap: 10px;
     width: 100%;
     text-align: left;
-    padding: 11px 18px;
+    padding: 9px 18px;
     border: none;
     border-bottom: 1px solid var(--border);
     background: none;
@@ -184,6 +186,16 @@
     font-weight: 500;
     transition: background 0.1s;
   }
+  .result-icon {
+    width: 26px;
+    height: 26px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: 3px;
+    background: var(--panel-2);
+    border: 1px solid var(--border);
+  }
+  .result-text { min-width: 0; flex: 1; }
   .result-item:hover { background: var(--panel); }
   .result-item.active { background: var(--accent-soft); color: var(--accent-strong); box-shadow: inset 3px 0 0 var(--accent); }
   .result-item .rf {
@@ -198,7 +210,25 @@
   .result-item.active .rf { color: var(--accent); opacity: 0.8; }
 
   #detail { overflow-y: auto; padding: 34px 40px 60px; background: var(--bg); }
-  .detail-header { border-bottom: 1px solid var(--border); padding-bottom: 18px; margin-bottom: 22px; }
+  .detail-header {
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+    border-bottom: 1px solid var(--border);
+    padding-bottom: 18px;
+    margin-bottom: 22px;
+  }
+  .detail-icon {
+    width: 64px;
+    height: 64px;
+    flex-shrink: 0;
+    object-fit: contain;
+    border-radius: var(--radius);
+    background: var(--panel-2);
+    border: 1px solid var(--border-strong);
+    padding: 6px;
+  }
+  .detail-header-text { min-width: 0; flex: 1; }
   #detail h2 {
     margin: 0 0 8px;
     font-family: var(--display);
@@ -423,8 +453,10 @@
   function showPage(page, btn) {
     if (activeBtn) activeBtn.classList.remove('active');
     if (btn) { btn.classList.add('active'); activeBtn = btn; }
+    var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
     detailEl.innerHTML =
-      '<div class="detail-header"><h2>' + escapeHtml(page.t) + '</h2><span class="src">' + escapeHtml(page.f) + '</span></div>' +
+      '<div class="detail-header">' + icon +
+      '<div class="detail-header-text"><h2>' + escapeHtml(page.t) + '</h2><span class="src">' + escapeHtml(page.f) + '</span></div></div>' +
       renderBody(page.b);
     detailEl.scrollTop = 0;
   }
@@ -453,7 +485,8 @@
     cap.forEach(function(p) {
       var btn = document.createElement('button');
       btn.className = 'result-item';
-      btn.innerHTML = escapeHtml(p.t) + '<span class="rf">' + escapeHtml(p.f) + '</span>';
+      var icon = p.i ? '<img class="result-icon" src="' + escapeHtml(p.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+      btn.innerHTML = icon + '<span class="result-text">' + escapeHtml(p.t) + '<span class="rf">' + escapeHtml(p.f) + '</span></span>';
       btn.addEventListener('click', function(){ showPage(p, btn); });
       frag.appendChild(btn);
     });
