@@ -41,8 +41,12 @@ foreach ($file in $dataFiles) {
         if ($hashMatch.Success -and $iconHashes.ContainsKey($hashMatch.Groups[1].Value)) {
             $page | Add-Member -MemberType NoteProperty -Name "i" -Value "icons/$($hashMatch.Groups[1].Value).png"
             $iconedPages++
-        } elseif ($gasMatch.Success -and $iconHashes.ContainsKey("gas_$($gasMatch.Groups[1].Value)")) {
-            $page | Add-Member -MemberType NoteProperty -Name "i" -Value "icons/gas_$($gasMatch.Groups[1].Value).png"
+        } elseif ($gasMatch.Success) {
+            # No real sprite extraction for gases (see README known
+            # limitations) - the front end generates a chemical-formula
+            # badge client-side instead, styled like the in-game diamond
+            # icons, from just this GasType name.
+            $page | Add-Member -MemberType NoteProperty -Name "g" -Value $gasMatch.Groups[1].Value
             $iconedPages++
         }
         $pages += $page

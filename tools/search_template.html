@@ -197,6 +197,25 @@
   }
   .result-text { min-width: 0; flex: 1; }
   .result-item:hover { background: var(--panel); }
+
+  /* Chemical-formula badge for gas pages, styled like the in-game SPDA's
+     own diamond gas icons - no real sprite extraction available for pure
+     gas types, so this is generated purely from the gas's formula. */
+  .gas-badge {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    font-family: var(--mono);
+    font-weight: 700;
+    color: var(--gas-color, var(--cyan));
+    border: 1.5px solid var(--gas-color, var(--cyan));
+    background: var(--gas-bg, var(--panel-2));
+    transform: rotate(45deg);
+  }
+  .gas-badge span { display: block; transform: rotate(-45deg); }
+  .result-icon.gas-badge { width: 20px; height: 20px; font-size: 6.5px; border-radius: 4px; margin: 3px; }
+  .detail-icon.gas-badge { width: 80px; height: 80px; font-size: 17px; border-radius: 14px; }
   .result-item.active { background: var(--accent-soft); color: var(--accent-strong); box-shadow: inset 3px 0 0 var(--accent); }
 
   #detail { overflow-y: auto; padding: 34px 40px 60px; background: var(--bg); }
@@ -385,6 +404,37 @@
     return escapeHtml(s.replace(/\*\*/g, ''));
   }
 
+  // Real per-gas sprite icons aren't extractable (see README known
+  // limitations) - the in-game SPDA itself just shows a colored diamond with
+  // the chemical formula on it, so that's reproduced directly here from each
+  // GasType's formula. Liquid variants share their gas's formula/color.
+  var GAS_INFO = {
+    Oxygen: ['O2', '#bfe0ee'], LiquidOxygen: ['O2', '#bfe0ee'],
+    Nitrogen: ['N2', '#5b8fd9'], LiquidNitrogen: ['N2', '#5b8fd9'],
+    Air: ['AIR', '#9aa5ad'],
+    CarbonDioxide: ['CO2', '#8a94a6'], LiquidCarbonDioxide: ['CO2', '#8a94a6'],
+    Methane: ['CH4', '#e2542e'], LiquidMethane: ['CH4', '#e2542e'],
+    Fuel: ['FUEL', '#e2942e'],
+    Pollutant: ['POL', '#d9c23a'], LiquidPollutant: ['POL', '#d9c23a'],
+    Water: ['H2O', '#4fa3d1'], Steam: ['H2O', '#4fa3d1'],
+    PollutedWater: ['H2O*', '#7a8f5e'],
+    NitrousOxide: ['N2O', '#5bbf6a'], LiquidNitrousOxide: ['N2O', '#5bbf6a'],
+    Hydrogen: ['H2', '#57d6c8'], LiquidHydrogen: ['H2', '#57d6c8'],
+    Hydrazine: ['N2H4', '#c9773f'], LiquidHydrazine: ['N2H4', '#c9773f'],
+    LiquidAlcohol: ['EtOH', '#c07fd1'],
+    Helium: ['He', '#e08fd0'],
+    LiquidSodiumChloride: ['NaCl', '#d8cbb0'],
+    Silanol: ['SiH3OH', '#3fae9e'], LiquidSilanol: ['SiH3OH', '#3fae9e'],
+    HydrochloricAcid: ['HCl', '#a8d15a'], LiquidHydrochloricAcid: ['HCl', '#a8d15a'],
+    Ozone: ['O3', '#9a5fd1'], LiquidOzone: ['O3', '#9a5fd1']
+  };
+
+  function gasBadgeHtml(gasType, sizeClass) {
+    var info = GAS_INFO[gasType] || [gasType.slice(0, 4).toUpperCase(), '#d97b4a'];
+    var style = '--gas-color:' + info[1] + ';--gas-bg:' + info[1] + '1a;';
+    return '<span class="' + sizeClass + ' gas-badge" style="' + style + '"><span>' + escapeHtml(info[0]) + '</span></span>';
+  }
+
   function parseTableRow(line) {
     var cells = line.split('|');
     if (cells.length && cells[0].trim() === '') cells.shift();
@@ -497,7 +547,8 @@
   function showPage(page, btn) {
     if (activeBtn) activeBtn.classList.remove('active');
     if (btn) { btn.classList.add('active'); activeBtn = btn; }
-    var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+    var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">'
+      : (page.g ? gasBadgeHtml(page.g, 'detail-icon') : '');
     detailEl.innerHTML =
       '<div class="detail-header">' + icon +
       '<div class="detail-header-text"><h2>' + escapeHtml(page.t) + '</h2></div></div>' +
@@ -529,7 +580,8 @@
     cap.forEach(function(p) {
       var btn = document.createElement('button');
       btn.className = 'result-item';
-      var icon = p.i ? '<img class="result-icon" src="' + escapeHtml(p.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
+      var icon = p.i ? '<img class="result-icon" src="' + escapeHtml(p.i) + '" alt="" loading="lazy" onerror="this.remove()">'
+        : (p.g ? gasBadgeHtml(p.g, 'result-icon') : '');
       btn.innerHTML = icon + '<span class="result-text">' + escapeHtml(p.t) + '</span>';
       btn.addEventListener('click', function(){ showPage(p, btn); });
       frag.appendChild(btn);
