@@ -1,4 +1,219 @@
-# Kit (Flood Light Large) - Kit (Pipe Igniter)
+# Kit (Digital Valve) - Kit (OGRE)
+
+## Kit (Digital Valve)
+
+This kit creates a Digital Valve.
+
+- **Key:** ThingItemPipeDigitalValve
+- **Prefab Name:** ItemPipeDigitalValve
+- **Prefab Hash:** -1532448832
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 2 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 3 x Invar (from Ingot (Invar))
+
+**Constructed From Kits:**
+  - NameOfThing=Digital Valve, PrefabHash=-1280984102, PageLink=ThingStructureDigitalValve
+
+---
+
+## Kit (DiRCI)
+
+Kit for constructing DiRCI
+
+- **Key:** ThingItemDiRCIkit
+- **Prefab Name:** ItemDiRCIkit
+- **Prefab Hash:** -1373381823
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 1
+- **Paintable:** Yes
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 2000 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 20 x Silicon (from Ingot (Silicon))
+
+**Constructed From Kits:**
+  - NameOfThing=DiRCI, PrefabHash=-1117847913, PageLink=ThingrobotDiRCI
+
+---
+
+## Kit (Docking Port)
+
+- **Key:** ThingItemKitDockingPort
+- **Prefab Name:** ItemKitDockingPort
+- **Prefab Hash:** 77421200
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+
+---
+
+## Kit (Door)
+
+- **Key:** ThingItemKitDoor
+- **Prefab Name:** ItemKitDoor
+- **Prefab Hash:** 168615924
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 7 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Glass Door, PrefabHash=-324331872, PageLink=ThingStructureGlassDoor
+  - NameOfThing=Composite Door, PrefabHash=-793837322, PageLink=ThingStructureCompositeDoor
+  - NameOfThing=Composite Roll Cover, PrefabHash=1228794916, PageLink=ThingCompositeRollCover
+  - NameOfThing=Manual Hatch, PrefabHash=-1808154199, PageLink=ThingStructureManualHatch
+  - NameOfThing=Manual Floor Hatch, PrefabHash=1435578852, PageLink=ThingStructureManualFloorHatch
+
+---
+
+## Kit (Drinking Fountain)
+
+- **Key:** ThingItemKitDrinkingFountain
+- **Prefab Name:** ItemKitDrinkingFountain
+- **Prefab Hash:** -1743663875
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 620 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper)) + 8 x Silicon (from Ingot (Silicon))
+
+**Constructed From Kits:**
+  - NameOfThing=Drinking Fountain, PrefabHash=-739488459, PageLink=ThingStructureDrinkingFountain2x1
+
+---
+
+## Kit (Electronics Printer)
+
+- **Key:** ThingItemKitElectronicsPrinter
+- **Prefab Name:** ItemKitElectronicsPrinter
+- **Prefab Hash:** -1181922382
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 1
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 12000 x Energy + 20 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
+
+---
+
+## Kit (Elevator)
+
+- **Key:** ThingItemKitElevator
+- **Prefab Name:** ItemKitElevator
+- **Prefab Hash:** -945806652
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder))
+
+**Constructed From Kits:**
+  - NameOfThing=Elevator Shaft, PrefabHash=1998354978, PageLink=ThingStructureElevatorShaftIndustrial
+  - NameOfThing=Elevator Shaft (Cabled), PrefabHash=826144419, PageLink=ThingStructureElevatorShaft
+  - NameOfThing=Elevator Level (Cabled), PrefabHash=-827912235, PageLink=ThingStructureElevatorLevelFront
+  - NameOfThing=Elevator Level, PrefabHash=2060648791, PageLink=ThingStructureElevatorLevelIndustrial
+
+---
+
+## Kit (Filter Cleaner)
+
+The cutting-edge ExMin Filter Cleaner™ system delivers effortless, precision cleaning for any filter, setting a new standard in efficiency and innovation.
+
+- **Key:** ThingItemKitFilterCleaner
+- **Prefab Name:** ItemKitFilterCleaner
+- **Prefab Hash:** 1264344631
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 1
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Filter Cleaner, PrefabHash=1540741162, PageLink=ThingStructureFilterCleaner
+
+---
+
+## Kit (Flashing Light)
+
+- **Key:** ThingItemFlashingLight
+- **Prefab Name:** ItemFlashingLight
+- **Prefab Hash:** -2107840748
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 673 K (400oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Flashing Light, PrefabHash=-1535893860, PageLink=ThingStructureFlashingLight
+
+---
+
+## Kit (Flat Wall)
+
+- **Key:** ThingItemKitWallFlat
+- **Prefab Name:** ItemKitWallFlat
+- **Prefab Hash:** -846838195
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 30
+- **Paintable:** Yes
+- **Flashpoint:** 973 K (700oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Steel (from Ingot (Steel))
+
+**Constructed From Kits:**
+  - NameOfThing=Wall (Flat), PrefabHash=1635864154, PageLink=ThingStructureWallFlat
+  - NameOfThing=Wall (Large Panel), PrefabHash=1492930217, PageLink=ThingStructureWallLargePanel
+  - NameOfThing=Wall (Large Panel Arrow), PrefabHash=-776581573, PageLink=ThingStructureWallLargePanelArrow
+  - NameOfThing=Wall (Plating), PrefabHash=26167457, PageLink=ThingStructureWallPlating
+  - NameOfThing=Wall (Small Panels And Hatch), PrefabHash=619828719, PageLink=ThingStructureWallSmallPanelsAndHatch
+  - NameOfThing=Wall (Small Panels Arrow), PrefabHash=-639306697, PageLink=ThingStructureWallSmallPanelsArrow
+  - NameOfThing=Wall (Small Panels Mono Chrome), PrefabHash=386820253, PageLink=ThingStructureWallSmallPanelsMonoChrome
+  - NameOfThing=Wall (Small Panels Two Tone), PrefabHash=1709994581, PageLink=ThingStructureWallSmallPanelsTwoTone
+  - NameOfThing=Wall (Flat Corner Round), PrefabHash=898708250, PageLink=ThingStructureWallFlatCornerRound
+  - NameOfThing=Wall (Flat Corner Square), PrefabHash=298130111, PageLink=ThingStructureWallFlatCornerSquare
+  - NameOfThing=Wall (Flat Corner Triangle), PrefabHash=2097419366, PageLink=ThingStructureWallFlatCornerTriangle
+  - NameOfThing=Wall (Flat Corner Triangle Flat), PrefabHash=-1161662836, PageLink=ThingStructureWallFlatCornerTriangleFlat
+  - NameOfThing=Wall (Small Panels Open), PrefabHash=-1407480603, PageLink=ThingStructureWallSmallPanelsOpen
+
+---
 
 ## Kit (Flood Light Large)
 
@@ -2156,220 +2371,6 @@ More cladding for your cladding needs.
 
 **Constructed From Kits:**
   - NameOfThing=OGRE, PrefabHash=1070427573, PageLink=ThingStructureHorizontalAutoMiner
-
----
-
-## Kit (OmniBridge)
-
-Contains the components needed to construct an OmniBridge 4-Port Router.
-
-- **Key:** ThingItemKitOmniBridge
-- **Prefab Name:** ItemKitOmniBridge
-- **Prefab Hash:** -749299557
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier One)
-    - 1200 x Energy Temperature: 0 K (-273oC) to 0 K (-273oC) Pressure: 0 Pa to 0 Pa + 5 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Silicon (from Ingot (Silicon))
-
-**Constructed From Kits:**
-  - NameOfThing=OmniBridge Router, PrefabHash=1480823343, PageLink=ThingStructureOmniBridgeRouter
-  - NameOfThing=OmniBridge Wall Monitor, PrefabHash=31318523, PageLink=ThingStructureOmniBridgeMonitor
-
----
-
-## Kit (Orbital Launch Mount Payload)
-
-Constructs a Orbital Launch Mount Payload that can be carried to Low Orbit in a Payload Bay Large.
-
-- **Key:** ThingItemKitOrbitalLaunchMountPayload
-- **Prefab Name:** ItemKitOrbitalLaunchMountPayload
-- **Prefab Hash:** 1102804329
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Constructed From Kits:**
-  - NameOfThing=Orbital Launch Mount Payload, PrefabHash=-1538309510, PageLink=ThingDynamicOrbitalLaunchMountPayload
-
----
-
-## Kit (Orbital Launch Mount)
-
-- **Key:** ThingItemKitLaunchMountOrbital
-- **Prefab Name:** ItemKitLaunchMountOrbital
-- **Prefab Hash:** -766450968
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Constructed From Kits:**
-  - NameOfThing=Orbital Launch Mount, PrefabHash=640969314, PageLink=ThingStructureLaunchMountOrbital
-
----
-
-## Kit (Padded Wall)
-
-- **Key:** ThingItemKitWallPadded
-- **Prefab Name:** ItemKitWallPadded
-- **Prefab Hash:** -821868990
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 30
-- **Paintable:** Yes
-- **Flashpoint:** 973 K (700oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Build Recipe:**
-  - Printer: Autolathe (Tier One)
-    - 500 x Energy + 1 x Steel (from Ingot (Steel))
-
-**Constructed From Kits:**
-  - NameOfThing=Wall (Padding), PrefabHash=635995024, PageLink=ThingStructureWallPadding
-  - NameOfThing=Wall (Padded Arch), PrefabHash=1590330637, PageLink=ThingStructureWallPaddedArch
-  - NameOfThing=Wall (Padding Light Fitting), PrefabHash=2024882687, PageLink=ThingStructureWallPaddingLightFitting
-  - NameOfThing=Wall (Padded Arch Lights Fittings), PrefabHash=-1546743960, PageLink=ThingStructureWallPaddedArchLightsFittings
-  - NameOfThing=Wall (Padded Arch Light Fitting Top), PrefabHash=1171987947, PageLink=ThingStructureWallPaddedArchLightFittingTop
-  - NameOfThing=Wall (Padding Arch Vent), PrefabHash=-1243329828, PageLink=ThingStructureWallPaddingArchVent
-  - NameOfThing=Wall (Padded No Border), PrefabHash=8846501, PageLink=ThingStructureWallPaddedNoBorder
-  - NameOfThing=Wall (Padding Thin), PrefabHash=-1102403554, PageLink=ThingStructureWallPaddingThin
-  - NameOfThing=Wall (Padded Thin No Border), PrefabHash=-1611559100, PageLink=ThingStructureWallPaddedThinNoBorder
-  - NameOfThing=Wall (Padded Window), PrefabHash=2087628940, PageLink=ThingStructureWallPaddedWindow
-  - NameOfThing=Wall (Padded Window Thin), PrefabHash=-37302931, PageLink=ThingStructureWallPaddedWindowThin
-  - NameOfThing=Wall (Padded Arch Corner), PrefabHash=-1126688298, PageLink=ThingStructureWallPaddedArchCorner
-  - NameOfThing=Wall (Padded Corner), PrefabHash=-155945899, PageLink=ThingStructureWallPaddedCorner
-  - NameOfThing=Wall (Padded Corner Thin), PrefabHash=1183203913, PageLink=ThingStructureWallPaddedCornerThin
-  - NameOfThing=Wall (Padded No Border Corner), PrefabHash=179694804, PageLink=ThingStructureWallPaddedNoBorderCorner
-  - NameOfThing=Wall (Padded Thin No Border Corner), PrefabHash=1769527556, PageLink=ThingStructureWallPaddedThinNoBorderCorner
-
----
-
-## Kit (Passive Vent)
-
-This kit creates a Kit (Passive Vent) among other variants.
-
-- **Key:** ThingItemPassiveVent
-- **Prefab Name:** ItemPassiveVent
-- **Prefab Hash:** 238631271
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 973 K (700oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 3 x Iron (from Ingot (Iron))
-
-**Constructed From Kits:**
-  - NameOfThing=Passive Vent, PrefabHash=335498166, PageLink=ThingStructurePassiveVent
-  - NameOfThing=Passive Vent (Passthrough), PrefabHash=-1177469307, PageLink=ThingStructureWallVent
-  - NameOfThing=Passive Vent (Valve), PrefabHash=-75599100, PageLink=ThingStructurePassiveVentValve
-  - NameOfThing=Crew Module Passive Vent, PrefabHash=1393516022, PageLink=ThingStructureCrewModulePassiveVent
-
----
-
-## Kit (Payload Bay Large)
-
-- **Key:** ThingItemKitRocketLargePayloadBay
-- **Prefab Name:** ItemKitRocketLargePayloadBay
-- **Prefab Hash:** 357751071
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Rocket Manufactory (Tier One)
-    - 60000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Constantan (from Ingot (Constantan))
-
-**Constructed From Kits:**
-  - NameOfThing=Payload Bay Large, PrefabHash=1081471167, PageLink=ThingStructureRocketLargePayloadBay
-
----
-
-## Kit (Payload Delivery Container)
-
-- **Key:** ThingItemKitPayloadDeliveryContainer
-- **Prefab Name:** ItemKitPayloadDeliveryContainer
-- **Prefab Hash:** 436274801
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Rocket Manufactory (Tier One)
-    - 9000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar))
-
-**Constructed From Kits:**
-  - NameOfThing=Payload Delivery Container, PrefabHash=998774972, PageLink=ThingDynamicPayloadDeliveryContainer
-
----
-
-## Kit (Phase Change Device)
-
-- **Key:** ThingItemKitEvaporationChamber
-- **Prefab Name:** ItemKitEvaporationChamber
-- **Prefab Hash:** 1587787610
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 10 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 5 x Silicon (from Ingot (Silicon))
-
-**Constructed From Kits:**
-  - NameOfThing=Evaporation Chamber, PrefabHash=-1429782576, PageLink=ThingStructureEvaporationChamber
-  - NameOfThing=Condensation Chamber, PrefabHash=1420719315, PageLink=ThingStructureCondensationChamber
-
----
-
-## Kit (Pipe Analyzer)
-
-This kit creates a Pipe Analyzer.
-
-- **Key:** ThingItemPipeAnalyizer
-- **Prefab Name:** ItemPipeAnalyizer
-- **Prefab Hash:** -767597887
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 2 x Electrum (from Ingot (Electrum))
-
-**Constructed From Kits:**
-  - NameOfThing=Pipe Analyzer, PrefabHash=435685051, PageLink=ThingStructurePipeAnalysizer
-
----
-
-## Kit (Pipe Igniter)
-
-- **Key:** ThingItemPipeIgniter
-- **Prefab Name:** ItemPipeIgniter
-- **Prefab Hash:** 1366030599
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Electrum (from Ingot (Electrum))
-
-**Constructed From Kits:**
-  - NameOfThing=Pipe Igniter, PrefabHash=1286441942, PageLink=ThingStructurePipeIgniter
 
 ---
 

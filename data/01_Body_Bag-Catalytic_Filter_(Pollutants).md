@@ -1,19 +1,4 @@
-# Bobble Head (Marine) - Catalytic Filter (Ozone)
-
-## Bobble Head (Marine)
-
-- **Key:** ThingApplianceBobbleHeadMarine
-- **Prefab Name:** ApplianceBobbleHeadMarine
-- **Prefab Hash:** 142593802
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Autolathe (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
-
-
----
+# Body Bag - Catalytic Filter (Pollutants)
 
 ## Body Bag
 
@@ -1139,6 +1124,9 @@ Nothing says 'I care' like a security camera that's been linked a Motion Sensor 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.04
+- **Radiation Factor:** 0.04
+- **Solar Heating Factor:** 0.081
 **Build Recipe:**
   - Printer: Hydraulic Pipe Bender (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron))
@@ -1294,6 +1282,7 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Cooked R
 
 - **Key:** ReagentCarbon
 - **Reagents Type:** Carbon
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Human Skull, QuantityOfThing=1
   - NameOfThing=Charcoal, QuantityOfThing=1
@@ -1305,9 +1294,15 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Cooked R
 You breathe it out, plants breath it in. They don't grow without it. You can use items placed in Gas Filter slots to remove this from the atmosphere. Carbon Dioxide has a moderately high specific heat, meaning it makes a good coolant for devices like the Wall Cooler. Water is better, but usually has more important uses.
 
 - **Key:** GasCarbonDioxide
+- **Gas Type:** CarbonDioxide
 - **Specific Heat:** 28.2 J/K
+- **Latent Heat:** 0.6 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 218K (-55.3C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 266K (-6.8C) at 6000kPa
+- **Min Liquid Pressure:** 517kPa at 218K (-55.3C)
 **Found In Ore:**
   - NameOfThing=Charcoal, QuantityOfThing=3 mol
   - NameOfThing=Ore (Coal), QuantityOfThing=10 mol
@@ -1993,6 +1988,22 @@ A filter that selectively targets Oxygen. It uses internal pressure differential
 - **Key:** ThingItemGasFilterOzoneInfinite
 - **Prefab Name:** ItemGasFilterOzoneInfinite
 - **Prefab Hash:** -1242799469
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+
+---
+
+## Catalytic Filter (Pollutants)
+
+A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.
+
+- **Key:** ThingItemGasFilterPollutantsInfinite
+- **Prefab Name:** ItemGasFilterPollutantsInfinite
+- **Prefab Hash:** -503738105
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Stack Size:** 100

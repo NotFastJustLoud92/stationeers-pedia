@@ -1,4 +1,103 @@
-# Low temperature tolerance - Monorail Sloped Rail (14m)
+# LogicType.Weight - Monorail Rail (18m)
+
+## LogicType.Weight
+
+Weight of Rocket in Newtons (Including fuel and cargo). Weight is effected by local body gravity.
+
+- **Key:** LogicTypeWeight
+
+---
+
+## LogicType.WorkingGasEfficiency
+
+The Working Gas Efficiency reported by the machine, as a float between 0 and 1
+
+- **Key:** LogicTypeWorkingGasEfficiency
+
+---
+
+## LogicTypeHeaderTemplate
+
+{0}
+
+- **Key:** LogicTypeHeaderTemplate
+
+---
+
+## LogicTypePageTemplate
+
+{0}
+
+- **Key:** LogicTypePageTemplate
+
+---
+
+## LogicTypeTemplate
+
+{0}{1} {2}
+
+- **Key:** LogicTypeTemplate
+
+---
+
+## Lore
+
+- **Key:** Lore
+
+---
+
+## Low frequency oscillator
+
+The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a Logic Step Sequencer. To set up an LFO: 1. Place the LFO unit 2. Set the LFO output to a Passive Speaker 2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker. 3. Place a Stop Watch or use an existing one, then use a Logic Writer to write it to the LFO. 4. Use another logic writer to write the BPM to the LFO. 5. You are ready. This is the future. You're in space. Make it sound cool. For more info, check out the music page.
+
+- **Key:** ThingDeviceLfoVolume
+- **Prefab Name:** DeviceLfoVolume
+- **Prefab Hash:** -1844430312
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build States:**
+  - Description=1 x Kit (Music Machines)
+**Mode Options:**
+  - LogicName=Whole Note, LogicAccessTypes=0
+  - LogicName=Half Note, LogicAccessTypes=1
+  - LogicName=Quarter Note, LogicAccessTypes=2
+  - LogicName=Eighth Note, LogicAccessTypes=3
+  - LogicName=Sixteenth Note, LogicAccessTypes=4
+**Connections:**
+  - LogicName=Data Input, LogicAccessTypes=0
+  - LogicName=Power Input, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
+
+---
+
+## Low pressure resistance
+
+The lower limit of pressure that the plant is able to grow at.
+
+- **Key:** GeneLowPressureResistance
+
+---
+
+## Low pressure tolerance
+
+The length of time a plant can stay below its low pressure limit before it starts taking damage.
+
+- **Key:** GeneLowPressureTolerance
+
+---
+
+## Low temperature resistance
+
+The lower limit of temperature that the plant is able to grow at.
+
+- **Key:** GeneLowTemperatureResistance
+
+---
 
 ## Low temperature tolerance
 
@@ -183,6 +282,9 @@ A stand-alone radiator unit optimized for exchanging heat with its surrounding a
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 9.38
+- **Radiation Factor:** 3
+- **Solar Heating Factor:** 1.5
 **Build States:**
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 1 x Steel Sheets
@@ -205,6 +307,9 @@ Has been replaced by Medium Convection Radiator.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 7.5
+- **Radiation Factor:** 3
+- **Solar Heating Factor:** 1.5
 **Build States:**
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 2 x Steel Sheets
@@ -225,6 +330,9 @@ A stand-alone liquid radiator unit optimized for exchanging heat with its surrou
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 9.38
+- **Radiation Factor:** 3
+- **Solar Heating Factor:** 1.5
 **Build States:**
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 1 x Steel Sheets
@@ -247,6 +355,9 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 7.5
+- **Radiation Factor:** 3
+- **Solar Heating Factor:** 1.5
 **Build States:**
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 2 x Steel Sheets
@@ -579,6 +690,9 @@ A stand-alone radiator unit optimized for radiating heat in vacuums.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 1.5
+- **Radiation Factor:** 30
+- **Solar Heating Factor:** 15
 **Build States:**
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 1 x Steel Sheets
@@ -600,6 +714,9 @@ A stand-alone liquid radiator unit optimized for radiating heat in vacuums.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 1.5
+- **Radiation Factor:** 30
+- **Solar Heating Factor:** 15
 **Build States:**
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 1 x Steel Sheets
@@ -678,9 +795,22 @@ Meter that displays Setting within a user defined range. Has an adjustable Color
 Methane is a combustible fuel. It is refined from Ice (Volatiles)
 
 - **Key:** GasMethane
+- **Gas Type:** Methane
 - **Specific Heat:** 20.4 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 81.5K (-192C)
 - **Boiling Temperature:** 116K (-157C) at 100kPa
+- **Max Liquid Temperature:** 195K (-78.1C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 81.5K (-192C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=Oxygen
+  - FuelType=Methane, OxidiserType=LiquidOxygen
+  - FuelType=Methane, OxidiserType=NitrousOxide
+  - FuelType=Methane, OxidiserType=LiquidNitrousOxide
+  - FuelType=Methane, OxidiserType=Ozone
+  - FuelType=Methane, OxidiserType=LiquidOzone
 **Found In Ore:**
   - NameOfThing=Biomass, QuantityOfThing=8 mol
   - NameOfThing=Ore (Cobalt), QuantityOfThing=1 mol
@@ -785,16 +915,6 @@ The Norsec Wireless Power Transmitter is an uni-directional, A-to-B, far field m
 
 ## Milk
 
-- **Key:** ReagentMilk
-- **Reagents Type:** Milk
-**Found In Ore:**
-  - NameOfThing=Condensed Milk, QuantityOfThing=1
-  - NameOfThing=Milk, QuantityOfThing=1
-
----
-
-## Milk
-
 Full disclosure, it's not actually 'milk', but an Agrizero-invented synthesis of 5ml Soy Oil and 5g Fern, delicately blended in the Chemistry Station. Surprisingly filling, it can be used as an ingredient to cook other food in the Microwave or Automated Oven. Think, Muffin.
 
 - **Key:** ThingItemMilk
@@ -817,6 +937,17 @@ Full disclosure, it's not actually 'milk', but an Agrizero-invented synthesis of
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
+
+---
+
+## Milk
+
+- **Key:** ReagentMilk
+- **Reagents Type:** Milk
+- **Unit:** ml
+**Found In Ore:**
+  - NameOfThing=Condensed Milk, QuantityOfThing=1
+  - NameOfThing=Milk, QuantityOfThing=1
 
 ---
 
@@ -1774,220 +1905,6 @@ A straight 18-meter monorail track segment. Snaps to the 2x2 grid and connects e
 - **Paintable:** Yes
 **Build States:**
   - Description=4 x Monorail Rails Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
-
----
-
-## Monorail Rail (2m)
-
-A straight 2 m rail for short gaps and fine alignment. Prefer longer rails for long runs. Snaps to the 2x2 grid and connects end-to-end with other rail segments, docks, and stations to form a rail network. See also: Monorail A - Start Here
-
-- **Key:** ThingStructureRail2
-- **Prefab Name:** StructureRail2
-- **Prefab Hash:** 1621689525
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Rails Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
-
----
-
-## Monorail Rail (6m)
-
-A straight 6 m rail for short gaps and fine alignment. Prefer longer rails for long runs. Snaps to the 2x2 grid and connects end-to-end with other rail segments, docks, and stations to form a rail network. See also: Monorail A - Start Here
-
-- **Key:** ThingStructureRail6
-- **Prefab Name:** StructureRail6
-- **Prefab Hash:** 1740947628
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=2 x Monorail Rails Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
-
----
-
-## Monorail Rails Kit
-
-A construction kit for building monorail track segments. Rails snap to the 2x2 grid and connect end-to-end to form a traversable rail network. Place and connect rails end-to-end, then add docks and stations as destinations. Looping networks are supported. See also: Monorail A - Start Here
-
-- **Key:** ThingItemMonorailsKit
-- **Prefab Name:** ItemMonorailsKit
-- **Prefab Hash:** -1514871690
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 50
-- **Paintable:** No
-**Build Recipe:**
-  - Printer: Autolathe (Tier Two)
-    - 2500 x Energy + 1 x Copper (from Ingot (Copper)) + 1 x Steel (from Ingot (Steel))
-
-**Constructed From Kits:**
-  - NameOfThing=Monorail Rail (2m), PrefabHash=1621689525, PageLink=ThingStructureRail2
-  - NameOfThing=Monorail Rail (6m), PrefabHash=1740947628, PageLink=ThingStructureRail6
-  - NameOfThing=Monorail Rail (10m), PrefabHash=1688036069, PageLink=ThingStructureRail10
-  - NameOfThing=Monorail Rail (14m), PrefabHash=1676715772, PageLink=ThingStructureRail14
-  - NameOfThing=Monorail Rail (18m), PrefabHash=1783032535, PageLink=ThingStructureRail18
-  - NameOfThing=Monorail Sloped Rail Entry (14m), PrefabHash=541195008, PageLink=ThingStructureRailSlopeEntry14
-  - NameOfThing=Monorail Sloped Rail (14m), PrefabHash=-38917450, PageLink=ThingStructureRailSlope14
-  - NameOfThing=Monorail Sloped Rail Exit (14m), PrefabHash=545284919, PageLink=ThingStructureRailSlopeExit14
-  - NameOfThing=Monorail Curved Rail (14m), PrefabHash=62056900, PageLink=ThingStructureRailCurve14
-  - NameOfThing=Monorail Curved Rail (10m), PrefabHash=81735133, PageLink=ThingStructureRailCurve10
-  - NameOfThing=Monorail SideStep Rail (8m Left), PrefabHash=648996856, PageLink=ThingStructureRailCross8L
-  - NameOfThing=Monorail SideStep Rail (8m Right), PrefabHash=-593372517, PageLink=ThingStructureRailCross8R
-  - NameOfThing=Monorail Step Rail, PrefabHash=1868531189, PageLink=ThingStructureRailStep
-  - NameOfThing=Monorail Rail Support (Single), PrefabHash=1086961374, PageLink=ThingStructureRailSupportSingle
-  - NameOfThing=Monorail Rail Support (Double), PrefabHash=1351181096, PageLink=ThingStructureRailSupportDouble
-
----
-
-## Monorail Right Rail Switch
-
-A right-branching switch. Setting=0 selects the straight A-B path; Setting=1 selects branch A-C. Use the lever or write Setting through IC10. Rail power remains conductive through all three ends. Be careful not to run into a dead end: Trains can derail! See also: Monorail C - Switches and Routing Connects to Logic Transmitter
-
-- **Key:** ThingStructureRailSwitchRight
-- **Prefab Name:** StructureRailSwitchRight
-- **Prefab Hash:** 1489551499
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Switches Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Monorail Switches Kit, PrefabHash=496624275, PageLink=ThingItemMonorailSwitchesKit
-
----
-
-## Monorail Route Signal
-
-An automatic directional block signal that can reserve and align the switches inside its protected block for an approaching automatic train. It clears only after the live route is established, and holds conflicting switch changes until the consist leaves. Route interlocking and placement are covered in Monorail D - Signals and Shared Track. A Monorail Block Signal can protect ordinary occupancy, but it cannot replace this signal where switches must be aligned and reserved. Related: Monorail Block Signal Connects to Logic Transmitter
-
-- **Key:** ThingMonorialRouteSignal
-- **Prefab Name:** MonorialRouteSignal
-- **Prefab Hash:** -815409751
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Signals Kit
-**Constructed Things:**
-  - NameOfThing=Monorail Signals Kit, PrefabHash=-1337434550, PageLink=ThingItemMonorailSignalsKit
-
----
-
-## Monorail SideStep Rail (8m Left)
-
-A monorail track segment for a simple 2m sideways shift to the left. Connects end-to-end with straight rails, curves, and stations. See also: Monorail A - Start Here
-
-- **Key:** ThingStructureRailCross8L
-- **Prefab Name:** StructureRailCross8L
-- **Prefab Hash:** 648996856
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Rails Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
-
----
-
-## Monorail SideStep Rail (8m Right)
-
-A monorail track segment for a simple 2m sideways shift to the right. Connects end-to-end with straight rails, curves, and stations. See also: Monorail A - Start Here
-
-- **Key:** ThingStructureRailCross8R
-- **Prefab Name:** StructureRailCross8R
-- **Prefab Hash:** -593372517
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Rails Kit
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
-
----
-
-## Monorail Signal
-
-A manually controlled, bidirectional stop signal. Setting=0 is red and stops trains approaching from either side; Setting=1 is green. Setting is readable and writable through IC10 and a LogicTransmitter. Related: Monorail Block Signal See also: Monorail D - Signals and Shared Track Connects to Logic Transmitter
-
-- **Key:** ThingMonorialSignal
-- **Prefab Name:** MonorialSignal
-- **Prefab Hash:** -1669465760
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Monorail Signals Kit
-**Constructed Things:**
-  - NameOfThing=Monorail Signals Kit, PrefabHash=-1337434550, PageLink=ThingItemMonorailSignalsKit
-
----
-
-## Monorail Signals Kit
-
-A construction kit for building monorail signals. Signals control train movement along the track and prevent collisions. This kit can build: Monorail Signal - Manual signal (IC10-controlled red/green) Monorail Block Signal - Automatic directional block signal Monorail Route Signal - Automatic route-setting block signal Monorail One-Way Marker - Automatic direction marker Manual signals obey IC10 commands. Block and route signals are directional and automatic. A Monorail Route Signal can also reserve and align a protected switch path; a Monorail Block Signal cannot set switches. Helpful information: Monorail D - Signals and Shared Track
-
-- **Key:** ThingItemMonorailSignalsKit
-- **Prefab Name:** ItemMonorailSignalsKit
-- **Prefab Hash:** -1337434550
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 10
-- **Paintable:** No
-**Build Recipe:**
-  - Printer: Autolathe (Tier Two)
-    - 1500 x Energy + 1 x Gold (from Ingot (Gold)) + 2 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder)) + 2 x Silicon (from Ingot (Silicon))
-
-**Constructed From Kits:**
-  - NameOfThing=Monorail Block Signal, PrefabHash=-1794432543, PageLink=ThingMonorialBlockSignal
-  - NameOfThing=Monorail Route Signal, PrefabHash=-815409751, PageLink=ThingMonorialRouteSignal
-  - NameOfThing=Monorail One-Way Marker, PrefabHash=441609344, PageLink=ThingMonorailRailOneWayMarker
-  - NameOfThing=Monorail Signal, PrefabHash=-1669465760, PageLink=ThingMonorialSignal
-
----
-
-## Monorail Sloped Rail (14m)
-
-A sloped monorail track segment for elevation changes. Use this rail to transition trains between different height levels. Connects end-to-end with straight rails, curves, and stations. Place slopes where your track needs to climb or descend. See also: Monorail A - Start Here
-
-- **Key:** ThingStructureRailSlope14
-- **Prefab Name:** StructureRailSlope14
-- **Prefab Hash:** -38917450
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=2 x Monorail Rails Kit
 **Connections:**
   - LogicName=Connection, LogicAccessTypes=0
   - LogicName=Connection, LogicAccessTypes=1

@@ -70,7 +70,7 @@ namespace StationpediaDump
 
         public static void DumpAll()
         {
-            ForcePopulateThingPages();
+            ForcePopulate();
 
             var pages = Stationpedia.StationpediaPages;
             if (pages == null)
@@ -290,35 +290,65 @@ namespace StationpediaDump
             }
         }
 
-        /// <summary>
-        /// StationpediaPage.LogicInstructions (and related logic-type fields)
-        /// are only populated per Thing *instance* via the private
-        /// Stationpedia.PopulateThingPages(), which normally only runs when a
-        /// player actually opens the SPDA UI - meaningless on a headless
-        /// dedicated server, so it never ran on its own. Force it via
-        /// reflection before reading page data.
-        /// </summary>
-        private static void ForcePopulateThingPages()
+        // Each of these is a private Stationpedia.Populate* method that
+        // normally only runs lazily as a player browses to the relevant SPDA
+        // category - meaningless on a headless dedicated server, so nothing
+        // beyond PopulateThingPages ever ran before, silently leaving entire
+        // categories (gas properties, reagents, genes, trading) empty. Force
+        // every parameterless one via reflection before reading page data.
+        // (PopulateStructureTiers and PopulateGuideLoreContents take
+        // parameters and are skipped - lore/guide text is a known gap,
+        // documented in the README.)
+        private static readonly string[] PopulateMethods =
         {
-            try
+            "PopulateThingPages",
+            "PopulateGases",
+            "PopulateReagents",
+            "PopulateGenes",
+            "PopulateTrading",
+            "PopulateLists",
+            "PopulateLogicVariables",
+            "PopulateLogicSlotVariables",
+            "PopulateFactionLorePages",
+        };
+
+        private static void ForcePopulate()
+        {
+            var inst = Stationpedia.Instance;
+            if (inst == null) { Log.LogWarning("[StationpediaDump] Stationpedia.Instance null, cannot force page population."); return; }
+
+            foreach (string name in PopulateMethods)
             {
-                var inst = Stationpedia.Instance;
-                if (inst == null) { Log.LogWarning("[StationpediaDump] Stationpedia.Instance null, cannot force logic-type population."); return; }
-                var m = typeof(Stationpedia).GetMethod("PopulateThingPages",
-                    BindingFlags.NonPublic | BindingFlags.Instance);
-                if (m == null) { Log.LogWarning("[StationpediaDump] PopulateThingPages method not found."); return; }
-                m.Invoke(inst, null);
-                Log.LogInfo("[StationpediaDump] Forced PopulateThingPages() to populate logic-type info.");
-            }
-            catch (Exception e)
-            {
-                Log.LogWarning("[StationpediaDump] ForcePopulateThingPages failed (continuing without it): " + e.Message);
+                try
+                {
+                    var m = typeof(Stationpedia).GetMethod(name, BindingFlags.NonPublic | BindingFlags.Instance);
+                    if (m == null) { Log.LogWarning($"[StationpediaDump] {name} method not found."); continue; }
+                    m.Invoke(inst, null);
+                    Log.LogInfo($"[StationpediaDump] Forced {name}().");
+                }
+                catch (Exception e)
+                {
+                    Log.LogWarning($"[StationpediaDump] Force {name} failed (continuing without it): " + e.Message);
+                }
             }
         }
+
+        // Falls back to page.Key when there's no real Title, but Key is
+        // sometimes an unresolved localization placeholder like
+        // "<N:EN:StructureCompositeTubeWall2InnerToFlat>" rather than a real
+        // name - strip the "<N:EN:" wrapper down to the inner identifier so
+        // at least something readable shows instead of raw placeholder syntax.
+        private static readonly Regex LocKeyPattern = new Regex(@"^<[^:<>]*:[^:<>]*:(.+)>$", RegexOptions.Compiled);
 
         private static string DisplayTitle(StationpediaPage page)
         {
             string raw = !string.IsNullOrEmpty(page.Title) ? page.Title : page.Key ?? "";
+            // Check the loc-key placeholder pattern before Clean() - Clean()
+            // strips anything matching "<...>" as rich-text markup, which
+            // would wipe "<N:EN:X>" down to an empty string before this ever
+            // got a chance to extract the inner name from it.
+            var m = LocKeyPattern.Match(raw.Trim());
+            if (m.Success) return m.Groups[1].Value;
             string cleaned = Clean(raw);
             return string.IsNullOrEmpty(cleaned) ? raw : cleaned;
         }
@@ -356,11 +386,22 @@ namespace StationpediaDump
             WriteField(sb, "Stack Size", page.StackSizeText);
             WriteField(sb, "Paintable", page.PaintableText);
             WriteField(sb, "Reagents Type", page.ReagentsType);
+            WriteField(sb, "Reagents", page.ReagentsText);
+            WriteField(sb, "Gas Type", page.GasType != Assets.Scripts.Atmospherics.Chemistry.GasType.Undefined ? page.GasType.ToString() : null);
+            WriteField(sb, "Unit", page.UnitText);
             WriteField(sb, "Specific Heat", page.SpecificHeatText);
+            WriteField(sb, "Latent Heat", page.LatentHeatText);
+            WriteField(sb, "Moles Per Litre", page.MolesPerLitreText);
+            WriteField(sb, "Moles Per Litre (In World)", page.MolesPerLitreInWorldText);
             WriteField(sb, "Freeze Temperature", page.FreezeTemperatureText);
             WriteField(sb, "Boiling Temperature", page.BoilingTemperatureText);
+            WriteField(sb, "Max Liquid Temperature", page.MaxLiquidTemperatureText);
+            WriteField(sb, "Min Liquid Pressure", page.MinLiquidPressure);
             WriteField(sb, "Flashpoint", page.FlashpointText);
             WriteField(sb, "Auto Ignition", page.AutoIgnitionText);
+            WriteField(sb, "Convection Factor", page.ConvectionFactorText);
+            WriteField(sb, "Radiation Factor", page.RadiationFactorText);
+            WriteField(sb, "Solar Heating Factor", page.SolarHeatingFactorText);
             WriteField(sb, "Placeable In Rocket", page.PlaceableInRocket);
             WriteField(sb, "Rocket Mass", page.RocketMass);
 
@@ -368,6 +409,8 @@ namespace StationpediaDump
             WriteList(sb, "Logic Slot Types", page.LogicSlotInsert);
             WriteList(sb, "Logic Bindings", page.LogicBindings);
             WriteList(sb, "Slots", page.SlotInserts);
+            WriteList(sb, "Combustion", page.CombustionInserts);
+            WriteList(sb, "Life Requirements", page.LifeRequirements);
             if (!TryRenderBuildRecipe(page, sb))
                 WriteList(sb, "Build Steps", page.HowToBuild);
             WriteList(sb, "Build States", page.BuildStates);

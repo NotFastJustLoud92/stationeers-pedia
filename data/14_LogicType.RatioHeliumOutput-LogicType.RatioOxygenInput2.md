@@ -1,4 +1,84 @@
-# LogicType.RatioHydrochloricAcidOutput - LogicType.RatioPollutantInput2
+# LogicType.RatioHeliumOutput - LogicType.RatioOxygenInput2
+
+## LogicType.RatioHeliumOutput
+
+The ratio of Helium in device's Output Atmosphere
+
+- **Key:** LogicTypeRatioHeliumOutput
+
+---
+
+## LogicType.RatioHeliumOutput2
+
+The ratio of Helium in device's Output2 Atmosphere
+
+- **Key:** LogicTypeRatioHeliumOutput2
+
+---
+
+## LogicType.RatioHydrazine
+
+The ratio of Hydrazine in device's Atmosphere
+
+- **Key:** LogicTypeRatioHydrazine
+
+---
+
+## LogicType.RatioHydrazineInput
+
+The ratio of Hydrazine in device's Input Atmosphere
+
+- **Key:** LogicTypeRatioHydrazineInput
+
+---
+
+## LogicType.RatioHydrazineInput2
+
+The ratio of Hydrazine in device's Input2 Atmosphere
+
+- **Key:** LogicTypeRatioHydrazineInput2
+
+---
+
+## LogicType.RatioHydrazineOutput
+
+The ratio of Hydrazine in device's Output Atmosphere
+
+- **Key:** LogicTypeRatioHydrazineOutput
+
+---
+
+## LogicType.RatioHydrazineOutput2
+
+The ratio of Hydrazine in device's Output2 Atmosphere
+
+- **Key:** LogicTypeRatioHydrazineOutput2
+
+---
+
+## LogicType.RatioHydrochloricAcid
+
+The ratio of Hydrochloric Acid in device's Atmosphere
+
+- **Key:** LogicTypeRatioHydrochloricAcid
+
+---
+
+## LogicType.RatioHydrochloricAcidInput
+
+The ratio of Hydrochloric Acid in device's Input Atmosphere
+
+- **Key:** LogicTypeRatioHydrochloricAcidInput
+
+---
+
+## LogicType.RatioHydrochloricAcidInput2
+
+The ratio of Hydrochloric Acid in device's Input2 Atmosphere
+
+- **Key:** LogicTypeRatioHydrochloricAcidInput2
+
+---
 
 ## LogicType.RatioHydrochloricAcidOutput
 
@@ -717,86 +797,6 @@ The ratio of oxygen in device's input network
 The ratio of oxygen in device's Input2 network
 
 - **Key:** LogicTypeRatioOxygenInput2
-
----
-
-## LogicType.RatioOxygenOutput
-
-The ratio of oxygen in device's Output network
-
-- **Key:** LogicTypeRatioOxygenOutput
-
----
-
-## LogicType.RatioOxygenOutput2
-
-The ratio of oxygen in device's Output2 network
-
-- **Key:** LogicTypeRatioOxygenOutput2
-
----
-
-## LogicType.RatioOzone
-
-The ratio of Ozone in device's Atmosphere
-
-- **Key:** LogicTypeRatioOzone
-
----
-
-## LogicType.RatioOzoneInput
-
-The ratio of Ozone in device's Input Atmosphere
-
-- **Key:** LogicTypeRatioOzoneInput
-
----
-
-## LogicType.RatioOzoneInput2
-
-The ratio of Ozone in device's Input2 Atmosphere
-
-- **Key:** LogicTypeRatioOzoneInput2
-
----
-
-## LogicType.RatioOzoneOutput
-
-The ratio of Ozone in device's Output Atmosphere
-
-- **Key:** LogicTypeRatioOzoneOutput
-
----
-
-## LogicType.RatioOzoneOutput2
-
-The ratio of Ozone in device's Output2 Atmosphere
-
-- **Key:** LogicTypeRatioOzoneOutput2
-
----
-
-## LogicType.RatioPollutant
-
-The ratio of pollutant in device atmosphere
-
-- **Key:** LogicTypeRatioPollutant
-
----
-
-## LogicType.RatioPollutantInput
-
-The ratio of pollutant in device's input network
-
-- **Key:** LogicTypeRatioPollutantInput
-
----
-
-## LogicType.RatioPollutantInput2
-
-The ratio of pollutant in device's Input2 network
-
-- **Key:** LogicTypeRatioPollutantInput2
 
 ---
 

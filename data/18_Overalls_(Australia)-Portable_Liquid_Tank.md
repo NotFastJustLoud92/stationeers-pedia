@@ -1,4 +1,248 @@
-# Overalls (Russia) - Power Control
+# Overalls (Australia) - Portable Liquid Tank
+
+## Overalls (Australia)
+
+- **Key:** ThingItemClothingBagOveralls_Aus
+- **Prefab Name:** ItemClothingBagOveralls_Aus
+- **Prefab Hash:** -869697826
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Brazil)
+
+- **Key:** ThingItemClothingBagOveralls_Brazil
+- **Prefab Name:** ItemClothingBagOveralls_Brazil
+- **Prefab Hash:** 611886665
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Canada)
+
+- **Key:** ThingItemClothingBagOveralls_Canada
+- **Prefab Name:** ItemClothingBagOveralls_Canada
+- **Prefab Hash:** 1265354377
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (China)
+
+- **Key:** ThingItemClothingBagOveralls_China
+- **Prefab Name:** ItemClothingBagOveralls_China
+- **Prefab Hash:** -271773907
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (EU)
+
+- **Key:** ThingItemClothingBagOveralls_EU
+- **Prefab Name:** ItemClothingBagOveralls_EU
+- **Prefab Hash:** 1969872429
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (France)
+
+- **Key:** ThingItemClothingBagOveralls_France
+- **Prefab Name:** ItemClothingBagOveralls_France
+- **Prefab Hash:** 670416861
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Germany)
+
+- **Key:** ThingItemClothingBagOveralls_Germany
+- **Prefab Name:** ItemClothingBagOveralls_Germany
+- **Prefab Hash:** 1858014029
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Japan)
+
+- **Key:** ThingItemClothingBagOveralls_Japan
+- **Prefab Name:** ItemClothingBagOveralls_Japan
+- **Prefab Hash:** -1694123145
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Korea)
+
+- **Key:** ThingItemClothingBagOveralls_Korea
+- **Prefab Name:** ItemClothingBagOveralls_Korea
+- **Prefab Hash:** -1309808369
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (NZ)
+
+- **Key:** ThingItemClothingBagOveralls_NZ
+- **Prefab Name:** ItemClothingBagOveralls_NZ
+- **Prefab Hash:** 102898295
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
+
+## Overalls (Paintable)
+
+Overalls that can be coloured using the Spray Paints.
+
+- **Key:** ThingItemClothingBagOveralls_Paintable
+- **Prefab Name:** ItemClothingBagOveralls_Paintable
+- **Prefab Hash:** 687536657
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 313 K (40oC)
+- **Auto Ignition:** 523 K (250oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
+  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
+
+---
 
 ## Overalls (Russia)
 
@@ -189,9 +433,21 @@
 Oxygen provides energy when released in combustion, and also bonds with hydrogen to create Water. It is created by plants, as well as from processing Ice (Oxite). It is highly flammable at low temperatures.
 
 - **Key:** GasOxygen
+- **Gas Type:** Oxygen
 - **Specific Heat:** 21.1 J/K
+- **Latent Heat:** 0.8 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 56.4K (-217C)
 - **Boiling Temperature:** 86.5K (-187C) at 100kPa
+- **Max Liquid Temperature:** 162K (-111C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 56.4K (-217C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=Oxygen
+  - FuelType=LiquidMethane, OxidiserType=Oxygen
+  - FuelType=Hydrogen, OxidiserType=Oxygen
+  - FuelType=LiquidHydrogen, OxidiserType=Oxygen
+  - FuelType=LiquidAlcohol, OxidiserType=Oxygen
 **Found In Ore:**
   - NameOfThing=Ore (Gold), QuantityOfThing=0.2 mol
   - NameOfThing=Ice (Oxite), QuantityOfThing=22.5 mol
@@ -203,9 +459,21 @@ Oxygen provides energy when released in combustion, and also bonds with hydrogen
 Ozone is a highly energetic oxidiser. As with Nitrous Oxide, when mixed with a volatile gas Ozone will create extra hot combustion.
 
 - **Key:** GasOzone
+- **Gas Type:** Ozone
 - **Specific Heat:** 38.6 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 51K (-222C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 305K (31.5C) at 6000kPa
+- **Min Liquid Pressure:** 250kPa at 51K (-222C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=Ozone
+  - FuelType=LiquidMethane, OxidiserType=Ozone
+  - FuelType=Hydrogen, OxidiserType=Ozone
+  - FuelType=LiquidHydrogen, OxidiserType=Ozone
+  - FuelType=LiquidAlcohol, OxidiserType=Ozone
 
 ---
 
@@ -290,6 +558,9 @@ A passive liquid floor inlet that quickly removes liquids in one direction from 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.011
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.108
 **Build States:**
   - Description=1 x Kit (Liquid Drain)
 **Connections:**
@@ -329,6 +600,9 @@ Passive vents allow gases to move into and out of pipe networks, which are close
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.011
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.107
 **Build States:**
   - Description=1 x Kit (Passive Vent)
 **Connections:**
@@ -366,6 +640,9 @@ Used to mix atmospheres passively between two walls.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.003
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.029
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Pipe Cowl
@@ -387,6 +664,9 @@ Passive vents (Valve) allow gasses to move into and out of pipe networks, which 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.013
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.128
 **Build States:**
   - Description=1 x Kit (Passive Vent)
 **Connections:**
@@ -480,6 +760,30 @@ A fetching lily with greater resistance to cold temperatures.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Used In:**
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
 
@@ -871,6 +1175,9 @@ You can upgrade this pipe to an Insulated Pipe (3-Way Junction) using an Kit (In
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.008
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.08
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Pipe)
@@ -894,6 +1201,9 @@ You can upgrade this pipe to an Insulated Pipe (4-Way Junction) using an Kit (In
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.01
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.103
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe)
@@ -918,6 +1228,9 @@ You can upgrade this pipe to an Insulated Pipe (5-Way Junction) using an Kit (In
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.013
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.133
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe)
@@ -943,6 +1256,9 @@ You can upgrade this pipe to an Insulated Pipe (6-Way Junction) using an Kit (In
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.017
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.167
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe)
@@ -969,6 +1285,9 @@ You can upgrade this pipe to an Insulated Pipe (Corner) using an Kit (Insulated 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.006
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.056
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe)
@@ -991,6 +1310,9 @@ You can upgrade this pipe to an Insulated Pipe (Cross Junction) using an Kit (In
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.01
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.098
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Pipe)
@@ -1015,6 +1337,9 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=8 x Kit (Pipe)
@@ -1037,6 +1362,9 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe)
@@ -1059,6 +1387,9 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=4 x Kit (Pipe)
@@ -1081,6 +1412,9 @@ You can upgrade this pipe to an Insulated Pipe (Straight) using an Kit (Insulate
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.005
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.05
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe) Wrench
@@ -1103,6 +1437,9 @@ You can upgrade this pipe to an Insulated Pipe (T Junction) using an Kit (Insula
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.007
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.074
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Pipe)
@@ -1165,6 +1502,9 @@ A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain h
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 1.05
+- **Radiation Factor:** 0.79
+- **Solar Heating Factor:** 0.105
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Radiator)
@@ -1358,6 +1698,9 @@ The pipe organ can be attached to one end of a Kit (Pipe Valve). The length of t
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.01
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.097
 **Build States:**
   - Description=1 x Kit (Pipe Organ)
 **Mode Options:**
@@ -1381,6 +1724,9 @@ A pipe mounted radiator optimized for radiating heat in vacuums.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.231
+- **Radiation Factor:** 3.46
+- **Solar Heating Factor:** 2.31
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Radiator)
@@ -1399,6 +1745,9 @@ A liquid pipe mounted radiator optimized for radiating heat in vacuums.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.231
+- **Radiation Factor:** 3.46
+- **Solar Heating Factor:** 2.31
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Radiator Liquid)
@@ -1515,6 +1864,9 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.018
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.179
 **Slots:**
   - SlotName=Plant, SlotType=Plant, SlotIndex=0
   - SlotName=Plant, SlotType=Plant, SlotIndex=1
@@ -1530,6 +1882,7 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 ## Plastic
 
 - **Key:** ReagentPlastic
+- **Unit:** g
 
 ---
 
@@ -1595,9 +1948,15 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 Also known as 'X', Pollutant is created when smelting certain metals. A concentration of 0.1 mol or greater will cause your suit to warn about poison in the atmosphere. Pollutant has a high specific heat, making it an excellent coolant. Unfortunately it is extremely bad for organic beings, and will severely damage the lungs of most Carbon based organisms.
 
 - **Key:** GasPollutant
+- **Gas Type:** Pollutant
 - **Specific Heat:** 24.8 J/K
+- **Latent Heat:** 2 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 173K (-99.8C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 434K (161C) at 6000kPa
+- **Min Liquid Pressure:** 1800kPa at 173K (-99.8C)
 **Found In Ore:**
   - NameOfThing=Biomass, QuantityOfThing=4 mol
   - NameOfThing=Charcoal, QuantityOfThing=3 mol
@@ -1618,9 +1977,15 @@ Also known as 'X', Pollutant is created when smelting certain metals. A concentr
 Polluted water is a waste product from the use of Water in certain devices. It will freeze into Pure Ice Polluted Water but boil into Steam. A Water Purifier can be used to convert it back to Water.
 
 - **Key:** GasPollutedWater
+- **Gas Type:** PollutedWater
 - **Specific Heat:** 64 J/K
+- **Latent Heat:** 8 kJ/mol
+- **Moles Per Litre:** 55.6 mols
+- **Moles Per Litre (In World):** 1.14 mols
 - **Freeze Temperature:** 276K (3C)
 - **Boiling Temperature:** 387K (114C) at 100kPa
+- **Max Liquid Temperature:** 634K (361C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 276K (3C)
 
 ---
 
@@ -1663,6 +2028,9 @@ The Sinotai-designed Huxi portable air conditioner cools by drawing heat from th
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 8.27 kK (8000oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=1
@@ -1687,6 +2055,9 @@ A portable scrubber does just what it sounds like: removes specific substances f
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 8.27 kK (8000oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.617
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
@@ -1763,6 +2134,9 @@ Portable gas tanks store gas. To refill one, bolt it to a Kit (Tank Connector), 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.129
+- **Radiation Factor:** 0.129
+- **Solar Heating Factor:** 0.515
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
 **Constructed Things:**
@@ -1782,6 +2156,9 @@ Every Stationeer's best friend, the portable generator gets you up and running, 
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 8.27 kK (8000oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.448
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
   - SlotName=Battery, SlotType=Battery, SlotIndex=1
@@ -1801,6 +2178,9 @@ Every Stationeer's best friend, the portable generator gets you up and running, 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.228
+- **Radiation Factor:** 0.228
+- **Solar Heating Factor:** 0.455
 **Slots:**
   - SlotName=Plant, SlotType=Plant, SlotIndex=0
   - SlotName=Plant, SlotType=Plant, SlotIndex=1
@@ -1862,268 +2242,13 @@ This portable tank stores liquid. You can bolt one to a Portables Connector usin
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.129
+- **Radiation Factor:** 0.129
+- **Solar Heating Factor:** 0.515
 **Slots:**
   - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
 **Constructed Things:**
   - NameOfThing=Kit (Portable Liquid Tank), PrefabHash=375541286, PageLink=ThingItemKitDynamicLiquidCanister
-
----
-
-## Portable Liquid Tank Mk II
-
-This portable tank stores liquid and is fully insulated. You can bolt one to a Portables Connector using a Wrench, then connect it to a pipe network to refill it. You can refill a Liquid Canister by attaching it to the tank's striped section.
-
-- **Key:** ThingDynamicMKIILiquidCanisterEmpty
-- **Prefab Name:** DynamicMKIILiquidCanisterEmpty
-- **Prefab Hash:** 2130739600
-- **Max Pressure:** 20265 kPa
-- **Volume:** 790L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Slots:**
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
-**Constructed Things:**
-  - NameOfThing=Kit (Portable Liquid Tank Mk II), PrefabHash=-638019974, PageLink=ThingItemKitDynamicMKIILiquidCanister
-
----
-
-## Portable Solar Panel
-
-- **Key:** ThingPortableSolarPanel
-- **Prefab Name:** PortableSolarPanel
-- **Prefab Hash:** 2043318949
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier One)
-    - 200 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
-
-
----
-
-## Portable Work Cone
-
-- **Key:** ThingDynamicWorkCone
-- **Prefab Name:** DynamicWorkCone
-- **Prefab Hash:** -1052087580
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Constructed Things:**
-  - NameOfThing=Kit Portable Work Cone, PrefabHash=-422133032, PageLink=ThingItemKitDynamicWorkCone
-
----
-
-## Portables Connector
-
-- **Key:** ThingStructurePortablesConnector
-- **Prefab Name:** StructurePortablesConnector
-- **Prefab Hash:** -899013427
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (Portables Connector)
-**Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Portables Connector), PrefabHash=1041148999, PageLink=ThingItemKitPortablesConnector
-
----
-
-## Portables Package
-
-- **Key:** ThingItemPortablesPackage
-- **Prefab Name:** ItemPortablesPackage
-- **Prefab Hash:** 1459105919
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-
----
-
-## Potato
-
-- **Key:** ReagentPotato
-- **Reagents Type:** Potato
-**Found In Ore:**
-  - NameOfThing=Baked Potato, QuantityOfThing=1
-  - NameOfThing=Potato, QuantityOfThing=1
-
----
-
-## Potato
-
-Potatoes are a simple, fast growing crop that can keep Stationeers alive in emergencies.
-
-- **Key:** ThingItemPotato
-- **Prefab Name:** ItemPotato
-- **Prefab Hash:** 1929046963
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Nutrition:** 10
-- **Nutrition Quality:** Low (-25% hydration capacity)
-- **Growth Time:** 50min 1s
-- **Stack Size:** 20
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Constructed From Kits:**
-  - NameOfThing=Potato Seeds, PrefabHash=1005571172, PageLink=ThingSeedBag_Potato
-**Found In Fermentation:**
-  - NameOfThing=Liquid Alcohol, QuantityOfThing=8 mol
-  - NameOfThing=Polluted Water, QuantityOfThing=0.4 mol
-**Used In:**
-  - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
-  - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
-  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
-
----
-
-## Potato Seeds
-
-Grow a Potato.
-
-- **Key:** ThingSeedBag_Potato
-- **Prefab Name:** SeedBag_Potato
-- **Prefab Hash:** 1005571172
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Nutrition:** 0
-- **Nutrition Quality:** Low (-25% hydration capacity)
-- **Stack Size:** 10
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Found In Fermentation:**
-  - NameOfThing=Liquid Alcohol, QuantityOfThing=6 mol
-  - NameOfThing=Polluted Water, QuantityOfThing=0.3 mol
-**Used In:**
-  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
-
----
-
-## Powdered Eggs
-
-A high-nutrient cooked food, which can be canned.
-
-- **Key:** ThingItemCookedPowderedEggs
-- **Prefab Name:** ItemCookedPowderedEggs
-- **Prefab Hash:** -1712264413
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Nutrition:** 11
-- **Nutrition Quality:** Ok
-- **Stack Size:** 10
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Automated Oven (Tier One)
-    - 4 x Egg (from Egg, Egg)
-  - Printer: Microwave (Tier One)
-    - 4 x Egg (from Egg, Egg)
-
-**Used In:**
-  - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
-  - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
-
----
-
-## Power Connector
-
-Attaches a Kit (Portable Generator) to a power network.
-
-- **Key:** ThingStructurePowerConnector
-- **Prefab Name:** StructurePowerConnector
-- **Prefab Hash:** -782951720
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (Power Connector)
-**Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-**Constructed Things:**
-  - NameOfThing=Kit (Power Connector), PrefabHash=839924019, PageLink=ThingItemPowerConnector
-
----
-
-## Power Control
-
-Under distant suns and demanding environments, Stationeer systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state.
-
-- **Key:** ThingCircuitboardPowerControl
-- **Prefab Name:** CircuitboardPowerControl
-- **Prefab Hash:** -1923778429
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 393 K (120oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier One)
-    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
-
 
 ---
 

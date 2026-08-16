@@ -1,24 +1,4 @@
-# Composite Wall (Type 1) - Crew Module Screen
-
-## Composite Wall (Type 1)
-
-Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.
-
-- **Key:** ThingStructureCompositeWall
-- **Prefab Name:** StructureCompositeWall
-- **Prefab Hash:** 1237302061
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 573 K (300oC)
-- **Auto Ignition:** 873 K (600oC)
-**Build States:**
-  - Description=1 x Kit (Wall)
-  - Description=2 x Plastic Sheets
-**Constructed Things:**
-  - NameOfThing=Kit (Wall), PrefabHash=-1826855889, PageLink=ThingItemKitWall
-
----
+# Composite Wall (Type 2) - Crew Light
 
 ## Composite Wall (Type 2)
 
@@ -154,6 +134,159 @@ Air-tight and resistant to extreme temperatures, composite walls come in several
   - LogicName=Connection, LogicAccessTypes=1
 **Constructed Things:**
   - NameOfThing=Kit (Composite Window Shutter), PrefabHash=1779979754, PageLink=ThingItemKitWindowShutter
+
+---
+
+## CompositeWallRoundedCornerPanel1
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel1
+- **Prefab Name:** CompositeWallRoundedCornerPanel1
+- **Prefab Hash:** -1885560197
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel2
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel2
+- **Prefab Name:** CompositeWallRoundedCornerPanel2
+- **Prefab Hash:** 378926017
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel3
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel3
+- **Prefab Name:** CompositeWallRoundedCornerPanel3
+- **Prefab Hash:** 1637008215
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel4
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel4
+- **Prefab Name:** CompositeWallRoundedCornerPanel4
+- **Prefab Hash:** -633100
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel6
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel6
+- **Prefab Name:** CompositeWallRoundedCornerPanel6
+- **Prefab Hash:** 301479896
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel7
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel7
+- **Prefab Name:** CompositeWallRoundedCornerPanel7
+- **Prefab Hash:** 1727989582
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel8
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel8
+- **Prefab Name:** CompositeWallRoundedCornerPanel8
+- **Prefab Hash:** -163570977
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedCornerPanel9
+
+
+
+- **Key:** ThingCompositeWallRoundedCornerPanel9
+- **Prefab Name:** CompositeWallRoundedCornerPanel9
+- **Prefab Hash:** -2126042551
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
+
+---
+
+## CompositeWallRoundedTubeWallPanel1
+
+
+
+- **Key:** ThingCompositeWallRoundedTubeWallPanel1
+- **Prefab Name:** CompositeWallRoundedTubeWallPanel1
+- **Prefab Hash:** -806329766
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (T.U.B.E. Small)
+**Constructed Things:**
+  - NameOfThing=Kit (T.U.B.E. Small), PrefabHash=-1559167064, PageLink=ThingItemKitSmallTUBE
 
 ---
 
@@ -345,6 +478,9 @@ A device for safely condensing gasses into liquids. Liquids and Gasses will both
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.007
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.742
 **Build States:**
   - Description=1 x Kit (Phase Change Device)
   - Description=Wrench 2 x Steel Sheets
@@ -1627,6 +1763,7 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
 
 - **Key:** ReagentConstantan
 - **Reagents Type:** Constantan
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Constantan), QuantityOfThing=1
 
@@ -1841,19 +1978,10 @@ A high-nutrient cooked food, which can be canned.
 
 - **Key:** ReagentCopper
 - **Reagents Type:** Copper
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Copper), QuantityOfThing=1
   - NameOfThing=Ore (Copper), QuantityOfThing=1
-
----
-
-## Corn
-
-- **Key:** ReagentCorn
-- **Reagents Type:** Corn
-**Found In Ore:**
-  - NameOfThing=Cooked Corn, QuantityOfThing=1
-  - NameOfThing=Corn, QuantityOfThing=1
 
 ---
 
@@ -1873,6 +2001,30 @@ A long growth time staple crop. Its low requirement for darkness allows for acce
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=8min 20s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=3min 20s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Corn Seeds, PrefabHash=-1290755415, PageLink=ThingSeedBag_Corn
 **Found In Fermentation:**
@@ -1882,6 +2034,16 @@ A long growth time staple crop. Its low requirement for darkness allows for acce
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Corn
+
+- **Key:** ReagentCorn
+- **Reagents Type:** Corn
+**Found In Ore:**
+  - NameOfThing=Cooked Corn, QuantityOfThing=1
+  - NameOfThing=Corn, QuantityOfThing=1
 
 ---
 
@@ -2160,214 +2322,6 @@ A more heavily reinforced version of the iconic Dynamic Crate, the Crate Mk II i
   - LogicName=Connection, LogicAccessTypes=0
 **Constructed Things:**
   - NameOfThing=Kit (Crew Electronics), PrefabHash=1332869314, PageLink=ThingItemKitCrewModuleElectronics
-
----
-
-## Crew Module Active Vent
-
-- **Key:** ThingStructureCrewModuleActiveVent
-- **Prefab Name:** StructureCrewModuleActiveVent
-- **Prefab Hash:** -1817129150
-- **Base Power Draw:** 100 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Active Vent)
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Active Vent), PrefabHash=-842048328, PageLink=ThingItemActiveVent
-
----
-
-## Crew Module Cable Connector A
-
-- **Key:** ThingStructureCrewModuleCableConnectorA
-- **Prefab Name:** StructureCrewModuleCableConnectorA
-- **Prefab Hash:** -1760040957
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 413 K (140oC)
-- **Auto Ignition:** 523 K (250oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Crew Module Screen)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-  - LogicName=Connection, LogicAccessTypes=6
-  - LogicName=Connection, LogicAccessTypes=7
-  - LogicName=Connection, LogicAccessTypes=8
-  - LogicName=Connection, LogicAccessTypes=9
-  - LogicName=Connection, LogicAccessTypes=10
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
-
----
-
-## Crew Module Cable Connector B
-
-- **Key:** ThingStructureCrewModuleCableConnectorB
-- **Prefab Name:** StructureCrewModuleCableConnectorB
-- **Prefab Hash:** 236894649
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 413 K (140oC)
-- **Auto Ignition:** 523 K (250oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Crew Module Screen)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-  - LogicName=Connection, LogicAccessTypes=6
-  - LogicName=Connection, LogicAccessTypes=7
-  - LogicName=Connection, LogicAccessTypes=8
-  - LogicName=Connection, LogicAccessTypes=9
-  - LogicName=Connection, LogicAccessTypes=10
-  - LogicName=Connection, LogicAccessTypes=11
-  - LogicName=Connection, LogicAccessTypes=12
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
-
----
-
-## Crew Module Chair
-
-Seat for crewing a rocket. While the seat is occupied the rocket can only travel between launch mounts, and the seat can only be exited while the rocket is landed on one.
-
-- **Key:** ThingStructureCrewModuleChair
-- **Prefab Name:** StructureCrewModuleChair
-- **Prefab Hash:** -156109268
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-- **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (Crew Module Chair)
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Module Chair), PrefabHash=218541228, PageLink=ThingItemKitCrewModuleChair
-
----
-
-## Crew Module Fuselage (Type A)
-
-Compact crew compartment for rockets. Board by interacting with the module.
-
-- **Key:** ThingStructureCrewModuleFuselageSimple
-- **Prefab Name:** StructureCrewModuleFuselageSimple
-- **Prefab Hash:** 1702557794
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-- **Rocket Mass:** 1200kg
-**Build States:**
-  - Description=1 x Kit (Crew Parts)
-  - Description=Welding Torch 10 x Steel Sheets
-  - Description=Welding Torch 10 x Plastic Sheets
-  - Description=Screwdriver
-  - Description=Screwdriver
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Parts), PrefabHash=-275431032, PageLink=ThingItemKitCrewParts
-
----
-
-## Crew Module Fuselage (Type C)
-
-Streamlined crew compartment for rockets. Board by interacting with the module.
-
-- **Key:** ThingStructureCrewModuleFuselage
-- **Prefab Name:** StructureCrewModuleFuselage
-- **Prefab Hash:** 455538614
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-- **Rocket Mass:** 1200kg
-**Build States:**
-  - Description=1 x Kit (Crew Parts)
-  - Description=Welding Torch 10 x Steel Sheets
-  - Description=Welding Torch 10 x Plastic Sheets
-  - Description=Screwdriver
-  - Description=Screwdriver
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Parts), PrefabHash=-275431032, PageLink=ThingItemKitCrewParts
-
----
-
-## Crew Module Passive Vent
-
-- **Key:** ThingStructureCrewModulePassiveVent
-- **Prefab Name:** StructureCrewModulePassiveVent
-- **Prefab Hash:** 1393516022
-- **Volume:** 100L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Passive Vent)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-**Constructed Things:**
-  - NameOfThing=Kit (Passive Vent), PrefabHash=238631271, PageLink=ThingItemPassiveVent
-
----
-
-## Crew Module Screen
-
-- **Key:** ThingStructureCrewModuleScreen
-- **Prefab Name:** StructureCrewModuleScreen
-- **Prefab Hash:** 1880475854
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Crew Module Screen)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-**Constructed Things:**
-  - NameOfThing=Kit (Crew Module Screen), PrefabHash=-1655243596, PageLink=ThingItemKitCrewModuleScreen
 
 ---
 

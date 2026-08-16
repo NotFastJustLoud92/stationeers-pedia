@@ -1,21 +1,4 @@
-# <N:EN:Text_Z> - Bobble Head (Hard Suit)
-
-## <N:EN:Text_Z>
-
-
-
-- **Key:** ThingText_Z
-- **Prefab Name:** Text_Z
-- **Prefab Hash:** 1021420273
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Small), PrefabHash=719413752, PageLink=ThingItemKitLettersSmall
-
----
+# Access Bridge - Bobble Head (Marine)
 
 ## Access Bridge
 
@@ -444,6 +427,9 @@ The advanced furnace comes with integrated inlet and outlet pumps for controllin
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 1.35
+- **Radiation Factor:** 1.35
+- **Solar Heating Factor:** 1.35
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -665,6 +651,9 @@ Built using the Kit (Atmospherics), the ExMin-designed air conditioner is used t
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.52
+- **Radiation Factor:** 0.52
+- **Solar Heating Factor:** 0.52
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0
   - LogicName=OccupantHash, LogicAccessTypes=0
@@ -798,6 +787,7 @@ The standard airlock is a powered portal that forms the main component of an air
 ## Alcohol
 
 - **Key:** ReagentAlcohol
+- **Unit:** ml
 
 ---
 
@@ -815,6 +805,30 @@ The standard airlock is a powered portal that forms the main component of an air
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Used In:**
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
 
@@ -1097,6 +1111,7 @@ An Area Power Control (APC) has three main functions. Its primary purpose is to 
 
 - **Key:** ReagentAstroloy
 - **Reagents Type:** Astroloy
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Astroloy), QuantityOfThing=1
 
@@ -2193,15 +2208,6 @@ A large lever for important actions. State can be accessed via Open. Text can be
 
 ## Biomass
 
-- **Key:** ReagentBiomass
-- **Reagents Type:** Biomass
-**Found In Ore:**
-  - NameOfThing=Biomass, QuantityOfThing=1
-
----
-
-## Biomass
-
 Diced organic material that is returned when food and organic matter is passed through the Recycler and Centrifuge. Can be burned in a Furnace into Charcoal for use in the Generator (Solid Fuel).
 
 - **Key:** ThingItemBiomass
@@ -2229,6 +2235,15 @@ Diced organic material that is returned when food and organic matter is passed t
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
   - NameOfThing=Furnace, PrefabHash=1947944864, PageLink=ThingStructureFurnace
   - NameOfThing=Industrial Burner, PrefabHash=1493870235, PageLink=ThingStructureIndustrialBurner
+
+---
+
+## Biomass
+
+- **Key:** ReagentBiomass
+- **Reagents Type:** Biomass
+**Found In Ore:**
+  - NameOfThing=Biomass, QuantityOfThing=1
 
 ---
 
@@ -2398,6 +2413,7 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 ## Blue Coloring
 
 - **Key:** ReagentBlue Coloring
+- **Unit:** g
 
 ---
 
@@ -2415,6 +2431,30 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Blueberry Seeds, PrefabHash=897717596, PageLink=ThingSeedBag_Blueberry
 **Found In Fermentation:**
@@ -2466,6 +2506,21 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Key:** ThingApplianceBobbleHeadHardSuit
 - **Prefab Name:** ApplianceBobbleHeadHardSuit
 - **Prefab Hash:** -38993607
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
+
+---
+
+## Bobble Head (Marine)
+
+- **Key:** ThingApplianceBobbleHeadMarine
+- **Prefab Name:** ApplianceBobbleHeadMarine
+- **Prefab Hash:** 142593802
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes

@@ -129,6 +129,7 @@ The wind turbine is optimized to produce power even on low atmosphere worlds (up
 
 - **Key:** ReagentUranium
 - **Reagents Type:** Uranium
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ore (Uranium), QuantityOfThing=1
 
@@ -1616,6 +1617,7 @@ The wall heater is a simple device that can be installed on a wall or frame and 
 
 - **Key:** ReagentWaspaloy
 - **Reagents Type:** Waspaloy
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Waspaloy), QuantityOfThing=1
 
@@ -1658,9 +1660,38 @@ A partially or completely used disposable bag that can be used to clear sanitati
 You can obtain water by smelting or crushing Ice (Water) using a Furnace or an Ice Crusher. Water is critical for plants to stay alive, and grow food. It is also an exceptional coolant with a very high specific heat capacity. Water will evaporate into Steam if it's temperature is raised above its boiling point.
 
 - **Key:** GasWater
+- **Gas Type:** Water
 - **Specific Heat:** 72 J/K
+- **Latent Heat:** 8 kJ/mol
+- **Moles Per Litre:** 55.6 mols
+- **Moles Per Litre (In World):** 1.12 mols
 - **Freeze Temperature:** 273K (0C)
 - **Boiling Temperature:** 384K (111C) at 100kPa
+- **Max Liquid Temperature:** 644K (371C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 273K (0C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=Ozone
+  - FuelType=Methane, OxidiserType=LiquidOzone
+  - FuelType=LiquidMethane, OxidiserType=Ozone
+  - FuelType=LiquidMethane, OxidiserType=LiquidOzone
+  - FuelType=Hydrogen, OxidiserType=Oxygen
+  - FuelType=Hydrogen, OxidiserType=LiquidOxygen
+  - FuelType=Hydrogen, OxidiserType=NitrousOxide
+  - FuelType=Hydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=Hydrogen, OxidiserType=Ozone
+  - FuelType=Hydrogen, OxidiserType=LiquidOzone
+  - FuelType=LiquidHydrogen, OxidiserType=Oxygen
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOxygen
+  - FuelType=LiquidHydrogen, OxidiserType=NitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=Ozone
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOzone
+  - FuelType=LiquidAlcohol, OxidiserType=Oxygen
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOxygen
+  - FuelType=LiquidAlcohol, OxidiserType=NitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=Ozone
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOzone
 **Found In Ore:**
   - NameOfThing=Ice (Water), QuantityOfThing=20 mol
 
@@ -1884,6 +1915,30 @@ The amount of water this plant consumes.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Watermelon Seeds, PrefabHash=315264172, PageLink=ThingSeedBag_Watermelon
 **Found In Fermentation:**
@@ -1994,6 +2049,9 @@ Stored in the standard issue Stationeers Tool Belt, the Arlite welding torch is 
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
+- **Convection Factor:** 0.564
+- **Radiation Factor:** 0.564
+- **Solar Heating Factor:** 0
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
 **Build Recipe:**
@@ -2005,10 +2063,52 @@ Stored in the standard issue Stationeers Tool Belt, the Arlite welding torch is 
 
 ## Wheat
 
-- **Key:** ReagentWheat
-- **Reagents Type:** Wheat
-**Found In Ore:**
-  - NameOfThing=Wheat, QuantityOfThing=1
+A classical symbol of growth and new life, wheat takes a moderate time to grow. Its main use is to create flour using the Reagent Processor.
+
+- **Key:** ThingItemWheat
+- **Prefab Name:** ItemWheat
+- **Prefab Hash:** -1057658015
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Nutrition:** 5
+- **Nutrition Quality:** Low (-25% hydration capacity)
+- **Growth Time:** 45min 1s
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
+**Constructed From Kits:**
+  - NameOfThing=Wheat Seeds, PrefabHash=-654756733, PageLink=ThingSeedBag_Wheet
+**Found In Fermentation:**
+  - NameOfThing=Liquid Alcohol, QuantityOfThing=6 mol
+  - NameOfThing=Polluted Water, QuantityOfThing=0.3 mol
+**Used In:**
+  - NameOfThing=Reagent Processor, PrefabHash=1260918085, PageLink=ThingApplianceReagentProcessor
+  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
 
 ---
 

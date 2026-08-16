@@ -1,4 +1,224 @@
-# Filtration Liquid - Heavy Cable (Corner)
+# Filter (Oxygen) - Hastelloy
+
+## Filter (Oxygen)
+
+Sinotai have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. Oxygen is a common byproduct of smelting various ores, but must be filtered of such impurities as Nitrogen using this filter and various devices, such as the Kit (Portable Scrubber).
+
+- **Key:** ThingItemGasFilterOxygen
+- **Prefab Name:** ItemGasFilterOxygen
+- **Prefab Hash:** -721824748
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Ozone)
+
+- **Key:** ThingItemGasFilterOzone
+- **Prefab Name:** ItemGasFilterOzone
+- **Prefab Hash:** 787360299
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Pollutant)
+
+Filters are used to capture various gases, such as waste emissions from a Furnace or Arc Furnace. Adding Sinotai-designed Pollutant filters to a Kit (Portable Scrubber) allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a Wall Cooler. Try not to inhale.
+
+- **Key:** ThingItemGasFilterPollutants
+- **Prefab Name:** ItemGasFilterPollutants
+- **Prefab Hash:** 1915566057
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Polluted Water)
+
+- **Key:** ThingItemGasFilterPollutedWater
+- **Prefab Name:** ItemGasFilterPollutedWater
+- **Prefab Hash:** 1349930181
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Salt)
+
+- **Key:** ThingItemGasFilterSalt
+- **Prefab Name:** ItemGasFilterSalt
+- **Prefab Hash:** -1983982543
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Silanol)
+
+- **Key:** ThingItemGasFilterSilanol
+- **Prefab Name:** ItemGasFilterSilanol
+- **Prefab Hash:** 2094616925
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter (Water)
+
+Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted Ice (Water)
+
+- **Key:** ThingItemGasFilterWater
+- **Prefab Name:** ItemGasFilterWater
+- **Prefab Hash:** -1993197973
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
+
+---
+
+## Filter Cleaner
+
+Built using the Kit (Filter Cleaner), this device is a valuable addition to Stationeer atmospheric systems, effortlessly restoring used Filters. It features a smart output for chute networks and integrates seamlessly with LArRE, the robotic arm, to automate filter insertion. While idle, it consumes minimal power, but energy demands increase significantly based on the filter size during the cleaning process.
+
+- **Key:** ThingStructureFilterCleaner
+- **Prefab Name:** StructureFilterCleaner
+- **Prefab Hash:** 1540741162
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 573 K (300oC)
+- **Auto Ignition:** 873 K (600oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=SortingClass, LogicAccessTypes=0
+  - LogicName=FilterType, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+  - LogicName=FreeSlots, LogicAccessTypes=0
+  - LogicName=TotalSlots, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Import, SlotType=Import, SlotIndex=0
+**Build States:**
+  - Description=1 x Kit (Filter Cleaner)
+**Connections:**
+  - LogicName=Chute Output, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Filter Cleaner), PrefabHash=1264344631, PageLink=ThingItemKitFilterCleaner
+
+---
+
+## Filtration
+
+The Filtration Unit is based on a long-standing ExMin system, itself based on older designs of uncertain provenance. It is available in the Kit (Atmospherics). The device has nonetheless proven indispensable for Stationeer atmospheric systems, as it can filter two gases simultaneously from a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.
+
+- **Key:** ThingStructureFiltration
+- **Prefab Name:** StructureFiltration
+- **Prefab Hash:** -348054045
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
+  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
+  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
+  - LogicName=Damage, LogicAccessTypes=0, 1, 2
+  - LogicName=Class, LogicAccessTypes=0, 1, 2
+  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
+  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
+  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
+  - LogicName=FilterType, LogicAccessTypes=0, 1
+  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
+  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
+  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Bindings:**
+  - Header=db, Label=DEVICE
+  - Header=d0, Label=SCREW_0
+  - Header=d1, Label=SCREW_1
+**Slots:**
+  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
+  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
+  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=2
+**Build States:**
+  - Description=1 x Kit (Atmospherics)
+  - Description=2 x Kit (Pipe)
+  - Description=Screwdriver 2 x Cable Coil
+**Mode Options:**
+  - LogicName=Idle, LogicAccessTypes=0
+  - LogicName=Active, LogicAccessTypes=1
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Pipe Input, LogicAccessTypes=1
+  - LogicName=Pipe Output, LogicAccessTypes=2
+  - LogicName=Pipe Waste, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+**Constructed Things:**
+  - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
+
+---
 
 ## Filtration Liquid
 
@@ -245,6 +465,30 @@ A flashlight with a narrow and wide beam options.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=-30°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=70°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=10°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=20kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=300kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Found In Fermentation:**
   - NameOfThing=Liquid Alcohol, QuantityOfThing=0 mol
   - NameOfThing=Polluted Water, QuantityOfThing=0 mol
@@ -354,15 +598,6 @@ Switch which can be turned On.
 
 ## Flour
 
-- **Key:** ReagentFlour
-- **Reagents Type:** Flour
-**Found In Ore:**
-  - NameOfThing=Flour, QuantityOfThing=50
-
----
-
-## Flour
-
 Pulverized Wheat, a key ingredient in many foods created by the Microwave and the Kit (Automated Oven).
 
 - **Key:** ThingItemFlour
@@ -379,6 +614,16 @@ Pulverized Wheat, a key ingredient in many foods created by the Microwave and th
 **Used In:**
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
+
+---
+
+## Flour
+
+- **Key:** ReagentFlour
+- **Reagents Type:** Flour
+- **Unit:** g
+**Found In Ore:**
+  - NameOfThing=Flour, QuantityOfThing=50
 
 ---
 
@@ -434,6 +679,9 @@ The Xigo Koolaid fridge is a self-cooling storage device with 15 slots that pres
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.734
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
@@ -486,6 +734,9 @@ Essentially a heavily insulated box that allows users to pipe in any desired atm
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.26
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -521,6 +772,9 @@ The Zhurong furnace employs a high-temperature gas mixture of Oxygen and Methane
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.816
+- **Radiation Factor:** 0.816
+- **Solar Heating Factor:** 4.08
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -747,6 +1001,9 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.081
+- **Radiation Factor:** 0.081
+- **Solar Heating Factor:** 0.081
 **Build Recipe:**
   - Printer: Hydraulic Pipe Bender (Tier Two)
     - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
@@ -767,6 +1024,9 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.626
+- **Radiation Factor:** 0.025
+- **Solar Heating Factor:** 1.25
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=10 x Kit (Rocket Gas Fuel Tank)
@@ -788,6 +1048,9 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.378
+- **Radiation Factor:** 0.015
+- **Solar Heating Factor:** 0.756
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=5 x Kit (Rocket Gas Fuel Tank)
@@ -809,6 +1072,9 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.114
+- **Radiation Factor:** 0.005
+- **Solar Heating Factor:** 0.228
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Rocket Gas Fuel Tank)
@@ -850,6 +1116,9 @@ Information is power. Place this circuitboard into a Console to create a display
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.084
+- **Radiation Factor:** 0.084
+- **Solar Heating Factor:** 0.844
 **Build States:**
   - Description=1 x Kit (Gas Fuel Generator)
 **Connections:**
@@ -875,6 +1144,9 @@ This mask will mix with the world atmosphere but filter out the gasses based on 
 - **Paintable:** Yes
 - **Flashpoint:** 483 K (210oC)
 - **Auto Ignition:** 623 K (350oC)
+- **Convection Factor:** 0.029
+- **Radiation Factor:** 0.029
+- **Solar Heating Factor:** 0.292
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -980,6 +1252,9 @@ Gas sensors are designed to monitor and report basic atmospheric information, in
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
 **Mode Options:**
@@ -1242,6 +1517,7 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 
 - **Key:** ReagentGold
 - **Reagents Type:** Gold
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Gold), QuantityOfThing=1
   - NameOfThing=Ore (Gold), QuantityOfThing=1
@@ -1262,6 +1538,30 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=-30°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=70°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=10°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=20kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=300kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Found In Fermentation:**
   - NameOfThing=Liquid Alcohol, QuantityOfThing=0 mol
   - NameOfThing=Polluted Water, QuantityOfThing=0 mol
@@ -1301,6 +1601,30 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=-30°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=70°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=10°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=20kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=300kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Found In Fermentation:**
   - NameOfThing=Liquid Alcohol, QuantityOfThing=0 mol
   - NameOfThing=Polluted Water, QuantityOfThing=0 mol
@@ -1312,6 +1636,7 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 ## Green Coloring
 
 - **Key:** ReagentGreen Coloring
+- **Unit:** g
 
 ---
 
@@ -1399,6 +1724,30 @@ The Agrizero's-created Hades Flower is the result of as dubious experiment to co
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Oxygen 54 Moles per hour Methane 18 Moles per hour , Gene=Gas production, ValueSize=12
+  - Name=Exhaled Gasses, Value=Pollutant 28.8 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Hades Seed (Alpha strain), PrefabHash=-1066145654, PageLink=ThingSeedBag_HadesAlpha
 **Found In Fermentation:**
@@ -1425,6 +1774,30 @@ The Agrizero's-created Hades Flower is the result of as dubious experiment to co
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Oxygen 54 Moles per hour Methane 18 Moles per hour , Gene=Gas production, ValueSize=12
+  - Name=Exhaled Gasses, Value=Pollutant 18 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Hades Seed (Beta strain), PrefabHash=-969228551, PageLink=ThingSeedBag_HadesBeta
 **Found In Fermentation:**
@@ -1657,6 +2030,9 @@ Connects to Logic Transmitter
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** No
+- **Convection Factor:** 0.062
+- **Radiation Factor:** 0.062
+- **Solar Heating Factor:** 6.23
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
@@ -1753,6 +2129,9 @@ The Hardsuit Helmet is similar to the Space Helmet, but can withstand higher tem
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.91
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 1750 x Energy + 10 x Steel (from Ingot (Steel)) + 2 x Stellite (from Ingot (Stellite)) + 2 x Astroloy (from Ingot (Astroloy))
@@ -1813,6 +2192,9 @@ The Norsec jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.055
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 75000 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Steel (from Ingot (Steel)) + 5 x Stellite (from Ingot (Stellite)) + 5 x Astroloy (from Ingot (Astroloy))
@@ -1832,6 +2214,9 @@ The HARM Suit is the Stationeer's last resort against hostile environments. It i
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** No
+- **Convection Factor:** 0
+- **Radiation Factor:** 0.032
+- **Solar Heating Factor:** 0.127
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
@@ -1941,215 +2326,9 @@ Use above a Hydroponics Tray or Hydroponics Device to manage the planting and ha
 
 - **Key:** ReagentHastelloy
 - **Reagents Type:** Hastelloy
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Hastelloy), QuantityOfThing=1
-
----
-
-## Hay
-
-- **Key:** ThingItemCropHay
-- **Prefab Name:** ItemCropHay
-- **Prefab Hash:** 215486157
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-**Found In Fermentation:**
-  - NameOfThing=Liquid Alcohol, QuantityOfThing=3 mol
-  - NameOfThing=Polluted Water, QuantityOfThing=0.2 mol
-**Used In:**
-  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
-
----
-
-## Headlamp
-
-- **Key:** ThingItemWearLamp
-- **Prefab Name:** ItemWearLamp
-- **Prefab Hash:** -598730959
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
-
-
----
-
-## Heavy Cable (3-Way Corner)
-
-- **Key:** ThingStructureCableCornerH3
-- **Prefab Name:** StructureCableCornerH3
-- **Prefab Hash:** -1843379322
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (3-Way Junction)
-
-- **Key:** ThingStructureCableJunctionH
-- **Prefab Name:** StructureCableJunctionH
-- **Prefab Hash:** 469451637
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=2 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (4-Way Corner)
-
-- **Key:** ThingStructureCableCornerH4
-- **Prefab Name:** StructureCableCornerH4
-- **Prefab Hash:** 205837861
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (4-Way Junction)
-
-- **Key:** ThingStructureCableJunctionH4
-- **Prefab Name:** StructureCableJunctionH4
-- **Prefab Hash:** -742234680
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=2 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (5-Way Junction)
-
-- **Key:** ThingStructureCableJunctionH5
-- **Prefab Name:** StructureCableJunctionH5
-- **Prefab Hash:** -1530571426
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (6-Way Junction)
-
-- **Key:** ThingStructureCableJunctionH6
-- **Prefab Name:** StructureCableJunctionH6
-- **Prefab Hash:** 1036780772
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
-
----
-
-## Heavy Cable (Corner)
-
-- **Key:** ThingStructureCableCornerH
-- **Prefab Name:** StructureCableCornerH
-- **Prefab Hash:** -39359015
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 10.3 kK (10000oC)
-- **Auto Ignition:** 10.3 kK (10000oC)
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Cable Coil (Heavy)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
 ---
 

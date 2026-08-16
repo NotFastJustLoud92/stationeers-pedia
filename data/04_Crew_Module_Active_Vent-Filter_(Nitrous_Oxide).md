@@ -1,4 +1,215 @@
-# Crowbar - Filtration
+# Crew Module Active Vent - Filter (Nitrous Oxide)
+
+## Crew Module Active Vent
+
+- **Key:** ThingStructureCrewModuleActiveVent
+- **Prefab Name:** StructureCrewModuleActiveVent
+- **Prefab Hash:** -1817129150
+- **Base Power Draw:** 100 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Active Vent)
+**Mode Options:**
+  - LogicName=Outward, LogicAccessTypes=0
+  - LogicName=Inward, LogicAccessTypes=1
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Active Vent), PrefabHash=-842048328, PageLink=ThingItemActiveVent
+
+---
+
+## Crew Module Cable Connector A
+
+- **Key:** ThingStructureCrewModuleCableConnectorA
+- **Prefab Name:** StructureCrewModuleCableConnectorA
+- **Prefab Hash:** -1760040957
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 413 K (140oC)
+- **Auto Ignition:** 523 K (250oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Crew Module Screen)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+  - LogicName=Connection, LogicAccessTypes=5
+  - LogicName=Connection, LogicAccessTypes=6
+  - LogicName=Connection, LogicAccessTypes=7
+  - LogicName=Connection, LogicAccessTypes=8
+  - LogicName=Connection, LogicAccessTypes=9
+  - LogicName=Connection, LogicAccessTypes=10
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
+
+---
+
+## Crew Module Cable Connector B
+
+- **Key:** ThingStructureCrewModuleCableConnectorB
+- **Prefab Name:** StructureCrewModuleCableConnectorB
+- **Prefab Hash:** 236894649
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 413 K (140oC)
+- **Auto Ignition:** 523 K (250oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Crew Module Screen)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+  - LogicName=Connection, LogicAccessTypes=5
+  - LogicName=Connection, LogicAccessTypes=6
+  - LogicName=Connection, LogicAccessTypes=7
+  - LogicName=Connection, LogicAccessTypes=8
+  - LogicName=Connection, LogicAccessTypes=9
+  - LogicName=Connection, LogicAccessTypes=10
+  - LogicName=Connection, LogicAccessTypes=11
+  - LogicName=Connection, LogicAccessTypes=12
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
+
+---
+
+## Crew Module Chair
+
+Seat for crewing a rocket. While the seat is occupied the rocket can only travel between launch mounts, and the seat can only be exited while the rocket is landed on one.
+
+- **Key:** ThingStructureCrewModuleChair
+- **Prefab Name:** StructureCrewModuleChair
+- **Prefab Hash:** -156109268
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+- **Placeable In Rocket:** True
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=SortingClass, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+  - LogicName=FreeSlots, LogicAccessTypes=0
+  - LogicName=TotalSlots, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+**Build States:**
+  - Description=1 x Kit (Crew Module Chair)
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Module Chair), PrefabHash=218541228, PageLink=ThingItemKitCrewModuleChair
+
+---
+
+## Crew Module Fuselage (Type A)
+
+Compact crew compartment for rockets. Board by interacting with the module.
+
+- **Key:** ThingStructureCrewModuleFuselageSimple
+- **Prefab Name:** StructureCrewModuleFuselageSimple
+- **Prefab Hash:** 1702557794
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Placeable In Rocket:** True
+- **Rocket Mass:** 1200kg
+**Build States:**
+  - Description=1 x Kit (Crew Parts)
+  - Description=Welding Torch 10 x Steel Sheets
+  - Description=Welding Torch 10 x Plastic Sheets
+  - Description=Screwdriver
+  - Description=Screwdriver
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Parts), PrefabHash=-275431032, PageLink=ThingItemKitCrewParts
+
+---
+
+## Crew Module Fuselage (Type C)
+
+Streamlined crew compartment for rockets. Board by interacting with the module.
+
+- **Key:** ThingStructureCrewModuleFuselage
+- **Prefab Name:** StructureCrewModuleFuselage
+- **Prefab Hash:** 455538614
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Placeable In Rocket:** True
+- **Rocket Mass:** 1200kg
+**Build States:**
+  - Description=1 x Kit (Crew Parts)
+  - Description=Welding Torch 10 x Steel Sheets
+  - Description=Welding Torch 10 x Plastic Sheets
+  - Description=Screwdriver
+  - Description=Screwdriver
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Parts), PrefabHash=-275431032, PageLink=ThingItemKitCrewParts
+
+---
+
+## Crew Module Passive Vent
+
+- **Key:** ThingStructureCrewModulePassiveVent
+- **Prefab Name:** StructureCrewModulePassiveVent
+- **Prefab Hash:** 1393516022
+- **Volume:** 100L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Passive Vent)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+**Constructed Things:**
+  - NameOfThing=Kit (Passive Vent), PrefabHash=238631271, PageLink=ThingItemPassiveVent
+
+---
+
+## Crew Module Screen
+
+- **Key:** ThingStructureCrewModuleScreen
+- **Prefab Name:** StructureCrewModuleScreen
+- **Prefab Hash:** 1880475854
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Crew Module Screen)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+**Constructed Things:**
+  - NameOfThing=Kit (Crew Module Screen), PrefabHash=-1655243596, PageLink=ThingItemKitCrewModuleScreen
+
+---
 
 ## Crowbar
 
@@ -29,6 +240,9 @@ The exact operation of the Longsleep cryotube remains a commercial secret, with 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.041
+- **Radiation Factor:** 0.041
+- **Solar Heating Factor:** 1.37
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -78,6 +292,9 @@ The exact operation of the Longsleep cryotube remains a commercial secret, with 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.036
+- **Radiation Factor:** 0.036
+- **Solar Heating Factor:** 1.21
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -145,6 +362,30 @@ A fern adapted by Agrizeroto process a much greater volume of Carbon Dioxide int
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 61.2 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 61.2 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=8min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=20min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=2min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=2min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=20min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=2min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=2min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Darga Fern Seeds, PrefabHash=980397232, PageLink=ThingSeedBag_DargaFern
 **Found In Fermentation:**
@@ -228,6 +469,24 @@ Daylight sensors provide data on whether the current region of your base is in s
   - LogicName=Connection, LogicAccessTypes=0
 **Constructed Things:**
   - NameOfThing=Kit (Sensors), PrefabHash=-1776897113, PageLink=ThingItemKitSensor
+
+---
+
+## Decal
+
+
+
+- **Key:** ThingDecal
+- **Prefab Name:** Decal
+- **Prefab Hash:** 366611529
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+**Build States:**
+  - Description=1 x Kit (Sign)
+**Constructed Things:**
+  - NameOfThing=Kit (Sign), PrefabHash=529996327, PageLink=ThingItemKitSign
 
 ---
 
@@ -885,17 +1144,6 @@ A pair of ear muffs.
 
 ## Egg
 
-- **Key:** ReagentEgg
-- **Reagents Type:** Egg
-**Found In Ore:**
-  - NameOfThing=Powdered Eggs, QuantityOfThing=1
-  - NameOfThing=Egg, QuantityOfThing=1
-  - NameOfThing=Egg, QuantityOfThing=1
-
----
-
-## Egg
-
 When incubated will hatch into a Chick. If exposed to temperatures below 10 degrees it will no longer be viable.
 
 - **Key:** ThingItemFertilizedEgg
@@ -911,6 +1159,17 @@ When incubated will hatch into a Chick. If exposed to temperatures below 10 degr
 **Used In:**
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
+
+---
+
+## Egg
+
+- **Key:** ReagentEgg
+- **Reagents Type:** Egg
+**Found In Ore:**
+  - NameOfThing=Powdered Eggs, QuantityOfThing=1
+  - NameOfThing=Egg, QuantityOfThing=1
+  - NameOfThing=Egg, QuantityOfThing=1
 
 ---
 
@@ -977,6 +1236,9 @@ The Norsec-designed Electrolyzer splits Water into hydrogen and Oxygen. Employin
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.526
+- **Radiation Factor:** 0.526
+- **Solar Heating Factor:** 0.526
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0
   - LogicName=OccupantHash, LogicAccessTypes=0
@@ -1117,6 +1379,7 @@ The electronic printer will create any electronic part you need. From circuit bo
 
 - **Key:** ReagentElectrum
 - **Reagents Type:** Electrum
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Electrum), QuantityOfThing=1
 
@@ -1340,6 +1603,9 @@ Big Red Button for emergencies.
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.132
+- **Radiation Factor:** 0.132
+- **Solar Heating Factor:** 0.662
 **Slots:**
   - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
   - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
@@ -1385,6 +1651,9 @@ Big Red Button for emergencies.
 - **Paintable:** No
 - **Flashpoint:** 483 K (210oC)
 - **Auto Ignition:** 623 K (350oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 1
 
 ---
 
@@ -1541,6 +1810,9 @@ The EVA suit is the basic suit Stationeers need to survive in the inhospitable e
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.205
+- **Radiation Factor:** 0.205
+- **Solar Heating Factor:** 8.19
 **Slots:**
   - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
   - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
@@ -1576,6 +1848,9 @@ A device for safely evaporating liquids into gasses. Liquids and Gasses will bot
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.007
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.747
 **Build States:**
   - Description=1 x Kit (Phase Change Device)
   - Description=Wrench 2 x Steel Sheets
@@ -1713,6 +1988,7 @@ These are powered Structures that can be used to Manufacture things you need in 
 
 - **Key:** ReagentFenoxitone
 - **Reagents Type:** Fenoxitone
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Fern, QuantityOfThing=1
 
@@ -1831,6 +2107,30 @@ There was a time, when Stationeers had to make Fenoxitone Powder using the Reage
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 17.3 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 17.3 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=8min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=20min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=2min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=2min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=20min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=2min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=2min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Fern Seeds, PrefabHash=-1990600883, PageLink=ThingSeedBag_Fern
 **Found In Fermentation:**
@@ -2046,226 +2346,6 @@ Filters are used to capture various gases, which can be disposed of or used else
   - Printer: Hydraulic Pipe Bender (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron))
 
-
----
-
-## Filter (Oxygen)
-
-Sinotai have cornered the market in filter design. Their trademarked templates are simple to print and highly efficient at capturing various gases, which can be disposed of or used elsewhere. Oxygen is a common byproduct of smelting various ores, but must be filtered of such impurities as Nitrogen using this filter and various devices, such as the Kit (Portable Scrubber).
-
-- **Key:** ThingItemGasFilterOxygen
-- **Prefab Name:** ItemGasFilterOxygen
-- **Prefab Hash:** -721824748
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Ozone)
-
-- **Key:** ThingItemGasFilterOzone
-- **Prefab Name:** ItemGasFilterOzone
-- **Prefab Hash:** 787360299
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Pollutant)
-
-Filters are used to capture various gases, such as waste emissions from a Furnace or Arc Furnace. Adding Sinotai-designed Pollutant filters to a Kit (Portable Scrubber) allows you to isolate this gas, then add it to a pipe network and employ its excellent coolant properties in a Wall Cooler. Try not to inhale.
-
-- **Key:** ThingItemGasFilterPollutants
-- **Prefab Name:** ItemGasFilterPollutants
-- **Prefab Hash:** 1915566057
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Polluted Water)
-
-- **Key:** ThingItemGasFilterPollutedWater
-- **Prefab Name:** ItemGasFilterPollutedWater
-- **Prefab Hash:** 1349930181
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Salt)
-
-- **Key:** ThingItemGasFilterSalt
-- **Prefab Name:** ItemGasFilterSalt
-- **Prefab Hash:** -1983982543
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Silanol)
-
-- **Key:** ThingItemGasFilterSilanol
-- **Prefab Name:** ItemGasFilterSilanol
-- **Prefab Hash:** 2094616925
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter (Water)
-
-Sinotai filters are used to capture various gases, which can be disposed of, or used elsewhere. Water can be collected by filtering smelted Ice (Water)
-
-- **Key:** ThingItemGasFilterWater
-- **Prefab Name:** ItemGasFilterWater
-- **Prefab Hash:** -1993197973
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron))
-
-
----
-
-## Filter Cleaner
-
-Built using the Kit (Filter Cleaner), this device is a valuable addition to Stationeer atmospheric systems, effortlessly restoring used Filters. It features a smart output for chute networks and integrates seamlessly with LArRE, the robotic arm, to automate filter insertion. While idle, it consumes minimal power, but energy demands increase significantly based on the filter size during the cleaning process.
-
-- **Key:** ThingStructureFilterCleaner
-- **Prefab Name:** StructureFilterCleaner
-- **Prefab Hash:** 1540741162
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 573 K (300oC)
-- **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=FilterType, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (Filter Cleaner)
-**Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Filter Cleaner), PrefabHash=1264344631, PageLink=ThingItemKitFilterCleaner
-
----
-
-## Filtration
-
-The Filtration Unit is based on a long-standing ExMin system, itself based on older designs of uncertain provenance. It is available in the Kit (Atmospherics). The device has nonetheless proven indispensable for Stationeer atmospheric systems, as it can filter two gases simultaneously from a single pipe network using a dual filter array. The unit has an input, and a filter output as well as an unfiltered outlet for any residual gases.
-
-- **Key:** ThingStructureFiltration
-- **Prefab Name:** StructureFiltration
-- **Prefab Hash:** -348054045
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=FilterType, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
-**Slots:**
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=2
-**Build States:**
-  - Description=1 x Kit (Atmospherics)
-  - Description=2 x Kit (Pipe)
-  - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Waste, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-**Constructed Things:**
-  - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
 ---
 

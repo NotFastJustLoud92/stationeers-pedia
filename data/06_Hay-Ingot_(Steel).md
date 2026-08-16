@@ -1,4 +1,211 @@
-# Heavy Cable (Straight 10) - Insulated Liquid Pipe (Corner)
+# Hay - Ingot (Steel)
+
+## Hay
+
+- **Key:** ThingItemCropHay
+- **Prefab Name:** ItemCropHay
+- **Prefab Hash:** 215486157
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 100
+- **Paintable:** No
+**Found In Fermentation:**
+  - NameOfThing=Liquid Alcohol, QuantityOfThing=3 mol
+  - NameOfThing=Polluted Water, QuantityOfThing=0.2 mol
+**Used In:**
+  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Headlamp
+
+- **Key:** ThingItemWearLamp
+- **Prefab Name:** ItemWearLamp
+- **Prefab Hash:** -598730959
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Charge, LogicAccessTypes=0
+  - LogicName=ChargeRatio, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
+
+---
+
+## Heavy Cable (3-Way Corner)
+
+- **Key:** ThingStructureCableCornerH3
+- **Prefab Name:** StructureCableCornerH3
+- **Prefab Hash:** -1843379322
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (3-Way Junction)
+
+- **Key:** ThingStructureCableJunctionH
+- **Prefab Name:** StructureCableJunctionH
+- **Prefab Hash:** 469451637
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=2 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (4-Way Corner)
+
+- **Key:** ThingStructureCableCornerH4
+- **Prefab Name:** StructureCableCornerH4
+- **Prefab Hash:** 205837861
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (4-Way Junction)
+
+- **Key:** ThingStructureCableJunctionH4
+- **Prefab Name:** StructureCableJunctionH4
+- **Prefab Hash:** -742234680
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=2 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (5-Way Junction)
+
+- **Key:** ThingStructureCableJunctionH5
+- **Prefab Name:** StructureCableJunctionH5
+- **Prefab Hash:** -1530571426
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (6-Way Junction)
+
+- **Key:** ThingStructureCableJunctionH6
+- **Prefab Name:** StructureCableJunctionH6
+- **Prefab Hash:** 1036780772
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+  - LogicName=Connection, LogicAccessTypes=5
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
+
+## Heavy Cable (Corner)
+
+- **Key:** ThingStructureCableCornerH
+- **Prefab Name:** StructureCableCornerH
+- **Prefab Hash:** -39359015
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 10.3 kK (10000oC)
+- **Auto Ignition:** 10.3 kK (10000oC)
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Cable Coil (Heavy)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
+
+---
 
 ## Heavy Cable (Straight 10)
 
@@ -516,7 +723,10 @@ A larger more powerful variant of the Pressure Fed Liquid Engine. It sacrifices 
 Helium is a fully inert gas that will neither freeze or condense into liquid, making it an excellent working gas in atmospherics systems that must avoid phase-change.
 
 - **Key:** GasHelium
+- **Gas Type:** Helium
 - **Specific Heat:** 20.8 J/K
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 
 ---
 
@@ -582,6 +792,9 @@ The length of time a plant can stay above its high temperature limit before it s
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.045
+- **Radiation Factor:** 0.045
+- **Solar Heating Factor:** 0.09
 
 ---
 
@@ -683,9 +896,17 @@ A go-to tool for all your atmospheric and plumbing needs, the ExMin Atmoprinter 
 Hydrazine is the perfect fuel for space exploration as it requires no oxidiser to combust, only needing heat or a spark. It is more commonly stored in it's liquid form Liquid Hydrazine which is stable at room temperature. It is extremely toxic to all forms of life.
 
 - **Key:** GasHydrazine
+- **Gas Type:** Hydrazine
 - **Specific Heat:** 48.4 J/K
+- **Latent Heat:** 4 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 246K (-26.9C)
 - **Boiling Temperature:** 334K (60.4C) at 100kPa
+- **Max Liquid Temperature:** 521K (248C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 246K (-26.9C)
+**Combustion:**
+  - FuelType=Hydrazine, OxidiserType=Hydrazine
 
 ---
 
@@ -693,6 +914,7 @@ Hydrazine is the perfect fuel for space exploration as it requires no oxidiser t
 
 - **Key:** ReagentHydrocarbon
 - **Reagents Type:** Hydrocarbon
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ore (Coal), QuantityOfThing=1
   - NameOfThing=Solid Fuel (Hydrocarbon), QuantityOfThing=1
@@ -704,9 +926,15 @@ Hydrazine is the perfect fuel for space exploration as it requires no oxidiser t
 A highly toxic gas.
 
 - **Key:** GasHydrochloricAcid
+- **Gas Type:** HydrochloricAcid
 - **Specific Heat:** 37 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 247K (-25.9C)
 - **Boiling Temperature:** 336K (62.3C) at 100kPa
+- **Max Liquid Temperature:** 431K (158C) at 1000kPa
+- **Min Liquid Pressure:** 6.3kPa at 247K (-25.9C)
 
 ---
 
@@ -715,9 +943,22 @@ A highly toxic gas.
 Hydrogen Is the most efficient fuel by weight for rocketry. When mixed with Oxygen it will cleanly combust into Steam.
 
 - **Key:** GasHydrogen
+- **Gas Type:** Hydrogen
 - **Specific Heat:** 20.4 J/K
+- **Latent Heat:** 0.2 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 15.2K (-258C)
 - **Boiling Temperature:** 28.2K (-245C) at 100kPa
+- **Max Liquid Temperature:** 70.1K (-203C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 15.2K (-258C)
+**Combustion:**
+  - FuelType=Hydrogen, OxidiserType=Oxygen
+  - FuelType=Hydrogen, OxidiserType=LiquidOxygen
+  - FuelType=Hydrogen, OxidiserType=NitrousOxide
+  - FuelType=Hydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=Hydrogen, OxidiserType=Ozone
+  - FuelType=Hydrogen, OxidiserType=LiquidOzone
 **Found In Ore:**
   - NameOfThing=Ice (Volatiles), QuantityOfThing=2 mol
 
@@ -735,6 +976,9 @@ The Agrizero hydroponics device is the ideal vessel for growing a range of plant
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.146
+- **Radiation Factor:** 0.146
+- **Solar Heating Factor:** 0.146
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1
   - LogicName=OccupantHash, LogicAccessTypes=0, 1
@@ -894,6 +1138,9 @@ The hydroponics grid is an alternative hydroponics that can be placed in any ori
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 1.3
+- **Radiation Factor:** 1.3
+- **Solar Heating Factor:** 1.3
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
@@ -946,6 +1193,9 @@ The Agrizero hydroponics tray is the ideal vessel for growing a range of plantli
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.014
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.139
 **Slots:**
   - SlotName=Plant, SlotType=Plant, SlotIndex=0
   - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=1
@@ -1088,6 +1338,9 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Paintable:** Yes
 - **Flashpoint:** 483 K (210oC)
 - **Auto Ignition:** 623 K (350oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.877
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -1106,6 +1359,9 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Paintable:** Yes
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.193
+- **Radiation Factor:** 0.193
+- **Solar Heating Factor:** 1.45
 **Slots:**
   - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
   - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
@@ -1226,6 +1482,9 @@ The Recurso KoolAuger converts various ices into their respective gases and liqu
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0
   - LogicName=OccupantHash, LogicAccessTypes=0
@@ -1320,6 +1579,9 @@ These are structures, typically powered, that are able to receive and output oth
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.152
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Insulated Pipe Utility Liquid)
@@ -1342,6 +1604,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.025
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.25
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Pipe Utility Gas)
@@ -1362,6 +1627,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.248
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Pipe Utility Gas)
@@ -1382,6 +1650,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.035
+- **Radiation Factor:** 0.002
+- **Solar Heating Factor:** 0.348
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe Utility Gas)
@@ -1402,6 +1673,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.346
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe Utility Gas)
@@ -1424,6 +1698,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.025
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.25
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Pipe Utility Liquid)
@@ -1444,6 +1721,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.25
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Pipe Utility Liquid)
@@ -1464,6 +1744,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.035
+- **Radiation Factor:** 0.002
+- **Solar Heating Factor:** 0.348
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Pipe Utility Liquid)
@@ -1484,6 +1767,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.348
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe Utility Liquid)
@@ -1506,6 +1792,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.015
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.152
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Utility Gas)
@@ -1526,6 +1815,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.15
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Insulated Pipe Utility Gas)
@@ -1548,6 +1840,9 @@ A small expansion tank that increases the volume of a pipe network.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.015
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.152
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Utility Liquid)
@@ -1563,6 +1858,7 @@ A small expansion tank that increases the volume of a pipe network.
 
 - **Key:** ReagentInconel
 - **Reagents Type:** Inconel
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Inconel), QuantityOfThing=1
 
@@ -1982,201 +2278,6 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
   - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
   - NameOfThing=Terraforming Manufactory, PrefabHash=1549873866, PageLink=ThingStructureTerraformingManufactory
   - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
-
----
-
-## Ingot (Stellite)
-
-- **Key:** ThingItemStelliteIngot
-- **Prefab Name:** ItemStelliteIngot
-- **Prefab Hash:** -1897868623
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 500
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Yield: 1 x Stellite
-  - Printer: Advanced Furnace
-    - 0.25 Silver (from Ore (Silver)) + 0.5 Silicon (from Ore (Silicon)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1.8 kK (1527oC) to 100 kK (99726oC) | Pressure: 10 MPa to 20 MPa
-
-**Used In:**
-  - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
-  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
-  - NameOfThing=Hydraulic Pipe Bender, PrefabHash=-1888248335, PageLink=ThingStructureHydraulicPipeBender
-  - NameOfThing=Rocket Manufactory, PrefabHash=1781051034, PageLink=ThingStructureRocketManufactory
-  - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
-  - NameOfThing=Terraforming Manufactory, PrefabHash=1549873866, PageLink=ThingStructureTerraformingManufactory
-  - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
-
----
-
-## Ingot (Waspaloy)
-
-- **Key:** ThingItemWaspaloyIngot
-- **Prefab Name:** ItemWaspaloyIngot
-- **Prefab Hash:** 156348098
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 500
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Yield: 1 x Waspaloy
-  - Printer: Advanced Furnace
-    - 0.25 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.5 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 800 K (527oC) | Pressure: 50 MPa to 100 MPa
-
-**Used In:**
-  - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
-  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
-  - NameOfThing=Hydraulic Pipe Bender, PrefabHash=-1888248335, PageLink=ThingStructureHydraulicPipeBender
-  - NameOfThing=Rocket Manufactory, PrefabHash=1781051034, PageLink=ThingStructureRocketManufactory
-  - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
-  - NameOfThing=Terraforming Manufactory, PrefabHash=1549873866, PageLink=ThingStructureTerraformingManufactory
-  - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
-
----
-
-## Ingots
-
-These are items that are typically made from Smelting ores for use in fabricators.
-
-- **Key:** IngotPage
-
----
-
-## Insulated Canister Package
-
-- **Key:** ThingItemInsulatedCanisterPackage
-- **Prefab Name:** ItemInsulatedCanisterPackage
-- **Prefab Hash:** 1485675617
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-
----
-
-## Insulated Liquid Pipe (3-Way Junction)
-
-Liquid piping with very low temperature loss or gain.
-
-- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction
-- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction
-- **Prefab Hash:** 1926651727
-- **Volume:** 20L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=2 x Kit (Insulated Liquid Pipe)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
-
----
-
-## Insulated Liquid Pipe (4-Way Junction)
-
-Liquid piping with very low temperature loss or gain.
-
-- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction4
-- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction4
-- **Prefab Hash:** 363303270
-- **Volume:** 20L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Kit (Insulated Liquid Pipe)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
-
----
-
-## Insulated Liquid Pipe (5-Way Junction)
-
-Liquid piping with very low temperature loss or gain.
-
-- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction5
-- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction5
-- **Prefab Hash:** 1654694384
-- **Volume:** 20L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Kit (Insulated Liquid Pipe)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-**Constructed Things:**
-  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
-
----
-
-## Insulated Liquid Pipe (6-Way Junction)
-
-Liquid piping with very low temperature loss or gain.
-
-- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction6
-- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction6
-- **Prefab Hash:** -72748982
-- **Volume:** 20L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=3 x Kit (Insulated Liquid Pipe)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-**Constructed Things:**
-  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
-
----
-
-## Insulated Liquid Pipe (Corner)
-
-Liquid piping with very low temperature loss or gain.
-
-- **Key:** ThingStructureInsulatedPipeLiquidCorner
-- **Prefab Name:** StructureInsulatedPipeLiquidCorner
-- **Prefab Hash:** 1713710802
-- **Volume:** 20L
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Insulated Liquid Pipe)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
 ---
 

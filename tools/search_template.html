@@ -198,56 +198,38 @@
   .result-text { min-width: 0; flex: 1; }
   .result-item:hover { background: var(--panel); }
   .result-item.active { background: var(--accent-soft); color: var(--accent-strong); box-shadow: inset 3px 0 0 var(--accent); }
-  .result-item .rf {
-    display: block;
-    font-family: var(--mono);
-    font-size: 9.5px;
-    color: var(--text-faint);
-    margin-top: 4px;
-    font-weight: 400;
-    letter-spacing: 0.02em;
-  }
-  .result-item.active .rf { color: var(--accent); opacity: 0.8; }
 
   #detail { overflow-y: auto; padding: 34px 40px 60px; background: var(--bg); }
   .detail-header {
     display: flex;
-    align-items: flex-start;
-    gap: 18px;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 10px;
     border-bottom: 1px solid var(--border);
-    padding-bottom: 18px;
+    padding-bottom: 22px;
     margin-bottom: 22px;
   }
   .detail-icon {
-    width: 64px;
-    height: 64px;
+    width: 112px;
+    height: 112px;
     flex-shrink: 0;
     object-fit: contain;
     border-radius: var(--radius);
     background: var(--panel-2);
     border: 1px solid var(--border-strong);
-    padding: 6px;
+    padding: 10px;
   }
-  .detail-header-text { min-width: 0; flex: 1; }
+  .detail-header-text { min-width: 0; }
   #detail h2 {
-    margin: 0 0 8px;
+    margin: 0;
     font-family: var(--display);
-    font-size: 21px;
+    font-size: 22px;
     font-weight: 400;
     letter-spacing: 0.02em;
     text-wrap: balance;
   }
-  #detail .src {
-    display: inline-block;
-    font-family: var(--mono);
-    font-size: 10.5px;
-    color: var(--text-faint);
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 3px;
-    padding: 2px 8px;
-  }
-  #detail p { line-height: 1.65; margin: 0 0 20px; color: var(--text); max-width: 66ch; font-size: 14.5px; }
+  #detail p { line-height: 1.65; margin: 0 0 20px; color: var(--text); max-width: 66ch; font-size: 14.5px; text-align: left; }
 
   .spec-grid {
     display: grid;
@@ -456,7 +438,7 @@
     var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
     detailEl.innerHTML =
       '<div class="detail-header">' + icon +
-      '<div class="detail-header-text"><h2>' + escapeHtml(page.t) + '</h2><span class="src">' + escapeHtml(page.f) + '</span></div></div>' +
+      '<div class="detail-header-text"><h2>' + escapeHtml(page.t) + '</h2></div></div>' +
       renderBody(page.b);
     detailEl.scrollTop = 0;
   }
@@ -486,7 +468,7 @@
       var btn = document.createElement('button');
       btn.className = 'result-item';
       var icon = p.i ? '<img class="result-icon" src="' + escapeHtml(p.i) + '" alt="" loading="lazy" onerror="this.remove()">' : '';
-      btn.innerHTML = icon + '<span class="result-text">' + escapeHtml(p.t) + '<span class="rf">' + escapeHtml(p.f) + '</span></span>';
+      btn.innerHTML = icon + '<span class="result-text">' + escapeHtml(p.t) + '</span>';
       btn.addEventListener('click', function(){ showPage(p, btn); });
       frag.appendChild(btn);
     });

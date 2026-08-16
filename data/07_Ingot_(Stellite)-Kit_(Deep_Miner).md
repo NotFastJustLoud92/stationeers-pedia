@@ -1,4 +1,214 @@
-# Insulated Liquid Pipe (Cross Junction) - Kit (Flat Wall)
+# Ingot (Stellite) - Kit (Deep Miner)
+
+## Ingot (Stellite)
+
+- **Key:** ThingItemStelliteIngot
+- **Prefab Name:** ItemStelliteIngot
+- **Prefab Hash:** -1897868623
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 500
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Yield: 1 x Stellite
+  - Printer: Advanced Furnace
+    - 0.25 Silver (from Ore (Silver)) + 0.5 Silicon (from Ore (Silicon)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1.8 kK (1527oC) to 100 kK (99726oC) | Pressure: 10 MPa to 20 MPa
+
+**Used In:**
+  - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
+  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
+  - NameOfThing=Hydraulic Pipe Bender, PrefabHash=-1888248335, PageLink=ThingStructureHydraulicPipeBender
+  - NameOfThing=Rocket Manufactory, PrefabHash=1781051034, PageLink=ThingStructureRocketManufactory
+  - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
+  - NameOfThing=Terraforming Manufactory, PrefabHash=1549873866, PageLink=ThingStructureTerraformingManufactory
+  - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
+
+---
+
+## Ingot (Waspaloy)
+
+- **Key:** ThingItemWaspaloyIngot
+- **Prefab Name:** ItemWaspaloyIngot
+- **Prefab Hash:** 156348098
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 500
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Yield: 1 x Waspaloy
+  - Printer: Advanced Furnace
+    - 0.25 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.5 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 800 K (527oC) | Pressure: 50 MPa to 100 MPa
+
+**Used In:**
+  - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
+  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
+  - NameOfThing=Hydraulic Pipe Bender, PrefabHash=-1888248335, PageLink=ThingStructureHydraulicPipeBender
+  - NameOfThing=Rocket Manufactory, PrefabHash=1781051034, PageLink=ThingStructureRocketManufactory
+  - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
+  - NameOfThing=Terraforming Manufactory, PrefabHash=1549873866, PageLink=ThingStructureTerraformingManufactory
+  - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
+
+---
+
+## Ingots
+
+These are items that are typically made from Smelting ores for use in fabricators.
+
+- **Key:** IngotPage
+
+---
+
+## Insulated Canister Package
+
+- **Key:** ThingItemInsulatedCanisterPackage
+- **Prefab Name:** ItemInsulatedCanisterPackage
+- **Prefab Hash:** 1485675617
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+
+---
+
+## Insulated Liquid Pipe (3-Way Junction)
+
+Liquid piping with very low temperature loss or gain.
+
+- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction
+- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction
+- **Prefab Hash:** 1926651727
+- **Volume:** 20L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=2 x Kit (Insulated Liquid Pipe)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+**Constructed Things:**
+  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
+
+---
+
+## Insulated Liquid Pipe (4-Way Junction)
+
+Liquid piping with very low temperature loss or gain.
+
+- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction4
+- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction4
+- **Prefab Hash:** 363303270
+- **Volume:** 20L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Kit (Insulated Liquid Pipe)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+**Constructed Things:**
+  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
+
+---
+
+## Insulated Liquid Pipe (5-Way Junction)
+
+Liquid piping with very low temperature loss or gain.
+
+- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction5
+- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction5
+- **Prefab Hash:** 1654694384
+- **Volume:** 20L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Kit (Insulated Liquid Pipe)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+**Constructed Things:**
+  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
+
+---
+
+## Insulated Liquid Pipe (6-Way Junction)
+
+Liquid piping with very low temperature loss or gain.
+
+- **Key:** ThingStructureInsulatedPipeLiquidCrossJunction6
+- **Prefab Name:** StructureInsulatedPipeLiquidCrossJunction6
+- **Prefab Hash:** -72748982
+- **Volume:** 20L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=3 x Kit (Insulated Liquid Pipe)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+  - LogicName=Connection, LogicAccessTypes=4
+  - LogicName=Connection, LogicAccessTypes=5
+**Constructed Things:**
+  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
+
+---
+
+## Insulated Liquid Pipe (Corner)
+
+Liquid piping with very low temperature loss or gain.
+
+- **Key:** ThingStructureInsulatedPipeLiquidCorner
+- **Prefab Name:** StructureInsulatedPipeLiquidCorner
+- **Prefab Hash:** 1713710802
+- **Volume:** 20L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Insulated Liquid Pipe)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
+
+---
 
 ## Insulated Liquid Pipe (Cross Junction)
 
@@ -11,6 +221,9 @@ Liquid piping with very low temperature loss or gain.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Liquid Pipe)
@@ -35,6 +248,9 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=8 x Kit (Insulated Liquid Pipe)
@@ -57,6 +273,9 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Liquid Pipe)
@@ -79,6 +298,9 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=4 x Kit (Insulated Liquid Pipe)
@@ -101,6 +323,9 @@ Liquid piping with very low temperature loss or gain.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Insulated Liquid Pipe)
@@ -123,6 +348,9 @@ Liquid piping with very low temperature loss or gain.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Liquid Pipe)
@@ -144,6 +372,9 @@ Liquid piping with very low temperature loss or gain.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Build States:**
   - Description=1 x Kit (Insulated Passive Vent)
 **Connections:**
@@ -164,6 +395,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
@@ -187,6 +421,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
@@ -211,6 +448,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
@@ -236,6 +476,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
@@ -262,6 +505,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Insulated Pipe)
@@ -284,6 +530,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
@@ -308,6 +557,9 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=8 x Kit (Insulated Pipe)
@@ -330,6 +582,9 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
@@ -352,6 +607,9 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=4 x Kit (Insulated Pipe)
@@ -374,6 +632,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Insulated Pipe) Wrench
@@ -396,6 +657,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
@@ -417,6 +681,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Slots:**
   - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
 **Build States:**
@@ -435,6 +702,9 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Slots:**
   - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
 **Build States:**
@@ -554,6 +824,7 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 
 - **Key:** ReagentInvar
 - **Reagents Type:** Invar
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Invar), QuantityOfThing=1
 
@@ -563,6 +834,7 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 
 - **Key:** ReagentIron
 - **Reagents Type:** Iron
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Iron), QuantityOfThing=1
   - NameOfThing=Ore (Iron), QuantityOfThing=1
@@ -712,6 +984,22 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
   - Description=1 x Glass Sheets
 **Constructed Things:**
   - NameOfThing=Kit (Iron Wall), PrefabHash=-524546923, PageLink=ThingItemKitWallIron
+
+---
+
+## ItemWreckageSteelCornerSmall
+
+
+
+- **Key:** ThingItemWreckageSteelCornerSmall
+- **Prefab Name:** ItemWreckageSteelCornerSmall
+- **Prefab Hash:** 1335155606
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 10
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
 
 ---
 
@@ -1922,221 +2210,6 @@ This kit creates that miracle of modern science, a Kit (Creative RTG).
 
 **Constructed From Kits:**
   - NameOfThing=Deep Miner, PrefabHash=265720906, PageLink=ThingStructureDeepMiner
-
----
-
-## Kit (Digital Valve)
-
-This kit creates a Digital Valve.
-
-- **Key:** ThingItemPipeDigitalValve
-- **Prefab Name:** ItemPipeDigitalValve
-- **Prefab Hash:** -1532448832
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 500 x Energy + 2 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 3 x Invar (from Ingot (Invar))
-
-**Constructed From Kits:**
-  - NameOfThing=Digital Valve, PrefabHash=-1280984102, PageLink=ThingStructureDigitalValve
-
----
-
-## Kit (DiRCI)
-
-Kit for constructing DiRCI
-
-- **Key:** ThingItemDiRCIkit
-- **Prefab Name:** ItemDiRCIkit
-- **Prefab Hash:** -1373381823
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** Yes
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier Two)
-    - 2000 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 20 x Silicon (from Ingot (Silicon))
-
-**Constructed From Kits:**
-  - NameOfThing=DiRCI, PrefabHash=-1117847913, PageLink=ThingrobotDiRCI
-
----
-
-## Kit (Docking Port)
-
-- **Key:** ThingItemKitDockingPort
-- **Prefab Name:** ItemKitDockingPort
-- **Prefab Hash:** 77421200
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-
----
-
-## Kit (Door)
-
-- **Key:** ThingItemKitDoor
-- **Prefab Name:** ItemKitDoor
-- **Prefab Hash:** 168615924
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Autolathe (Tier One)
-    - 500 x Energy + 7 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
-
-**Constructed From Kits:**
-  - NameOfThing=Glass Door, PrefabHash=-324331872, PageLink=ThingStructureGlassDoor
-  - NameOfThing=Composite Door, PrefabHash=-793837322, PageLink=ThingStructureCompositeDoor
-  - NameOfThing=Composite Roll Cover, PrefabHash=1228794916, PageLink=ThingCompositeRollCover
-  - NameOfThing=Manual Hatch, PrefabHash=-1808154199, PageLink=ThingStructureManualHatch
-  - NameOfThing=Manual Floor Hatch, PrefabHash=1435578852, PageLink=ThingStructureManualFloorHatch
-
----
-
-## Kit (Drinking Fountain)
-
-- **Key:** ThingItemKitDrinkingFountain
-- **Prefab Name:** ItemKitDrinkingFountain
-- **Prefab Hash:** -1743663875
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Hydraulic Pipe Bender (Tier One)
-    - 620 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper)) + 8 x Silicon (from Ingot (Silicon))
-
-**Constructed From Kits:**
-  - NameOfThing=Drinking Fountain, PrefabHash=-739488459, PageLink=ThingStructureDrinkingFountain2x1
-
----
-
-## Kit (Electronics Printer)
-
-- **Key:** ThingItemKitElectronicsPrinter
-- **Prefab Name:** ItemKitElectronicsPrinter
-- **Prefab Hash:** -1181922382
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Autolathe (Tier One)
-    - 12000 x Energy + 20 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
-
-**Constructed From Kits:**
-  - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
-
----
-
-## Kit (Elevator)
-
-- **Key:** ThingItemKitElevator
-- **Prefab Name:** ItemKitElevator
-- **Prefab Hash:** -945806652
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier One)
-    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder))
-
-**Constructed From Kits:**
-  - NameOfThing=Elevator Shaft, PrefabHash=1998354978, PageLink=ThingStructureElevatorShaftIndustrial
-  - NameOfThing=Elevator Shaft (Cabled), PrefabHash=826144419, PageLink=ThingStructureElevatorShaft
-  - NameOfThing=Elevator Level (Cabled), PrefabHash=-827912235, PageLink=ThingStructureElevatorLevelFront
-  - NameOfThing=Elevator Level, PrefabHash=2060648791, PageLink=ThingStructureElevatorLevelIndustrial
-
----
-
-## Kit (Filter Cleaner)
-
-The cutting-edge ExMin Filter Cleaner™ system delivers effortless, precision cleaning for any filter, setting a new standard in efficiency and innovation.
-
-- **Key:** ThingItemKitFilterCleaner
-- **Prefab Name:** ItemKitFilterCleaner
-- **Prefab Hash:** 1264344631
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 1
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build Recipe:**
-  - Printer: Autolathe (Tier Two)
-    - 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
-
-**Constructed From Kits:**
-  - NameOfThing=Filter Cleaner, PrefabHash=1540741162, PageLink=ThingStructureFilterCleaner
-
----
-
-## Kit (Flashing Light)
-
-- **Key:** ThingItemFlashingLight
-- **Prefab Name:** ItemFlashingLight
-- **Prefab Hash:** -2107840748
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** Yes
-- **Flashpoint:** 673 K (400oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Build Recipe:**
-  - Printer: Electronics Printer (Tier One)
-    - 100 x Energy + 2 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
-
-**Constructed From Kits:**
-  - NameOfThing=Flashing Light, PrefabHash=-1535893860, PageLink=ThingStructureFlashingLight
-
----
-
-## Kit (Flat Wall)
-
-- **Key:** ThingItemKitWallFlat
-- **Prefab Name:** ItemKitWallFlat
-- **Prefab Hash:** -846838195
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 30
-- **Paintable:** Yes
-- **Flashpoint:** 973 K (700oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Build Recipe:**
-  - Printer: Autolathe (Tier One)
-    - 500 x Energy + 1 x Steel (from Ingot (Steel))
-
-**Constructed From Kits:**
-  - NameOfThing=Wall (Flat), PrefabHash=1635864154, PageLink=ThingStructureWallFlat
-  - NameOfThing=Wall (Large Panel), PrefabHash=1492930217, PageLink=ThingStructureWallLargePanel
-  - NameOfThing=Wall (Large Panel Arrow), PrefabHash=-776581573, PageLink=ThingStructureWallLargePanelArrow
-  - NameOfThing=Wall (Plating), PrefabHash=26167457, PageLink=ThingStructureWallPlating
-  - NameOfThing=Wall (Small Panels And Hatch), PrefabHash=619828719, PageLink=ThingStructureWallSmallPanelsAndHatch
-  - NameOfThing=Wall (Small Panels Arrow), PrefabHash=-639306697, PageLink=ThingStructureWallSmallPanelsArrow
-  - NameOfThing=Wall (Small Panels Mono Chrome), PrefabHash=386820253, PageLink=ThingStructureWallSmallPanelsMonoChrome
-  - NameOfThing=Wall (Small Panels Two Tone), PrefabHash=1709994581, PageLink=ThingStructureWallSmallPanelsTwoTone
-  - NameOfThing=Wall (Flat Corner Round), PrefabHash=898708250, PageLink=ThingStructureWallFlatCornerRound
-  - NameOfThing=Wall (Flat Corner Square), PrefabHash=298130111, PageLink=ThingStructureWallFlatCornerSquare
-  - NameOfThing=Wall (Flat Corner Triangle), PrefabHash=2097419366, PageLink=ThingStructureWallFlatCornerTriangle
-  - NameOfThing=Wall (Flat Corner Triangle Flat), PrefabHash=-1161662836, PageLink=ThingStructureWallFlatCornerTriangleFlat
-  - NameOfThing=Wall (Small Panels Open), PrefabHash=-1407480603, PageLink=ThingStructureWallSmallPanelsOpen
 
 ---
 

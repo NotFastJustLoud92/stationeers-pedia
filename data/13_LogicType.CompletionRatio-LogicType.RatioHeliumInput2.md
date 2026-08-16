@@ -1,4 +1,84 @@
-# LogicType.Dispense - LogicType.RatioHydrochloricAcidInput2
+# LogicType.CompletionRatio - LogicType.RatioHeliumInput2
+
+## LogicType.CompletionRatio
+
+How complete the current production is for this device, between 0 and 1
+
+- **Key:** LogicTypeCompletionRatio
+
+---
+
+## LogicType.ContactSlotIndex
+
+The index of the slot in which the trader has spawned. This defines the class of the trader i.e. Utility, Small, Medium etc.
+
+- **Key:** LogicTypeContactSlotIndex
+
+---
+
+## LogicType.ContactTypeId
+
+The type id of the contact.
+
+- **Key:** LogicTypeContactTypeId
+
+---
+
+## LogicType.CurrentCode
+
+The Space Map Address of the rockets current Space Map Location
+
+- **Key:** LogicTypeCurrentCode
+
+---
+
+## LogicType.CurrentNodeType
+
+Returns the NodeType as an integer for the current location for a Rocket
+
+- **Key:** LogicTypeCurrentNodeType
+
+---
+
+## LogicType.CurrentResearchPodType
+
+
+
+- **Key:** LogicTypeCurrentResearchPodType
+
+---
+
+## LogicType.Density
+
+The density of the rocket's target site's mine-able deposit.
+
+- **Key:** LogicTypeDensity
+
+---
+
+## LogicType.DerivativeGain
+
+The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.
+
+- **Key:** LogicTypeDerivativeGain
+
+---
+
+## LogicType.DestinationCode
+
+The Space Map Address of the rockets target Space Map Location
+
+- **Key:** LogicTypeDestinationCode
+
+---
+
+## LogicType.Discover
+
+Progress status of Discovery scan at the rocket's target Space Map Location. Returns a clamped normalised value. If Discovery scan is not available returns -1.
+
+- **Key:** LogicTypeDiscover
+
+---
 
 ## LogicType.Dispense
 
@@ -717,86 +797,6 @@ The ratio of Helium in device's Input Atmosphere
 The ratio of Helium in device's Input2 Atmosphere
 
 - **Key:** LogicTypeRatioHeliumInput2
-
----
-
-## LogicType.RatioHeliumOutput
-
-The ratio of Helium in device's Output Atmosphere
-
-- **Key:** LogicTypeRatioHeliumOutput
-
----
-
-## LogicType.RatioHeliumOutput2
-
-The ratio of Helium in device's Output2 Atmosphere
-
-- **Key:** LogicTypeRatioHeliumOutput2
-
----
-
-## LogicType.RatioHydrazine
-
-The ratio of Hydrazine in device's Atmosphere
-
-- **Key:** LogicTypeRatioHydrazine
-
----
-
-## LogicType.RatioHydrazineInput
-
-The ratio of Hydrazine in device's Input Atmosphere
-
-- **Key:** LogicTypeRatioHydrazineInput
-
----
-
-## LogicType.RatioHydrazineInput2
-
-The ratio of Hydrazine in device's Input2 Atmosphere
-
-- **Key:** LogicTypeRatioHydrazineInput2
-
----
-
-## LogicType.RatioHydrazineOutput
-
-The ratio of Hydrazine in device's Output Atmosphere
-
-- **Key:** LogicTypeRatioHydrazineOutput
-
----
-
-## LogicType.RatioHydrazineOutput2
-
-The ratio of Hydrazine in device's Output2 Atmosphere
-
-- **Key:** LogicTypeRatioHydrazineOutput2
-
----
-
-## LogicType.RatioHydrochloricAcid
-
-The ratio of Hydrochloric Acid in device's Atmosphere
-
-- **Key:** LogicTypeRatioHydrochloricAcid
-
----
-
-## LogicType.RatioHydrochloricAcidInput
-
-The ratio of Hydrochloric Acid in device's Input Atmosphere
-
-- **Key:** LogicTypeRatioHydrochloricAcidInput
-
----
-
-## LogicType.RatioHydrochloricAcidInput2
-
-The ratio of Hydrochloric Acid in device's Input2 Atmosphere
-
-- **Key:** LogicTypeRatioHydrochloricAcidInput2
 
 ---
 

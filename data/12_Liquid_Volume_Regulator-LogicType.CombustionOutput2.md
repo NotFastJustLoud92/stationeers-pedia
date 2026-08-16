@@ -1,4 +1,296 @@
-# Logic Dial Small - LogicType.Discover
+# Liquid Volume Regulator - LogicType.CombustionOutput2
+
+## Liquid Volume Regulator
+
+Regulates the volume ratio of liquid in the output Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.
+
+- **Key:** ThingStructureLiquidPressureRegulator
+- **Prefab Name:** StructureLiquidPressureRegulator
+- **Prefab Hash:** 482248766
+- **Base Power Draw:** 100 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Placeable In Rocket:** True
+**Build States:**
+  - Description=1 x Kit (Liquid Regulator)
+**Connections:**
+  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+**Constructed Things:**
+  - NameOfThing=Kit (Liquid Regulator), PrefabHash=1951126161, PageLink=ThingItemKitLiquidRegulator
+
+---
+
+## Liquid Wall Cooler
+
+- **Key:** ThingStructureWaterWallCooler
+- **Prefab Name:** StructureWaterWallCooler
+- **Prefab Hash:** -1369060582
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=SortingClass, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+  - LogicName=FreeSlots, LogicAccessTypes=0
+  - LogicName=TotalSlots, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
+**Build States:**
+  - Description=1 x Kit (Liquid Wall Cooler)
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Liquid Wall Cooler), PrefabHash=-1721846327, PageLink=ThingItemWaterWallCooler
+
+---
+
+## Loader
+
+The Loader will take objects from its left slot and put them in the available slots of the object inserted in the right slot. The slots will be filled in order from first to last. If no available slot is found, the left slot object will be ejected. The right slot object will auto eject once full or if the level is pulled.
+
+- **Key:** ThingStructurePacker
+- **Prefab Name:** StructurePacker
+- **Prefab Hash:** 94539235
+- **Base Power Draw:** 50 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
+  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
+  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
+  - LogicName=Damage, LogicAccessTypes=0, 1, 2
+  - LogicName=Class, LogicAccessTypes=0, 1, 2
+  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
+  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
+  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
+  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
+  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
+  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Slots:**
+  - SlotName=Payload, SlotType=Payload, SlotIndex=0
+  - SlotName=Recipient, SlotType=Recipient, SlotIndex=1
+  - SlotName=Export, SlotType=Export, SlotIndex=2
+**Build States:**
+  - Description=2 x Kit (Stacker)
+**Mode Options:**
+  - LogicName=Auto, LogicAccessTypes=0
+  - LogicName=Logic, LogicAccessTypes=1
+**Connections:**
+  - LogicName=Chute Input, LogicAccessTypes=0
+  - LogicName=Chute Input 2, LogicAccessTypes=1
+  - LogicName=Chute Output, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+**Constructed Things:**
+  - NameOfThing=Kit (Stacker), PrefabHash=1013244511, PageLink=ThingItemKitStacker
+
+---
+
+## Locker
+
+- **Key:** ThingStructureStorageLocker
+- **Prefab Name:** StructureStorageLocker
+- **Prefab Hash:** -793623899
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=None, SlotType=None, SlotIndex=2
+  - SlotName=None, SlotType=None, SlotIndex=3
+  - SlotName=None, SlotType=None, SlotIndex=4
+  - SlotName=None, SlotType=None, SlotIndex=5
+  - SlotName=None, SlotType=None, SlotIndex=6
+  - SlotName=None, SlotType=None, SlotIndex=7
+  - SlotName=None, SlotType=None, SlotIndex=8
+  - SlotName=None, SlotType=None, SlotIndex=9
+  - SlotName=None, SlotType=None, SlotIndex=10
+  - SlotName=None, SlotType=None, SlotIndex=11
+  - SlotName=None, SlotType=None, SlotIndex=12
+  - SlotName=None, SlotType=None, SlotIndex=13
+  - SlotName=None, SlotType=None, SlotIndex=14
+  - SlotName=None, SlotType=None, SlotIndex=15
+  - SlotName=None, SlotType=None, SlotIndex=16
+  - SlotName=None, SlotType=None, SlotIndex=17
+  - SlotName=None, SlotType=None, SlotIndex=18
+  - SlotName=None, SlotType=None, SlotIndex=19
+  - SlotName=None, SlotType=None, SlotIndex=20
+  - SlotName=None, SlotType=None, SlotIndex=21
+  - SlotName=None, SlotType=None, SlotIndex=22
+  - SlotName=None, SlotType=None, SlotIndex=23
+  - SlotName=None, SlotType=None, SlotIndex=24
+  - SlotName=None, SlotType=None, SlotIndex=25
+  - SlotName=None, SlotType=None, SlotIndex=26
+  - SlotName=None, SlotType=None, SlotIndex=27
+  - SlotName=None, SlotType=None, SlotIndex=28
+  - SlotName=None, SlotType=None, SlotIndex=29
+**Build States:**
+  - Description=2 x Kit (Locker)
+**Constructed Things:**
+  - NameOfThing=Kit (Locker), PrefabHash=882301399, PageLink=ThingItemKitLocker
+
+---
+
+## Locker (Small)
+
+- **Key:** ThingStructureLockerSmall
+- **Prefab Name:** StructureLockerSmall
+- **Prefab Hash:** -647164662
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3
+  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=None, SlotType=None, SlotIndex=2
+  - SlotName=None, SlotType=None, SlotIndex=3
+**Build States:**
+  - Description=1 x Kit (Locker)
+**Constructed Things:**
+  - NameOfThing=Kit (Locker), PrefabHash=882301399, PageLink=ThingItemKitLocker
+
+---
+
+## Logic Alarm
+
+Sound and light beacon for emergencies.
+
+- **Key:** ThingModularDeviceAlarm
+- **Prefab Name:** ModularDeviceAlarm
+- **Prefab Hash:** 1922318669
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (Modular Console Displays)
+**Constructed Things:**
+  - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
+
+---
+
+## Logic Button Round
+
+A round button which sets Activate to 1 when pressed. Has an adjustable Color.
+
+- **Key:** ThingModularDeviceRoundButton
+- **Prefab Name:** ModularDeviceRoundButton
+- **Prefab Hash:** 489382030
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (Modular Console Inputs)
+**Constructed Things:**
+  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
+
+---
+
+## Logic Button Square
+
+A square button which sets Activate to 1 when pressed. Has an adjustable Color.
+
+- **Key:** ThingModularDeviceSquareButton
+- **Prefab Name:** ModularDeviceSquareButton
+- **Prefab Hash:** 1462769197
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (Modular Console Inputs)
+**Constructed Things:**
+  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
+
+---
+
+## Logic Compare
+
+- **Key:** ThingStructureLogicCompare
+- **Prefab Name:** StructureLogicCompare
+- **Prefab Hash:** -1489728908
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build States:**
+  - Description=1 x Kit (Logic Processor)
+**Mode Options:**
+  - LogicName=Equals, LogicAccessTypes=0
+  - LogicName=Greater, LogicAccessTypes=1
+  - LogicName=Less, LogicAccessTypes=2
+  - LogicName=NotEquals, LogicAccessTypes=3
+**Connections:**
+  - LogicName=Data Input, LogicAccessTypes=0
+  - LogicName=Data Input, LogicAccessTypes=1
+  - LogicName=Data Output, LogicAccessTypes=2
+  - LogicName=Connection, LogicAccessTypes=3
+**Constructed Things:**
+  - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
+
+---
+
+## Logic Dial
+
+Allows adjusting Setting between 0 and Mode.
+
+- **Key:** ThingModularDeviceDial
+- **Prefab Name:** ModularDeviceDial
+- **Prefab Hash:** 1465300791
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Kit (Modular Console Inputs)
+**Constructed Things:**
+  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
+
+---
 
 ## Logic Dial Small
 
@@ -1085,86 +1377,6 @@ The assess atmosphere is on fire. Returns 1 if device's Output network is on fir
 The assess atmosphere is on fire. Returns 1 if device's Output2 network is on fire, 0 if not.
 
 - **Key:** LogicTypeCombustionOutput2
-
----
-
-## LogicType.CompletionRatio
-
-How complete the current production is for this device, between 0 and 1
-
-- **Key:** LogicTypeCompletionRatio
-
----
-
-## LogicType.ContactSlotIndex
-
-The index of the slot in which the trader has spawned. This defines the class of the trader i.e. Utility, Small, Medium etc.
-
-- **Key:** LogicTypeContactSlotIndex
-
----
-
-## LogicType.ContactTypeId
-
-The type id of the contact.
-
-- **Key:** LogicTypeContactTypeId
-
----
-
-## LogicType.CurrentCode
-
-The Space Map Address of the rockets current Space Map Location
-
-- **Key:** LogicTypeCurrentCode
-
----
-
-## LogicType.CurrentNodeType
-
-Returns the NodeType as an integer for the current location for a Rocket
-
-- **Key:** LogicTypeCurrentNodeType
-
----
-
-## LogicType.CurrentResearchPodType
-
-
-
-- **Key:** LogicTypeCurrentResearchPodType
-
----
-
-## LogicType.Density
-
-The density of the rocket's target site's mine-able deposit.
-
-- **Key:** LogicTypeDensity
-
----
-
-## LogicType.DerivativeGain
-
-The derivative gain of the PID controller. This value determines how much the controller responds to the rate of change of the error. A higher value can help dampen oscillations and improve stability, but may also lead to noise amplification.
-
-- **Key:** LogicTypeDerivativeGain
-
----
-
-## LogicType.DestinationCode
-
-The Space Map Address of the rockets target Space Map Location
-
-- **Key:** LogicTypeDestinationCode
-
----
-
-## LogicType.Discover
-
-Progress status of Discovery scan at the rocket's target Space Map Location. Returns a clamped normalised value. If Discovery scan is not available returns -1.
-
-- **Key:** LogicTypeDiscover
 
 ---
 

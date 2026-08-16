@@ -2,28 +2,10 @@
 
 ## Wheat
 
-A classical symbol of growth and new life, wheat takes a moderate time to grow. Its main use is to create flour using the Reagent Processor.
-
-- **Key:** ThingItemWheat
-- **Prefab Name:** ItemWheat
-- **Prefab Hash:** -1057658015
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Nutrition:** 5
-- **Nutrition Quality:** Low (-25% hydration capacity)
-- **Growth Time:** 45min 1s
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Constructed From Kits:**
-  - NameOfThing=Wheat Seeds, PrefabHash=-654756733, PageLink=ThingSeedBag_Wheet
-**Found In Fermentation:**
-  - NameOfThing=Liquid Alcohol, QuantityOfThing=6 mol
-  - NameOfThing=Polluted Water, QuantityOfThing=0.3 mol
-**Used In:**
-  - NameOfThing=Reagent Processor, PrefabHash=1260918085, PageLink=ThingApplianceReagentProcessor
-  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+- **Key:** ReagentWheat
+- **Reagents Type:** Wheat
+**Found In Ore:**
+  - NameOfThing=Wheat, QuantityOfThing=1
 
 ---
 
@@ -378,6 +360,30 @@ Agrizero's Winterspawn atmospheric bio-processor is a recent addition to their c
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Nitrogen 21.6 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 1.44 Moles per hour Methane 2.88 Moles per hour , Gene=Gas production, ValueSize=12
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=1.44 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Winterspawn Seed (Alpha strain), PrefabHash=-1740754636, PageLink=ThingSeedBag_WinterspawnAlpha
 **Found In Fermentation:**
@@ -404,6 +410,30 @@ Agrizero's Winterspawn atmospheric bio-processor is a recent addition to their c
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Nitrogen 36 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 2.88 Moles per hour Methane 5.76 Moles per hour , Gene=Gas production, ValueSize=12
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=2.88 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Winterspawn Seed (Beta strain), PrefabHash=-475065916, PageLink=ThingSeedBag_WinterspawnBeta
 **Found In Fermentation:**
@@ -581,6 +611,7 @@ A 2150CE survey revealed the Xigo 'X' as one of the most recognized symbols in t
 ## Yellow Coloring
 
 - **Key:** ReagentYellow Coloring
+- **Unit:** g
 
 ---
 

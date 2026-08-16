@@ -1,4 +1,84 @@
-# LogicType.RatioPollutantOutput - Low temperature resistance
+# LogicType.RatioOxygenOutput - LogicType.WattsReachingContact
+
+## LogicType.RatioOxygenOutput
+
+The ratio of oxygen in device's Output network
+
+- **Key:** LogicTypeRatioOxygenOutput
+
+---
+
+## LogicType.RatioOxygenOutput2
+
+The ratio of oxygen in device's Output2 network
+
+- **Key:** LogicTypeRatioOxygenOutput2
+
+---
+
+## LogicType.RatioOzone
+
+The ratio of Ozone in device's Atmosphere
+
+- **Key:** LogicTypeRatioOzone
+
+---
+
+## LogicType.RatioOzoneInput
+
+The ratio of Ozone in device's Input Atmosphere
+
+- **Key:** LogicTypeRatioOzoneInput
+
+---
+
+## LogicType.RatioOzoneInput2
+
+The ratio of Ozone in device's Input2 Atmosphere
+
+- **Key:** LogicTypeRatioOzoneInput2
+
+---
+
+## LogicType.RatioOzoneOutput
+
+The ratio of Ozone in device's Output Atmosphere
+
+- **Key:** LogicTypeRatioOzoneOutput
+
+---
+
+## LogicType.RatioOzoneOutput2
+
+The ratio of Ozone in device's Output2 Atmosphere
+
+- **Key:** LogicTypeRatioOzoneOutput2
+
+---
+
+## LogicType.RatioPollutant
+
+The ratio of pollutant in device atmosphere
+
+- **Key:** LogicTypeRatioPollutant
+
+---
+
+## LogicType.RatioPollutantInput
+
+The ratio of pollutant in device's input network
+
+- **Key:** LogicTypeRatioPollutantInput
+
+---
+
+## LogicType.RatioPollutantInput2
+
+The ratio of pollutant in device's Input2 network
+
+- **Key:** LogicTypeRatioPollutantInput2
+
+---
 
 ## LogicType.RatioPollutantOutput
 
@@ -764,105 +844,6 @@ The total volume of all liquids in Liters in the atmosphere
 The amount of watts actually hitting the contact. This is effected by the power of the dish and how far off-axis the dish is from the contact vector
 
 - **Key:** LogicTypeWattsReachingContact
-
----
-
-## LogicType.Weight
-
-Weight of Rocket in Newtons (Including fuel and cargo). Weight is effected by local body gravity.
-
-- **Key:** LogicTypeWeight
-
----
-
-## LogicType.WorkingGasEfficiency
-
-The Working Gas Efficiency reported by the machine, as a float between 0 and 1
-
-- **Key:** LogicTypeWorkingGasEfficiency
-
----
-
-## LogicTypeHeaderTemplate
-
-{0}
-
-- **Key:** LogicTypeHeaderTemplate
-
----
-
-## LogicTypePageTemplate
-
-{0}
-
-- **Key:** LogicTypePageTemplate
-
----
-
-## LogicTypeTemplate
-
-{0}{1} {2}
-
-- **Key:** LogicTypeTemplate
-
----
-
-## Lore
-
-- **Key:** Lore
-
----
-
-## Low frequency oscillator
-
-The low frequency oscillator (or LFO) makes everything sound dark, twisted and crunchy by altering the shape of the waves output by a Logic Step Sequencer. To set up an LFO: 1. Place the LFO unit 2. Set the LFO output to a Passive Speaker 2. Set a sequencers' output to LFO - so the sequencer's signal runs through the LFO to a speaker. 3. Place a Stop Watch or use an existing one, then use a Logic Writer to write it to the LFO. 4. Use another logic writer to write the BPM to the LFO. 5. You are ready. This is the future. You're in space. Make it sound cool. For more info, check out the music page.
-
-- **Key:** ThingDeviceLfoVolume
-- **Prefab Name:** DeviceLfoVolume
-- **Prefab Hash:** -1844430312
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build States:**
-  - Description=1 x Kit (Music Machines)
-**Mode Options:**
-  - LogicName=Whole Note, LogicAccessTypes=0
-  - LogicName=Half Note, LogicAccessTypes=1
-  - LogicName=Quarter Note, LogicAccessTypes=2
-  - LogicName=Eighth Note, LogicAccessTypes=3
-  - LogicName=Sixteenth Note, LogicAccessTypes=4
-**Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
-
----
-
-## Low pressure resistance
-
-The lower limit of pressure that the plant is able to grow at.
-
-- **Key:** GeneLowPressureResistance
-
----
-
-## Low pressure tolerance
-
-The length of time a plant can stay below its low pressure limit before it starts taking damage.
-
-- **Key:** GeneLowPressureTolerance
-
----
-
-## Low temperature resistance
-
-The lower limit of temperature that the plant is able to grow at.
-
-- **Key:** GeneLowTemperatureResistance
 
 ---
 

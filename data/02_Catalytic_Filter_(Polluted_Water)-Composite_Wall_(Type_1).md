@@ -1,20 +1,4 @@
-# Catalytic Filter (Pollutants) - Composite Roll Cover
-
-## Catalytic Filter (Pollutants)
-
-A filter that selectively targets Pollutants. It uses internal pressure differentials to regenerate a unique phase change catalyst, giving it a long lasting lifecycle.
-
-- **Key:** ThingItemGasFilterPollutantsInfinite
-- **Prefab Name:** ItemGasFilterPollutantsInfinite
-- **Prefab Hash:** -503738105
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 100
-- **Paintable:** No
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-
----
+# Catalytic Filter (Polluted Water) - Composite Wall (Type 1)
 
 ## Catalytic Filter (Polluted Water)
 
@@ -622,15 +606,6 @@ Charcoal is a lightweight, black carbon residue produced by heating Biomass in a
 
 ## Cheese
 
-- **Key:** ReagentCheese
-- **Reagents Type:** Cheese
-**Found In Ore:**
-  - NameOfThing=Cheese, QuantityOfThing=5
-
----
-
-## Cheese
-
 - **Key:** ThingItemCheeseWedge
 - **Prefab Name:** ItemCheeseWedge
 - **Prefab Hash:** 1695894944
@@ -645,6 +620,16 @@ Charcoal is a lightweight, black carbon residue produced by heating Biomass in a
 **Used In:**
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
+
+---
+
+## Cheese
+
+- **Key:** ReagentCheese
+- **Reagents Type:** Cheese
+- **Unit:** g
+**Found In Ore:**
+  - NameOfThing=Cheese, QuantityOfThing=5
 
 ---
 
@@ -864,6 +849,9 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.037
+- **Radiation Factor:** 0.037
+- **Solar Heating Factor:** 0.037
 **Slots:**
   - SlotName=Brain, SlotType=Brain, SlotIndex=0
   - SlotName=Lungs, SlotType=Lungs, SlotIndex=1
@@ -880,6 +868,9 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.149
+- **Radiation Factor:** 0.149
+- **Solar Heating Factor:** 0.149
 **Slots:**
   - SlotName=Brain, SlotType=Brain, SlotIndex=0
   - SlotName=Lungs, SlotType=Lungs, SlotIndex=1
@@ -1588,18 +1579,9 @@ These are Items that can be worn by entities in slots.
 
 - **Key:** ReagentCobalt
 - **Reagents Type:** Cobalt
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ore (Cobalt), QuantityOfThing=1
-
----
-
-## Cocoa
-
-- **Key:** ReagentCocoa
-- **Reagents Type:** Cocoa
-**Found In Ore:**
-  - NameOfThing=Cocoa Powder, QuantityOfThing=1
-  - NameOfThing=Cocoa, QuantityOfThing=1
 
 ---
 
@@ -1617,6 +1599,30 @@ These are Items that can be worn by entities in slots.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=30°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=40°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=8min 20s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=3min 20s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Cocoa Seeds, PrefabHash=1139887531, PageLink=ThingSeedBag_Cocoa
 **Found In Fermentation:**
@@ -1627,6 +1633,17 @@ These are Items that can be worn by entities in slots.
   - NameOfThing=Reagent Processor, PrefabHash=1260918085, PageLink=ThingApplianceReagentProcessor
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Cocoa
+
+- **Key:** ReagentCocoa
+- **Reagents Type:** Cocoa
+- **Unit:** g
+**Found In Ore:**
+  - NameOfThing=Cocoa Powder, QuantityOfThing=1
+  - NameOfThing=Cocoa, QuantityOfThing=1
 
 ---
 
@@ -1698,6 +1715,9 @@ The Combustion Centrifuge is a gas fuel powered version of the Centrifuge. If a 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
@@ -2385,6 +2405,26 @@ While aesthetics rank low on the ladder of Stationeer concerns, composite gratin
   - LogicName=Logic, LogicAccessTypes=1
 **Constructed Things:**
   - NameOfThing=Kit (Door), PrefabHash=168615924, PageLink=ThingItemKitDoor
+
+---
+
+## Composite Wall (Type 1)
+
+Air-tight and resistant to extreme temperatures, composite walls favor form over function, coming in a range of slightly different, functionally identical varieties.
+
+- **Key:** ThingStructureCompositeWall
+- **Prefab Name:** StructureCompositeWall
+- **Prefab Hash:** 1237302061
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 573 K (300oC)
+- **Auto Ignition:** 873 K (600oC)
+**Build States:**
+  - Description=1 x Kit (Wall)
+  - Description=2 x Plastic Sheets
+**Constructed Things:**
+  - NameOfThing=Kit (Wall), PrefabHash=-1826855889, PageLink=ThingItemKitWall
 
 ---
 

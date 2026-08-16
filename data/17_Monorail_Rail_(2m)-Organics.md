@@ -1,4 +1,218 @@
-# Monorail Sloped Rail Entry (14m) - Overalls (Paintable)
+# Monorail Rail (2m) - Organics
+
+## Monorail Rail (2m)
+
+A straight 2 m rail for short gaps and fine alignment. Prefer longer rails for long runs. Snaps to the 2x2 grid and connects end-to-end with other rail segments, docks, and stations to form a rail network. See also: Monorail A - Start Here
+
+- **Key:** ThingStructureRail2
+- **Prefab Name:** StructureRail2
+- **Prefab Hash:** 1621689525
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Rails Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
+
+---
+
+## Monorail Rail (6m)
+
+A straight 6 m rail for short gaps and fine alignment. Prefer longer rails for long runs. Snaps to the 2x2 grid and connects end-to-end with other rail segments, docks, and stations to form a rail network. See also: Monorail A - Start Here
+
+- **Key:** ThingStructureRail6
+- **Prefab Name:** StructureRail6
+- **Prefab Hash:** 1740947628
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=2 x Monorail Rails Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
+
+---
+
+## Monorail Rails Kit
+
+A construction kit for building monorail track segments. Rails snap to the 2x2 grid and connect end-to-end to form a traversable rail network. Place and connect rails end-to-end, then add docks and stations as destinations. Looping networks are supported. See also: Monorail A - Start Here
+
+- **Key:** ThingItemMonorailsKit
+- **Prefab Name:** ItemMonorailsKit
+- **Prefab Hash:** -1514871690
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 50
+- **Paintable:** No
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 2500 x Energy + 1 x Copper (from Ingot (Copper)) + 1 x Steel (from Ingot (Steel))
+
+**Constructed From Kits:**
+  - NameOfThing=Monorail Rail (2m), PrefabHash=1621689525, PageLink=ThingStructureRail2
+  - NameOfThing=Monorail Rail (6m), PrefabHash=1740947628, PageLink=ThingStructureRail6
+  - NameOfThing=Monorail Rail (10m), PrefabHash=1688036069, PageLink=ThingStructureRail10
+  - NameOfThing=Monorail Rail (14m), PrefabHash=1676715772, PageLink=ThingStructureRail14
+  - NameOfThing=Monorail Rail (18m), PrefabHash=1783032535, PageLink=ThingStructureRail18
+  - NameOfThing=Monorail Sloped Rail Entry (14m), PrefabHash=541195008, PageLink=ThingStructureRailSlopeEntry14
+  - NameOfThing=Monorail Sloped Rail (14m), PrefabHash=-38917450, PageLink=ThingStructureRailSlope14
+  - NameOfThing=Monorail Sloped Rail Exit (14m), PrefabHash=545284919, PageLink=ThingStructureRailSlopeExit14
+  - NameOfThing=Monorail Curved Rail (14m), PrefabHash=62056900, PageLink=ThingStructureRailCurve14
+  - NameOfThing=Monorail Curved Rail (10m), PrefabHash=81735133, PageLink=ThingStructureRailCurve10
+  - NameOfThing=Monorail SideStep Rail (8m Left), PrefabHash=648996856, PageLink=ThingStructureRailCross8L
+  - NameOfThing=Monorail SideStep Rail (8m Right), PrefabHash=-593372517, PageLink=ThingStructureRailCross8R
+  - NameOfThing=Monorail Step Rail, PrefabHash=1868531189, PageLink=ThingStructureRailStep
+  - NameOfThing=Monorail Rail Support (Single), PrefabHash=1086961374, PageLink=ThingStructureRailSupportSingle
+  - NameOfThing=Monorail Rail Support (Double), PrefabHash=1351181096, PageLink=ThingStructureRailSupportDouble
+
+---
+
+## Monorail Right Rail Switch
+
+A right-branching switch. Setting=0 selects the straight A-B path; Setting=1 selects branch A-C. Use the lever or write Setting through IC10. Rail power remains conductive through all three ends. Be careful not to run into a dead end: Trains can derail! See also: Monorail C - Switches and Routing Connects to Logic Transmitter
+
+- **Key:** ThingStructureRailSwitchRight
+- **Prefab Name:** StructureRailSwitchRight
+- **Prefab Hash:** 1489551499
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Switches Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+  - LogicName=Connection, LogicAccessTypes=2
+**Constructed Things:**
+  - NameOfThing=Monorail Switches Kit, PrefabHash=496624275, PageLink=ThingItemMonorailSwitchesKit
+
+---
+
+## Monorail Route Signal
+
+An automatic directional block signal that can reserve and align the switches inside its protected block for an approaching automatic train. It clears only after the live route is established, and holds conflicting switch changes until the consist leaves. Route interlocking and placement are covered in Monorail D - Signals and Shared Track. A Monorail Block Signal can protect ordinary occupancy, but it cannot replace this signal where switches must be aligned and reserved. Related: Monorail Block Signal Connects to Logic Transmitter
+
+- **Key:** ThingMonorialRouteSignal
+- **Prefab Name:** MonorialRouteSignal
+- **Prefab Hash:** -815409751
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Signals Kit
+**Constructed Things:**
+  - NameOfThing=Monorail Signals Kit, PrefabHash=-1337434550, PageLink=ThingItemMonorailSignalsKit
+
+---
+
+## Monorail SideStep Rail (8m Left)
+
+A monorail track segment for a simple 2m sideways shift to the left. Connects end-to-end with straight rails, curves, and stations. See also: Monorail A - Start Here
+
+- **Key:** ThingStructureRailCross8L
+- **Prefab Name:** StructureRailCross8L
+- **Prefab Hash:** 648996856
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Rails Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
+
+---
+
+## Monorail SideStep Rail (8m Right)
+
+A monorail track segment for a simple 2m sideways shift to the right. Connects end-to-end with straight rails, curves, and stations. See also: Monorail A - Start Here
+
+- **Key:** ThingStructureRailCross8R
+- **Prefab Name:** StructureRailCross8R
+- **Prefab Hash:** -593372517
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Rails Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
+
+---
+
+## Monorail Signal
+
+A manually controlled, bidirectional stop signal. Setting=0 is red and stops trains approaching from either side; Setting=1 is green. Setting is readable and writable through IC10 and a LogicTransmitter. Related: Monorail Block Signal See also: Monorail D - Signals and Shared Track Connects to Logic Transmitter
+
+- **Key:** ThingMonorialSignal
+- **Prefab Name:** MonorialSignal
+- **Prefab Hash:** -1669465760
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=1 x Monorail Signals Kit
+**Constructed Things:**
+  - NameOfThing=Monorail Signals Kit, PrefabHash=-1337434550, PageLink=ThingItemMonorailSignalsKit
+
+---
+
+## Monorail Signals Kit
+
+A construction kit for building monorail signals. Signals control train movement along the track and prevent collisions. This kit can build: Monorail Signal - Manual signal (IC10-controlled red/green) Monorail Block Signal - Automatic directional block signal Monorail Route Signal - Automatic route-setting block signal Monorail One-Way Marker - Automatic direction marker Manual signals obey IC10 commands. Block and route signals are directional and automatic. A Monorail Route Signal can also reserve and align a protected switch path; a Monorail Block Signal cannot set switches. Helpful information: Monorail D - Signals and Shared Track
+
+- **Key:** ThingItemMonorailSignalsKit
+- **Prefab Name:** ItemMonorailSignalsKit
+- **Prefab Hash:** -1337434550
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 10
+- **Paintable:** No
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 1500 x Energy + 1 x Gold (from Ingot (Gold)) + 2 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder)) + 2 x Silicon (from Ingot (Silicon))
+
+**Constructed From Kits:**
+  - NameOfThing=Monorail Block Signal, PrefabHash=-1794432543, PageLink=ThingMonorialBlockSignal
+  - NameOfThing=Monorail Route Signal, PrefabHash=-815409751, PageLink=ThingMonorialRouteSignal
+  - NameOfThing=Monorail One-Way Marker, PrefabHash=441609344, PageLink=ThingMonorailRailOneWayMarker
+  - NameOfThing=Monorail Signal, PrefabHash=-1669465760, PageLink=ThingMonorialSignal
+
+---
+
+## Monorail Sloped Rail (14m)
+
+A sloped monorail track segment for elevation changes. Use this rail to transition trains between different height levels. Connects end-to-end with straight rails, curves, and stations. Place slopes where your track needs to climb or descend. See also: Monorail A - Start Here
+
+- **Key:** ThingStructureRailSlope14
+- **Prefab Name:** StructureRailSlope14
+- **Prefab Hash:** -38917450
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - Description=2 x Monorail Rails Kit
+**Connections:**
+  - LogicName=Connection, LogicAccessTypes=0
+  - LogicName=Connection, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
+
+---
 
 ## Monorail Sloped Rail Entry (14m)
 
@@ -601,6 +815,23 @@ Originally developed to monitor dance marathons, the motion sensor can also be c
 
 ---
 
+## MText_V
+
+
+
+- **Key:** ThingMText_V
+- **Prefab Name:** MText_V
+- **Prefab Hash:** 1009091774
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
+
 ## Muffin
 
 A delicious, semi-healthful snack, nothing comforts a Stationeer 800 million kilometers from home like a hand-made muffin.
@@ -627,16 +858,6 @@ A delicious, semi-healthful snack, nothing comforts a Stationeer 800 million kil
 
 ## Mushroom
 
-- **Key:** ReagentMushroom
-- **Reagents Type:** Mushroom
-**Found In Ore:**
-  - NameOfThing=Cooked Mushroom, QuantityOfThing=1
-  - NameOfThing=Mushroom, QuantityOfThing=1
-
----
-
-## Mushroom
-
 A tasty food item. Unlike normal plants, it consumes Oxygen and outputs Carbon Dioxide. Mushrooms will only mature at a moderate rate in darkness, and prolonged light will kill it.
 
 - **Key:** ThingItemMushroom
@@ -651,6 +872,30 @@ A tasty food item. Unlike normal plants, it consumes Oxygen and outputs Carbon D
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=18min 20s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=5min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=2min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Mushroom Seeds, PrefabHash=311593418, PageLink=ThingSeedBag_Mushroom
 **Found In Fermentation:**
@@ -660,6 +905,17 @@ A tasty food item. Unlike normal plants, it consumes Oxygen and outputs Carbon D
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Mushroom
+
+- **Key:** ReagentMushroom
+- **Reagents Type:** Mushroom
+- **Unit:** g
+**Found In Ore:**
+  - NameOfThing=Cooked Mushroom, QuantityOfThing=1
+  - NameOfThing=Mushroom, QuantityOfThing=1
 
 ---
 
@@ -690,6 +946,7 @@ Grow a Mushroom.
 
 - **Key:** ReagentNickel
 - **Reagents Type:** Nickel
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Nickel), QuantityOfThing=1
   - NameOfThing=Ore (Nickel), QuantityOfThing=1
@@ -731,9 +988,15 @@ Grow a Mushroom.
 Nitrogen can be mixed with Oxygen to stabilize its flammability and avoid Oxygen toxicity, and is a resource in its own right, useful for creating, a breathable atmosphere (at roughly 3:1 Nitrogen and Oxygen). The most efficient source of Nitrogen is from Ice (Nitrice) deposites found around the Solar System. You can Condense Nitrogen into Liquid Nitrogen by lowering its temperature below its boiling point.
 
 - **Key:** GasNitrogen
+- **Gas Type:** Nitrogen
 - **Specific Heat:** 20.6 J/K
+- **Latent Heat:** 0.5 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 40K (-233C)
 - **Boiling Temperature:** 75.2K (-198C) at 100kPa
+- **Max Liquid Temperature:** 190K (-83.1C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 40K (-233C)
 **Found In Ore:**
   - NameOfThing=Ore (Cobalt), QuantityOfThing=3 mol
   - NameOfThing=Ore (Copper), QuantityOfThing=0.5 mol
@@ -759,6 +1022,9 @@ This device is used to create Nitrous Oxide from Oxygen, Nitrogen, and a large a
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.729
+- **Radiation Factor:** 0.729
+- **Solar Heating Factor:** 0.729
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0
   - LogicName=OccupantHash, LogicAccessTypes=0
@@ -798,9 +1064,21 @@ This device is used to create Nitrous Oxide from Oxygen, Nitrogen, and a large a
 Nitrous oxide is a reactive gas that will knock players out if inhaled. It acts as an oxidizer for combustion, and allows volatile gasses to burn significantly hotter, faster, and at a lower autoignition temperature. It can be produced in an energy intensive process inside of a Nitrolyzer.
 
 - **Key:** GasNitrousOxide
+- **Gas Type:** NitrousOxide
 - **Specific Heat:** 37.2 J/K
+- **Latent Heat:** 4 kJ/mol
+- **Moles Per Litre:** N/A
+- **Moles Per Litre (In World):** N/A
 - **Freeze Temperature:** 251K (-21.7C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 431K (158C) at 2000kPa
+- **Min Liquid Pressure:** 800kPa at 251K (-21.7C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=NitrousOxide
+  - FuelType=LiquidMethane, OxidiserType=NitrousOxide
+  - FuelType=Hydrogen, OxidiserType=NitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=NitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=NitrousOxide
 **Found In Ore:**
   - NameOfThing=Ore (Lead), QuantityOfThing=0.4 mol
   - NameOfThing=Ice (Nitrice), QuantityOfThing=2.5 mol
@@ -1207,6 +1485,7 @@ The Recurso OGRE (Orthogonal Ground Rotating Excavator) is a base structure with
 
 - **Key:** ReagentOil
 - **Reagents Type:** Oil
+- **Unit:** ml
 **Found In Ore:**
   - NameOfThing=Soy Oil, QuantityOfThing=1
 
@@ -1336,6 +1615,7 @@ Dedicated wall-mounted low-power diagnostics display. Shows active virtual data 
 ## Orange Coloring
 
 - **Key:** ReagentOrange Coloring
+- **Unit:** g
 
 ---
 
@@ -1716,250 +1996,6 @@ These are items that are mined and can often be smelted. You can also get mixed 
 ## Organics
 
 - **Key:** OrganicPage
-
----
-
-## Overalls (Australia)
-
-- **Key:** ThingItemClothingBagOveralls_Aus
-- **Prefab Name:** ItemClothingBagOveralls_Aus
-- **Prefab Hash:** -869697826
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Brazil)
-
-- **Key:** ThingItemClothingBagOveralls_Brazil
-- **Prefab Name:** ItemClothingBagOveralls_Brazil
-- **Prefab Hash:** 611886665
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Canada)
-
-- **Key:** ThingItemClothingBagOveralls_Canada
-- **Prefab Name:** ItemClothingBagOveralls_Canada
-- **Prefab Hash:** 1265354377
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (China)
-
-- **Key:** ThingItemClothingBagOveralls_China
-- **Prefab Name:** ItemClothingBagOveralls_China
-- **Prefab Hash:** -271773907
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (EU)
-
-- **Key:** ThingItemClothingBagOveralls_EU
-- **Prefab Name:** ItemClothingBagOveralls_EU
-- **Prefab Hash:** 1969872429
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (France)
-
-- **Key:** ThingItemClothingBagOveralls_France
-- **Prefab Name:** ItemClothingBagOveralls_France
-- **Prefab Hash:** 670416861
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Germany)
-
-- **Key:** ThingItemClothingBagOveralls_Germany
-- **Prefab Name:** ItemClothingBagOveralls_Germany
-- **Prefab Hash:** 1858014029
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Japan)
-
-- **Key:** ThingItemClothingBagOveralls_Japan
-- **Prefab Name:** ItemClothingBagOveralls_Japan
-- **Prefab Hash:** -1694123145
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Korea)
-
-- **Key:** ThingItemClothingBagOveralls_Korea
-- **Prefab Name:** ItemClothingBagOveralls_Korea
-- **Prefab Hash:** -1309808369
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (NZ)
-
-- **Key:** ThingItemClothingBagOveralls_NZ
-- **Prefab Name:** ItemClothingBagOveralls_NZ
-- **Prefab Hash:** 102898295
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Overalls (Paintable)
-
-Overalls that can be coloured using the Spray Paints.
-
-- **Key:** ThingItemClothingBagOveralls_Paintable
-- **Prefab Name:** ItemClothingBagOveralls_Paintable
-- **Prefab Hash:** 687536657
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-- **Flashpoint:** 313 K (40oC)
-- **Auto Ignition:** 523 K (250oC)
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
-
 
 ---
 

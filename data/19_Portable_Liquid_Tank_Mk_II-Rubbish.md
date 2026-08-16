@@ -1,4 +1,289 @@
-# Power Pylon - Security Camera
+# Portable Liquid Tank Mk II - Rubbish
+
+## Portable Liquid Tank Mk II
+
+This portable tank stores liquid and is fully insulated. You can bolt one to a Portables Connector using a Wrench, then connect it to a pipe network to refill it. You can refill a Liquid Canister by attaching it to the tank's striped section.
+
+- **Key:** ThingDynamicMKIILiquidCanisterEmpty
+- **Prefab Name:** DynamicMKIILiquidCanisterEmpty
+- **Prefab Hash:** 2130739600
+- **Max Pressure:** 20265 kPa
+- **Volume:** 790L
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
+**Slots:**
+  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
+**Constructed Things:**
+  - NameOfThing=Kit (Portable Liquid Tank Mk II), PrefabHash=-638019974, PageLink=ThingItemKitDynamicMKIILiquidCanister
+
+---
+
+## Portable Solar Panel
+
+- **Key:** ThingPortableSolarPanel
+- **Prefab Name:** PortableSolarPanel
+- **Prefab Hash:** 2043318949
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Charge, LogicAccessTypes=0
+  - LogicName=ChargeRatio, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 200 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
+
+---
+
+## Portable Work Cone
+
+- **Key:** ThingDynamicWorkCone
+- **Prefab Name:** DynamicWorkCone
+- **Prefab Hash:** -1052087580
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Constructed Things:**
+  - NameOfThing=Kit Portable Work Cone, PrefabHash=-422133032, PageLink=ThingItemKitDynamicWorkCone
+
+---
+
+## Portables Connector
+
+- **Key:** ThingStructurePortablesConnector
+- **Prefab Name:** StructurePortablesConnector
+- **Prefab Hash:** -899013427
+- **Base Power Draw:** 10 W
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+- **Placeable In Rocket:** True
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=SortingClass, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+  - LogicName=FreeSlots, LogicAccessTypes=0
+  - LogicName=TotalSlots, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=0
+**Build States:**
+  - Description=1 x Kit (Portables Connector)
+**Connections:**
+  - LogicName=Pipe Input, LogicAccessTypes=0
+  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
+**Constructed Things:**
+  - NameOfThing=Kit (Portables Connector), PrefabHash=1041148999, PageLink=ThingItemKitPortablesConnector
+
+---
+
+## Portables Package
+
+- **Key:** ThingItemPortablesPackage
+- **Prefab Name:** ItemPortablesPackage
+- **Prefab Hash:** 1459105919
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Slots:**
+  - SlotName=None, SlotType=None, SlotIndex=0
+  - SlotName=None, SlotType=None, SlotIndex=1
+  - SlotName=None, SlotType=None, SlotIndex=2
+  - SlotName=None, SlotType=None, SlotIndex=3
+  - SlotName=None, SlotType=None, SlotIndex=4
+  - SlotName=None, SlotType=None, SlotIndex=5
+
+---
+
+## Potato
+
+Potatoes are a simple, fast growing crop that can keep Stationeers alive in emergencies.
+
+- **Key:** ThingItemPotato
+- **Prefab Name:** ItemPotato
+- **Prefab Hash:** 1929046963
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Nutrition:** 10
+- **Nutrition Quality:** Low (-25% hydration capacity)
+- **Growth Time:** 50min 1s
+- **Stack Size:** 20
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=5min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=3min 20s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
+**Constructed From Kits:**
+  - NameOfThing=Potato Seeds, PrefabHash=1005571172, PageLink=ThingSeedBag_Potato
+**Found In Fermentation:**
+  - NameOfThing=Liquid Alcohol, QuantityOfThing=8 mol
+  - NameOfThing=Polluted Water, QuantityOfThing=0.4 mol
+**Used In:**
+  - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
+  - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
+  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Potato
+
+- **Key:** ReagentPotato
+- **Reagents Type:** Potato
+**Found In Ore:**
+  - NameOfThing=Baked Potato, QuantityOfThing=1
+  - NameOfThing=Potato, QuantityOfThing=1
+
+---
+
+## Potato Seeds
+
+Grow a Potato.
+
+- **Key:** ThingSeedBag_Potato
+- **Prefab Name:** SeedBag_Potato
+- **Prefab Hash:** 1005571172
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Nutrition:** 0
+- **Nutrition Quality:** Low (-25% hydration capacity)
+- **Stack Size:** 10
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Found In Fermentation:**
+  - NameOfThing=Liquid Alcohol, QuantityOfThing=6 mol
+  - NameOfThing=Polluted Water, QuantityOfThing=0.3 mol
+**Used In:**
+  - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Powdered Eggs
+
+A high-nutrient cooked food, which can be canned.
+
+- **Key:** ThingItemCookedPowderedEggs
+- **Prefab Name:** ItemCookedPowderedEggs
+- **Prefab Hash:** -1712264413
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Nutrition:** 11
+- **Nutrition Quality:** Ok
+- **Stack Size:** 10
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 4 x Egg (from Egg, Egg)
+  - Printer: Microwave (Tier One)
+    - 4 x Egg (from Egg, Egg)
+
+**Used In:**
+  - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
+  - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
+
+---
+
+## Power Connector
+
+Attaches a Kit (Portable Generator) to a power network.
+
+- **Key:** ThingStructurePowerConnector
+- **Prefab Name:** StructurePowerConnector
+- **Prefab Hash:** -782951720
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Logic Slot Types:**
+  - LogicName=Occupied, LogicAccessTypes=0
+  - LogicName=OccupantHash, LogicAccessTypes=0
+  - LogicName=Quantity, LogicAccessTypes=0
+  - LogicName=Damage, LogicAccessTypes=0
+  - LogicName=Class, LogicAccessTypes=0
+  - LogicName=MaxQuantity, LogicAccessTypes=0
+  - LogicName=PrefabHash, LogicAccessTypes=0
+  - LogicName=SortingClass, LogicAccessTypes=0
+  - LogicName=ReferenceId, LogicAccessTypes=0
+  - LogicName=FreeSlots, LogicAccessTypes=0
+  - LogicName=TotalSlots, LogicAccessTypes=0
+**Slots:**
+  - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
+**Build States:**
+  - Description=1 x Kit (Power Connector)
+**Connections:**
+  - LogicName=Power Input, LogicAccessTypes=0
+**Constructed Things:**
+  - NameOfThing=Kit (Power Connector), PrefabHash=839924019, PageLink=ThingItemPowerConnector
+
+---
+
+## Power Control
+
+Under distant suns and demanding environments, Stationeer systems need to balance reliability, resilience and versatility. The power control board allows remote enabling and disabling of selected devices, disconnecting manual operation. The circuit board has two modes: 'Link' switches all devices on or off; 'Toggle' switches each device to their alternate state.
+
+- **Key:** ThingCircuitboardPowerControl
+- **Prefab Name:** CircuitboardPowerControl
+- **Prefab Hash:** -1923778429
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** No
+- **Flashpoint:** 393 K (120oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
+
+---
 
 ## Power Pylon
 
@@ -323,16 +608,6 @@ Liquid propellants bring greater efficiencies with Pumped Liquid Engine. Two inp
 
 ## Pumpkin
 
-- **Key:** ReagentPumpkin
-- **Reagents Type:** Pumpkin
-**Found In Ore:**
-  - NameOfThing=Cooked Pumpkin, QuantityOfThing=1
-  - NameOfThing=Pumpkin, QuantityOfThing=1
-
----
-
-## Pumpkin
-
 Pumpkins are a perennial plant, with both a long growth time, and a long time between harvests. Its low requirement for darkness allows for accelerated growing if provided with extra light.
 
 - **Key:** ThingItemPumpkin
@@ -347,6 +622,30 @@ Pumpkins are a perennial plant, with both a long growth time, and a long time be
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.432 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=8min 20s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=1min 40s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=30min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Pumpkin Seeds, PrefabHash=1423199840, PageLink=ThingSeedBag_Pumpkin
 **Found In Fermentation:**
@@ -356,6 +655,16 @@ Pumpkins are a perennial plant, with both a long growth time, and a long time be
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Pumpkin
+
+- **Key:** ReagentPumpkin
+- **Reagents Type:** Pumpkin
+**Found In Ore:**
+  - NameOfThing=Cooked Pumpkin, QuantityOfThing=1
+  - NameOfThing=Pumpkin, QuantityOfThing=1
 
 ---
 
@@ -1177,6 +1486,7 @@ A device for collecting the raw resources while destroying an item. Produces Rea
 ## Red Coloring
 
 - **Key:** ReagentRed Coloring
+- **Unit:** g
 
 ---
 
@@ -1193,6 +1503,9 @@ The refrigerated OmniKool vending machine is an advanced version of the standard
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 1.63
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
@@ -1524,16 +1837,6 @@ Place a respawn point to set a player entry point to your base when loading in, 
 
 ## Rice
 
-- **Key:** ReagentRice
-- **Reagents Type:** Rice
-**Found In Ore:**
-  - NameOfThing=Cooked Rice, QuantityOfThing=1
-  - NameOfThing=Rice, QuantityOfThing=1
-
----
-
-## Rice
-
 Rice grows at a moderate rate as long as its supplied with plenty of water. Being more dependant on water, rice plants can easily die during periods of drought.
 
 - **Key:** ThingItemRice
@@ -1548,6 +1851,30 @@ Rice grows at a moderate rate as long as its supplied with plenty of water. Bein
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
+**Life Requirements:**
+  - Name=Inhaled Gasses, Value=Carbon Dioxide 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Exhaled Gasses, Value=Oxygen 8.64 Moles per hour , Gene=Gas production, ValueSize=18
+  - Name=Toxic Gasses, Value=Pollutant, Methane, Silanol, Hydrochloric Acid, Hydrazine, , Gene=Toxins resistance, ValueSize=18
+  - Name=Water usage, Value=0.864 Moles per hour, Gene=Water usage, ValueSize=18
+  - Name=Min grow temperature, Value=0°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max grow temperature, Value=50°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min ideal grow temperature, Value=20°C, Gene=Low temperature resistance, ValueSize=18
+  - Name=Max ideal grow temperature, Value=30°C, Gene=High temperature resistance, ValueSize=18
+  - Name=Min grow pressure, Value=25kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max grow pressure, Value=200kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Min ideal grow pressure, Value=50kPa, Gene=Low pressure resistance, ValueSize=18
+  - Name=Max ideal grow pressure, Value=100kPa, Gene=High pressure resistance, ValueSize=18
+  - Name=Light per day, Value=10min 0s, Gene=Light per day, ValueSize=18
+  - Name=Darkness per day, Value=5min 0s, Gene=Darkness per day, ValueSize=18
+  - Name=Time until toxin damage, Value=5min 0s, Gene=Toxins tolerance, ValueSize=18
+  - Name=Time until drought damage, Value=5min 0s, Gene=Drought tolerance, ValueSize=18
+  - Name=Time until frozen damage, Value=5min 0s, Gene=Low temperature tolerance, ValueSize=18
+  - Name=Time until overheat damage, Value=5min 0s, Gene=High temperature tolerance, ValueSize=18
+  - Name=Time until suffocate damage, Value=1h 0min 0s, Gene=Suffocation tolerance, ValueSize=18
+  - Name=Time until low pressure damage, Value=10min 0s, Gene=Low pressure tolerance, ValueSize=18
+  - Name=Time until high pressure damage, Value=10min 0s, Gene=High pressure tolerance, ValueSize=18
+  - Name=Time until light damage, Value=1h 0min 0s, Gene=Light tolerance, ValueSize=18
+  - Name=Time until darkness damage, Value=1h 0min 0s, Gene=Darkness tolerance, ValueSize=18
 **Constructed From Kits:**
   - NameOfThing=Rice Seeds, PrefabHash=-1691151239, PageLink=ThingSeedBag_Rice
 **Found In Fermentation:**
@@ -1557,6 +1884,17 @@ Rice grows at a moderate rate as long as its supplied with plenty of water. Bein
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
   - NameOfThing=Fermenter, PrefabHash=1103525139, PageLink=ThingStructureFermenter
+
+---
+
+## Rice
+
+- **Key:** ReagentRice
+- **Reagents Type:** Rice
+- **Unit:** g
+**Found In Ore:**
+  - NameOfThing=Cooked Rice, QuantityOfThing=1
+  - NameOfThing=Rice, QuantityOfThing=1
 
 ---
 
@@ -1740,6 +2078,9 @@ The Celestial Tracker can be placed in Rockets and when turned on will provide d
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.271
 **Build States:**
   - StationBuildCostInsert
 **Connections:**
@@ -2007,6 +2348,9 @@ A distant cousin of the jeep, the Mk I {Sinotai electric rover is one of the mos
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 4.33
+- **Radiation Factor:** 4.33
+- **Solar Heating Factor:** 4.33
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
   - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10
@@ -2072,235 +2416,6 @@ A rubber duck.
 ## Rubbish
 
 - **Key:** RubbishPage
-
----
-
-## Safety Glasses
-
-A pair of safety glasses.
-
-- **Key:** ThingSafetyGlasses
-- **Prefab Name:** SafetyGlasses
-- **Prefab Hash:** 1028590147
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 15 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Salicylic Acid
-
-- **Key:** ReagentSalicylic Acid
-
----
-
-## Salt
-
-A solid chunk of Liquid Sodium Chloride. It has a very high melt temperature and can only be melted either in a hot furnace or a hot melting room. It cannot be processed by the Ice Crusher or Arc Furnace.
-
-- **Key:** ThingItemPureIceLiquidSodiumChloride
-- **Prefab Name:** ItemPureIceLiquidSodiumChloride
-- **Prefab Hash:** 1294338082
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 50
-- **Paintable:** No
-- **Freeze Temperature:** 606 K (333 oC))
-- **Flashpoint:** 273 K (0oC)
-**Used In:**
-  - NameOfThing=Advanced Furnace, PrefabHash=545937711, PageLink=ThingStructureAdvancedFurnace
-  - NameOfThing=Furnace, PrefabHash=1947944864, PageLink=ThingStructureFurnace
-  - NameOfThing=Industrial Burner, PrefabHash=1493870235, PageLink=ThingStructureIndustrialBurner
-
----
-
-## Sanitation
-
-Over time satisfying thirst and hunger of Stationeers will cause them to need to relieve themselves. The ODA recommends that Stationeers set up a Modern Toilet within their base after landing, requiring an atmosphere and Water to operate. This will output Polluted Water which can be recycled using a Water Purifier and then used for other purposes, such as farming or drinking. The Waste Bag can be used as a portable alternative to the toilet but the contents are not recoverable.
-
-- **Key:** SanitationPage
-
----
-
-## Santa Hat
-
-A Santa Hat.
-
-- **Key:** ThingSantaHat
-- **Prefab Name:** SantaHat
-- **Prefab Hash:** 2071717861
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** No
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 10 x Energy + 30 x Silicon (from Ingot (Silicon))
-
-
----
-
-## Screwdriver
-
-This standard issue frictional adherence adjustor is a top of the line, bi-rotational model with a columnated uni-grip. It's definitely not just a screwdriver. Use it for construction and deconstruction of certain kits, and setting values on logic units.
-
-- **Key:** ThingItemScrewdriver
-- **Prefab Name:** ItemScrewdriver
-- **Prefab Hash:** 687940869
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Auto Ignition:** 523 K (250oC)
-**Build Recipe:**
-  - Printer: Tool Manufactory (Tier One)
-    - 500 x Energy + 2 x Iron (from Ingot (Iron))
-
-
----
-
-## SDB Hopper
-
-- **Key:** ThingStructureSDBHopper
-- **Prefab Name:** StructureSDBHopper
-- **Prefab Hash:** -1875856925
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (SDB Hopper)
-  - Description=Welding Torch 4 x Iron Sheets
-**Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (SDB Hopper), PrefabHash=323957548, PageLink=ThingItemKitSDBHopper
-
----
-
-## SDB Hopper Advanced
-
-- **Key:** ThingStructureSDBHopperAdvanced
-- **Prefab Name:** StructureSDBHopperAdvanced
-- **Prefab Hash:** 467225612
-- **Base Power Draw:** 5 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (SDB Hopper)
-  - Description=Welding Torch 4 x Iron Sheets
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Kit (SDB Hopper), PrefabHash=323957548, PageLink=ThingItemKitSDBHopper
-
----
-
-## SDB Silo
-
-The majestic silo holds large quantities of almost anything. While it is doing that, it cannot be deconstructed. Note also, that any food you put into a silo is likely to decay extremely rapidly. The silo can hold up to 600 stacks.
-
-- **Key:** ThingStructureSDBSilo
-- **Prefab Name:** StructureSDBSilo
-- **Prefab Hash:** 1155865682
-- **Base Power Draw:** 1 W
-- **Memory Size:** 4800 KB
-- **Memory Access:** Read
-- **Has Memory:** true
-- **Paintable:** Yes
-**Logic Types:**
-  - Text=SiloInstruction.SlotContents OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-20 | QUANTITY | UINT13_13 | | 21-52 | PREFAB_HASH | UINT_32 | | 53-63 | UNUSED | 11 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
-**Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-**Build States:**
-  - Description=1 x Kit (SDB Silo)
-  - Description=Welding Torch 15 x Steel Sheets
-  - Description=Welding Torch 10 x Plastic Sheets
-  - Description=Screwdriver 5 x Cable Coil
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
-**Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Kit (SDB Silo), PrefabHash=1932952652, PageLink=ThingKitSDBSilo
-
----
-
-## Search
-
-- **Key:** Search
-
----
-
-## Security Camera
-
-Security cameras can be paired with a Motion Sensor, then connected to a Console fitted with a Camera Display for that 'always watched' feeling.
-
-- **Key:** ThingItemSecurityCamera
-- **Prefab Name:** ItemSecurityCamera
-- **Prefab Hash:** -1981101032
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Stack Size:** 5
-- **Paintable:** No
-- **Flashpoint:** 553 K (280oC)
-- **Auto Ignition:** 1.47 kK (1200oC)
-**Constructed From Kits:**
-  - NameOfThing=Camera, PrefabHash=-342072665, PageLink=ThingStructureCamera
 
 ---
 

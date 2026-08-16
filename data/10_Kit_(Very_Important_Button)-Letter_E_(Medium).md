@@ -1,4 +1,224 @@
-# Kit Portable A Frame Sign (Stripes) - Letter J (Medium)
+# Kit (Very Important Button) - Letter E (Medium)
+
+## Kit (Very Important Button)
+
+- **Key:** ThingItemKitVeryImportantButton
+- **Prefab Name:** ItemKitVeryImportantButton
+- **Prefab Hash:** -1726714475
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 973 K (700oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper)) + 1 x Silicon (from Ingot (Silicon))
+
+**Constructed From Kits:**
+  - NameOfThing=Very Important Button, PrefabHash=-1802673373, PageLink=ThingStructureVeryImportantButton
+
+---
+
+## Kit (Volume Pump)
+
+This kit creates a Volume Pump.
+
+- **Key:** ThingItemPipeVolumePump
+- **Prefab Name:** ItemPipeVolumePump
+- **Prefab Hash:** -1766301997
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Volume Pump, PrefabHash=-321403609, PageLink=ThingStructureVolumePump
+
+---
+
+## Kit (Wall Cooler)
+
+This kit creates a Wall Cooler.
+
+- **Key:** ThingItemWallCooler
+- **Prefab Name:** ItemWallCooler
+- **Prefab Hash:** -1567752627
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 1.47 kK (1200oC)
+- **Auto Ignition:** 1.07 kK (800oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Wall Cooler, PrefabHash=-739292323, PageLink=ThingStructureWallCooler
+
+---
+
+## Kit (Wall Heater)
+
+This kit creates a Kit (Wall Heater).
+
+- **Key:** ThingItemWallHeater
+- **Prefab Name:** ItemWallHeater
+- **Prefab Hash:** 1880134612
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 5
+- **Paintable:** Yes
+- **Flashpoint:** 1.47 kK (1200oC)
+- **Auto Ignition:** 1.07 kK (800oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Wall Heater, PrefabHash=24258244, PageLink=ThingStructureWallHeater
+
+---
+
+## Kit (Wall)
+
+- **Key:** ThingItemKitWall
+- **Prefab Name:** ItemKitWall
+- **Prefab Hash:** -1826855889
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 30
+- **Paintable:** Yes
+- **Flashpoint:** 973 K (700oC)
+- **Auto Ignition:** 1.47 kK (1200oC)
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Steel (from Ingot (Steel))
+
+**Constructed From Kits:**
+  - NameOfThing=Composite Wall (Type 1), PrefabHash=1237302061, PageLink=ThingStructureCompositeWall
+  - NameOfThing=Composite Wall (Type 2), PrefabHash=718343384, PageLink=ThingStructureCompositeWall02
+  - NameOfThing=Composite Wall (Type 3), PrefabHash=1574321230, PageLink=ThingStructureCompositeWall03
+  - NameOfThing=Composite Wall (Type 4), PrefabHash=-1011701267, PageLink=ThingStructureCompositeWall04
+  - NameOfThing=Composite Window, PrefabHash=-2060571986, PageLink=ThingStructureCompositeWindow
+
+---
+
+## Kit (Water Bottle Filler)
+
+- **Key:** ThingItemKitWaterBottleFiller
+- **Prefab Name:** ItemKitWaterBottleFiller
+- **Prefab Hash:** 159886536
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 10
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 620 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper)) + 8 x Silicon (from Ingot (Silicon))
+
+**Constructed From Kits:**
+  - NameOfThing=Waterbottle Filler, PrefabHash=-756587791, PageLink=ThingStructureWaterBottleFillerPowered
+  - NameOfThing=Waterbottle Filler, PrefabHash=1986658780, PageLink=ThingStructureWaterBottleFillerPoweredBottom
+
+---
+
+## Kit (Water Purifier)
+
+- **Key:** ThingItemKitWaterPurifier
+- **Prefab Name:** ItemKitWaterPurifier
+- **Prefab Hash:** 611181283
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 1
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 6000 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper))
+
+**Constructed From Kits:**
+  - NameOfThing=Water Purifier, PrefabHash=887383294, PageLink=ThingStructureWaterPurifier
+
+---
+
+## Kit (Weather Station)
+
+- **Key:** ThingItemKitWeatherStation
+- **Prefab Name:** ItemKitWeatherStation
+- **Prefab Hash:** 337505889
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 1
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 12000 x Energy + 8 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 3 x Steel (from Ingot (Steel))
+
+**Constructed From Kits:**
+  - NameOfThing=Weather Station, PrefabHash=1997212478, PageLink=ThingStructureWeatherStation
+
+---
+
+## Kit (Wind Turbine)
+
+- **Key:** ThingItemKitWindTurbine
+- **Prefab Name:** ItemKitWindTurbine
+- **Prefab Hash:** -868916503
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 10
+- **Paintable:** Yes
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 12000 x Energy + 10 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
+**Constructed From Kits:**
+  - NameOfThing=Wind Turbine, PrefabHash=-2082355173, PageLink=ThingStructureWindTurbine
+
+---
+
+## Kit Picture Frame
+
+- **Key:** ThingItemKitPictureFrame
+- **Prefab Name:** ItemKitPictureFrame
+- **Prefab Hash:** -2062364768
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Stack Size:** 10
+- **Paintable:** No
+- **Flashpoint:** 373 K (100oC)
+- **Auto Ignition:** 573 K (300oC)
+**Constructed From Kits:**
+  - NameOfThing=Picture Frame Thick Landscape Large, PrefabHash=-1434523206, PageLink=ThingStructurePictureFrameThickLandscapeLarge
+  - NameOfThing=Picture Frame Thick Landscape Small, PrefabHash=-2041566697, PageLink=ThingStructurePictureFrameThickLandscapeSmall
+  - NameOfThing=Picture Frame Thick Landscape Large, PrefabHash=950004659, PageLink=ThingStructurePictureFrameThickMountLandscapeLarge
+  - NameOfThing=Picture Frame Thick Landscape Small, PrefabHash=347154462, PageLink=ThingStructurePictureFrameThickMountLandscapeSmall
+  - NameOfThing=Picture Frame Thick Mount Portrait Small, PrefabHash=-2066653089, PageLink=ThingStructurePictureFrameThickMountPortraitSmall
+  - NameOfThing=Picture Frame Thick Mount Portrait Large, PrefabHash=-1459641358, PageLink=ThingStructurePictureFrameThickMountPortraitLarge
+  - NameOfThing=Picture Frame Thick Portrait Large, PrefabHash=-1686949570, PageLink=ThingStructurePictureFrameThickPortraitLarge
+  - NameOfThing=Picture Frame Thick Portrait Small, PrefabHash=-1218579821, PageLink=ThingStructurePictureFrameThickPortraitSmall
+  - NameOfThing=Picture Frame Thin Landscape Large, PrefabHash=-1418288625, PageLink=ThingStructurePictureFrameThinLandscapeLarge
+  - NameOfThing=Picture Frame Thin Landscape Small, PrefabHash=-2024250974, PageLink=ThingStructurePictureFrameThinLandscapeSmall
+  - NameOfThing=Picture Frame Thin Landscape Large, PrefabHash=-1146760430, PageLink=ThingStructurePictureFrameThinMountLandscapeLarge
+  - NameOfThing=Picture Frame Thin Landscape Small, PrefabHash=-1752493889, PageLink=ThingStructurePictureFrameThinMountLandscapeSmall
+  - NameOfThing=Picture Frame Thin Portrait Large, PrefabHash=1094895077, PageLink=ThingStructurePictureFrameThinMountPortraitLarge
+  - NameOfThing=Picture Frame Thin Portrait Small, PrefabHash=1835796040, PageLink=ThingStructurePictureFrameThinMountPortraitSmall
+  - NameOfThing=Picture Frame Thin Portrait Large, PrefabHash=1212777087, PageLink=ThingStructurePictureFrameThinPortraitLarge
+  - NameOfThing=Picture Frame Thin Portrait Small, PrefabHash=1684488658, PageLink=ThingStructurePictureFrameThinPortraitSmall
+
+---
 
 ## Kit Portable A Frame Sign (Stripes)
 
@@ -1306,6 +1526,9 @@ Optimized for radiating heat in vacuum and low pressure environments. If pointed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.736
+- **Radiation Factor:** 73.6
+- **Solar Heating Factor:** 0
 **Build States:**
   - Description=1 x Kit (Large Extendable Radiator)
   - Description=Welding Torch 2 x Steel Sheets
@@ -1382,6 +1605,9 @@ This large communications unit can be used to communicate with nearby trade vess
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.849
+- **Radiation Factor:** 0.042
+- **Solar Heating Factor:** 8.49
 **Build States:**
   - Description=5 x Kit (Tank)
 **Connections:**
@@ -1439,6 +1665,9 @@ The atmospherics LArRE can pump gas into and out of its storage canister. When l
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Logic Slot Types:**
   - LogicName=Occupied, LogicAccessTypes=0
   - LogicName=OccupantHash, LogicAccessTypes=0
@@ -1666,6 +1895,7 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 
 - **Key:** ReagentLead
 - **Reagents Type:** Lead
+- **Unit:** g
 **Found In Ore:**
   - NameOfThing=Ingot (Lead), QuantityOfThing=1
   - NameOfThing=Ore (Lead), QuantityOfThing=1
@@ -2096,156 +2326,6 @@ Displays a Setting value. Has an adjustable Color.
 - **Key:** ThingMText_E
 - **Prefab Name:** MText_E
 - **Prefab Hash:** -1197750944
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
-
----
-
-## Letter F (Large)
-
-- **Key:** ThingLText_F
-- **Prefab Name:** LText_F
-- **Prefab Hash:** -2014994578
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
-
----
-
-## Letter F (Medium)
-
-- **Key:** ThingMText_F
-- **Prefab Name:** MText_F
-- **Prefab Hash:** 563254490
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
-
----
-
-## Letter G (Large)
-
-- **Key:** ThingLText_G
-- **Prefab Name:** LText_G
-- **Prefab Hash:** -253579272
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
-
----
-
-## Letter G (Medium)
-
-- **Key:** ThingMText_G
-- **Prefab Name:** MText_G
-- **Prefab Hash:** 1452647500
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
-
----
-
-## Letter H (Large)
-
-- **Key:** ThingLText_H
-- **Prefab Name:** LText_H
-- **Prefab Hash:** 1616753257
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
-
----
-
-## Letter H (Medium)
-
-- **Key:** ThingMText_H
-- **Prefab Name:** MText_H
-- **Prefab Hash:** -970278435
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
-
----
-
-## Letter I (Large)
-
-- **Key:** ThingLText_I
-- **Prefab Name:** LText_I
-- **Prefab Hash:** 391807743
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
-
----
-
-## Letter I (Medium)
-
-- **Key:** ThingMText_I
-- **Prefab Name:** MText_I
-- **Prefab Hash:** -1322415797
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
-
----
-
-## Letter J (Large)
-
-- **Key:** ThingLText_J
-- **Prefab Name:** LText_J
-- **Prefab Hash:** -1907109051
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - StationBuildCostInsert
-**Constructed Things:**
-  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
-
----
-
-## Letter J (Medium)
-
-- **Key:** ThingMText_J
-- **Prefab Name:** MText_J
-- **Prefab Hash:** 673503473
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes

@@ -1,4 +1,154 @@
-# Letter K (Large) - Logic Dial
+# Letter F (Large) - Liquid Volume Pump
+
+## Letter F (Large)
+
+- **Key:** ThingLText_F
+- **Prefab Name:** LText_F
+- **Prefab Hash:** -2014994578
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
+
+---
+
+## Letter F (Medium)
+
+- **Key:** ThingMText_F
+- **Prefab Name:** MText_F
+- **Prefab Hash:** 563254490
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
+
+## Letter G (Large)
+
+- **Key:** ThingLText_G
+- **Prefab Name:** LText_G
+- **Prefab Hash:** -253579272
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
+
+---
+
+## Letter G (Medium)
+
+- **Key:** ThingMText_G
+- **Prefab Name:** MText_G
+- **Prefab Hash:** 1452647500
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
+
+## Letter H (Large)
+
+- **Key:** ThingLText_H
+- **Prefab Name:** LText_H
+- **Prefab Hash:** 1616753257
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
+
+---
+
+## Letter H (Medium)
+
+- **Key:** ThingMText_H
+- **Prefab Name:** MText_H
+- **Prefab Hash:** -970278435
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
+
+## Letter I (Large)
+
+- **Key:** ThingLText_I
+- **Prefab Name:** LText_I
+- **Prefab Hash:** 391807743
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
+
+---
+
+## Letter I (Medium)
+
+- **Key:** ThingMText_I
+- **Prefab Name:** MText_I
+- **Prefab Hash:** -1322415797
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
+
+## Letter J (Large)
+
+- **Key:** ThingLText_J
+- **Prefab Name:** LText_J
+- **Prefab Hash:** -1907109051
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Large), PrefabHash=114270805, PageLink=ThingItemKitLettersLarge
+
+---
+
+## Letter J (Medium)
+
+- **Key:** ThingMText_J
+- **Prefab Name:** MText_J
+- **Prefab Hash:** 673503473
+- **Memory Size:** 0 B
+- **Memory Access:** None
+- **Paintable:** Yes
+**Build States:**
+  - StationBuildCostInsert
+**Constructed Things:**
+  - NameOfThing=Kit (Letters Medium), PrefabHash=-235611444, PageLink=ThingItemKitLettersMedium
+
+---
 
 ## Letter K (Large)
 
@@ -803,9 +953,22 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 Liquid Alcohol is a relatively safe and versatile volatile liquid at room temperatures. When exposed to a vacuum it will decompose into Methane to form a small head pressure.
 
 - **Key:** GasLiquidAlcohol
+- **Gas Type:** LiquidAlcohol
 - **Specific Heat:** 33 J/K
+- **Latent Heat:** 2 kJ/mol
+- **Moles Per Litre:** 17.2 mols
+- **Moles Per Litre (In World):** 0.345 mols
 - **Freeze Temperature:** 232K (-41.5C)
 - **Boiling Temperature:** 322K (49.4C) at 100kPa
+- **Max Liquid Temperature:** 424K (150C) at 1000kPa
+- **Min Liquid Pressure:** 6.3kPa at 232K (-41.5C)
+**Combustion:**
+  - FuelType=LiquidAlcohol, OxidiserType=Oxygen
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOxygen
+  - FuelType=LiquidAlcohol, OxidiserType=NitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=Ozone
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOzone
 
 ---
 
@@ -842,6 +1005,9 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.041
+- **Radiation Factor:** 0.041
+- **Solar Heating Factor:** 0.082
 **Build Recipe:**
   - Printer: Hydraulic Pipe Bender (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron))
@@ -859,6 +1025,9 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.084
+- **Radiation Factor:** 0.084
+- **Solar Heating Factor:** 0.084
 **Build Recipe:**
   - Printer: Hydraulic Pipe Bender (Tier Two)
     - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
@@ -879,6 +1048,9 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.626
+- **Radiation Factor:** 0.025
+- **Solar Heating Factor:** 1.25
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=10 x Kit (Rocket Liquid Fuel Tank)
@@ -900,6 +1072,9 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.378
+- **Radiation Factor:** 0.015
+- **Solar Heating Factor:** 0.756
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=5 x Kit (Rocket Liquid Fuel Tank)
@@ -921,6 +1096,9 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.114
+- **Radiation Factor:** 0.005
+- **Solar Heating Factor:** 0.228
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Rocket Liquid Fuel Tank)
@@ -937,9 +1115,15 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 Carbon Dioxide in its liquid form. It can be created by lowering the temperature of Carbon Dioxide gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner. Liquid Carbon Dioxide introduced into the atmosphere will quickly evaporate back into Carbon Dioxide.
 
 - **Key:** GasLiquidCarbonDioxide
+- **Gas Type:** LiquidCarbonDioxide
 - **Specific Heat:** 28.2 J/K
+- **Latent Heat:** 0.6 kJ/mol
+- **Moles Per Litre:** 25 mols
+- **Moles Per Litre (In World):** 2.71 mols
 - **Freeze Temperature:** 218K (-55.3C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 266K (-6.8C) at 6000kPa
+- **Min Liquid Pressure:** 517kPa at 218K (-55.3C)
 
 ---
 
@@ -969,9 +1153,17 @@ Carbon Dioxide in its liquid form. It can be created by lowering the temperature
 Hydrazine in its liquid form. It is stable at room temperature and makes for an excellent rocket fuel.
 
 - **Key:** GasLiquidHydrazine
+- **Gas Type:** LiquidHydrazine
 - **Specific Heat:** 48.4 J/K
+- **Latent Heat:** 4 kJ/mol
+- **Moles Per Litre:** 33.3 mols
+- **Moles Per Litre (In World):** 1.39 mols
 - **Freeze Temperature:** 246K (-26.9C)
 - **Boiling Temperature:** 334K (60.4C) at 100kPa
+- **Max Liquid Temperature:** 521K (248C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 246K (-26.9C)
+**Combustion:**
+  - FuelType=LiquidHydrazine, OxidiserType=LiquidHydrazine
 
 ---
 
@@ -980,9 +1172,15 @@ Hydrazine in its liquid form. It is stable at room temperature and makes for an 
 A highly toxic liquid.
 
 - **Key:** GasLiquidHydrochloricAcid
+- **Gas Type:** LiquidHydrochloricAcid
 - **Specific Heat:** 37 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** 35.7 mols
+- **Moles Per Litre (In World):** 0.714 mols
 - **Freeze Temperature:** 247K (-25.9C)
 - **Boiling Temperature:** 336K (62.3C) at 100kPa
+- **Max Liquid Temperature:** 431K (158C) at 1000kPa
+- **Min Liquid Pressure:** 6.3kPa at 247K (-25.9C)
 
 ---
 
@@ -991,9 +1189,22 @@ A highly toxic liquid.
 Hydrogen in its liquid form. It can be created by lowering the temperature of Hydrogen gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner.
 
 - **Key:** GasLiquidHydrogen
+- **Gas Type:** LiquidHydrogen
 - **Specific Heat:** 20.4 J/K
+- **Latent Heat:** 0.2 kJ/mol
+- **Moles Per Litre:** 35.7 mols
+- **Moles Per Litre (In World):** 10.3 mols
 - **Freeze Temperature:** 15.2K (-258C)
 - **Boiling Temperature:** 28.2K (-245C) at 100kPa
+- **Max Liquid Temperature:** 70.1K (-203C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 15.2K (-258C)
+**Combustion:**
+  - FuelType=LiquidHydrogen, OxidiserType=Oxygen
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOxygen
+  - FuelType=LiquidHydrogen, OxidiserType=NitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=Ozone
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOzone
 
 ---
 
@@ -1002,9 +1213,22 @@ Hydrogen in its liquid form. It can be created by lowering the temperature of Hy
 Methane in its liquid form. It can be created by lowering the temperature of Methane gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner.
 
 - **Key:** GasLiquidMethane
+- **Gas Type:** LiquidMethane
 - **Specific Heat:** 20.4 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** 25 mols
+- **Moles Per Litre (In World):** 3.7 mols
 - **Freeze Temperature:** 81.5K (-192C)
 - **Boiling Temperature:** 116K (-157C) at 100kPa
+- **Max Liquid Temperature:** 195K (-78.1C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 81.5K (-192C)
+**Combustion:**
+  - FuelType=LiquidMethane, OxidiserType=Oxygen
+  - FuelType=LiquidMethane, OxidiserType=LiquidOxygen
+  - FuelType=LiquidMethane, OxidiserType=NitrousOxide
+  - FuelType=LiquidMethane, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidMethane, OxidiserType=Ozone
+  - FuelType=LiquidMethane, OxidiserType=LiquidOzone
 
 ---
 
@@ -1013,9 +1237,15 @@ Methane in its liquid form. It can be created by lowering the temperature of Met
 Nitrogen in its liquid form. It can be created by lowering the temperature of Nitrogen gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner.
 
 - **Key:** GasLiquidNitrogen
+- **Gas Type:** LiquidNitrogen
 - **Specific Heat:** 20.6 J/K
+- **Latent Heat:** 0.5 kJ/mol
+- **Moles Per Litre:** 28.7 mols
+- **Moles Per Litre (In World):** 3.8 mols
 - **Freeze Temperature:** 40K (-233C)
 - **Boiling Temperature:** 75.2K (-198C) at 100kPa
+- **Max Liquid Temperature:** 190K (-83.1C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 40K (-233C)
 
 ---
 
@@ -1024,9 +1254,21 @@ Nitrogen in its liquid form. It can be created by lowering the temperature of Ni
 Nitrous Oxide in its liquid form. It can be created by lowering the temperature of Nitrous Oxide gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner. Liquid Nitrous Oxide introduced into the atmosphere will quickly evaporate back into Nitrous Oxide.
 
 - **Key:** GasLiquidNitrousOxide
+- **Gas Type:** LiquidNitrousOxide
 - **Specific Heat:** 37.2 J/K
+- **Latent Heat:** 4 kJ/mol
+- **Moles Per Litre:** 38.5 mols
+- **Moles Per Litre (In World):** 0.769 mols
 - **Freeze Temperature:** 251K (-21.7C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 431K (158C) at 2000kPa
+- **Min Liquid Pressure:** 800kPa at 251K (-21.7C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidMethane, OxidiserType=LiquidNitrousOxide
+  - FuelType=Hydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidNitrousOxide
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidNitrousOxide
 
 ---
 
@@ -1035,9 +1277,21 @@ Nitrous Oxide in its liquid form. It can be created by lowering the temperature 
 Oxygen in its liquid form. It can be created by lowering the temperature of Oxygen gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner.
 
 - **Key:** GasLiquidOxygen
+- **Gas Type:** LiquidOxygen
 - **Specific Heat:** 21.1 J/K
+- **Latent Heat:** 0.8 kJ/mol
+- **Moles Per Litre:** 33.3 mols
+- **Moles Per Litre (In World):** 4.45 mols
 - **Freeze Temperature:** 56.4K (-217C)
 - **Boiling Temperature:** 86.5K (-187C) at 100kPa
+- **Max Liquid Temperature:** 162K (-111C) at 6000kPa
+- **Min Liquid Pressure:** 6.3kPa at 56.4K (-217C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=LiquidOxygen
+  - FuelType=LiquidMethane, OxidiserType=LiquidOxygen
+  - FuelType=Hydrogen, OxidiserType=LiquidOxygen
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOxygen
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOxygen
 
 ---
 
@@ -1046,9 +1300,21 @@ Oxygen in its liquid form. It can be created by lowering the temperature of Oxyg
 Ozone in its liquid form.
 
 - **Key:** GasLiquidOzone
+- **Gas Type:** LiquidOzone
 - **Specific Heat:** 38.6 J/K
+- **Latent Heat:** 1 kJ/mol
+- **Moles Per Litre:** 38.5 mols
+- **Moles Per Litre (In World):** 2.37 mols
 - **Freeze Temperature:** 51K (-222C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 305K (31.5C) at 6000kPa
+- **Min Liquid Pressure:** 250kPa at 51K (-222C)
+**Combustion:**
+  - FuelType=Methane, OxidiserType=LiquidOzone
+  - FuelType=LiquidMethane, OxidiserType=LiquidOzone
+  - FuelType=Hydrogen, OxidiserType=LiquidOzone
+  - FuelType=LiquidHydrogen, OxidiserType=LiquidOzone
+  - FuelType=LiquidAlcohol, OxidiserType=LiquidOzone
 
 ---
 
@@ -1063,6 +1329,9 @@ You can upgrade this pipe to an using an Kit (Insulated Liquid Pipe) and a Wrenc
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.008
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.08
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
@@ -1086,6 +1355,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (4-Way Junction) using an 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.01
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.103
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
@@ -1110,6 +1382,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (5-Way Junction) using an 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.013
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.133
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
@@ -1135,6 +1410,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (6-Way Junction) using an 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.017
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.167
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
@@ -1161,6 +1439,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Corner) using an Kit (Ins
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.006
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.056
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Liquid Pipe)
@@ -1183,6 +1464,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Cross Junction) using an 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.01
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.098
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
@@ -1207,6 +1491,9 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.041
+- **Radiation Factor:** 0.002
+- **Solar Heating Factor:** 0.41
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=8 x Kit (Liquid Pipe) Wrench
@@ -1229,6 +1516,9 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.013
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.13
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=3 x Kit (Liquid Pipe) Wrench
@@ -1251,6 +1541,9 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.021
+- **Radiation Factor:** 0.001
+- **Solar Heating Factor:** 0.21
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=4 x Kit (Liquid Pipe) Wrench
@@ -1273,6 +1566,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Straight) using an Kit (I
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.005
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.05
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Liquid Pipe) Wrench
@@ -1295,6 +1591,9 @@ You can upgrade this pipe to an Insulated Liquid Pipe (T Junction) using an Kit 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 0.007
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0.074
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
@@ -1336,6 +1635,9 @@ A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain h
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
+- **Convection Factor:** 1.02
+- **Radiation Factor:** 0.763
+- **Solar Heating Factor:** 0.102
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Pipe Radiator Liquid)
@@ -1366,9 +1668,15 @@ A simple heat exchanger, pipe radiators can be placed on pipes to shed or gain h
 Pollutant in its liquid form. It can be created by lowering the temperature of Pollutant gas below it's boiling point. This can be achieved using a Heat Exchanger (Gas to Gas) or a Air Conditioner. Liquid Pollutant introduced into the atmosphere will quickly evaporate back into Pollutant.
 
 - **Key:** GasLiquidPollutant
+- **Gas Type:** LiquidPollutant
 - **Specific Heat:** 24.8 J/K
+- **Latent Heat:** 2 kJ/mol
+- **Moles Per Litre:** 25 mols
+- **Moles Per Litre (In World):** 1.67 mols
 - **Freeze Temperature:** 173K (-99.8C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 434K (161C) at 6000kPa
+- **Min Liquid Pressure:** 1800kPa at 173K (-99.8C)
 
 ---
 
@@ -1377,9 +1685,15 @@ Pollutant in its liquid form. It can be created by lowering the temperature of P
 Silanol in its liquid form is the premium refrigerant gas for utilising phase change to pump heat. With its extremely high heat capacity it also makes an excellent coolant, able to absorb large quantities of heat energy with minimal temperature fluctuation.
 
 - **Key:** GasLiquidSilanol
+- **Gas Type:** LiquidSilanol
 - **Specific Heat:** 101 J/K
+- **Latent Heat:** 10 kJ/mol
+- **Moles Per Litre:** 6.25 mols
+- **Moles Per Litre (In World):** 0.878 mols
 - **Freeze Temperature:** 143K (-130C)
 - **Boiling Temperature:** N/A
+- **Max Liquid Temperature:** 823K (550C) at 6000kPa
+- **Min Liquid Pressure:** 516kPa at 143K (-130C)
 
 ---
 
@@ -1388,9 +1702,15 @@ Silanol in its liquid form is the premium refrigerant gas for utilising phase ch
 Liquid Sodium Chloride is unique in that it will remain in liquid form at extremely high temperatures making it an excellent medium for storing heat energy. When exposed to a vacuum it will decompose into Pollutant to form a small head pressure. At room temperature it exists as solid Salt.
 
 - **Key:** GasLiquidSodiumChloride
+- **Gas Type:** LiquidSodiumChloride
 - **Specific Heat:** 130 J/K
+- **Latent Heat:** 16 kJ/mol
+- **Moles Per Litre:** 25 mols
+- **Moles Per Litre (In World):** 0.5 mols
 - **Freeze Temperature:** 606K (333C)
 - **Boiling Temperature:** 1591K (1318C) at 100kPa
+- **Max Liquid Temperature:** 2799K (2526C) at 515kPa
+- **Min Liquid Pressure:** 6.3kPa at 606K (333C)
 
 ---
 
@@ -1405,6 +1725,9 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.849
+- **Radiation Factor:** 0.042
+- **Solar Heating Factor:** 8.49
 **Build States:**
   - Description=5 x Kit (Liquid Tank)
 **Connections:**
@@ -1425,6 +1748,9 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Build States:**
   - Description=5 x Kit (Insulated Liquid Tank)
 **Connections:**
@@ -1445,6 +1771,9 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0.149
+- **Radiation Factor:** 0.007
+- **Solar Heating Factor:** 1.49
 **Build States:**
   - Description=1 x Kit (Liquid Tank)
 **Connections:**
@@ -1465,6 +1794,9 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
+- **Convection Factor:** 0
+- **Radiation Factor:** 0
+- **Solar Heating Factor:** 0
 **Build States:**
   - Description=1 x Kit (Insulated Liquid Tank)
 **Connections:**
@@ -1569,298 +1901,6 @@ When set to Inwards mode the Liquid Vacuum removes liquid from the world and int
   - LogicName=Connection, LogicAccessTypes=2
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Volume Pump), PrefabHash=-2106280569, PageLink=ThingItemLiquidPipeVolumePump
-
----
-
-## Liquid Volume Regulator
-
-Regulates the volume ratio of liquid in the output Liquid pipe. This is expressed as percentage where 100 is totally full and 0 is empty.
-
-- **Key:** ThingStructureLiquidPressureRegulator
-- **Prefab Name:** StructureLiquidPressureRegulator
-- **Prefab Hash:** 482248766
-- **Base Power Draw:** 100 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Placeable In Rocket:** True
-**Build States:**
-  - Description=1 x Kit (Liquid Regulator)
-**Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-**Constructed Things:**
-  - NameOfThing=Kit (Liquid Regulator), PrefabHash=1951126161, PageLink=ThingItemKitLiquidRegulator
-
----
-
-## Liquid Wall Cooler
-
-- **Key:** ThingStructureWaterWallCooler
-- **Prefab Name:** StructureWaterWallCooler
-- **Prefab Hash:** -1369060582
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Slots:**
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
-**Build States:**
-  - Description=1 x Kit (Liquid Wall Cooler)
-**Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-**Constructed Things:**
-  - NameOfThing=Kit (Liquid Wall Cooler), PrefabHash=-1721846327, PageLink=ThingItemWaterWallCooler
-
----
-
-## Loader
-
-The Loader will take objects from its left slot and put them in the available slots of the object inserted in the right slot. The slots will be filled in order from first to last. If no available slot is found, the left slot object will be ejected. The right slot object will auto eject once full or if the level is pulled.
-
-- **Key:** ThingStructurePacker
-- **Prefab Name:** StructurePacker
-- **Prefab Hash:** 94539235
-- **Base Power Draw:** 50 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
-**Slots:**
-  - SlotName=Payload, SlotType=Payload, SlotIndex=0
-  - SlotName=Recipient, SlotType=Recipient, SlotIndex=1
-  - SlotName=Export, SlotType=Export, SlotIndex=2
-**Build States:**
-  - Description=2 x Kit (Stacker)
-**Mode Options:**
-  - LogicName=Auto, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
-**Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Input 2, LogicAccessTypes=1
-  - LogicName=Chute Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Kit (Stacker), PrefabHash=1013244511, PageLink=ThingItemKitStacker
-
----
-
-## Locker
-
-- **Key:** ThingStructureStorageLocker
-- **Prefab Name:** StructureStorageLocker
-- **Prefab Hash:** -793623899
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
-  - SlotName=None, SlotType=None, SlotIndex=15
-  - SlotName=None, SlotType=None, SlotIndex=16
-  - SlotName=None, SlotType=None, SlotIndex=17
-  - SlotName=None, SlotType=None, SlotIndex=18
-  - SlotName=None, SlotType=None, SlotIndex=19
-  - SlotName=None, SlotType=None, SlotIndex=20
-  - SlotName=None, SlotType=None, SlotIndex=21
-  - SlotName=None, SlotType=None, SlotIndex=22
-  - SlotName=None, SlotType=None, SlotIndex=23
-  - SlotName=None, SlotType=None, SlotIndex=24
-  - SlotName=None, SlotType=None, SlotIndex=25
-  - SlotName=None, SlotType=None, SlotIndex=26
-  - SlotName=None, SlotType=None, SlotIndex=27
-  - SlotName=None, SlotType=None, SlotIndex=28
-  - SlotName=None, SlotType=None, SlotIndex=29
-**Build States:**
-  - Description=2 x Kit (Locker)
-**Constructed Things:**
-  - NameOfThing=Kit (Locker), PrefabHash=882301399, PageLink=ThingItemKitLocker
-
----
-
-## Locker (Small)
-
-- **Key:** ThingStructureLockerSmall
-- **Prefab Name:** StructureLockerSmall
-- **Prefab Hash:** -647164662
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3
-**Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-**Build States:**
-  - Description=1 x Kit (Locker)
-**Constructed Things:**
-  - NameOfThing=Kit (Locker), PrefabHash=882301399, PageLink=ThingItemKitLocker
-
----
-
-## Logic Alarm
-
-Sound and light beacon for emergencies.
-
-- **Key:** ThingModularDeviceAlarm
-- **Prefab Name:** ModularDeviceAlarm
-- **Prefab Hash:** 1922318669
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Kit (Modular Console Displays)
-**Constructed Things:**
-  - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
-
----
-
-## Logic Button Round
-
-A round button which sets Activate to 1 when pressed. Has an adjustable Color.
-
-- **Key:** ThingModularDeviceRoundButton
-- **Prefab Name:** ModularDeviceRoundButton
-- **Prefab Hash:** 489382030
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Kit (Modular Console Inputs)
-**Constructed Things:**
-  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
-
----
-
-## Logic Button Square
-
-A square button which sets Activate to 1 when pressed. Has an adjustable Color.
-
-- **Key:** ThingModularDeviceSquareButton
-- **Prefab Name:** ModularDeviceSquareButton
-- **Prefab Hash:** 1462769197
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Kit (Modular Console Inputs)
-**Constructed Things:**
-  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
-
----
-
-## Logic Compare
-
-- **Key:** ThingStructureLogicCompare
-- **Prefab Name:** StructureLogicCompare
-- **Prefab Hash:** -1489728908
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-- **Flashpoint:** 373 K (100oC)
-- **Auto Ignition:** 573 K (300oC)
-**Build States:**
-  - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Equals, LogicAccessTypes=0
-  - LogicName=Greater, LogicAccessTypes=1
-  - LogicName=Less, LogicAccessTypes=2
-  - LogicName=NotEquals, LogicAccessTypes=3
-**Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-**Constructed Things:**
-  - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
-
----
-
-## Logic Dial
-
-Allows adjusting Setting between 0 and Mode.
-
-- **Key:** ThingModularDeviceDial
-- **Prefab Name:** ModularDeviceDial
-- **Prefab Hash:** 1465300791
-- **Base Power Draw:** 10 W
-- **Memory Size:** 0 B
-- **Memory Access:** None
-- **Paintable:** Yes
-**Build States:**
-  - Description=1 x Kit (Modular Console Inputs)
-**Constructed Things:**
-  - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
 
 ---
 
