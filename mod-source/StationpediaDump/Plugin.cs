@@ -184,10 +184,24 @@ namespace StationpediaDump
             _uploadConfigLoaded = true;
             try
             {
-                string cfgPath = Path.Combine(Paths.PluginPath, "StationpediaDump", "upload_target.txt");
-                if (!File.Exists(cfgPath)) return;
+                // Read from next to the DLL itself (wherever it actually got
+                // placed) rather than assuming a specific BepInEx/plugins
+                // subfolder layout - Paths.PluginPath + a hardcoded
+                // "StationpediaDump" subfolder silently mismatched when the
+                // DLL was dropped directly in plugins/ instead.
+                string dllDir = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location);
+                string cfgPath = Path.Combine(dllDir ?? "", "upload_target.txt");
+                if (!File.Exists(cfgPath))
+                {
+                    Log.LogInfo($"[StationpediaDump] No upload_target.txt found at {cfgPath} - icons will only be written locally.");
+                    return;
+                }
                 string line = File.ReadAllLines(cfgPath).FirstOrDefault(l => !string.IsNullOrWhiteSpace(l));
-                if (string.IsNullOrWhiteSpace(line)) return;
+                if (string.IsNullOrWhiteSpace(line))
+                {
+                    Log.LogWarning($"[StationpediaDump] upload_target.txt at {cfgPath} is empty.");
+                    return;
+                }
                 var parts = line.Trim().Split(':');
                 _uploadHost = parts[0];
                 if (parts.Length > 1 && int.TryParse(parts[1], out int p)) _uploadPort = p;
