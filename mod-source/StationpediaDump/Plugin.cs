@@ -143,9 +143,36 @@ namespace StationpediaDump
             try
             {
                 var inst = Stationpedia.Instance;
+                if (inst == null) { Log.LogWarning("[StationpediaDump] Stationpedia.Instance null, skipping gas icons."); return; }
+
+                Log.LogInfo($"[StationpediaDump] Stationpedia.Instance runtime type: {inst.GetType().FullName}");
+                var openLike = inst.GetType()
+                    .GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    .Where(x => x.Name.IndexOf("Open", StringComparison.OrdinalIgnoreCase) >= 0
+                             || x.Name.IndexOf("Init", StringComparison.OrdinalIgnoreCase) >= 0
+                             || x.Name.IndexOf("Enable", StringComparison.OrdinalIgnoreCase) >= 0
+                             || x.Name.IndexOf("gasThumb", StringComparison.OrdinalIgnoreCase) >= 0)
+                    .Select(x => $"{x.Name}({x.GetParameters().Length} args)")
+                    .ToList();
+                Log.LogInfo("[StationpediaDump] Candidate methods found: " + string.Join(", ", openLike));
+
                 var f = typeof(Stationpedia).GetField("_gasThumbnails", BindingFlags.NonPublic | BindingFlags.Instance);
+                Log.LogInfo($"[StationpediaDump] _gasThumbnails field lookup: {(f != null ? "found" : "NOT FOUND")}");
+
+                // _gasThumbnails stays empty even after PopulateGases() - it
+                // looks like it's only filled when the actual SPDA panel UI
+                // initializes, not by the data-population methods. Try
+                // forcing that initialization/open path before reading it.
+                TryInvoke(inst, "Initialize");
+                LogGasThumbState(f, inst, "after Initialize()");
+                TryInvoke(inst, "Open");
+                LogGasThumbState(f, inst, "after Open()");
+                TryInvoke(inst, "OnEnable");
+                LogGasThumbState(f, inst, "after OnEnable()");
+
                 var list = f?.GetValue(inst) as IEnumerable;
-                if (list == null) { Log.LogWarning("[StationpediaDump] _gasThumbnails not found/null, skipping gas icons."); return; }
+                if (list == null) { Log.LogWarning("[StationpediaDump] _gasThumbnails still null after all attempts, skipping gas icons."); return; }
+                if (!list.Cast<object>().Any()) { Log.LogWarning("[StationpediaDump] _gasThumbnails is an empty list after all attempts, skipping gas icons."); return; }
 
                 foreach (var item in list)
                 {
@@ -175,6 +202,46 @@ namespace StationpediaDump
                 Log.LogWarning("[StationpediaDump] DumpGasIcons failed: " + e.Message);
             }
             Log.LogInfo($"[StationpediaDump] Gas icons: {ok} exported, {skipped} skipped, {failed} failed.");
+        }
+
+        private static void LogGasThumbState(FieldInfo f, object inst, string when)
+        {
+            try
+            {
+                var list = f?.GetValue(inst) as IEnumerable;
+                int count = list == null ? -1 : list.Cast<object>().Count();
+                Log.LogInfo($"[StationpediaDump] _gasThumbnails {when}: {(list == null ? "null" : count + " item(s)")}");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[StationpediaDump] LogGasThumbState({when}) failed: " + e.Message);
+            }
+        }
+
+        // Best-effort call to a parameterless method (public or private) by
+        // name - used to try nudging lazy UI-only initialization (Initialize,
+        // Open) that isn't exposed as a documented API, without blowing up
+        // the whole dump if a given method doesn't exist on this game build.
+        private static void TryInvoke(object instance, string methodName)
+        {
+            try
+            {
+                // The 5-arg GetMethod(name, flags, binder, types, modifiers)
+                // overload is unreliable under Mono (BepInEx's runtime) when
+                // combined with NonPublic - it can spuriously return null for
+                // a method that genuinely exists. Enumerate GetMethods()
+                // instead and filter manually, which doesn't hit that path.
+                var m = instance.GetType()
+                    .GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    .FirstOrDefault(x => x.Name == methodName && x.GetParameters().Length == 0);
+                if (m == null) { Log.LogInfo($"[StationpediaDump] {methodName}() not found on Stationpedia."); return; }
+                m.Invoke(instance, null);
+                Log.LogInfo($"[StationpediaDump] Called Stationpedia.{methodName}().");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[StationpediaDump] Stationpedia.{methodName}() call failed: " + e.Message);
+            }
         }
 
         /// <summary>
