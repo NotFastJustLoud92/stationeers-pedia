@@ -453,53 +453,56 @@ The current solar irradiance.
 Plays a sound alert on the devices speaker
 
 - **Key:** LogicTypeSoundAlert
-**Mode Options:**
-  - LogicName=None, LogicAccessTypes=0
-  - LogicName=Alarm2, LogicAccessTypes=1
-  - LogicName=Alarm3, LogicAccessTypes=2
-  - LogicName=Alarm4, LogicAccessTypes=3
-  - LogicName=Alarm5, LogicAccessTypes=4
-  - LogicName=Alarm6, LogicAccessTypes=5
-  - LogicName=Alarm7, LogicAccessTypes=6
-  - LogicName=Music1, LogicAccessTypes=7
-  - LogicName=Music2, LogicAccessTypes=8
-  - LogicName=Music3, LogicAccessTypes=9
-  - LogicName=Alarm8, LogicAccessTypes=10
-  - LogicName=Alarm9, LogicAccessTypes=11
-  - LogicName=Alarm10, LogicAccessTypes=12
-  - LogicName=Alarm11, LogicAccessTypes=13
-  - LogicName=Alarm12, LogicAccessTypes=14
-  - LogicName=Danger, LogicAccessTypes=15
-  - LogicName=Warning, LogicAccessTypes=16
-  - LogicName=Alert, LogicAccessTypes=17
-  - LogicName=StormIncoming, LogicAccessTypes=18
-  - LogicName=IntruderAlert, LogicAccessTypes=19
-  - LogicName=Depressurising, LogicAccessTypes=20
-  - LogicName=Pressurising, LogicAccessTypes=21
-  - LogicName=AirlockCycling, LogicAccessTypes=22
-  - LogicName=PowerLow, LogicAccessTypes=23
-  - LogicName=SystemFailure, LogicAccessTypes=24
-  - LogicName=Welcome, LogicAccessTypes=25
-  - LogicName=MalfunctionDetected, LogicAccessTypes=26
-  - LogicName=HaltWhoGoesThere, LogicAccessTypes=27
-  - LogicName=FireFireFire, LogicAccessTypes=28
-  - LogicName=One, LogicAccessTypes=29
-  - LogicName=Two, LogicAccessTypes=30
-  - LogicName=Three, LogicAccessTypes=31
-  - LogicName=Four, LogicAccessTypes=32
-  - LogicName=Five, LogicAccessTypes=33
-  - LogicName=Floor, LogicAccessTypes=34
-  - LogicName=RocketLaunching, LogicAccessTypes=35
-  - LogicName=LiftOff, LogicAccessTypes=36
-  - LogicName=TraderIncoming, LogicAccessTypes=37
-  - LogicName=TraderLanded, LogicAccessTypes=38
-  - LogicName=PressureHigh, LogicAccessTypes=39
-  - LogicName=PressureLow, LogicAccessTypes=40
-  - LogicName=TemperatureHigh, LogicAccessTypes=41
-  - LogicName=TemperatureLow, LogicAccessTypes=42
-  - LogicName=PollutantsDetected, LogicAccessTypes=43
-  - LogicName=HighCarbonDioxide, LogicAccessTypes=44
-  - LogicName=Alarm1, LogicAccessTypes=45
+**Mode:**
+| Name | Value |
+|---|---|
+| None | 0 |
+| Alarm2 | 1 |
+| Alarm3 | 2 |
+| Alarm4 | 3 |
+| Alarm5 | 4 |
+| Alarm6 | 5 |
+| Alarm7 | 6 |
+| Music1 | 7 |
+| Music2 | 8 |
+| Music3 | 9 |
+| Alarm8 | 10 |
+| Alarm9 | 11 |
+| Alarm10 | 12 |
+| Alarm11 | 13 |
+| Alarm12 | 14 |
+| Danger | 15 |
+| Warning | 16 |
+| Alert | 17 |
+| StormIncoming | 18 |
+| IntruderAlert | 19 |
+| Depressurising | 20 |
+| Pressurising | 21 |
+| AirlockCycling | 22 |
+| PowerLow | 23 |
+| SystemFailure | 24 |
+| Welcome | 25 |
+| MalfunctionDetected | 26 |
+| HaltWhoGoesThere | 27 |
+| FireFireFire | 28 |
+| One | 29 |
+| Two | 30 |
+| Three | 31 |
+| Four | 32 |
+| Five | 33 |
+| Floor | 34 |
+| RocketLaunching | 35 |
+| LiftOff | 36 |
+| TraderIncoming | 37 |
+| TraderLanded | 38 |
+| PressureHigh | 39 |
+| PressureLow | 40 |
+| TemperatureHigh | 41 |
+| TemperatureLow | 42 |
+| PollutantsDetected | 43 |
+| HighCarbonDioxide | 44 |
+| Alarm1 | 45 |
+
 
 ---
 

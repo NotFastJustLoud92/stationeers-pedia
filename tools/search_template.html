@@ -288,6 +288,26 @@
   .recipe-line:last-child { border-bottom: none; }
   .recipe-meta { font-family: var(--mono); font-size: 12px; color: var(--cyan); margin-bottom: 2px; }
 
+  .table-wrap { overflow-x: auto; margin-bottom: 6px; border: 1px solid var(--border); border-radius: var(--radius); }
+  .data-table { width: 100%; border-collapse: collapse; font-family: var(--mono); font-size: 12.5px; }
+  .data-table th, .data-table td {
+    padding: 7px 12px;
+    text-align: left;
+    white-space: nowrap;
+    border-bottom: 1px solid var(--border);
+  }
+  .data-table th {
+    font-size: 10px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    background: var(--panel-2);
+    font-weight: 600;
+  }
+  .data-table td { color: var(--text); font-variant-numeric: tabular-nums; }
+  .data-table tbody tr:nth-child(even) { background: rgba(255,255,255,0.02); }
+  .data-table tbody tr:last-child td { border-bottom: none; }
+
   #empty { color: var(--text-faint); padding: 60px 20px; text-align: center; font-family: var(--mono); font-size: 13px; }
 
   footer {
@@ -365,6 +385,37 @@
     return escapeHtml(s.replace(/\*\*/g, ''));
   }
 
+  function parseTableRow(line) {
+    var cells = line.split('|');
+    if (cells.length && cells[0].trim() === '') cells.shift();
+    if (cells.length && cells[cells.length - 1].trim() === '') cells.pop();
+    // Un-escape "\|" back to a literal pipe inside cell content (the dump
+    // escapes real pipes so they don't get mistaken for column separators).
+    return cells.map(function(c) { return c.trim().replace(/\\\|/g, '|'); });
+  }
+
+  // Renders a "**Label:**" section followed by a pipe-delimited markdown
+  // table (header row, "|---|---|" separator, data rows) as a real HTML
+  // table - used for Logic Types/Slots/Bindings, Mode, Connections, and
+  // device Slots, matching the in-game SPDA's own tabular layout for these
+  // instead of a flat bullet list.
+  function renderTable(label, tableLines) {
+    if (tableLines.length < 2) return '';
+    var header = parseTableRow(tableLines[0]);
+    var rows = tableLines.slice(2).map(parseTableRow).filter(function(r) { return r.length > 1 || r[0] !== ''; });
+    var out = '<div class="section-label">' + escapeHtml(label) + '</div>';
+    out += '<div class="table-wrap"><table class="data-table"><thead><tr>';
+    header.forEach(function(h) { out += '<th>' + inlineText(h) + '</th>'; });
+    out += '</tr></thead><tbody>';
+    rows.forEach(function(r) {
+      out += '<tr>';
+      r.forEach(function(c) { out += '<td>' + inlineText(c) + '</td>'; });
+      out += '</tr>';
+    });
+    out += '</tbody></table></div>';
+    return out;
+  }
+
   // Renders one page body (already-cleaned plain-ish markdown from the dump:
   // "- **Key:** Value" spec lines, "**Section:**" headers introducing a run of
   // "- item" lines, and plain paragraphs). Spec lines become a key/value grid;
@@ -399,8 +450,19 @@
       if (sectionMatch) {
         flushSpecs();
         var label = sectionMatch[1];
-        var items = [];
         i++;
+
+        if (i < lines.length && /^\s*\|/.test(lines[i])) {
+          var tableLines = [];
+          while (i < lines.length && /^\s*\|/.test(lines[i])) {
+            tableLines.push(lines[i].trim());
+            i++;
+          }
+          html += renderTable(label, tableLines);
+          continue;
+        }
+
+        var items = [];
         while (i < lines.length && /^\s*-\s+/.test(lines[i])) {
           items.push(lines[i].replace(/^\s*-\s+/, ''));
           i++;

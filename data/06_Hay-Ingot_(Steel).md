@@ -27,19 +27,25 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -61,9 +67,12 @@
 **Build States:**
   - Description=3 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -83,9 +92,12 @@
 **Build States:**
   - Description=2 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -105,10 +117,13 @@
 **Build States:**
   - Description=3 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -128,10 +143,13 @@
 **Build States:**
   - Description=2 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -151,11 +169,14 @@
 **Build States:**
   - Description=3 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -175,12 +196,15 @@
 **Build States:**
   - Description=3 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -200,8 +224,11 @@
 **Build States:**
   - Description=1 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -221,8 +248,11 @@
 **Build States:**
   - Description=7 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -242,8 +272,11 @@
 **Build States:**
   - Description=3 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -263,8 +296,11 @@
 **Build States:**
   - Description=4 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -284,8 +320,11 @@
 **Build States:**
   - Description=1 x Cable Coil (Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Heavy), PrefabHash=2060134443, PageLink=ThingItemCableCoilHeavy
 
@@ -683,9 +722,12 @@ A larger more powerful variant of the Pressure Fed Gas Engine. It sacrifices a s
   - Description=5 x Kit (Insulated Pipe)
   - Description=Welding Torch 4 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
-  - LogicName=Power and Data Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Input 2 | 1 |
+| Power and Data Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Heavy Pressure Fed Gas Engine), PrefabHash=1774183959, PageLink=ThingItemKitPressureFedGasEngineHeavy
 
@@ -710,9 +752,12 @@ A larger more powerful variant of the Pressure Fed Liquid Engine. It sacrifices 
   - Description=4 x Kit (Insulated Liquid Pipe)
   - Description=Welding Torch 4 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
-  - LogicName=Power and Data Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Input 2 | 1 |
+| Power and Data Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Heavy Pressure Fed Liquid Engine), PrefabHash=1773872556, PageLink=ThingItemKitPressureFedLiquidEngineHeavy
 
@@ -847,31 +892,27 @@ A go-to tool for all your atmospheric and plumbing needs, the ExMin Atmoprinter 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Hydraulic Pipe Bender)
   - Description=Welding Torch 2 x Iron Sheets
@@ -882,10 +923,13 @@ A go-to tool for all your atmospheric and plumbing needs, the ExMin Atmoprinter 
 **Resources Used:**
   - NameOfThing=Ingots, PrefabHash=0, PageLink=IngotPage
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydraulic Pipe Bender), PrefabHash=-2098556089, PageLink=ThingItemKitHydraulicPipeBender
 
@@ -979,34 +1023,43 @@ The Agrizero hydroponics device is the ideal vessel for growing a range of plant
 - **Convection Factor:** 0.146
 - **Radiation Factor:** 0.146
 - **Solar Heating Factor:** 0.146
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Efficiency, LogicAccessTypes=0
-  - LogicName=Health, LogicAccessTypes=0
-  - LogicName=Growth, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=Mature, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=Seeding, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=MaturityRatio, LogicAccessTypes=0
-  - LogicName=SeedingRatio, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Efficiency | 0 |
+| Health | 0 |
+| Growth | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| Mature | 0 |
+| PrefabHash | 0, 1 |
+| Seeding | 0 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| MaturityRatio | 0 |
+| SeedingRatio | 0 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Fertiliser | Fertiliser | 1 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponic Tray)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponic Tray), PrefabHash=-1193543727, PageLink=ThingItemHydroponicTray
 
@@ -1023,28 +1076,34 @@ The hydroponics grid is an alternative hydroponics that can be placed in any ori
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Plant, SlotType=Plant, SlotIndex=4
-  - SlotName=Plant, SlotType=Plant, SlotIndex=5
-  - SlotName=Plant, SlotType=Plant, SlotIndex=6
-  - SlotName=Plant, SlotType=Plant, SlotIndex=7
-  - SlotName=Plant, SlotType=Plant, SlotIndex=8
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=9
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=10
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=11
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=12
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=13
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=14
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=15
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=16
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=17
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Plant | Plant | 4 |
+| Plant | Plant | 5 |
+| Plant | Plant | 6 |
+| Plant | Plant | 7 |
+| Plant | Plant | 8 |
+| Fertiliser | Fertiliser | 9 |
+| Fertiliser | Fertiliser | 10 |
+| Fertiliser | Fertiliser | 11 |
+| Fertiliser | Fertiliser | 12 |
+| Fertiliser | Fertiliser | 13 |
+| Fertiliser | Fertiliser | 14 |
+| Fertiliser | Fertiliser | 15 |
+| Fertiliser | Fertiliser | 16 |
+| Fertiliser | Fertiliser | 17 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponics Grid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponics Grid), PrefabHash=1166779349, PageLink=ThingItemKitHydroponicsGrid
 
@@ -1061,28 +1120,34 @@ The hydroponics grid is an alternative hydroponics that can be placed in any ori
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Plant, SlotType=Plant, SlotIndex=4
-  - SlotName=Plant, SlotType=Plant, SlotIndex=5
-  - SlotName=Plant, SlotType=Plant, SlotIndex=6
-  - SlotName=Plant, SlotType=Plant, SlotIndex=7
-  - SlotName=Plant, SlotType=Plant, SlotIndex=8
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=9
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=10
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=11
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=12
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=13
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=14
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=15
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=16
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=17
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Plant | Plant | 4 |
+| Plant | Plant | 5 |
+| Plant | Plant | 6 |
+| Plant | Plant | 7 |
+| Plant | Plant | 8 |
+| Fertiliser | Fertiliser | 9 |
+| Fertiliser | Fertiliser | 10 |
+| Fertiliser | Fertiliser | 11 |
+| Fertiliser | Fertiliser | 12 |
+| Fertiliser | Fertiliser | 13 |
+| Fertiliser | Fertiliser | 14 |
+| Fertiliser | Fertiliser | 15 |
+| Fertiliser | Fertiliser | 16 |
+| Fertiliser | Fertiliser | 17 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponics Grid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponics Grid), PrefabHash=1166779349, PageLink=ThingItemKitHydroponicsGrid
 
@@ -1099,28 +1164,34 @@ The hydroponics grid is an alternative hydroponics that can be placed in any ori
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Plant, SlotType=Plant, SlotIndex=4
-  - SlotName=Plant, SlotType=Plant, SlotIndex=5
-  - SlotName=Plant, SlotType=Plant, SlotIndex=6
-  - SlotName=Plant, SlotType=Plant, SlotIndex=7
-  - SlotName=Plant, SlotType=Plant, SlotIndex=8
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=9
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=10
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=11
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=12
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=13
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=14
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=15
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=16
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=17
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Plant | Plant | 4 |
+| Plant | Plant | 5 |
+| Plant | Plant | 6 |
+| Plant | Plant | 7 |
+| Plant | Plant | 8 |
+| Fertiliser | Fertiliser | 9 |
+| Fertiliser | Fertiliser | 10 |
+| Fertiliser | Fertiliser | 11 |
+| Fertiliser | Fertiliser | 12 |
+| Fertiliser | Fertiliser | 13 |
+| Fertiliser | Fertiliser | 14 |
+| Fertiliser | Fertiliser | 15 |
+| Fertiliser | Fertiliser | 16 |
+| Fertiliser | Fertiliser | 17 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponics Grid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponics Grid), PrefabHash=1166779349, PageLink=ThingItemKitHydroponicsGrid
 
@@ -1141,40 +1212,49 @@ The hydroponics grid is an alternative hydroponics that can be placed in any ori
 - **Convection Factor:** 1.3
 - **Radiation Factor:** 1.3
 - **Solar Heating Factor:** 1.3
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Efficiency, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Health, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Growth, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Mature, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Seeding, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=MaturityRatio, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=SeedingRatio, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Efficiency | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Health | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Growth | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Mature | 0, 1, 2, 3, 4, 5, 6, 7 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Seeding | 0, 1, 2, 3, 4, 5, 6, 7 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7 |
+| MaturityRatio | 0, 1, 2, 3, 4, 5, 6, 7 |
+| SeedingRatio | 0, 1, 2, 3, 4, 5, 6, 7 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7 |
+
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Plant, SlotType=Plant, SlotIndex=4
-  - SlotName=Plant, SlotType=Plant, SlotIndex=5
-  - SlotName=Plant, SlotType=Plant, SlotIndex=6
-  - SlotName=Plant, SlotType=Plant, SlotIndex=7
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Plant | Plant | 4 |
+| Plant | Plant | 5 |
+| Plant | Plant | 6 |
+| Plant | Plant | 7 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponic Station)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Liquid Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponic Station), PrefabHash=2057179799, PageLink=ThingItemKitHydroponicStation
 
@@ -1197,13 +1277,19 @@ The Agrizero hydroponics tray is the ideal vessel for growing a range of plantli
 - **Radiation Factor:** 0.001
 - **Solar Heating Factor:** 0.139
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Fertiliser, SlotType=Fertiliser, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Fertiliser | Fertiliser | 1 |
+
 **Build States:**
   - Description=1 x Kit (Hydroponic Tray)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hydroponic Tray), PrefabHash=-1193543727, PageLink=ThingItemHydroponicTray
 
@@ -1242,37 +1328,41 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=LineNumber, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=HOUSING
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
-  - Header=d2, Label=SCREW_2
-  - Header=d3, Label=SCREW_3
-  - Header=d4, Label=SCREW_4
-  - Header=d5, Label=SCREW_5
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| LineNumber | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (IC Housing)
-**Mode Options:**
-  - LogicName=Number, LogicAccessTypes=0
-  - LogicName=String, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Number | 0 |
+| String | 1 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (IC Housing), PrefabHash=1512322581, PageLink=ThingItemKitLogicCircuit
 
@@ -1292,36 +1382,40 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=LineNumber, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=HOUSING
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
-  - Header=d2, Label=SCREW_2
-  - Header=d3, Label=SCREW_3
-  - Header=d4, Label=SCREW_4
-  - Header=d5, Label=SCREW_5
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| LineNumber | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (IC Housing)
-**Mode Options:**
-  - LogicName=Number, LogicAccessTypes=0
-  - LogicName=String, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Number | 0 |
+| String | 1 |
+
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (IC Housing), PrefabHash=1512322581, PageLink=ThingItemKitLogicCircuit
 
@@ -1363,12 +1457,15 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Radiation Factor:** 0.193
 - **Solar Heating Factor:** 1.45
 **Slots:**
-  - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
-  - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
-  - SlotName=Life Support, SlotType=Life Support, SlotIndex=2
-  - SlotName=Filter, SlotType=Filter, SlotIndex=3
-  - SlotName=Filter, SlotType=Filter, SlotIndex=4
-  - SlotName=Filter, SlotType=Filter, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Air Tank | Air Tank | 0 |
+| Waste Tank | Waste Tank | 1 |
+| Life Support | Life Support | 2 |
+| Filter | Filter | 3 |
+| Filter | Filter | 4 |
+| Filter | Filter | 5 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
@@ -1485,30 +1582,39 @@ The Recurso KoolAuger converts various ices into their respective gases and liqu
 - **Convection Factor:** 0
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+
 **Build States:**
   - Description=1 x Kit (Ice Crusher)
   - Description=Welding Torch 1 x Iron Sheets
   - Description=2 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
-  - LogicName=Pipe Output, LogicAccessTypes=3
-  - LogicName=Pipe Liquid Output 2, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Chute Input | 2 |
+| Pipe Output | 3 |
+| Pipe Liquid Output 2 | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Ice Crusher), PrefabHash=288111533, PageLink=ThingItemKitIceCrusher
 
@@ -1535,7 +1641,10 @@ It gets the party started. Especially if that party is an explosive gas mixture.
 **Build States:**
   - Description=1 x Kit (Igniter)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Igniter), PrefabHash=890106742, PageLink=ThingItemIgniter
 
@@ -1563,8 +1672,11 @@ These are structures, typically powered, that are able to receive and output oth
 **Build States:**
   - Description=1 x Kit (Logic Switch)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Switch), PrefabHash=124499454, PageLink=ThingItemKitLogicSwitch
 
@@ -1586,8 +1698,11 @@ These are structures, typically powered, that are able to receive and output oth
 **Build States:**
   - Description=1 x Kit (Insulated Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Liquid), PrefabHash=-1831558953, PageLink=ThingItemKitInsulatedPipeUtilityLiquid
 
@@ -1611,8 +1726,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=2 x Kit (Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Gas), PrefabHash=1934508338, PageLink=ThingItemKitPipeUtility
 
@@ -1634,8 +1752,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=2 x Kit (Insulated Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Gas), PrefabHash=-27284803, PageLink=ThingItemKitInsulatedPipeUtility
 
@@ -1657,8 +1778,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=3 x Kit (Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Gas), PrefabHash=1934508338, PageLink=ThingItemKitPipeUtility
 
@@ -1680,8 +1804,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=3 x Kit (Insulated Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Gas), PrefabHash=-27284803, PageLink=ThingItemKitInsulatedPipeUtility
 
@@ -1705,8 +1832,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=2 x Kit (Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Liquid), PrefabHash=595478589, PageLink=ThingItemKitPipeUtilityLiquid
 
@@ -1728,8 +1858,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=2 x Kit (Insulated Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Liquid), PrefabHash=-1831558953, PageLink=ThingItemKitInsulatedPipeUtilityLiquid
 
@@ -1751,8 +1884,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=3 x Kit (Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Liquid), PrefabHash=595478589, PageLink=ThingItemKitPipeUtilityLiquid
 
@@ -1774,8 +1910,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=3 x Kit (Insulated Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Liquid), PrefabHash=-1831558953, PageLink=ThingItemKitInsulatedPipeUtilityLiquid
 
@@ -1799,8 +1938,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=1 x Kit (Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Gas), PrefabHash=1934508338, PageLink=ThingItemKitPipeUtility
 
@@ -1822,8 +1964,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=1 x Kit (Insulated Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe Utility Gas), PrefabHash=-27284803, PageLink=ThingItemKitInsulatedPipeUtility
 
@@ -1847,8 +1992,11 @@ A small expansion tank that increases the volume of a pipe network.
 **Build States:**
   - Description=1 x Kit (Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Liquid), PrefabHash=595478589, PageLink=ThingItemKitPipeUtilityLiquid
 

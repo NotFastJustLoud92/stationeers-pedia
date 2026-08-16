@@ -97,26 +97,35 @@ This standard issue frictional adherence adjustor is a top of the line, bi-rotat
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+
 **Build States:**
   - Description=1 x Kit (SDB Hopper)
   - Description=Welding Torch 4 x Iron Sheets
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (SDB Hopper), PrefabHash=323957548, PageLink=ThingItemKitSDBHopper
 
@@ -133,27 +142,36 @@ This standard issue frictional adherence adjustor is a top of the line, bi-rotat
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+
 **Build States:**
   - Description=1 x Kit (SDB Hopper)
   - Description=Welding Torch 4 x Iron Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Chute Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (SDB Hopper), PrefabHash=323957548, PageLink=ThingItemKitSDBHopper
 
@@ -171,36 +189,46 @@ The majestic silo holds large quantities of almost anything. While it is doing t
 - **Memory Access:** Read
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=SiloInstruction.SlotContents OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-20 | QUANTITY | UINT13_13 | | 21-52 | PREFAB_HASH | UINT_32 | | 53-63 | UNUSED | 11 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (SDB Silo)
   - Description=Welding Torch 15 x Steel Sheets
   - Description=Welding Torch 10 x Plastic Sheets
   - Description=Screwdriver 5 x Cable Coil
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (SDB Silo), PrefabHash=1932952652, PageLink=ThingKitSDBSilo
 
@@ -244,31 +272,27 @@ Any Stationeer concerned about security needs the Harkwell-designed Vigilant-E s
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Security Printer)
   - Description=Welding Torch 2 x Steel Sheets
@@ -278,10 +302,13 @@ Any Stationeer concerned about security needs the Harkwell-designed Vigilant-E s
 **Resources Used:**
   - NameOfThing=Ingots, PrefabHash=0, PageLink=IngotPage
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Security Printer), PrefabHash=578078533, PageLink=ThingItemKitSecurityPrinter
 
@@ -299,20 +326,26 @@ These Norsec glasses might not be the most fashionable thing, but when a Sensor 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| ReferenceId | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Sensor Processing Unit, SlotType=Sensor Processing Unit, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Sensor Processing Unit | Sensor Processing Unit | 1 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 3500 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Silicon (from Ingot (Silicon)) + 5 x Inconel (from Ingot (Inconel))
@@ -430,9 +463,12 @@ Built using the Kit (Server Rack), this device represents a high-density computa
 **Build States:**
   - Description=1 x Kit (Server Rack)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Pipe Liquid Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Server Rack), PrefabHash=1459811168, PageLink=ThingItemKitServerRack
 
@@ -449,11 +485,14 @@ Built using the Kit (Server Rack), this device represents a high-density computa
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -474,34 +513,40 @@ A shelf for putting things on, so you can see them.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+| None | None | 10 |
+| None | None | 11 |
+| None | None | 12 |
+| None | None | 13 |
+| None | None | 14 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -520,21 +565,27 @@ A shelf for putting things on, so you can see them.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -553,29 +604,35 @@ A shelf for putting things on, so you can see them.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -598,8 +655,11 @@ The fastest way to remove low hygiene. You must remove your Jump Suit (Orange) a
   - Description=1 x Kit (Shower)
   - Description=Screwdriver 1 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Shower), PrefabHash=735858725, PageLink=ThingItemKitShower
 
@@ -620,10 +680,13 @@ The fastest way to remove low hygiene. You must remove your Jump Suit (Orange) a
   - Description=1 x Kit (Shower)
   - Description=Screwdriver 1 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Pipe Liquid Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Shower), PrefabHash=735858725, PageLink=ThingItemKitShower
 
@@ -640,8 +703,11 @@ The fastest way to remove low hygiene. You must remove your Jump Suit (Orange) a
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Entity, SlotType=Entity, SlotIndex=0
-  - SlotName=Entity, SlotType=Entity, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Entity | Entity | 0 |
+| Entity | Entity | 1 |
+
 
 ---
 
@@ -731,20 +797,26 @@ Silanol is the premium refrigerant gas for utilising phase change to pump heat. 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Bed, SlotType=Bed, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Bed | Bed | 0 |
+
 **Build States:**
   - Description=1 x Kit (Beds)
 **Constructed Things:**
@@ -783,26 +855,35 @@ The sole 'traditional' state entity to survive offworld politics, Sinotai’s re
 - **Convection Factor:** 0.86
 - **Radiation Factor:** 0.86
 - **Solar Heating Factor:** 0.86
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Bed, SlotType=Bed, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Bed | Bed | 0 |
+
 **Build States:**
   - Description=1 x Kit (Sleeper)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Connection | 2 |
+
 
 ---
 
@@ -820,34 +901,46 @@ A horizontal variant of the sleeper. Will keep players hydrated and fed while th
 - **Convection Factor:** 0.034
 - **Radiation Factor:** 0.034
 - **Solar Heating Factor:** 1.13
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+
 **Build States:**
   - Description=1 x Kit (Sleeper)
   - Description=Welding Torch 2 x Plastic Sheets
   - Description=Screwdriver 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Standby, LogicAccessTypes=0
-  - LogicName=Error, LogicAccessTypes=1
-  - LogicName=Inactive, LogicAccessTypes=2
-  - LogicName=Occupied, LogicAccessTypes=3
-  - LogicName=Dead, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Standby | 0 |
+| Error | 1 |
+| Inactive | 2 |
+| Occupied | 3 |
+| Dead | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sleeper), PrefabHash=326752036, PageLink=ThingItemKitSleeper
 
@@ -867,34 +960,46 @@ A horizontal variant of the sleeper. Will keep players hydrated and fed while th
 - **Convection Factor:** 0.034
 - **Radiation Factor:** 0.034
 - **Solar Heating Factor:** 1.13
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+
 **Build States:**
   - Description=1 x Kit (Sleeper)
   - Description=Welding Torch 2 x Plastic Sheets
   - Description=Screwdriver 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Standby, LogicAccessTypes=0
-  - LogicName=Error, LogicAccessTypes=1
-  - LogicName=Inactive, LogicAccessTypes=2
-  - LogicName=Occupied, LogicAccessTypes=3
-  - LogicName=Dead, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Standby | 0 |
+| Error | 1 |
+| Inactive | 2 |
+| Occupied | 3 |
+| Dead | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sleeper), PrefabHash=326752036, PageLink=ThingItemKitSleeper
 
@@ -914,34 +1019,46 @@ The vertical variant of the sleeper. Will keep players hydrated and fed while th
 - **Convection Factor:** 0.03
 - **Radiation Factor:** 0.03
 - **Solar Heating Factor:** 0.983
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+
 **Build States:**
   - Description=1 x Kit (Sleeper)
   - Description=Welding Torch 2 x Plastic Sheets
   - Description=Screwdriver 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Standby, LogicAccessTypes=0
-  - LogicName=Error, LogicAccessTypes=1
-  - LogicName=Inactive, LogicAccessTypes=2
-  - LogicName=Occupied, LogicAccessTypes=3
-  - LogicName=Dead, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Standby | 0 |
+| Error | 1 |
+| Inactive | 2 |
+| Occupied | 3 |
+| Dead | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sleeper), PrefabHash=326752036, PageLink=ThingItemKitSleeper
 
@@ -961,9 +1078,12 @@ The vertical variant of the sleeper. Will keep players hydrated and fed while th
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -1086,8 +1206,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
 **Build States:**
   - Description=1 x Kit (Small Direct Heat Exchanger)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Small Direct Heat Exchanger), PrefabHash=-1332682164, PageLink=ThingItemKitSmallDirectHeatExchanger
 
@@ -1108,8 +1231,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
 **Build States:**
   - Description=1 x Kit (Small Direct Heat Exchanger)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Small Direct Heat Exchanger), PrefabHash=-1332682164, PageLink=ThingItemKitSmallDirectHeatExchanger
 
@@ -1130,8 +1256,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
 **Build States:**
   - Description=1 x Kit (Small Direct Heat Exchanger)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Small Direct Heat Exchanger), PrefabHash=-1332682164, PageLink=ThingItemKitSmallDirectHeatExchanger
 
@@ -1167,12 +1296,18 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Hangar Door)
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hangar Door), PrefabHash=682546947, PageLink=ThingItemKitAirlockGate
 
@@ -1194,8 +1329,11 @@ This small communications unit can be used to communicate with nearby trade vess
   - Description=Welding Torch 1 x Iron Sheets
   - Description=1 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Small Satellite Dish), PrefabHash=1960952220, PageLink=ThingItemKitSmallSatelliteDish
 
@@ -1233,7 +1371,10 @@ This small communications unit can be used to communicate with nearby trade vess
 **Build States:**
   - Description=1 x Kit (Tank)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tank), PrefabHash=771439840, PageLink=ThingItemKitTank
 
@@ -1283,7 +1424,10 @@ Sinotai's standard solar panels are used for generating power from sunlight. The
   - Description=1 x Kit (Solar Panel)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel), PrefabHash=-1924492105, PageLink=ThingItemKitSolarPanel
 
@@ -1305,7 +1449,10 @@ Sinotai's standard solar panels are used for generating power from sunlight. The
   - Description=2 x Steel Sheets
   - Description=4 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel), PrefabHash=-1924492105, PageLink=ThingItemKitSolarPanel
 
@@ -1328,7 +1475,10 @@ Sinotai basic solar panels generate power from sunlight, sitting at 45 degrees t
   - Description=1 x Kit (Solar Panel Basic)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Basic), PrefabHash=844961456, PageLink=ThingItemKitSolarPanelBasic
 
@@ -1350,8 +1500,11 @@ Sinotai basic solar panels generate power from sunlight, sitting at 45 degrees t
   - Description=2 x Steel Sheets
   - Description=4 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel), PrefabHash=-1924492105, PageLink=ThingItemKitSolarPanel
 
@@ -1374,8 +1527,11 @@ Sinotai dual solar panels are used for generating power from sunlight, with dedi
   - Description=1 x Kit (Solar Panel)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel), PrefabHash=-1924492105, PageLink=ThingItemKitSolarPanel
 
@@ -1398,7 +1554,10 @@ Sinotai basic solar panels generate power from sunlight. They lie flat to the gr
   - Description=1 x Kit (Solar Panel Basic)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Basic), PrefabHash=844961456, PageLink=ThingItemKitSolarPanelBasic
 
@@ -1420,7 +1579,10 @@ Sinotai basic solar panels generate power from sunlight. They lie flat to the gr
   - Description=10 x Steel Sheets
   - Description=10 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Heavy), PrefabHash=-364868685, PageLink=ThingItemKitSolarPanelReinforced
 
@@ -1443,7 +1605,10 @@ This solar panel is resistant to storm damage.
   - Description=1 x Kit (Solar Panel Basic Heavy)
   - Description=Welding Torch 5 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Basic Heavy), PrefabHash=-528695432, PageLink=ThingItemKitSolarPanelBasicReinforced
 
@@ -1465,8 +1630,11 @@ This solar panel is resistant to storm damage.
   - Description=10 x Steel Sheets
   - Description=10 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Heavy), PrefabHash=-364868685, PageLink=ThingItemKitSolarPanelReinforced
 
@@ -1489,8 +1657,11 @@ This solar panel is resistant to storm damage.
   - Description=1 x Kit (Solar Panel Heavy)
   - Description=Welding Torch 5 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Heavy), PrefabHash=-364868685, PageLink=ThingItemKitSolarPanelReinforced
 
@@ -1513,7 +1684,10 @@ This solar panel is resistant to storm damage.
   - Description=1 x Kit (Solar Panel Basic Heavy)
   - Description=Welding Torch 5 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Basic Heavy), PrefabHash=-528695432, PageLink=ThingItemKitSolarPanelBasicReinforced
 
@@ -1536,7 +1710,10 @@ This solar panel is resistant to storm damage.
   - Description=1 x Kit (Solar Panel Heavy)
   - Description=Welding Torch 5 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solar Panel Heavy), PrefabHash=-364868685, PageLink=ThingItemKitSolarPanelReinforced
 
@@ -1590,33 +1767,45 @@ No amount of automation is complete without some way of moving different items t
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Export 2, SlotType=Export 2, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Export 2 | Export 2 | 2 |
+
 **Build States:**
   - Description=1 x Kit (Sorter)
-**Mode Options:**
-  - LogicName=Split, LogicAccessTypes=0
-  - LogicName=Filter, LogicAccessTypes=1
-  - LogicName=Logic, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Split | 0 |
+| Filter | 1 |
+| Logic | 2 |
+
 **Connections:**
-  - LogicName=Chute Output 2, LogicAccessTypes=0
-  - LogicName=Chute Input, LogicAccessTypes=1
-  - LogicName=Chute Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Output 2 | 0 |
+| Chute Input | 1 |
+| Chute Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sorter), PrefabHash=969522478, PageLink=ThingItemKitSorter
 
@@ -1872,28 +2061,34 @@ The basic CHAC spacepack isn't 'technically' a jetpack, it's a gas thruster. It 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=Propellant, SlotType=Propellant, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| Propellant | Propellant | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
@@ -1916,12 +2111,18 @@ It’s a spotlight... bright, focused, and it cuts through the dark. Connect it 
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Spotlight)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Spotlight), PrefabHash=-535822999, PageLink=ThingItemKitSpotlight
 
@@ -1939,7 +2140,10 @@ Use with Spray cans in the Spray Can to paint structures, cables and pipes. Much
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=Spray Can, SlotType=Spray Can, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Spray Can | Spray Can | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 2000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Invar (from Ingot (Invar)) + 10 x Silicon (from Ingot (Silicon))

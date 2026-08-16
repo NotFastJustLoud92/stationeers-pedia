@@ -16,8 +16,11 @@ Extendable bridge that spans three grids
   - Description=Welding Torch 2 x Steel Sheets
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Access Bridge), PrefabHash=513258369, PageLink=ThingItemKitAccessBridge
 
@@ -238,35 +241,44 @@ Checks the access card color against the configured Mode, with Setting set to 1 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Access Card | Access Card | 0 |
+
 **Build States:**
   - Description=1 x Kit (Modular Console Inputs)
-**Mode Options:**
-  - LogicName=Blue, LogicAccessTypes=0
-  - LogicName=Gray, LogicAccessTypes=1
-  - LogicName=Green, LogicAccessTypes=2
-  - LogicName=Orange, LogicAccessTypes=3
-  - LogicName=Red, LogicAccessTypes=4
-  - LogicName=Yellow, LogicAccessTypes=5
-  - LogicName=White, LogicAccessTypes=6
-  - LogicName=Black, LogicAccessTypes=7
-  - LogicName=Brown, LogicAccessTypes=8
-  - LogicName=Khaki, LogicAccessTypes=9
-  - LogicName=Pink, LogicAccessTypes=10
-  - LogicName=Purple, LogicAccessTypes=11
+**Mode:**
+| Name | Value |
+|---|---|
+| Blue | 0 |
+| Gray | 1 |
+| Green | 2 |
+| Orange | 3 |
+| Red | 4 |
+| Yellow | 5 |
+| White | 6 |
+| Black | 7 |
+| Brown | 8 |
+| Khaki | 9 |
+| Pink | 10 |
+| Purple | 11 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
 
@@ -288,9 +300,12 @@ When connected to power and activated, it pumps liquid from a liquid network int
 **Build States:**
   - Description=1 x Kit (Liquid Drain)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Power Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Data Input | 1 |
+| Power Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Drain), PrefabHash=2036225202, PageLink=ThingItemLiquidDrain
 
@@ -309,28 +324,40 @@ The active vent is a powered device for maintaining gas pressure by pumping gas 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Data Disk | Data Disk | 0 |
+
 **Build States:**
   - Description=1 x Kit (Active Vent)
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Outward | 0 |
+| Inward | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Active Vent), PrefabHash=-842048328, PageLink=ThingItemActiveVent
 
@@ -384,33 +411,45 @@ The advanced composter creates Fertilizer out of organic matter. It accepts food
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Advanced Composter)
   - Description=Welding Torch 5 x Steel Sheets
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Chute Input, LogicAccessTypes=3
-  - LogicName=Chute Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Connection | 2 |
+| Chute Input | 3 |
+| Chute Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Advanced Composter), PrefabHash=-1431998347, PageLink=ThingItemKitAdvancedComposter
 
@@ -430,21 +469,27 @@ The advanced furnace comes with integrated inlet and outlet pumps for controllin
 - **Convection Factor:** 1.35
 - **Radiation Factor:** 1.35
 - **Solar Heating Factor:** 1.35
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Advanced Furnace)
   - Description=1 x Electronic Parts
@@ -452,17 +497,23 @@ The advanced furnace comes with integrated inlet and outlet pumps for controllin
   - Description=Screwdriver
 **Resources Used:**
   - NameOfThing=Ores, PrefabHash=0, PageLink=OrePage
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Input, LogicAccessTypes=4
-  - LogicName=Pipe Output, LogicAccessTypes=5
-  - LogicName=Pipe Liquid Output 2, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Pipe Input | 4 |
+| Pipe Output | 5 |
+| Pipe Liquid Output 2 | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Advanced Furnace), PrefabHash=-616758353, PageLink=ThingItemKitAdvancedFurnace
 
@@ -482,31 +533,27 @@ The Xigo Advanced Cannifier Multi-Plus Pro is an automateable packaging machine 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Advanced Packaging Machine)
   - Description=Welding Torch 2 x Iron Sheets
@@ -526,10 +573,13 @@ The Xigo Advanced Cannifier Multi-Plus Pro is an automateable packaging machine 
   - NameOfThing=Baked Potato, PrefabHash=-2111886401, PageLink=ThingItemPotatoBaked
   - NameOfThing=Soy Oil, PrefabHash=1387403148, PageLink=ThingItemSoyOil
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Advanced Packaging Machine), PrefabHash=-598545233, PageLink=ThingItemKitAdvancedPackagingMachine
 
@@ -547,39 +597,38 @@ The advanced Xigo Padi 2 tablet is an improved version of the basic Handheld Tab
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5
-**Logic Bindings:**
-  - Header=db, Label=TABLET
-  - Header=d0, Label=HELMET
-  - Header=d1, Label=BACKPACK
-  - Header=d2, Label=TOOLBELT
-  - Header=d3, Label=GLASSES
-  - Header=d4, Label=LEFT_HAND
-  - Header=d5, Label=RIGHT_HAND
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5 |
+| OccupantHash | 0, 1, 2, 3, 4, 5 |
+| Quantity | 0, 1, 2, 3, 4, 5 |
+| Damage | 0, 1, 2, 3, 4, 5 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1, 2, 3, 4, 5 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5 |
+| PrefabHash | 0, 1, 2, 3, 4, 5 |
+| ReferenceId | 0, 1, 2, 3, 4, 5 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Cartridge, SlotType=Cartridge, SlotIndex=1
-  - SlotName=Cartridge1, SlotType=Cartridge1, SlotIndex=2
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=3
-  - SlotType=, SlotIndex=4
-  - SlotType=, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Cartridge | Cartridge | 1 |
+| Cartridge1 | Cartridge1 | 2 |
+| Programmable Chip | Programmable Chip | 3 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier Two)
     - 12000 x Energy + 3 x Iron (from Ingot (Iron)) + 12 x Gold (from Ingot (Gold)) + 5.5 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 1 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -603,38 +652,45 @@ Designed by - presumably drunk - Norsec roboticists, AIMeE (or Automated Indepen
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-**Logic Bindings:**
-  - Header=db, Label=ROBOT
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=1
-  - SlotName=Ore, SlotType=Ore, SlotIndex=2
-  - SlotName=Ore, SlotType=Ore, SlotIndex=3
-  - SlotName=Ore, SlotType=Ore, SlotIndex=4
-  - SlotName=Ore, SlotType=Ore, SlotIndex=5
-  - SlotName=Ore, SlotType=Ore, SlotIndex=6
-  - SlotName=Ore, SlotType=Ore, SlotIndex=7
-  - SlotName=Ore, SlotType=Ore, SlotIndex=8
-  - SlotName=Ore, SlotType=Ore, SlotIndex=9
-**Mode Options:**
-  - LogicName=None, LogicAccessTypes=0
-  - LogicName=Follow, LogicAccessTypes=1
-  - LogicName=MoveToTarget, LogicAccessTypes=2
-  - LogicName=Roam, LogicAccessTypes=3
-  - LogicName=Unload, LogicAccessTypes=4
-  - LogicName=PathToTarget, LogicAccessTypes=5
-  - LogicName=StorageFull, LogicAccessTypes=6
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Programmable Chip | Programmable Chip | 1 |
+| Ore | Ore | 2 |
+| Ore | Ore | 3 |
+| Ore | Ore | 4 |
+| Ore | Ore | 5 |
+| Ore | Ore | 6 |
+| Ore | Ore | 7 |
+| Ore | Ore | 8 |
+| Ore | Ore | 9 |
+
+**Mode:**
+| Name | Value |
+|---|---|
+| None | 0 |
+| Follow | 1 |
+| MoveToTarget | 2 |
+| Roam | 3 |
+| Unload | 4 |
+| PathToTarget | 5 |
+| StorageFull | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (AIMeE), PrefabHash=496830914, PageLink=ThingItemKitAIMeE
 
@@ -654,37 +710,45 @@ Built using the Kit (Atmospherics), the ExMin-designed air conditioner is used t
 - **Convection Factor:** 0.52
 - **Radiation Factor:** 0.52
 - **Solar Heating Factor:** 0.52
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
   - Description=2 x Kit (Pipe)
   - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Waste, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output | 2 |
+| Pipe Waste | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
@@ -743,12 +807,18 @@ The standard airlock is a powered portal that forms the main component of an air
   - Description=1 x Kit (Airlock)
   - Description=Welding Torch 2 x Steel Sheets
   - Description=Crowbar 2 x Plastic Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Airlock), PrefabHash=964043875, PageLink=ThingItemKitAirlock
 
@@ -773,12 +843,18 @@ The standard airlock is a powered portal that forms the main component of an air
   - Description=2 x Kit (Airlock)
   - Description=Welding Torch 10 x Steel Sheets
   - Description=Crowbar 8 x Plastic Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Airlock), PrefabHash=964043875, PageLink=ThingItemKitAirlock
 
@@ -846,19 +922,25 @@ Angles-be-gone with the trusty angle grinder.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper))
@@ -911,18 +993,21 @@ The seed tray can hold up to twelve plants or seeds and can be used to facilitat
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Plant, SlotType=Plant, SlotIndex=4
-  - SlotName=Plant, SlotType=Plant, SlotIndex=5
-  - SlotName=Plant, SlotType=Plant, SlotIndex=6
-  - SlotName=Plant, SlotType=Plant, SlotIndex=7
-  - SlotName=Plant, SlotType=Plant, SlotIndex=8
-  - SlotName=Plant, SlotType=Plant, SlotIndex=9
-  - SlotName=Plant, SlotType=Plant, SlotIndex=10
-  - SlotName=Plant, SlotType=Plant, SlotIndex=11
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Plant | Plant | 4 |
+| Plant | Plant | 5 |
+| Plant | Plant | 6 |
+| Plant | Plant | 7 |
+| Plant | Plant | 8 |
+| Plant | Plant | 9 |
+| Plant | Plant | 10 |
+| Plant | Plant | 11 |
+
 **Build Recipe:**
   - Printer: Hydraulic Pipe Bender (Tier One)
     - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 15 x Silicon (from Ingot (Silicon))
@@ -949,21 +1034,27 @@ The simplest smelting system available to the average Stationeer, Recurso's arc 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Arc Furnace)
 **Resources Used:**
@@ -976,10 +1067,13 @@ The simplest smelting system available to the average Stationeer, Recurso's arc 
   - NameOfThing=Ore (Silicon), PrefabHash=1103972403, PageLink=ThingItemSiliconOre
   - NameOfThing=Ore (Silver), PrefabHash=-916518678, PageLink=ThingItemSilverOre
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Arc Furnace), PrefabHash=-98995857, PageLink=ThingItemKitArcFurnace
 
@@ -995,19 +1089,25 @@ The simplest smelting system available to the average Stationeer, Recurso's arc 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
@@ -1028,34 +1128,46 @@ An Area Power Control (APC) has three main functions: Its primary purpose is to 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=1 x Kit (Area Power Controller)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Discharged, LogicAccessTypes=1
-  - LogicName=Discharging, LogicAccessTypes=2
-  - LogicName=Charging, LogicAccessTypes=3
-  - LogicName=Charged, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Discharged | 1 |
+| Discharging | 2 |
+| Charging | 3 |
+| Charged | 4 |
+
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
-  - LogicName=Power Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+| Power Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Area Power Controller), PrefabHash=1757673317, PageLink=ThingItemAreaPowerControl
 
@@ -1074,34 +1186,46 @@ An Area Power Control (APC) has three main functions. Its primary purpose is to 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=1 x Kit (Area Power Controller)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Discharged, LogicAccessTypes=1
-  - LogicName=Discharging, LogicAccessTypes=2
-  - LogicName=Charging, LogicAccessTypes=3
-  - LogicName=Charged, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Discharged | 1 |
+| Discharging | 2 |
+| Charging | 3 |
+| Charged | 4 |
+
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
-  - LogicName=Power Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+| Power Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Area Power Controller), PrefabHash=1757673317, PageLink=ThingItemAreaPowerControl
 
@@ -1153,28 +1277,6 @@ A dock that spawns a gas and liquid monorail train with a 16000 L atmosphere tan
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=TrainInstruction.GotoStationHash OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.SetSpeed OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | SPEED_1_TO_30 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.SetDoors OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-23 | DOORMASK_0_ALL_ORBITMASK | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetInteriorLights OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetFrontLights OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetRearLights OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.PlaySound OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | CLIP_INDEX | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.HonkHorn OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForIdle OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForDoorClear OP_CODE: 10, Index=A, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForCargoEmpty OP_CODE: 11, Index=B, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForSleep OP_CODE: 12, Index=C, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | DURATION_SECONDS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.JumpToAddress OP_CODE: 13, Index=D, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForPassenger OP_CODE: 14, Index=E, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.Halt OP_CODE: 15, Index=F, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.DeleteTimetable OP_CODE: 16, Index=10, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.ToggleCargoBay OP_CODE: 17, Index=11, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.BranchIfSeatsOccupied OP_CODE: 18, Index=12, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForSeatsOccupied OP_CODE: 19, Index=13, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | MINOCCUPIEDSEATS | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.WaitForStationHash OP_CODE: 20, Index=14, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.StackPointer OP_CODE: 63, Index=15, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | PROGRAM_COUNTER | USHORT_16 | | 24-63 | UNUSED | 40 |
 **Build States:**
   - Description=1 x Monorail Docks Kit
   - Description=1 x Kit (Transformer Large) 1 x Kit (Transformer Large)
@@ -1185,9 +1287,12 @@ A dock that spawns a gas and liquid monorail train with a 16000 L atmosphere tan
   - Description=1 x Kit (Logic Transmitter) 6 x Kit (Logic Switch)
   - Description=6 x Kit (Lights) 2 x Kit (Chairs)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Docks Kit, PrefabHash=-164820803, PageLink=ThingItemMonorailDocksKit
 
@@ -1267,31 +1372,27 @@ The foundation of most Stationeer fabrication systems, the ExMin autolathe is a 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Autolathe)
   - Description=Welding Torch 2 x Iron Sheets
@@ -1302,10 +1403,13 @@ The foundation of most Stationeer fabrication systems, the ExMin autolathe is a 
 **Resources Used:**
   - NameOfThing=Ingots, PrefabHash=0, PageLink=IngotPage
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Autolathe), PrefabHash=-1753893214, PageLink=ThingItemKitAutolathe
 
@@ -1342,31 +1446,27 @@ Apply to an Autolathe with a Welding Torch or Arc Welder to upgrade for increase
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Automated Oven)
   - Description=Welding Torch 2 x Iron Sheets
@@ -1391,10 +1491,13 @@ Apply to an Autolathe with a Welding Torch or Arc Welder to upgrade for increase
   - NameOfThing=Pumpkin, PrefabHash=1277828144, PageLink=ThingItemPumpkin
   - NameOfThing=Mushroom, PrefabHash=2044798572, PageLink=ThingItemMushroom
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Automated Oven), PrefabHash=-1931958659, PageLink=ThingItemKitAutomatedOven
 
@@ -1413,31 +1516,40 @@ The Recurso SquareDig autominer is a structure that when built will mine a verti
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Autominer Small)
   - Description=Welding Torch 3 x Electronic Parts
   - Description=Welding Torch 3 x Iron Sheets
   - Description=Welding Torch 4 x Steel Sheets
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Autominer Small), PrefabHash=1668815415, PageLink=ThingItemKitAutoMinerSmall
 
@@ -1458,18 +1570,24 @@ The Recurso SquareDig autominer is a structure that when built will mine a verti
   - Description=1 x Kit (Rocket Battery)
   - Description=5 x Cable Coil
   - Description=Screwdriver 2 x Electronic Parts
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 **Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-  - LogicName=Power and Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Power Input | 0 |
+| Power and Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Battery), PrefabHash=-314072139, PageLink=ThingItemKitRocketBattery
 
@@ -1490,9 +1608,12 @@ Unlike the Pressure Regulator, which closes when the input exceeds a given press
 **Build States:**
   - Description=1 x Kit (Pressure Regulator)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pressure Regulator), PrefabHash=1181371795, PageLink=ThingItemKitRegulator
 
@@ -1570,7 +1691,10 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Export, SlotType=Export, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Export | Export | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -1622,8 +1746,11 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 **Build States:**
   - Description=1 x Kit (Basket)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basket), PrefabHash=148305004, PageLink=ThingItemKitBasket
 
@@ -1643,9 +1770,12 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -1665,9 +1795,12 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -1687,9 +1820,12 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -1710,18 +1846,24 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
   - Description=2 x Kit (Rocket Battery)
   - Description=10 x Cable Coil
   - Description=Screwdriver 4 x Electronic Parts
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 **Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-  - LogicName=Power and Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Power Input | 0 |
+| Power and Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Battery), PrefabHash=-314072139, PageLink=ThingItemKitRocketBattery
 
@@ -1744,14 +1886,17 @@ First mass-produced by Xigo in 2155 on the basis of a unattributed prototype, th
   - Printer: Electronics Printer (Tier One)
     - 20000 x Energy + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
 
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 
@@ -1772,14 +1917,17 @@ Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new
   - Printer: Electronics Printer (Tier Two)
     - 360000 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Inconel (from Ingot (Inconel)) + 10 x Astroloy (from Ingot (Astroloy))
 
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 
@@ -1800,14 +1948,17 @@ Harnessing a design pioneered in the early 21st century, the small battery cell 
   - Printer: Electronics Printer (Tier One)
     - 1000 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 
@@ -1824,31 +1975,40 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=Charge, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=ChargeRatio, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4 |
+| OccupantHash | 0, 1, 2, 3, 4 |
+| Quantity | 0, 1, 2, 3, 4 |
+| Damage | 0, 1, 2, 3, 4 |
+| Charge | 0, 1, 2, 3, 4 |
+| ChargeRatio | 0, 1, 2, 3, 4 |
+| Class | 0, 1, 2, 3, 4 |
+| MaxQuantity | 0, 1, 2, 3, 4 |
+| PrefabHash | 0, 1, 2, 3, 4 |
+| SortingClass | 0, 1, 2, 3, 4 |
+| ReferenceId | 0, 1, 2, 3, 4 |
+| FreeSlots | 0, 1, 2, 3, 4 |
+| TotalSlots | 0, 1, 2, 3, 4 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Battery, SlotType=Battery, SlotIndex=1
-  - SlotName=Battery, SlotType=Battery, SlotIndex=2
-  - SlotName=Battery, SlotType=Battery, SlotIndex=3
-  - SlotName=Battery, SlotType=Battery, SlotIndex=4
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Battery | Battery | 1 |
+| Battery | Battery | 2 |
+| Battery | Battery | 3 |
+| Battery | Battery | 4 |
+
 **Build States:**
   - Description=1 x Kit (Battery Charger)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Battery Charger), PrefabHash=-1866880307, PageLink=ThingItemBatteryCharger
 
@@ -1885,27 +2045,36 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0, 1
-  - LogicName=ChargeRatio, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0, 1 |
+| ChargeRatio | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Battery, SlotType=Battery, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Battery | Battery | 1 |
+
 **Build States:**
   - Description=1 x Battery Charger Small
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Battery Charger Small, PrefabHash=1008295833, PageLink=ThingItemBatteryChargerSmall
 
@@ -1926,14 +2095,17 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
   - Printer: Electronics Printer (Tier One)
     - 10000 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 
@@ -1952,14 +2124,17 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
   - Printer: Electronics Printer (Tier One)
     - 20000 x Energy + 5 x Gold (from Ingot (Gold)) + 15 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
 
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 
@@ -1977,8 +2152,11 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 **Build States:**
   - Description=1 x Kit (Beacon)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Beacon), PrefabHash=249073136, PageLink=ThingItemKitBeacon
 
@@ -1995,20 +2173,26 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -2025,27 +2209,36 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=On, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| On | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Appliance 1, SlotType=Appliance 1, SlotIndex=0
-  - SlotName=Appliance 2, SlotType=Appliance 2, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Appliance 1 | Appliance 1 | 0 |
+| Appliance 2 | Appliance 2 | 1 |
+
 **Build States:**
   - Description=1 x Kit (Tables)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tables), PrefabHash=-1361598922, PageLink=ThingItemKitTables
 
@@ -2062,20 +2255,26 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -2092,27 +2291,36 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=On, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| On | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Appliance 1, SlotType=Appliance 1, SlotIndex=0
-  - SlotName=Appliance 2, SlotType=Appliance 2, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Appliance 1 | Appliance 1 | 0 |
+| Appliance 2 | Appliance 2 | 1 |
+
 **Build States:**
   - Description=1 x Kit (Tables)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tables), PrefabHash=-1361598922, PageLink=ThingItemKitTables
 
@@ -2127,27 +2335,36 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=On, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| On | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Appliance 1, SlotType=Appliance 1, SlotIndex=0
-  - SlotName=Appliance 2, SlotType=Appliance 2, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Appliance 1 | Appliance 1 | 0 |
+| Appliance 2 | Appliance 2 | 1 |
+
 **Build States:**
   - Description=1 x Kit (Tables)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tables), PrefabHash=-1361598922, PageLink=ThingItemKitTables
 
@@ -2162,27 +2379,36 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=On, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| On | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Appliance 1, SlotType=Appliance 1, SlotIndex=0
-  - SlotName=Appliance 2, SlotType=Appliance 2, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Appliance 1 | Appliance 1 | 0 |
+| Appliance 2 | Appliance 2 | 1 |
+
 **Build States:**
   - Description=1 x Kit (Tables)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tables), PrefabHash=-1361598922, PageLink=ThingItemKitTables
 
@@ -2352,12 +2578,18 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
   - Description=1 x Kit (Blast Door)
   - Description=Welding Torch 3 x Steel Sheets
   - Description=Crowbar 3 x Steel Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Blast Door), PrefabHash=-1755116240, PageLink=ThingItemKitBlastDoor
 
@@ -2374,24 +2606,33 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Bed, SlotType=Bed, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Bed | Bed | 0 |
+
 **Build States:**
   - Description=1 x Kit (Beds)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Beds), PrefabHash=-1241256797, PageLink=ThingItemKitBeds
 

@@ -37,8 +37,12 @@ foreach ($file in $dataFiles) {
             b = $body
         }
         $hashMatch = [regex]::Match($body, "(?m)^-\s*\*\*Prefab Hash:\*\*\s*(-?\d+)\s*$")
+        $gasMatch = [regex]::Match($body, "(?m)^-\s*\*\*Gas Type:\*\*\s*(.+?)\s*$")
         if ($hashMatch.Success -and $iconHashes.ContainsKey($hashMatch.Groups[1].Value)) {
             $page | Add-Member -MemberType NoteProperty -Name "i" -Value "icons/$($hashMatch.Groups[1].Value).png"
+            $iconedPages++
+        } elseif ($gasMatch.Success -and $iconHashes.ContainsKey("gas_$($gasMatch.Groups[1].Value)")) {
+            $page | Add-Member -MemberType NoteProperty -Name "i" -Value "icons/gas_$($gasMatch.Groups[1].Value).png"
             $iconedPages++
         }
         $pages += $page

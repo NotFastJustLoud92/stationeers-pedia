@@ -13,8 +13,11 @@ A straight 2 m rail for short gaps and fine alignment. Prefer longer rails for l
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -33,8 +36,11 @@ A straight 6 m rail for short gaps and fine alignment. Prefer longer rails for l
 **Build States:**
   - Description=2 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -87,9 +93,12 @@ A right-branching switch. Setting=0 selects the straight A-B path; Setting=1 sel
 **Build States:**
   - Description=1 x Monorail Switches Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Switches Kit, PrefabHash=496624275, PageLink=ThingItemMonorailSwitchesKit
 
@@ -126,8 +135,11 @@ A monorail track segment for a simple 2m sideways shift to the left. Connects en
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -146,8 +158,11 @@ A monorail track segment for a simple 2m sideways shift to the right. Connects e
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -207,8 +222,11 @@ A sloped monorail track segment for elevation changes. Use this rail to transiti
 **Build States:**
   - Description=2 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -227,8 +245,11 @@ A sloped monorail track segment for elevation changes. Use this rail to transiti
 **Build States:**
   - Description=2 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -247,8 +268,11 @@ A sloped monorail track segment for elevation changes. Use this rail to transiti
 **Build States:**
   - Description=2 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -288,8 +312,11 @@ A monorail track segment for stepping 2 meters up or down in elevation. Connects
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -327,28 +354,36 @@ A combined cargo, gas, and liquid station that can operate in both input and out
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=, SlotType=, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+
 **Build States:**
   - Description=1 x Monorail Stations Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
-  - LogicName=Pipe Input, LogicAccessTypes=3
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Chute Input | 2 |
+| Pipe Input | 3 |
+| Pipe Liquid Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Stations Kit, PrefabHash=-511293804, PageLink=ThingItemMonorailStationKit
 
@@ -809,7 +844,10 @@ Originally developed to monitor dance marathons, the motion sensor can also be c
 **Build States:**
   - Description=1 x Kit (Sensors)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sensors), PrefabHash=-1776897113, PageLink=ThingItemKitSensor
 
@@ -963,19 +1001,25 @@ Grow a Mushroom.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 2750 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Silicon (from Ingot (Silicon)) + 10 x Hastelloy (from Ingot (Hastelloy))
@@ -1025,35 +1069,43 @@ This device is used to create Nitrous Oxide from Oxygen, Nitrogen, and a large a
 - **Convection Factor:** 0.729
 - **Radiation Factor:** 0.729
 - **Solar Heating Factor:** 0.729
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Input 2, LogicAccessTypes=2
-  - LogicName=Pipe Output, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Input 2 | 2 |
+| Pipe Output | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
@@ -1415,13 +1467,13 @@ Will be triggered if there is a player in the same room as the sensor. The quant
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=OccupancyInstruction.Entity OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | PREFAB_HASH | UINT_32 | | 40-63 | UNUSED | 24 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=OccupancyInstruction.Inventory OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
 **Build States:**
   - Description=1 x Kit (Sensors)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sensors), PrefabHash=-1776897113, PageLink=ThingItemKitSensor
 
@@ -1448,34 +1500,46 @@ The Recurso OGRE (Orthogonal Ground Rotating Excavator) is a base structure with
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (OGRE)
   - Description=Welding Torch 1 x Electronic Parts
   - Description=Welding Torch 2 x Iron Sheets
   - Description=Welding Torch 2 x Steel Sheets
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (OGRE), PrefabHash=844391171, PageLink=ThingItemKitHorizontalAutoMiner
 
@@ -1525,14 +1589,20 @@ Granular 4-port wireless power and data bridge. Transmits/receives data and powe
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (OmniBridge)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
-  - LogicName=Power and Data Input, LogicAccessTypes=1
-  - LogicName=Power and Data Input, LogicAccessTypes=2
-  - LogicName=Power and Data Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+| Power and Data Input | 1 |
+| Power and Data Input | 2 |
+| Power and Data Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (OmniBridge), PrefabHash=-749299557, PageLink=ThingItemKitOmniBridge
 
@@ -1549,26 +1619,35 @@ Dedicated wall-mounted low-power diagnostics display. Shows active virtual data 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=Mode, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| Mode | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=1 x Kit (OmniBridge)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (OmniBridge), PrefabHash=-749299557, PageLink=ThingItemKitOmniBridge
 
@@ -1586,8 +1665,11 @@ Dedicated wall-mounted low-power diagnostics display. Shows active virtual data 
 **Build States:**
   - Description=1 x Kit (Pipe Valve)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Valve), PrefabHash=799323450, PageLink=ThingItemPipeValve
 
@@ -1605,8 +1687,11 @@ Dedicated wall-mounted low-power diagnostics display. Shows active virtual data 
 **Build States:**
   - Description=1 x Kit (Liquid Pipe Valve)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe Valve), PrefabHash=-2126113312, PageLink=ThingItemLiquidPipeValve
 
@@ -1951,37 +2036,46 @@ A device for locating specific ores. The closer the player is to the selected ty
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 2 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Iron, LogicAccessTypes=0
-  - LogicName=Coal, LogicAccessTypes=1
-  - LogicName=Copper, LogicAccessTypes=2
-  - LogicName=Gold, LogicAccessTypes=3
-  - LogicName=Ice, LogicAccessTypes=4
-  - LogicName=Nickel, LogicAccessTypes=5
-  - LogicName=Lead, LogicAccessTypes=6
-  - LogicName=Silver, LogicAccessTypes=7
-  - LogicName=Silicon, LogicAccessTypes=8
-  - LogicName=Oxite, LogicAccessTypes=9
-  - LogicName=Volatiles, LogicAccessTypes=10
-  - LogicName=Cobalt, LogicAccessTypes=11
-  - LogicName=Nitrice, LogicAccessTypes=12
+**Mode:**
+| Name | Value |
+|---|---|
+| Iron | 0 |
+| Coal | 1 |
+| Copper | 2 |
+| Gold | 3 |
+| Ice | 4 |
+| Nickel | 5 |
+| Lead | 6 |
+| Silver | 7 |
+| Silicon | 8 |
+| Oxite | 9 |
+| Volatiles | 10 |
+| Cobalt | 11 |
+| Nitrice | 12 |
+
 
 ---
 

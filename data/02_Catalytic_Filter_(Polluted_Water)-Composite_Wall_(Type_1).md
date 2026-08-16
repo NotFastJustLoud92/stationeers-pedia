@@ -71,11 +71,17 @@ Nothing says 'I care' like a CCTV camera that's been linked a Motion Sensor and 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Kit (CCTV)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CCTV), PrefabHash=-1505930464, PageLink=ThingItemKitCCTV
 
@@ -94,11 +100,17 @@ Nothing says 'I care' like a CCTV camera that's been linked a Motion Sensor and 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Kit (CCTV)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CCTV), PrefabHash=-1505930464, PageLink=ThingItemKitCCTV
 
@@ -117,11 +129,17 @@ Nothing says 'I care' like a CCTV camera that's been linked a Motion Sensor and 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Kit (CCTV)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CCTV), PrefabHash=-1505930464, PageLink=ThingItemKitCCTV
 
@@ -140,11 +158,17 @@ Nothing says 'I care' like a CCTV camera that's been linked a Motion Sensor and 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Kit (CCTV)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CCTV), PrefabHash=-1505930464, PageLink=ThingItemKitCCTV
 
@@ -163,11 +187,17 @@ Nothing says 'I care' like a CCTV camera that's been linked a Motion Sensor and 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Kit (CCTV)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CCTV), PrefabHash=-1505930464, PageLink=ThingItemKitCCTV
 
@@ -184,30 +214,39 @@ If a Recycler or unbalanced Furnace outputs reagent mixture rather than the desi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Centrifuge)
   - Description=Wrench 2 x Steel Sheets
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Centrifuge), PrefabHash=578182956, PageLink=ThingItemKitCentrifuge
 
@@ -248,12 +287,15 @@ Sustains, without decay. If only all our relationships were so well balanced.
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 
 ---
 
@@ -268,12 +310,15 @@ Sustains, without decay. If only all our relationships were so well balanced.
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 
 ---
 
@@ -296,20 +341,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -328,20 +379,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -360,20 +417,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -392,20 +455,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -424,20 +493,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -456,20 +531,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -488,20 +569,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -520,20 +607,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -552,20 +645,26 @@ One of the universe's many chairs, optimized for bipeds with somewhere between z
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chairs)
 **Constructed Things:**
@@ -744,7 +843,10 @@ Dispel the darkness with this yellow glowstick.
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
-  - SlotName=Output, SlotType=Output, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Output | Output | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 1500 x Energy + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
@@ -768,70 +870,9 @@ Dispel the darkness with this yellow glowstick.
 - **Memory Access:** None
 - **Paintable:** No
 **Slots:**
-  - SlotType=, SlotIndex=0
-  - SlotType=, SlotIndex=1
-  - SlotType=, SlotIndex=2
-  - SlotType=, SlotIndex=3
-  - SlotType=, SlotIndex=4
-  - SlotType=, SlotIndex=5
-  - SlotType=, SlotIndex=6
-  - SlotType=, SlotIndex=7
-  - SlotType=, SlotIndex=8
-  - SlotType=, SlotIndex=9
-  - SlotType=, SlotIndex=10
-  - SlotType=, SlotIndex=11
-  - SlotType=, SlotIndex=12
-  - SlotType=, SlotIndex=13
-  - SlotType=, SlotIndex=14
-  - SlotType=, SlotIndex=15
-  - SlotType=, SlotIndex=16
-  - SlotType=, SlotIndex=17
-  - SlotType=, SlotIndex=18
-  - SlotType=, SlotIndex=19
-  - SlotType=, SlotIndex=20
-  - SlotType=, SlotIndex=21
-  - SlotType=, SlotIndex=22
-  - SlotType=, SlotIndex=23
-  - SlotType=, SlotIndex=24
-  - SlotType=, SlotIndex=25
-  - SlotType=, SlotIndex=26
-  - SlotType=, SlotIndex=27
-  - SlotType=, SlotIndex=28
-  - SlotType=, SlotIndex=29
-  - SlotType=, SlotIndex=30
-  - SlotType=, SlotIndex=31
-  - SlotType=, SlotIndex=32
-  - SlotType=, SlotIndex=33
-  - SlotType=, SlotIndex=34
-  - SlotType=, SlotIndex=35
-  - SlotType=, SlotIndex=36
-  - SlotType=, SlotIndex=37
-  - SlotType=, SlotIndex=38
-  - SlotType=, SlotIndex=39
-  - SlotType=, SlotIndex=40
-  - SlotType=, SlotIndex=41
-  - SlotType=, SlotIndex=42
-  - SlotType=, SlotIndex=43
-  - SlotType=, SlotIndex=44
-  - SlotType=, SlotIndex=45
-  - SlotType=, SlotIndex=46
-  - SlotType=, SlotIndex=47
-  - SlotType=, SlotIndex=48
-  - SlotType=, SlotIndex=49
-  - SlotType=, SlotIndex=50
-  - SlotType=, SlotIndex=51
-  - SlotType=, SlotIndex=52
-  - SlotType=, SlotIndex=53
-  - SlotType=, SlotIndex=54
-  - SlotType=, SlotIndex=55
-  - SlotType=, SlotIndex=56
-  - SlotType=, SlotIndex=57
-  - SlotType=, SlotIndex=58
-  - SlotType=, SlotIndex=59
-  - SlotType=, SlotIndex=60
-  - SlotType=, SlotIndex=61
-  - SlotType=, SlotIndex=62
-  - SlotType=, SlotIndex=63
+| Name | Type | Index |
+|---|---|---|
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 200 x Energy + 2 x Silicon (from Ingot (Silicon))
@@ -853,8 +894,11 @@ Dispel the darkness with this yellow glowstick.
 - **Radiation Factor:** 0.037
 - **Solar Heating Factor:** 0.037
 **Slots:**
-  - SlotName=Brain, SlotType=Brain, SlotIndex=0
-  - SlotName=Lungs, SlotType=Lungs, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Brain | Brain | 0 |
+| Lungs | Lungs | 1 |
+
 
 ---
 
@@ -872,8 +916,11 @@ Dispel the darkness with this yellow glowstick.
 - **Radiation Factor:** 0.149
 - **Solar Heating Factor:** 0.149
 **Slots:**
-  - SlotName=Brain, SlotType=Brain, SlotIndex=0
-  - SlotName=Lungs, SlotType=Lungs, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Brain | Brain | 0 |
+| Lungs | Lungs | 1 |
+
 
 ---
 
@@ -957,12 +1004,18 @@ Chutes act as pipes for items. Use them to connect various import/export equipme
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -982,13 +1035,19 @@ The aim for any Stationeer is to make off-world survival less of a struggle for 
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=2 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Input 2, LogicAccessTypes=1
-  - LogicName=Chute Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Input 2 | 1 |
+| Chute Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1008,12 +1067,18 @@ Chutes act as pipes for items. Use them to connect various import/export equipme
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=8 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1033,12 +1098,18 @@ Chutes act as pipes for items. Use them to connect various import/export equipme
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=3 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1058,12 +1129,18 @@ Chutes act as pipes for items. Use them to connect various import/export equipme
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=4 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1083,12 +1160,18 @@ Chutes act as pipes for items. Use them to connect various import/export equipme
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1108,12 +1191,18 @@ Chute's with windows let you see what's passing through your import/export netwo
 - **Auto Ignition:** 873 K (600oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=2 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1130,30 +1219,42 @@ The digital flip flop will toggle between two outputs using a specified ratio (n
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Output 2, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Chute Output 2 | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1170,30 +1271,42 @@ The digital flip flop will toggle between two outputs using a specified ratio (n
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Output 2, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Chute Output 2 | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1210,26 +1323,35 @@ The Digital Chute Valve will stop the flow of materials when set to closed and w
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1246,26 +1368,35 @@ The Digital Chute Valve will stop the flow of materials when set to closed and w
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1282,25 +1413,34 @@ The Digital Chute Valve will stop the flow of materials when set to closed and w
 - **Paintable:** Yes
 - **Flashpoint:** 573 K (300oC)
 - **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Input, SlotType=Input, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Input | Input | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1320,16 +1460,25 @@ A chute that toggles between two outputs
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=2 x Kit (Basic Chutes)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Output 2, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Chute Output 2 | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1348,25 +1497,34 @@ The Stationeer's goal is to make off-world survival less of a struggle for thems
 - **Paintable:** Yes
 - **Flashpoint:** 573 K (300oC)
 - **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Input, SlotType=Input, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Input | Input | 0 |
+
 **Build States:**
   - Description=1 x Kit (Powered Chutes)
 **Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Output | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Powered Chutes), PrefabHash=2133035682, PageLink=ThingItemKitStandardChute
 
@@ -1384,25 +1542,34 @@ The aim for any Stationeer is to make off-world survival less of a struggle for 
 - **Paintable:** Yes
 - **Flashpoint:** 573 K (300oC)
 - **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+
 **Build States:**
   - Description=2 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Output | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1420,25 +1587,34 @@ The aim for any Stationeer is to make off-world survival less of a struggle for 
 - **Paintable:** Yes
 - **Flashpoint:** 573 K (300oC)
 - **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Export, SlotType=Export, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Export | Export | 0 |
+
 **Build States:**
   - Description=2 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1456,13 +1632,19 @@ The overflow chute will direct materials to its overflow port when the thing con
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Output 2, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Chute Output 2 | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1480,12 +1662,18 @@ The Chute Valve will stop the flow of materials when set to closed and when set 
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Basic Chutes)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Basic Chutes), PrefabHash=1025254665, PageLink=ThingItemKitChute
 
@@ -1718,37 +1906,42 @@ The Combustion Centrifuge is a gas fuel powered version of the Centrifuge. If a 
 - **Convection Factor:** 0
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Programmable Chip | Programmable Chip | 2 |
+
 **Build States:**
   - Description=1 x Kit (Combustion Centrifuge)
   - Description=Welding Torch 2 x Steel Sheets
   - Description=1 x Cable Coil
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Input, LogicAccessTypes=4
-  - LogicName=Pipe Output, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Pipe Input | 4 |
+| Pipe Output | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Combustion Centrifuge), PrefabHash=231903234, PageLink=ThingKitStructureCombustionCentrifuge
 
@@ -1765,36 +1958,41 @@ The Combustion Deep Miner is a gas fuel powered version of the Deep Miner. The m
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Export, SlotType=Export, SlotIndex=0
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Export | Export | 0 |
+| Programmable Chip | Programmable Chip | 1 |
+
 **Build States:**
   - Description=1 x Kit (Combustion Deep Miner)
   - Description=5 x Electronic Parts
   - Description=Welding Torch 12 x Steel Sheets
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Pipe Input, LogicAccessTypes=3
-  - LogicName=Pipe Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Chute Output | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Pipe Input | 3 |
+| Pipe Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Combustion Deep Miner), PrefabHash=1141740387, PageLink=ThingItemKitCombustionDeepMiner
 
@@ -1811,39 +2009,47 @@ The Combustor performs controlled combustion of a mixture drawn from a gas input
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
   - Description=2 x Kit (Pipe)
   - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Input 2, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-  - LogicName=Pipe Output, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Liquid Input | 2 |
+| Connection | 3 |
+| Pipe Input 2 | 4 |
+| Connection | 5 |
+| Pipe Output | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
@@ -1879,31 +2085,43 @@ This is a compacted version of the Filtration unit. While it's 40% slower, uses 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=FilterType, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| FilterType | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Filter, SlotType=Filter, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Filter | Filter | 0 |
+
 **Build States:**
   - Description=1 x Kit (Compact Filtration)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output 2, LogicAccessTypes=2
-  - LogicName=Pipe Output, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output 2 | 2 |
+| Pipe Output | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Compact Filtration), PrefabHash=-1193261183, PageLink=ThingItemKitCompactFiltration
 
@@ -1920,31 +2138,43 @@ This is a compacted version of the Filtration unit. While it's 40% slower, uses 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=FilterType, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| FilterType | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Filter, SlotType=Filter, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Filter | Filter | 0 |
+
 **Build States:**
   - Description=1 x Kit (Compact Filtration)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output 2, LogicAccessTypes=2
-  - LogicName=Pipe Output, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output 2 | 2 |
+| Pipe Output | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Compact Filtration), PrefabHash=-1193261183, PageLink=ThingItemKitCompactFiltration
 
@@ -2273,12 +2503,18 @@ Recurso's composite doors are rated to 300kPa, which is more than sufficient for
   - Description=1 x Kit (Door)
   - Description=Welding Torch 1 x Plastic Sheets
   - Description=Crowbar 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Door), PrefabHash=168615924, PageLink=ThingItemKitDoor
 
@@ -2400,9 +2636,12 @@ While aesthetics rank low on the ladder of Stationeer concerns, composite gratin
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Door)
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Door), PrefabHash=168615924, PageLink=ThingItemKitDoor
 

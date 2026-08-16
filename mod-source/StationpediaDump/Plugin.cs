@@ -124,6 +124,57 @@ namespace StationpediaDump
             Log.LogInfo($"[StationpediaDump] Wrote {fileCount} files + README to {outRoot} ({pages.Count} pages total)");
 
             DumpIcons(sorted, outRoot);
+            DumpGasIcons(outRoot);
+        }
+
+        /// <summary>
+        /// Gas pages (Oxygen, Nitrogen, etc.) aren't spawnable Things and have
+        /// no PrefabHash, so DumpIcons never covers them - the SPDA sources
+        /// gas icons from a completely separate Stationpedia._gasThumbnails
+        /// list (GasThumbnail: Name, GasType, Thumbnail Sprite) instead.
+        /// Saved as icons/gas_&lt;GasTypeName&gt;.png, matched up in
+        /// build_search_index.ps1 by each page's own "Gas Type" field.
+        /// </summary>
+        private static void DumpGasIcons(string outRoot)
+        {
+            string iconDir = Path.Combine(outRoot, "icons");
+            Directory.CreateDirectory(iconDir);
+            int ok = 0, skipped = 0, failed = 0;
+            try
+            {
+                var inst = Stationpedia.Instance;
+                var f = typeof(Stationpedia).GetField("_gasThumbnails", BindingFlags.NonPublic | BindingFlags.Instance);
+                var list = f?.GetValue(inst) as IEnumerable;
+                if (list == null) { Log.LogWarning("[StationpediaDump] _gasThumbnails not found/null, skipping gas icons."); return; }
+
+                foreach (var item in list)
+                {
+                    if (item == null) continue;
+                    Type t = item.GetType();
+                    string gasTypeName = (t.GetField("GasType")?.GetValue(item) ?? t.GetProperty("GasType")?.GetValue(item))?.ToString();
+                    Sprite sprite = (t.GetField("Thumbnail")?.GetValue(item) ?? t.GetProperty("Thumbnail")?.GetValue(item)) as Sprite;
+                    if (string.IsNullOrEmpty(gasTypeName) || sprite == null) { skipped++; continue; }
+
+                    string fname = Path.Combine(iconDir, "gas_" + SanitizeFileName(gasTypeName) + ".png");
+                    try
+                    {
+                        byte[] png = EncodeSpriteToPng(sprite);
+                        if (png == null) { failed++; continue; }
+                        File.WriteAllBytes(fname, png);
+                        ok++;
+                    }
+                    catch (Exception e)
+                    {
+                        failed++;
+                        Log.LogWarning($"[StationpediaDump] Gas icon export failed for {gasTypeName}: {e.Message}");
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("[StationpediaDump] DumpGasIcons failed: " + e.Message);
+            }
+            Log.LogInfo($"[StationpediaDump] Gas icons: {ok} exported, {skipped} skipped, {failed} failed.");
         }
 
         /// <summary>
@@ -405,10 +456,10 @@ namespace StationpediaDump
             WriteField(sb, "Placeable In Rocket", page.PlaceableInRocket);
             WriteField(sb, "Rocket Mass", page.RocketMass);
 
-            WriteList(sb, "Logic Types", page.LogicInstructions);
-            WriteList(sb, "Logic Slot Types", page.LogicSlotInsert);
-            WriteList(sb, "Logic Bindings", page.LogicBindings);
-            WriteList(sb, "Slots", page.SlotInserts);
+            WriteLogicTable(sb, "Logic Types", page.LogicInstructions);
+            WriteLogicTable(sb, "Logic Slots", page.LogicSlotInsert);
+            WriteLogicTable(sb, "Logic Bindings", page.LogicBindings);
+            WriteSlotsTable(sb, "Slots", page.SlotInserts);
             WriteList(sb, "Combustion", page.CombustionInserts);
             WriteList(sb, "Life Requirements", page.LifeRequirements);
             if (!TryRenderBuildRecipe(page, sb))
@@ -416,8 +467,8 @@ namespace StationpediaDump
             WriteList(sb, "Build States", page.BuildStates);
             WriteList(sb, "Constructed From Kits", page.ConstructedByKits);
             WriteList(sb, "Resources Used", page.ResourcesUsed);
-            WriteList(sb, "Mode Options", page.ModeInsert);
-            WriteList(sb, "Connections", page.ConnectionInsert);
+            WriteLogicTable(sb, "Mode", page.ModeInsert);
+            WriteLogicTable(sb, "Connections", page.ConnectionInsert);
             WriteList(sb, "Found In Ore", page.FoundInOre);
             WriteList(sb, "Found In Gas", page.FoundInGas);
             WriteList(sb, "Found In Fermentation", page.FoundInFermentation);
@@ -643,6 +694,64 @@ namespace StationpediaDump
                 if (!string.IsNullOrWhiteSpace(s))
                     sb.Append("  - ").AppendLine(s);
             }
+        }
+
+        private static string EscapeTableCell(string s) => string.IsNullOrEmpty(s) ? "" : s.Replace("|", "\\|").Trim();
+
+        /// <summary>
+        /// StationLogicInsert (LogicName, LogicAccessTypes) backs several
+        /// different Stationpedia sections that all share the same two-column
+        /// shape - Logic Types, Logic Slots, Logic Bindings, Mode, and
+        /// Connections all render as a clean "Name | Value" table this way,
+        /// matching the in-game SPDA's own table layout for these sections
+        /// instead of a generic bullet dump. Applies to any device that has
+        /// these fields populated, not just one specific item type.
+        /// </summary>
+        private static void WriteLogicTable(StringBuilder sb, string label, IEnumerable items)
+        {
+            if (items == null) return;
+            List<StationLogicInsert> list;
+            try { list = items.Cast<StationLogicInsert>().Where(x => x != null).ToList(); }
+            catch { return; }
+            if (list.Count == 0) return;
+
+            sb.Append("**").Append(label).AppendLine(":**");
+            sb.AppendLine("| Name | Value |");
+            sb.AppendLine("|---|---|");
+            foreach (var item in list)
+            {
+                string name = EscapeTableCell(Clean(item.LogicName));
+                string value = EscapeTableCell(Clean(item.LogicAccessTypes));
+                if (string.IsNullOrEmpty(name)) continue;
+                sb.Append("| ").Append(name).Append(" | ").Append(value).AppendLine(" |");
+            }
+            sb.AppendLine();
+        }
+
+        /// <summary>
+        /// StationSlotsInsert (SlotName, SlotType, SlotIndex) - the device's
+        /// physical inventory slots (Import/Export/etc.) - rendered as a
+        /// three-column table matching the SPDA's own Slots grid.
+        /// </summary>
+        private static void WriteSlotsTable(StringBuilder sb, string label, IEnumerable items)
+        {
+            if (items == null) return;
+            List<StationSlotsInsert> list;
+            try { list = items.Cast<StationSlotsInsert>().Where(x => x != null).ToList(); }
+            catch { return; }
+            if (list.Count == 0) return;
+
+            sb.Append("**").Append(label).AppendLine(":**");
+            sb.AppendLine("| Name | Type | Index |");
+            sb.AppendLine("|---|---|---|");
+            foreach (var item in list)
+            {
+                string name = EscapeTableCell(Clean(item.SlotName));
+                if (string.IsNullOrEmpty(name)) continue;
+                sb.Append("| ").Append(name).Append(" | ").Append(EscapeTableCell(Clean(item.SlotType)))
+                  .Append(" | ").Append(EscapeTableCell(item.SlotIndex)).AppendLine(" |");
+            }
+            sb.AppendLine();
         }
 
         /// <summary>

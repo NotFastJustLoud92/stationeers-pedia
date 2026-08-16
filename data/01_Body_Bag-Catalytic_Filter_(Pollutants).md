@@ -11,9 +11,12 @@ When dead players decay they will move into a body bag. If they have not respawn
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Brain, SlotType=Brain, SlotIndex=0
-  - SlotName=Lungs, SlotType=Lungs, SlotIndex=1
-  - SlotName=Stomach, SlotType=Stomach, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Brain | Brain | 0 |
+| Lungs | Lungs | 1 |
+| Stomach | Stomach | 2 |
+
 
 ---
 
@@ -177,7 +180,10 @@ A container for a Burger that is both asethetic and practical as it will signifi
 - **Flashpoint:** 531 K (258oC)
 - **Auto Ignition:** 533 K (260oC)
 **Slots:**
-  - SlotName=Burger, SlotType=Burger, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Burger | Burger | 0 |
+
 **Build Recipe:**
   - Printer: Autolathe (Tier One)
     - 100 x Energy + 2 x Silicon (from Ingot (Silicon))
@@ -622,8 +628,11 @@ A container for a Burger that is both asethetic and practical as it will signifi
 **Build States:**
   - Description=1 x Kit (Logic Switch)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Switch), PrefabHash=124499454, PageLink=ThingItemKitLogicSwitch
 
@@ -658,9 +667,12 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=2 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -680,10 +692,13 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=3 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -705,10 +720,13 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=2 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -728,11 +746,14 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=3 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -754,12 +775,15 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=3 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -781,8 +805,11 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=1 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -804,9 +831,12 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=2 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -826,8 +856,11 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=7 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -847,8 +880,11 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=3 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -868,8 +904,11 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=4 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -891,8 +930,11 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=1 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil, PrefabHash=-466050668, PageLink=ThingItemCableCoil
 
@@ -912,7 +954,10 @@ Carrying power and data alike, cable coil has come to symbolize the innovation, 
 **Build States:**
   - Description=1 x Kit (Cable Analyzer)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Cable Analyzer), PrefabHash=-1792787349, PageLink=ThingItemCableAnalyser
 
@@ -932,7 +977,9 @@ Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the fi
 - **Flashpoint:** 413 K (140oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotType=, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+
 **Build Recipe:**
   - Printer: Autolathe (Tier One)
     - 200 x Energy + 0.5 x Copper (from Ingot (Copper))
@@ -1042,20 +1089,26 @@ Create long straight cable sections easily. Works with Cable Coil, Cable Coil (H
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| ReferenceId | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Cable Ammo | Cable Ammo | 1 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 2000 x Energy + 10 x Steel (from Ingot (Steel)) + 10 x Solder (from Ingot (Solder)) + 10 x Astroloy (from Ingot (Astroloy))
@@ -1106,11 +1159,17 @@ Nothing says 'I care' like a security camera that's been linked a Motion Sensor 
 - **Paintable:** No
 **Build States:**
   - Description=1 x Security Camera
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 
 ---
 
@@ -1326,12 +1385,15 @@ You breathe it out, plants breath it in. They don't grow without it. You can use
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 **Build Recipe:**
   - Printer: Autolathe (Tier One)
     - 120 x Energy + 2 x Silicon (from Ingot (Silicon))
@@ -1351,28 +1413,6 @@ A combination dock that spawns a monorail train carrying up to 50 items plus an 
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=TrainInstruction.GotoStationHash OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.SetSpeed OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | SPEED_1_TO_30 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.SetDoors OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-23 | DOORMASK_0_ALL_ORBITMASK | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetInteriorLights OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetFrontLights OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetRearLights OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.PlaySound OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | CLIP_INDEX | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.HonkHorn OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForIdle OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForDoorClear OP_CODE: 10, Index=A, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForCargoEmpty OP_CODE: 11, Index=B, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForSleep OP_CODE: 12, Index=C, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | DURATION_SECONDS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.JumpToAddress OP_CODE: 13, Index=D, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForPassenger OP_CODE: 14, Index=E, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.Halt OP_CODE: 15, Index=F, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.DeleteTimetable OP_CODE: 16, Index=10, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.ToggleCargoBay OP_CODE: 17, Index=11, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.BranchIfSeatsOccupied OP_CODE: 18, Index=12, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForSeatsOccupied OP_CODE: 19, Index=13, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | MINOCCUPIEDSEATS | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.WaitForStationHash OP_CODE: 20, Index=14, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.StackPointer OP_CODE: 63, Index=15, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | PROGRAM_COUNTER | USHORT_16 | | 24-63 | UNUSED | 40 |
 **Build States:**
   - Description=1 x Monorail Docks Kit
   - Description=1 x Kit (Transformer Large) 1 x Kit (Transformer Large)
@@ -1383,9 +1423,12 @@ A combination dock that spawns a monorail train carrying up to 50 items plus an 
   - Description=1 x Kit (Logic Transmitter) 6 x Kit (Logic Switch)
   - Description=6 x Kit (Lights) 2 x Kit (Chairs)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Docks Kit, PrefabHash=-164820803, PageLink=ThingItemMonorailDocksKit
 
@@ -1403,28 +1446,6 @@ Spawns and controls a cargo monorail train with two driver seats and room for up
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=TrainInstruction.GotoStationHash OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.SetSpeed OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | SPEED_1_TO_30 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.SetDoors OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-23 | DOORMASK_0_ALL_ORBITMASK | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetInteriorLights OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetFrontLights OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetRearLights OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.PlaySound OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | CLIP_INDEX | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.HonkHorn OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForIdle OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForDoorClear OP_CODE: 10, Index=A, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForCargoEmpty OP_CODE: 11, Index=B, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForSleep OP_CODE: 12, Index=C, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | DURATION_SECONDS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.JumpToAddress OP_CODE: 13, Index=D, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForPassenger OP_CODE: 14, Index=E, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.Halt OP_CODE: 15, Index=F, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.DeleteTimetable OP_CODE: 16, Index=10, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.ToggleCargoBay OP_CODE: 17, Index=11, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.BranchIfSeatsOccupied OP_CODE: 18, Index=12, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForSeatsOccupied OP_CODE: 19, Index=13, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | MINOCCUPIEDSEATS | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.WaitForStationHash OP_CODE: 20, Index=14, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.StackPointer OP_CODE: 63, Index=15, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | PROGRAM_COUNTER | USHORT_16 | | 24-63 | UNUSED | 40 |
 **Build States:**
   - Description=1 x Monorail Docks Kit
   - Description=1 x Kit (Transformer Large) 1 x Kit (Transformer Large)
@@ -1435,9 +1456,12 @@ Spawns and controls a cargo monorail train with two driver seats and room for up
   - Description=1 x Kit (Logic Transmitter) 6 x Kit (Logic Switch)
   - Description=6 x Kit (Lights) 2 x Kit (Chairs)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Docks Kit, PrefabHash=-164820803, PageLink=ThingItemMonorailDocksKit
 
@@ -1454,128 +1478,137 @@ Spawns and controls a cargo monorail train with two driver seats and room for up
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
 - **Rocket Mass:** 20kg
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Storage, SlotType=Storage, SlotIndex=2
-  - SlotName=Storage, SlotType=Storage, SlotIndex=3
-  - SlotName=Storage, SlotType=Storage, SlotIndex=4
-  - SlotName=Storage, SlotType=Storage, SlotIndex=5
-  - SlotName=Storage, SlotType=Storage, SlotIndex=6
-  - SlotName=Storage, SlotType=Storage, SlotIndex=7
-  - SlotName=Storage, SlotType=Storage, SlotIndex=8
-  - SlotName=Storage, SlotType=Storage, SlotIndex=9
-  - SlotName=Storage, SlotType=Storage, SlotIndex=10
-  - SlotName=Storage, SlotType=Storage, SlotIndex=11
-  - SlotName=Storage, SlotType=Storage, SlotIndex=12
-  - SlotName=Storage, SlotType=Storage, SlotIndex=13
-  - SlotName=Storage, SlotType=Storage, SlotIndex=14
-  - SlotName=Storage, SlotType=Storage, SlotIndex=15
-  - SlotName=Storage, SlotType=Storage, SlotIndex=16
-  - SlotName=Storage, SlotType=Storage, SlotIndex=17
-  - SlotName=Storage, SlotType=Storage, SlotIndex=18
-  - SlotName=Storage, SlotType=Storage, SlotIndex=19
-  - SlotName=Storage, SlotType=Storage, SlotIndex=20
-  - SlotName=Storage, SlotType=Storage, SlotIndex=21
-  - SlotName=Storage, SlotType=Storage, SlotIndex=22
-  - SlotName=Storage, SlotType=Storage, SlotIndex=23
-  - SlotName=Storage, SlotType=Storage, SlotIndex=24
-  - SlotName=Storage, SlotType=Storage, SlotIndex=25
-  - SlotName=Storage, SlotType=Storage, SlotIndex=26
-  - SlotName=Storage, SlotType=Storage, SlotIndex=27
-  - SlotName=Storage, SlotType=Storage, SlotIndex=28
-  - SlotName=Storage, SlotType=Storage, SlotIndex=29
-  - SlotName=Storage, SlotType=Storage, SlotIndex=30
-  - SlotName=Storage, SlotType=Storage, SlotIndex=31
-  - SlotName=Storage, SlotType=Storage, SlotIndex=32
-  - SlotName=Storage, SlotType=Storage, SlotIndex=33
-  - SlotName=Storage, SlotType=Storage, SlotIndex=34
-  - SlotName=Storage, SlotType=Storage, SlotIndex=35
-  - SlotName=Storage, SlotType=Storage, SlotIndex=36
-  - SlotName=Storage, SlotType=Storage, SlotIndex=37
-  - SlotName=Storage, SlotType=Storage, SlotIndex=38
-  - SlotName=Storage, SlotType=Storage, SlotIndex=39
-  - SlotName=Storage, SlotType=Storage, SlotIndex=40
-  - SlotName=Storage, SlotType=Storage, SlotIndex=41
-  - SlotName=Storage, SlotType=Storage, SlotIndex=42
-  - SlotName=Storage, SlotType=Storage, SlotIndex=43
-  - SlotName=Storage, SlotType=Storage, SlotIndex=44
-  - SlotName=Storage, SlotType=Storage, SlotIndex=45
-  - SlotName=Storage, SlotType=Storage, SlotIndex=46
-  - SlotName=Storage, SlotType=Storage, SlotIndex=47
-  - SlotName=Storage, SlotType=Storage, SlotIndex=48
-  - SlotName=Storage, SlotType=Storage, SlotIndex=49
-  - SlotName=Storage, SlotType=Storage, SlotIndex=50
-  - SlotName=Storage, SlotType=Storage, SlotIndex=51
-  - SlotName=Storage, SlotType=Storage, SlotIndex=52
-  - SlotName=Storage, SlotType=Storage, SlotIndex=53
-  - SlotName=Storage, SlotType=Storage, SlotIndex=54
-  - SlotName=Storage, SlotType=Storage, SlotIndex=55
-  - SlotName=Storage, SlotType=Storage, SlotIndex=56
-  - SlotName=Storage, SlotType=Storage, SlotIndex=57
-  - SlotName=Storage, SlotType=Storage, SlotIndex=58
-  - SlotName=Storage, SlotType=Storage, SlotIndex=59
-  - SlotName=Storage, SlotType=Storage, SlotIndex=60
-  - SlotName=Storage, SlotType=Storage, SlotIndex=61
-  - SlotName=Storage, SlotType=Storage, SlotIndex=62
-  - SlotName=Storage, SlotType=Storage, SlotIndex=63
-  - SlotName=Storage, SlotType=Storage, SlotIndex=64
-  - SlotName=Storage, SlotType=Storage, SlotIndex=65
-  - SlotName=Storage, SlotType=Storage, SlotIndex=66
-  - SlotName=Storage, SlotType=Storage, SlotIndex=67
-  - SlotName=Storage, SlotType=Storage, SlotIndex=68
-  - SlotName=Storage, SlotType=Storage, SlotIndex=69
-  - SlotName=Storage, SlotType=Storage, SlotIndex=70
-  - SlotName=Storage, SlotType=Storage, SlotIndex=71
-  - SlotName=Storage, SlotType=Storage, SlotIndex=72
-  - SlotName=Storage, SlotType=Storage, SlotIndex=73
-  - SlotName=Storage, SlotType=Storage, SlotIndex=74
-  - SlotName=Storage, SlotType=Storage, SlotIndex=75
-  - SlotName=Storage, SlotType=Storage, SlotIndex=76
-  - SlotName=Storage, SlotType=Storage, SlotIndex=77
-  - SlotName=Storage, SlotType=Storage, SlotIndex=78
-  - SlotName=Storage, SlotType=Storage, SlotIndex=79
-  - SlotName=Storage, SlotType=Storage, SlotIndex=80
-  - SlotName=Storage, SlotType=Storage, SlotIndex=81
-  - SlotName=Storage, SlotType=Storage, SlotIndex=82
-  - SlotName=Storage, SlotType=Storage, SlotIndex=83
-  - SlotName=Storage, SlotType=Storage, SlotIndex=84
-  - SlotName=Storage, SlotType=Storage, SlotIndex=85
-  - SlotName=Storage, SlotType=Storage, SlotIndex=86
-  - SlotName=Storage, SlotType=Storage, SlotIndex=87
-  - SlotName=Storage, SlotType=Storage, SlotIndex=88
-  - SlotName=Storage, SlotType=Storage, SlotIndex=89
-  - SlotName=Storage, SlotType=Storage, SlotIndex=90
-  - SlotName=Storage, SlotType=Storage, SlotIndex=91
-  - SlotName=Storage, SlotType=Storage, SlotIndex=92
-  - SlotName=Storage, SlotType=Storage, SlotIndex=93
-  - SlotName=Storage, SlotType=Storage, SlotIndex=94
-  - SlotName=Storage, SlotType=Storage, SlotIndex=95
-  - SlotName=Storage, SlotType=Storage, SlotIndex=96
-  - SlotName=Storage, SlotType=Storage, SlotIndex=97
-  - SlotName=Storage, SlotType=Storage, SlotIndex=98
-  - SlotName=Storage, SlotType=Storage, SlotIndex=99
-  - SlotName=Storage, SlotType=Storage, SlotIndex=100
-  - SlotName=Storage, SlotType=Storage, SlotIndex=101
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Storage | Storage | 2 |
+| Storage | Storage | 3 |
+| Storage | Storage | 4 |
+| Storage | Storage | 5 |
+| Storage | Storage | 6 |
+| Storage | Storage | 7 |
+| Storage | Storage | 8 |
+| Storage | Storage | 9 |
+| Storage | Storage | 10 |
+| Storage | Storage | 11 |
+| Storage | Storage | 12 |
+| Storage | Storage | 13 |
+| Storage | Storage | 14 |
+| Storage | Storage | 15 |
+| Storage | Storage | 16 |
+| Storage | Storage | 17 |
+| Storage | Storage | 18 |
+| Storage | Storage | 19 |
+| Storage | Storage | 20 |
+| Storage | Storage | 21 |
+| Storage | Storage | 22 |
+| Storage | Storage | 23 |
+| Storage | Storage | 24 |
+| Storage | Storage | 25 |
+| Storage | Storage | 26 |
+| Storage | Storage | 27 |
+| Storage | Storage | 28 |
+| Storage | Storage | 29 |
+| Storage | Storage | 30 |
+| Storage | Storage | 31 |
+| Storage | Storage | 32 |
+| Storage | Storage | 33 |
+| Storage | Storage | 34 |
+| Storage | Storage | 35 |
+| Storage | Storage | 36 |
+| Storage | Storage | 37 |
+| Storage | Storage | 38 |
+| Storage | Storage | 39 |
+| Storage | Storage | 40 |
+| Storage | Storage | 41 |
+| Storage | Storage | 42 |
+| Storage | Storage | 43 |
+| Storage | Storage | 44 |
+| Storage | Storage | 45 |
+| Storage | Storage | 46 |
+| Storage | Storage | 47 |
+| Storage | Storage | 48 |
+| Storage | Storage | 49 |
+| Storage | Storage | 50 |
+| Storage | Storage | 51 |
+| Storage | Storage | 52 |
+| Storage | Storage | 53 |
+| Storage | Storage | 54 |
+| Storage | Storage | 55 |
+| Storage | Storage | 56 |
+| Storage | Storage | 57 |
+| Storage | Storage | 58 |
+| Storage | Storage | 59 |
+| Storage | Storage | 60 |
+| Storage | Storage | 61 |
+| Storage | Storage | 62 |
+| Storage | Storage | 63 |
+| Storage | Storage | 64 |
+| Storage | Storage | 65 |
+| Storage | Storage | 66 |
+| Storage | Storage | 67 |
+| Storage | Storage | 68 |
+| Storage | Storage | 69 |
+| Storage | Storage | 70 |
+| Storage | Storage | 71 |
+| Storage | Storage | 72 |
+| Storage | Storage | 73 |
+| Storage | Storage | 74 |
+| Storage | Storage | 75 |
+| Storage | Storage | 76 |
+| Storage | Storage | 77 |
+| Storage | Storage | 78 |
+| Storage | Storage | 79 |
+| Storage | Storage | 80 |
+| Storage | Storage | 81 |
+| Storage | Storage | 82 |
+| Storage | Storage | 83 |
+| Storage | Storage | 84 |
+| Storage | Storage | 85 |
+| Storage | Storage | 86 |
+| Storage | Storage | 87 |
+| Storage | Storage | 88 |
+| Storage | Storage | 89 |
+| Storage | Storage | 90 |
+| Storage | Storage | 91 |
+| Storage | Storage | 92 |
+| Storage | Storage | 93 |
+| Storage | Storage | 94 |
+| Storage | Storage | 95 |
+| Storage | Storage | 96 |
+| Storage | Storage | 97 |
+| Storage | Storage | 98 |
+| Storage | Storage | 99 |
+| Storage | Storage | 100 |
+| Storage | Storage | 101 |
+
 **Build States:**
   - Description=2 x Kit (Rocket Cargo Storage)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Chute Output | 1 |
+| Chute Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Cargo Storage), PrefabHash=479850239, PageLink=ThingItemKitRocketCargoStorage
 
@@ -1592,77 +1625,86 @@ Spawns and controls a cargo monorail train with two driver seats and room for up
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
 - **Rocket Mass:** 30kg
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Storage, SlotType=Storage, SlotIndex=2
-  - SlotName=Storage, SlotType=Storage, SlotIndex=3
-  - SlotName=Storage, SlotType=Storage, SlotIndex=4
-  - SlotName=Storage, SlotType=Storage, SlotIndex=5
-  - SlotName=Storage, SlotType=Storage, SlotIndex=6
-  - SlotName=Storage, SlotType=Storage, SlotIndex=7
-  - SlotName=Storage, SlotType=Storage, SlotIndex=8
-  - SlotName=Storage, SlotType=Storage, SlotIndex=9
-  - SlotName=Storage, SlotType=Storage, SlotIndex=10
-  - SlotName=Storage, SlotType=Storage, SlotIndex=11
-  - SlotName=Storage, SlotType=Storage, SlotIndex=12
-  - SlotName=Storage, SlotType=Storage, SlotIndex=13
-  - SlotName=Storage, SlotType=Storage, SlotIndex=14
-  - SlotName=Storage, SlotType=Storage, SlotIndex=15
-  - SlotName=Storage, SlotType=Storage, SlotIndex=16
-  - SlotName=Storage, SlotType=Storage, SlotIndex=17
-  - SlotName=Storage, SlotType=Storage, SlotIndex=18
-  - SlotName=Storage, SlotType=Storage, SlotIndex=19
-  - SlotName=Storage, SlotType=Storage, SlotIndex=20
-  - SlotName=Storage, SlotType=Storage, SlotIndex=21
-  - SlotName=Storage, SlotType=Storage, SlotIndex=22
-  - SlotName=Storage, SlotType=Storage, SlotIndex=23
-  - SlotName=Storage, SlotType=Storage, SlotIndex=24
-  - SlotName=Storage, SlotType=Storage, SlotIndex=25
-  - SlotName=Storage, SlotType=Storage, SlotIndex=26
-  - SlotName=Storage, SlotType=Storage, SlotIndex=27
-  - SlotName=Storage, SlotType=Storage, SlotIndex=28
-  - SlotName=Storage, SlotType=Storage, SlotIndex=29
-  - SlotName=Storage, SlotType=Storage, SlotIndex=30
-  - SlotName=Storage, SlotType=Storage, SlotIndex=31
-  - SlotName=Storage, SlotType=Storage, SlotIndex=32
-  - SlotName=Storage, SlotType=Storage, SlotIndex=33
-  - SlotName=Storage, SlotType=Storage, SlotIndex=34
-  - SlotName=Storage, SlotType=Storage, SlotIndex=35
-  - SlotName=Storage, SlotType=Storage, SlotIndex=36
-  - SlotName=Storage, SlotType=Storage, SlotIndex=37
-  - SlotName=Storage, SlotType=Storage, SlotIndex=38
-  - SlotName=Storage, SlotType=Storage, SlotIndex=39
-  - SlotName=Storage, SlotType=Storage, SlotIndex=40
-  - SlotName=Storage, SlotType=Storage, SlotIndex=41
-  - SlotName=Storage, SlotType=Storage, SlotIndex=42
-  - SlotName=Storage, SlotType=Storage, SlotIndex=43
-  - SlotName=Storage, SlotType=Storage, SlotIndex=44
-  - SlotName=Storage, SlotType=Storage, SlotIndex=45
-  - SlotName=Storage, SlotType=Storage, SlotIndex=46
-  - SlotName=Storage, SlotType=Storage, SlotIndex=47
-  - SlotName=Storage, SlotType=Storage, SlotIndex=48
-  - SlotName=Storage, SlotType=Storage, SlotIndex=49
-  - SlotName=Storage, SlotType=Storage, SlotIndex=50
-  - SlotName=Storage, SlotType=Storage, SlotIndex=51
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Storage | Storage | 2 |
+| Storage | Storage | 3 |
+| Storage | Storage | 4 |
+| Storage | Storage | 5 |
+| Storage | Storage | 6 |
+| Storage | Storage | 7 |
+| Storage | Storage | 8 |
+| Storage | Storage | 9 |
+| Storage | Storage | 10 |
+| Storage | Storage | 11 |
+| Storage | Storage | 12 |
+| Storage | Storage | 13 |
+| Storage | Storage | 14 |
+| Storage | Storage | 15 |
+| Storage | Storage | 16 |
+| Storage | Storage | 17 |
+| Storage | Storage | 18 |
+| Storage | Storage | 19 |
+| Storage | Storage | 20 |
+| Storage | Storage | 21 |
+| Storage | Storage | 22 |
+| Storage | Storage | 23 |
+| Storage | Storage | 24 |
+| Storage | Storage | 25 |
+| Storage | Storage | 26 |
+| Storage | Storage | 27 |
+| Storage | Storage | 28 |
+| Storage | Storage | 29 |
+| Storage | Storage | 30 |
+| Storage | Storage | 31 |
+| Storage | Storage | 32 |
+| Storage | Storage | 33 |
+| Storage | Storage | 34 |
+| Storage | Storage | 35 |
+| Storage | Storage | 36 |
+| Storage | Storage | 37 |
+| Storage | Storage | 38 |
+| Storage | Storage | 39 |
+| Storage | Storage | 40 |
+| Storage | Storage | 41 |
+| Storage | Storage | 42 |
+| Storage | Storage | 43 |
+| Storage | Storage | 44 |
+| Storage | Storage | 45 |
+| Storage | Storage | 46 |
+| Storage | Storage | 47 |
+| Storage | Storage | 48 |
+| Storage | Storage | 49 |
+| Storage | Storage | 50 |
+| Storage | Storage | 51 |
+
 **Build States:**
   - Description=1 x Kit (Rocket Cargo Storage)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Chute Output | 1 |
+| Chute Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Cargo Storage), PrefabHash=479850239, PageLink=ThingItemKitRocketCargoStorage
 

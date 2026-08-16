@@ -71,7 +71,10 @@ These are items that are typically made from Smelting ores for use in fabricator
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+
 
 ---
 
@@ -93,9 +96,12 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=2 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -119,10 +125,13 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=3 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -146,11 +155,14 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=3 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -174,12 +186,15 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=3 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -203,8 +218,11 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=1 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -228,10 +246,13 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=2 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -255,8 +276,11 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 **Build States:**
   - Description=8 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -280,8 +304,11 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 **Build States:**
   - Description=3 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -305,8 +332,11 @@ Long variant of liquid piping with very low temperature loss or gain. These vari
 **Build States:**
   - Description=4 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -330,8 +360,11 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=1 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -355,9 +388,12 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=2 x Kit (Insulated Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Pipe), PrefabHash=2067655311, PageLink=ThingItemKitInsulatedLiquidPipe
 
@@ -378,7 +414,10 @@ Liquid piping with very low temperature loss or gain.
 **Build States:**
   - Description=1 x Kit (Insulated Passive Vent)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Passive Vent), PrefabHash=-1397583760, PageLink=ThingItemPassiveVentInsulated
 
@@ -402,9 +441,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -428,10 +470,13 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -455,11 +500,14 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -483,12 +531,15 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -512,8 +563,11 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -537,10 +591,13 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -564,8 +621,11 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 **Build States:**
   - Description=8 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -589,8 +649,11 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 **Build States:**
   - Description=3 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -614,8 +677,11 @@ Long variant of the straight pipe. These variants cannot be merged. Insulated pi
 **Build States:**
   - Description=4 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -639,8 +705,11 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Insulated Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -664,9 +733,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=2 x Kit (Insulated Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Pipe), PrefabHash=452636699, PageLink=ThingItemKitInsulatedPipe
 
@@ -685,11 +757,17 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
 **Slots:**
-  - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Portable slot | Portable slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Portables Connector)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 
 ---
 
@@ -706,11 +784,17 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
 **Slots:**
-  - SlotName=Portable slot, SlotType=Portable slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Portable slot | Portable slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Portables Connector)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 
 ---
 
@@ -746,9 +830,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Interior Doors)
   - Description=2 x Glass Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Interior Doors), PrefabHash=1935945891, PageLink=ThingItemKitInteriorDoors
 
@@ -768,9 +855,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Interior Doors)
   - Description=2 x Plastic Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Interior Doors), PrefabHash=1935945891, PageLink=ThingItemKitInteriorDoors
 
@@ -790,9 +880,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Interior Doors)
   - Description=2 x Plastic Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Interior Doors), PrefabHash=1935945891, PageLink=ThingItemKitInteriorDoors
 
@@ -812,9 +905,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 **Build States:**
   - Description=1 x Kit (Interior Doors)
   - Description=2 x Plastic Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Interior Doors), PrefabHash=1935945891, PageLink=ThingItemKitInteriorDoors
 
@@ -1013,28 +1109,34 @@ The basic CHAC jetpack isn't 'technically' a jetpack, it's a gas thruster. It ca
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=Propellant, SlotType=Propellant, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| Propellant | Propellant | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 1500 x Energy + 2 x Gold (from Ingot (Gold)) + 10 x Steel (from Ingot (Steel)) + 5 x Lead (from Ingot (Lead))
@@ -1053,10 +1155,13 @@ The basic CHAC jetpack isn't 'technically' a jetpack, it's a gas thruster. It ca
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 10 x Silicon (from Ingot (Silicon))

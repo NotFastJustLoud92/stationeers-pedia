@@ -14,12 +14,18 @@
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Active Vent)
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Outward | 0 |
+| Inward | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Active Vent), PrefabHash=-842048328, PageLink=ThingItemActiveVent
 
@@ -39,17 +45,20 @@
 **Build States:**
   - Description=1 x Kit (Crew Module Screen)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-  - LogicName=Connection, LogicAccessTypes=6
-  - LogicName=Connection, LogicAccessTypes=7
-  - LogicName=Connection, LogicAccessTypes=8
-  - LogicName=Connection, LogicAccessTypes=9
-  - LogicName=Connection, LogicAccessTypes=10
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+| Connection | 6 |
+| Connection | 7 |
+| Connection | 8 |
+| Connection | 9 |
+| Connection | 10 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
 
@@ -69,19 +78,22 @@
 **Build States:**
   - Description=1 x Kit (Crew Module Screen)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
-  - LogicName=Connection, LogicAccessTypes=6
-  - LogicName=Connection, LogicAccessTypes=7
-  - LogicName=Connection, LogicAccessTypes=8
-  - LogicName=Connection, LogicAccessTypes=9
-  - LogicName=Connection, LogicAccessTypes=10
-  - LogicName=Connection, LogicAccessTypes=11
-  - LogicName=Connection, LogicAccessTypes=12
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+| Connection | 6 |
+| Connection | 7 |
+| Connection | 8 |
+| Connection | 9 |
+| Connection | 10 |
+| Connection | 11 |
+| Connection | 12 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crew Module Cable Connector), PrefabHash=-227570471, PageLink=ThingItemKitCrewModuleCableConnector
 
@@ -101,20 +113,26 @@ Seat for crewing a rocket. While the seat is occupied the rocket can only travel
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Seat, SlotType=Seat, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Seat | Seat | 0 |
+
 **Build States:**
   - Description=1 x Kit (Crew Module Chair)
 **Constructed Things:**
@@ -184,7 +202,10 @@ Streamlined crew compartment for rockets. Board by interacting with the module.
 **Build States:**
   - Description=1 x Kit (Passive Vent)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Passive Vent), PrefabHash=238631271, PageLink=ThingItemPassiveVent
 
@@ -205,7 +226,10 @@ Streamlined crew compartment for rockets. Board by interacting with the module.
 **Build States:**
   - Description=1 x Kit (Crew Module Screen)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crew Module Screen), PrefabHash=-1655243596, PageLink=ThingItemKitCrewModuleScreen
 
@@ -243,39 +267,51 @@ The exact operation of the Longsleep cryotube remains a commercial secret, with 
 - **Convection Factor:** 0.041
 - **Radiation Factor:** 0.041
 - **Solar Heating Factor:** 1.37
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=Open, LogicAccessTypes=1
-  - LogicName=On, LogicAccessTypes=1
-  - LogicName=Lock, LogicAccessTypes=1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| Open | 1 |
+| On | 1 |
+| Lock | 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
-  - SlotName=Mask, SlotType=Mask, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+| Mask | Mask | 1 |
+
 **Build States:**
   - Description=1 x Kit (Cryo Tube)
   - Description=Welding Torch 2 x Plastic Sheets
   - Description=Screwdriver 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Standby, LogicAccessTypes=0
-  - LogicName=Error, LogicAccessTypes=1
-  - LogicName=Inactive, LogicAccessTypes=2
-  - LogicName=Occupied, LogicAccessTypes=3
-  - LogicName=Dead, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Standby | 0 |
+| Error | 1 |
+| Inactive | 2 |
+| Occupied | 3 |
+| Dead | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Connection | 2 |
+| Pipe Liquid Input 2 | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Cryo Tube), PrefabHash=-545234195, PageLink=ThingItemKitCryoTube
 
@@ -295,39 +331,51 @@ The exact operation of the Longsleep cryotube remains a commercial secret, with 
 - **Convection Factor:** 0.036
 - **Radiation Factor:** 0.036
 - **Solar Heating Factor:** 1.21
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=Open, LogicAccessTypes=1
-  - LogicName=On, LogicAccessTypes=1
-  - LogicName=Lock, LogicAccessTypes=1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| Open | 1 |
+| On | 1 |
+| Lock | 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
-  - SlotName=Mask, SlotType=Mask, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+| Mask | Mask | 1 |
+
 **Build States:**
   - Description=1 x Kit (Cryo Tube)
   - Description=Welding Torch 2 x Plastic Sheets
   - Description=Screwdriver 1 x Glass Sheets
-**Mode Options:**
-  - LogicName=Standby, LogicAccessTypes=0
-  - LogicName=Error, LogicAccessTypes=1
-  - LogicName=Inactive, LogicAccessTypes=2
-  - LogicName=Occupied, LogicAccessTypes=3
-  - LogicName=Dead, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Standby | 0 |
+| Error | 1 |
+| Inactive | 2 |
+| Occupied | 3 |
+| Dead | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Liquid Input 2 | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Cryo Tube), PrefabHash=-545234195, PageLink=ThingItemKitCryoTube
 
@@ -461,12 +509,18 @@ Daylight sensors provide data on whether the current region of your base is in s
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Sensors)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Horizontal, LogicAccessTypes=1
-  - LogicName=Vertical, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Horizontal | 1 |
+| Vertical | 2 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sensors), PrefabHash=-1776897113, PageLink=ThingItemKitSensor
 
@@ -522,33 +576,38 @@ Drills through terrain until it hits bedrock. Once inside bedrock Dirty Ore is p
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Export, SlotType=Export, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Export | Export | 0 |
+
 **Build States:**
   - Description=1 x Kit (Deep Miner)
   - Description=Welding Torch 12 x Steel Sheets
   - Description=Screwdriver 5 x Cable Coil
   - Description=Screwdriver 4 x Electronic Parts
 **Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Output | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Deep Miner), PrefabHash=-1935075707, PageLink=ThingItemKitDeepMiner
 
@@ -587,138 +646,144 @@ Drills through terrain until it hits bedrock. Once inside bedrock Dirty Ore is p
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Music Machines)
-**Mode Options:**
-  - LogicName=C-2, LogicAccessTypes=0
-  - LogicName=C#-2, LogicAccessTypes=1
-  - LogicName=D-2, LogicAccessTypes=2
-  - LogicName=D#-2, LogicAccessTypes=3
-  - LogicName=E-2, LogicAccessTypes=4
-  - LogicName=F-2, LogicAccessTypes=5
-  - LogicName=F#-2, LogicAccessTypes=6
-  - LogicName=G-2, LogicAccessTypes=7
-  - LogicName=G#-2, LogicAccessTypes=8
-  - LogicName=A-2, LogicAccessTypes=9
-  - LogicName=A#-2, LogicAccessTypes=10
-  - LogicName=B-2, LogicAccessTypes=11
-  - LogicName=C-1, LogicAccessTypes=12
-  - LogicName=C#-1, LogicAccessTypes=13
-  - LogicName=D-1, LogicAccessTypes=14
-  - LogicName=D#-1, LogicAccessTypes=15
-  - LogicName=E-1, LogicAccessTypes=16
-  - LogicName=F-1, LogicAccessTypes=17
-  - LogicName=F#-1, LogicAccessTypes=18
-  - LogicName=G-1, LogicAccessTypes=19
-  - LogicName=G#-1, LogicAccessTypes=20
-  - LogicName=A-1, LogicAccessTypes=21
-  - LogicName=A#-1, LogicAccessTypes=22
-  - LogicName=B-1, LogicAccessTypes=23
-  - LogicName=C0, LogicAccessTypes=24
-  - LogicName=C#0, LogicAccessTypes=25
-  - LogicName=D0, LogicAccessTypes=26
-  - LogicName=D#0, LogicAccessTypes=27
-  - LogicName=E0, LogicAccessTypes=28
-  - LogicName=F0, LogicAccessTypes=29
-  - LogicName=F#0, LogicAccessTypes=30
-  - LogicName=G0, LogicAccessTypes=31
-  - LogicName=G#0, LogicAccessTypes=32
-  - LogicName=A0, LogicAccessTypes=33
-  - LogicName=A#0, LogicAccessTypes=34
-  - LogicName=B0, LogicAccessTypes=35
-  - LogicName=C1, LogicAccessTypes=36
-  - LogicName=C#1, LogicAccessTypes=37
-  - LogicName=D1, LogicAccessTypes=38
-  - LogicName=D#1, LogicAccessTypes=39
-  - LogicName=E1, LogicAccessTypes=40
-  - LogicName=F1, LogicAccessTypes=41
-  - LogicName=F#1, LogicAccessTypes=42
-  - LogicName=G1, LogicAccessTypes=43
-  - LogicName=G#1, LogicAccessTypes=44
-  - LogicName=A1, LogicAccessTypes=45
-  - LogicName=A#1, LogicAccessTypes=46
-  - LogicName=B1, LogicAccessTypes=47
-  - LogicName=C2, LogicAccessTypes=48
-  - LogicName=C#2, LogicAccessTypes=49
-  - LogicName=D2, LogicAccessTypes=50
-  - LogicName=D#2, LogicAccessTypes=51
-  - LogicName=E2, LogicAccessTypes=52
-  - LogicName=F2, LogicAccessTypes=53
-  - LogicName=F#2, LogicAccessTypes=54
-  - LogicName=G2, LogicAccessTypes=55
-  - LogicName=G#2, LogicAccessTypes=56
-  - LogicName=A2, LogicAccessTypes=57
-  - LogicName=A#2, LogicAccessTypes=58
-  - LogicName=B2, LogicAccessTypes=59
-  - LogicName=C3, LogicAccessTypes=60
-  - LogicName=C#3, LogicAccessTypes=61
-  - LogicName=D3, LogicAccessTypes=62
-  - LogicName=D#3, LogicAccessTypes=63
-  - LogicName=E3, LogicAccessTypes=64
-  - LogicName=F3, LogicAccessTypes=65
-  - LogicName=F#3, LogicAccessTypes=66
-  - LogicName=G3, LogicAccessTypes=67
-  - LogicName=G#3, LogicAccessTypes=68
-  - LogicName=A3, LogicAccessTypes=69
-  - LogicName=A#3, LogicAccessTypes=70
-  - LogicName=B3, LogicAccessTypes=71
-  - LogicName=C4, LogicAccessTypes=72
-  - LogicName=C#4, LogicAccessTypes=73
-  - LogicName=D4, LogicAccessTypes=74
-  - LogicName=D#4, LogicAccessTypes=75
-  - LogicName=E4, LogicAccessTypes=76
-  - LogicName=F4, LogicAccessTypes=77
-  - LogicName=F#4, LogicAccessTypes=78
-  - LogicName=G4, LogicAccessTypes=79
-  - LogicName=G#4, LogicAccessTypes=80
-  - LogicName=A4, LogicAccessTypes=81
-  - LogicName=A#4, LogicAccessTypes=82
-  - LogicName=B4, LogicAccessTypes=83
-  - LogicName=C5, LogicAccessTypes=84
-  - LogicName=C#5, LogicAccessTypes=85
-  - LogicName=D5, LogicAccessTypes=86
-  - LogicName=D#5, LogicAccessTypes=87
-  - LogicName=E5, LogicAccessTypes=88
-  - LogicName=F5, LogicAccessTypes=89
-  - LogicName=F#5, LogicAccessTypes=90
-  - LogicName=G5 , LogicAccessTypes=91
-  - LogicName=G#5, LogicAccessTypes=92
-  - LogicName=A5, LogicAccessTypes=93
-  - LogicName=A#5, LogicAccessTypes=94
-  - LogicName=B5, LogicAccessTypes=95
-  - LogicName=C6, LogicAccessTypes=96
-  - LogicName=C#6, LogicAccessTypes=97
-  - LogicName=D6, LogicAccessTypes=98
-  - LogicName=D#6, LogicAccessTypes=99
-  - LogicName=E6, LogicAccessTypes=100
-  - LogicName=F6, LogicAccessTypes=101
-  - LogicName=F#6, LogicAccessTypes=102
-  - LogicName=G6, LogicAccessTypes=103
-  - LogicName=G#6, LogicAccessTypes=104
-  - LogicName=A6, LogicAccessTypes=105
-  - LogicName=A#6, LogicAccessTypes=106
-  - LogicName=B6, LogicAccessTypes=107
-  - LogicName=C7, LogicAccessTypes=108
-  - LogicName=C#7, LogicAccessTypes=109
-  - LogicName=D7, LogicAccessTypes=110
-  - LogicName=D#7, LogicAccessTypes=111
-  - LogicName=E7, LogicAccessTypes=112
-  - LogicName=F7, LogicAccessTypes=113
-  - LogicName=F#7, LogicAccessTypes=114
-  - LogicName=G7, LogicAccessTypes=115
-  - LogicName=G#7, LogicAccessTypes=116
-  - LogicName=A7, LogicAccessTypes=117
-  - LogicName=A#7, LogicAccessTypes=118
-  - LogicName=B7, LogicAccessTypes=119
-  - LogicName=C8, LogicAccessTypes=120
-  - LogicName=C#8, LogicAccessTypes=121
-  - LogicName=D8, LogicAccessTypes=122
-  - LogicName=D#8, LogicAccessTypes=123
-  - LogicName=E8, LogicAccessTypes=124
-  - LogicName=F8, LogicAccessTypes=125
-  - LogicName=F#8, LogicAccessTypes=126
-  - LogicName=G8, LogicAccessTypes=127
+**Mode:**
+| Name | Value |
+|---|---|
+| C-2 | 0 |
+| C#-2 | 1 |
+| D-2 | 2 |
+| D#-2 | 3 |
+| E-2 | 4 |
+| F-2 | 5 |
+| F#-2 | 6 |
+| G-2 | 7 |
+| G#-2 | 8 |
+| A-2 | 9 |
+| A#-2 | 10 |
+| B-2 | 11 |
+| C-1 | 12 |
+| C#-1 | 13 |
+| D-1 | 14 |
+| D#-1 | 15 |
+| E-1 | 16 |
+| F-1 | 17 |
+| F#-1 | 18 |
+| G-1 | 19 |
+| G#-1 | 20 |
+| A-1 | 21 |
+| A#-1 | 22 |
+| B-1 | 23 |
+| C0 | 24 |
+| C#0 | 25 |
+| D0 | 26 |
+| D#0 | 27 |
+| E0 | 28 |
+| F0 | 29 |
+| F#0 | 30 |
+| G0 | 31 |
+| G#0 | 32 |
+| A0 | 33 |
+| A#0 | 34 |
+| B0 | 35 |
+| C1 | 36 |
+| C#1 | 37 |
+| D1 | 38 |
+| D#1 | 39 |
+| E1 | 40 |
+| F1 | 41 |
+| F#1 | 42 |
+| G1 | 43 |
+| G#1 | 44 |
+| A1 | 45 |
+| A#1 | 46 |
+| B1 | 47 |
+| C2 | 48 |
+| C#2 | 49 |
+| D2 | 50 |
+| D#2 | 51 |
+| E2 | 52 |
+| F2 | 53 |
+| F#2 | 54 |
+| G2 | 55 |
+| G#2 | 56 |
+| A2 | 57 |
+| A#2 | 58 |
+| B2 | 59 |
+| C3 | 60 |
+| C#3 | 61 |
+| D3 | 62 |
+| D#3 | 63 |
+| E3 | 64 |
+| F3 | 65 |
+| F#3 | 66 |
+| G3 | 67 |
+| G#3 | 68 |
+| A3 | 69 |
+| A#3 | 70 |
+| B3 | 71 |
+| C4 | 72 |
+| C#4 | 73 |
+| D4 | 74 |
+| D#4 | 75 |
+| E4 | 76 |
+| F4 | 77 |
+| F#4 | 78 |
+| G4 | 79 |
+| G#4 | 80 |
+| A4 | 81 |
+| A#4 | 82 |
+| B4 | 83 |
+| C5 | 84 |
+| C#5 | 85 |
+| D5 | 86 |
+| D#5 | 87 |
+| E5 | 88 |
+| F5 | 89 |
+| F#5 | 90 |
+| G5 | 91 |
+| G#5 | 92 |
+| A5 | 93 |
+| A#5 | 94 |
+| B5 | 95 |
+| C6 | 96 |
+| C#6 | 97 |
+| D6 | 98 |
+| D#6 | 99 |
+| E6 | 100 |
+| F6 | 101 |
+| F#6 | 102 |
+| G6 | 103 |
+| G#6 | 104 |
+| A6 | 105 |
+| A#6 | 106 |
+| B6 | 107 |
+| C7 | 108 |
+| C#7 | 109 |
+| D7 | 110 |
+| D#7 | 111 |
+| E7 | 112 |
+| F7 | 113 |
+| F#7 | 114 |
+| G7 | 115 |
+| G#7 | 116 |
+| A7 | 117 |
+| A#7 | 118 |
+| B7 | 119 |
+| C8 | 120 |
+| C#8 | 121 |
+| D8 | 122 |
+| D#8 | 123 |
+| E8 | 124 |
+| F8 | 125 |
+| F#8 | 126 |
+| G8 | 127 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
 
@@ -755,7 +820,10 @@ An assignable dial with up to 1000 modes.
 **Build States:**
   - Description=1 x Kit (Logic Switch)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Switch), PrefabHash=124499454, PageLink=ThingItemKitLogicSwitch
 
@@ -776,9 +844,12 @@ The digital valve allows Stationeers to create logic-controlled valves and pipe 
 **Build States:**
   - Description=1 x Kit (Digital Valve)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Digital Valve), PrefabHash=-1532448832, PageLink=ThingItemPipeDigitalValve
 
@@ -798,7 +869,10 @@ The digital valve allows Stationeers to create logic-controlled valves and pipe 
 **Build States:**
   - Description=1 x Kit (Lights)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Lights), PrefabHash=1108423476, PageLink=ThingItemWallLight
 
@@ -851,41 +925,48 @@ After the patents for several delivery robots expired, Norsec's robotic division
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-**Logic Bindings:**
-  - Header=db, Label=DIRCI
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=1
-  - SlotName=Storage, SlotType=Storage, SlotIndex=2
-  - SlotName=Storage, SlotType=Storage, SlotIndex=3
-  - SlotName=Storage, SlotType=Storage, SlotIndex=4
-  - SlotName=Storage, SlotType=Storage, SlotIndex=5
-  - SlotName=Storage, SlotType=Storage, SlotIndex=6
-  - SlotName=Storage, SlotType=Storage, SlotIndex=7
-  - SlotName=Storage, SlotType=Storage, SlotIndex=8
-  - SlotName=Storage, SlotType=Storage, SlotIndex=9
-  - SlotName=Storage, SlotType=Storage, SlotIndex=10
-  - SlotName=Storage, SlotType=Storage, SlotIndex=11
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=MoveToTarget, LogicAccessTypes=1
-  - LogicName=LoadCargo, LogicAccessTypes=2
-  - LogicName=UnloadCargo, LogicAccessTypes=3
-  - LogicName=CargoFull, LogicAccessTypes=4
-  - LogicName=CargoEmpty, LogicAccessTypes=5
-  - LogicName=PathFromStack, LogicAccessTypes=6
-  - LogicName=StackPointArrived, LogicAccessTypes=7
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Programmable Chip | Programmable Chip | 1 |
+| Storage | Storage | 2 |
+| Storage | Storage | 3 |
+| Storage | Storage | 4 |
+| Storage | Storage | 5 |
+| Storage | Storage | 6 |
+| Storage | Storage | 7 |
+| Storage | Storage | 8 |
+| Storage | Storage | 9 |
+| Storage | Storage | 10 |
+| Storage | Storage | 11 |
+
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| MoveToTarget | 1 |
+| LoadCargo | 2 |
+| UnloadCargo | 3 |
+| CargoFull | 4 |
+| CargoEmpty | 5 |
+| PathFromStack | 6 |
+| StackPointArrived | 7 |
+
 **Constructed Things:**
   - NameOfThing=Kit (DiRCI), PrefabHash=-1373381823, PageLink=ThingItemDiRCIkit
 
@@ -1001,8 +1082,11 @@ The Drinking Fountain can be interacted with directly to increase hydration. It 
 **Build States:**
   - Description=1 x Kit (Drinking Fountain)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Drinking Fountain), PrefabHash=-1743663875, PageLink=ThingItemKitDrinkingFountain
 
@@ -1019,27 +1103,36 @@ The Droid Sleeper will recharge robot batteries and equiped suit batteries if pr
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Player, SlotType=Player, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Player | Player | 0 |
+
 **Build States:**
   - Description=1 x Kit (Sleeper)
   - Description=Welding Torch 1 x Steel Sheets
   - Description=Screwdriver 1 x Cable Coil
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sleeper), PrefabHash=326752036, PageLink=ThingItemKitSleeper
 
@@ -1084,16 +1177,19 @@ The humble dynamic crate has become a symbol of Stationeer invention and indepen
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crate), PrefabHash=429365598, PageLink=ThingItemKitCrate
 
@@ -1109,19 +1205,25 @@ The humble dynamic crate has become a symbol of Stationeer invention and indepen
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 
 ---
 
@@ -1186,12 +1288,15 @@ Within, eggs reside in mysterious, marmoreal silence.
 - **Flashpoint:** 531 K (258oC)
 - **Auto Ignition:** 533 K (260oC)
 **Slots:**
-  - SlotName=Egg, SlotType=Egg, SlotIndex=0
-  - SlotName=Egg, SlotType=Egg, SlotIndex=1
-  - SlotName=Egg, SlotType=Egg, SlotIndex=2
-  - SlotName=Egg, SlotType=Egg, SlotIndex=3
-  - SlotName=Egg, SlotType=Egg, SlotIndex=4
-  - SlotName=Egg, SlotType=Egg, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Egg | Egg | 0 |
+| Egg | Egg | 1 |
+| Egg | Egg | 2 |
+| Egg | Egg | 3 |
+| Egg | Egg | 4 |
+| Egg | Egg | 5 |
+
 **Build Recipe:**
   - Printer: Autolathe (Tier One)
     - 100 x Energy + 2 x Silicon (from Ingot (Silicon))
@@ -1210,14 +1315,17 @@ A belt with two tool slots and six slots restricted to Cable Coil, Cable Coil (H
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=2
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=3
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=4
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=5
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=6
-  - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=7
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Cable Ammo | Cable Ammo | 2 |
+| Cable Ammo | Cable Ammo | 3 |
+| Cable Ammo | Cable Ammo | 4 |
+| Cable Ammo | Cable Ammo | 5 |
+| Cable Ammo | Cable Ammo | 6 |
+| Cable Ammo | Cable Ammo | 7 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 3 x Iron (from Ingot (Iron))
@@ -1239,36 +1347,44 @@ The Norsec-designed Electrolyzer splits Water into hydrogen and Oxygen. Employin
 - **Convection Factor:** 0.526
 - **Radiation Factor:** 0.526
 - **Solar Heating Factor:** 0.526
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
   - Description=2 x Kit (Pipe)
   - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Pipe Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
@@ -1331,31 +1447,27 @@ The electronic printer will create any electronic part you need. From circuit bo
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Electronics Printer)
   - Description=Welding Torch 2 x Iron Sheets
@@ -1366,10 +1478,13 @@ The electronic printer will create any electronic part you need. From circuit bo
 **Resources Used:**
   - NameOfThing=Ingots, PrefabHash=0, PageLink=IngotPage
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Electronics Printer), PrefabHash=-1181922382, PageLink=ThingItemKitElectronicsPrinter
 
@@ -1412,8 +1527,11 @@ The electronic printer will create any electronic part you need. From circuit bo
 **Build States:**
   - Description=1 x Kit (Elevator)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Elevator), PrefabHash=-945806652, PageLink=ThingItemKitElevator
 
@@ -1433,10 +1551,13 @@ The electronic printer will create any electronic part you need. From circuit bo
 **Build States:**
   - Description=1 x Kit (Elevator)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Elevator), PrefabHash=-945806652, PageLink=ThingItemKitElevator
 
@@ -1456,8 +1577,11 @@ The electronic printer will create any electronic part you need. From circuit bo
 **Build States:**
   - Description=1 x Kit (Elevator)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Elevator), PrefabHash=-945806652, PageLink=ThingItemKitElevator
 
@@ -1477,10 +1601,13 @@ The electronic printer will create any electronic part you need. From circuit bo
 **Build States:**
   - Description=1 x Kit (Elevator)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Elevator), PrefabHash=-945806652, PageLink=ThingItemKitElevator
 
@@ -1496,19 +1623,25 @@ The electronic printer will create any electronic part you need. From circuit bo
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 
 ---
 
@@ -1522,19 +1655,25 @@ The electronic printer will create any electronic part you need. From circuit bo
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 
 ---
 
@@ -1576,19 +1715,25 @@ Big Red Button for emergencies.
 - **Memory Access:** None
 - **Paintable:** No
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 
 ---
 
@@ -1607,12 +1752,15 @@ Big Red Button for emergencies.
 - **Radiation Factor:** 0.132
 - **Solar Heating Factor:** 0.662
 **Slots:**
-  - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
-  - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
-  - SlotName=Life Support, SlotType=Life Support, SlotIndex=2
-  - SlotName=Filter, SlotType=Filter, SlotIndex=3
-  - SlotName=Filter, SlotType=Filter, SlotIndex=4
-  - SlotName=Filter, SlotType=Filter, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Air Tank | Air Tank | 0 |
+| Waste Tank | Waste Tank | 1 |
+| Life Support | Life Support | 2 |
+| Filter | Filter | 3 |
+| Filter | Filter | 4 |
+| Filter | Filter | 5 |
+
 
 ---
 
@@ -1666,12 +1814,15 @@ Big Red Button for emergencies.
 - **Memory Access:** None
 - **Paintable:** No
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 
 ---
 
@@ -1684,14 +1835,17 @@ Big Red Button for emergencies.
 - **Memory Access:** None
 - **Paintable:** No
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Tool, SlotType=Tool, SlotIndex=2
-  - SlotName=Tool, SlotType=Tool, SlotIndex=3
-  - SlotName=Tool, SlotType=Tool, SlotIndex=4
-  - SlotName=Tool, SlotType=Tool, SlotIndex=5
-  - SlotName=Tool, SlotType=Tool, SlotIndex=6
-  - SlotName=Tool, SlotType=Tool, SlotIndex=7
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Tool | Tool | 2 |
+| Tool | Tool | 3 |
+| Tool | Tool | 4 |
+| Tool | Tool | 5 |
+| Tool | Tool | 6 |
+| Tool | Tool | 7 |
+
 
 ---
 
@@ -1814,12 +1968,15 @@ The EVA suit is the basic suit Stationeers need to survive in the inhospitable e
 - **Radiation Factor:** 0.205
 - **Solar Heating Factor:** 8.19
 **Slots:**
-  - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
-  - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
-  - SlotName=Life Support, SlotType=Life Support, SlotIndex=2
-  - SlotName=Filter, SlotType=Filter, SlotIndex=3
-  - SlotName=Filter, SlotType=Filter, SlotIndex=4
-  - SlotName=Filter, SlotType=Filter, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Air Tank | Air Tank | 0 |
+| Waste Tank | Waste Tank | 1 |
+| Life Support | Life Support | 2 |
+| Filter | Filter | 3 |
+| Filter | Filter | 4 |
+| Filter | Filter | 5 |
+
 **Build Recipe:**
   - Printer: Autolathe (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
@@ -1856,11 +2013,14 @@ A device for safely evaporating liquids into gasses. Liquids and Gasses will bot
   - Description=Wrench 2 x Steel Sheets
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input 2, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Power Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Pipe Input 2 | 0 |
+| Pipe Output | 1 |
+| Pipe Liquid Input | 2 |
+| Connection | 3 |
+| Power Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Phase Change Device), PrefabHash=1587787610, PageLink=ThingItemKitEvaporationChamber
 
@@ -1888,8 +2048,11 @@ Allows for moving liquids from a liquid pipe into a gas pipe. Only allows liquid
 **Build States:**
   - Description=1 x Kit (Pipe Valve)
 **Connections:**
-  - LogicName=Pipe Output, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Output | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Valve), PrefabHash=799323450, PageLink=ThingItemPipeValve
 
@@ -2005,25 +2168,27 @@ These are powered Structures that can be used to Manufacture things you need in 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Programmable Chip | Programmable Chip | 1 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
   - Description=2 x Kit (Pipe)
@@ -2078,14 +2243,20 @@ These are powered Structures that can be used to Manufacture things you need in 
   - NameOfThing=Grass, PrefabHash=2116552372, PageLink=ThingItemGrass
   - NameOfThing=Flax, PrefabHash=-1345959473, PageLink=ThingItemFlax
   - NameOfThing=Gorse, PrefabHash=921641358, PageLink=ThingItemGorse
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
-  - LogicName=Power Input, LogicAccessTypes=2
-  - LogicName=Chute Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Pipe Liquid Output | 1 |
+| Power Input | 2 |
+| Chute Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 

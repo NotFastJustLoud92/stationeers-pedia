@@ -11,31 +11,43 @@ A stacker is an important part of any automated chute network. The Xigo ProKompi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Processing, SlotType=Processing, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Processing | Processing | 2 |
+
 **Build States:**
   - Description=1 x Kit (Stacker)
-**Mode Options:**
-  - LogicName=Automatic, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Automatic | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Chute Output | 1 |
+| Chute Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Stacker), PrefabHash=1013244511, PageLink=ThingItemKitStacker
 
@@ -52,31 +64,43 @@ A stacker is an important part of any automated chute network. The Xigo ProKompi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Processing, SlotType=Processing, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Processing | Processing | 2 |
+
 **Build States:**
   - Description=1 x Kit (Stacker)
-**Mode Options:**
-  - LogicName=Automatic, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Automatic | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Chute Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Chute Output | 1 |
+| Chute Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Stacker), PrefabHash=1013244511, PageLink=ThingItemKitStacker
 
@@ -283,18 +307,24 @@ Providing large-scale, reliable power storage, the Sinotai 'Dianzi' station batt
   - Description=1 x Kit (Battery)
   - Description=Welding Torch 2 x Steel Sheets
   - Description=Screwdriver
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
-  - LogicName=Power Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+| Power Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Battery), PrefabHash=1406656973, PageLink=ThingItemKitBattery
 
@@ -317,18 +347,24 @@ Providing even better large-scale, reliable power storage than the Station Batte
   - Description=1 x Kit (Battery Large)
   - Description=Welding Torch 4 x Steel Sheets
   - Description=Screwdriver 2 x Electronic Parts
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
-  - LogicName=Power Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+| Power Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Battery Large), PrefabHash=-21225041, PageLink=ThingItemKitBatteryLarge
 
@@ -425,9 +461,12 @@ More durable than the Iron Frame, steel frames also have several variations for 
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Steel Frames
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Steel Frames, PrefabHash=-1448105779, PageLink=ThingItemSteelFrames
 
@@ -553,33 +592,42 @@ Harnessing an ancient thermal exploit, the Recurso 'Libra' Stirling Engine gener
 - **Convection Factor:** 1.28
 - **Radiation Factor:** 1.28
 - **Solar Heating Factor:** 0.851
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=Volume, LogicAccessTypes=0
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| Volume | 0 |
+| Open | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+
 **Build States:**
   - Description=1 x Kit (Stirling Engine)
   - Description=Welding Torch 2 x Steel Sheets
   - Description=2 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Stirling Engine), PrefabHash=-1821571150, PageLink=ThingItemKitStirlingEngine
 
@@ -599,8 +647,11 @@ Harnessing an ancient thermal exploit, the Recurso 'Libra' Stirling Engine gener
 **Build States:**
   - Description=1 x Kit (Music Machines)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
 
@@ -1555,27 +1606,36 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=Mode, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| Mode | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=3 x Kit (Large Console)
   - Description=3 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Console), PrefabHash=-497108550, PageLink=ThingItemKitLargeConsole
 
@@ -1729,48 +1789,47 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Types:**
-  - Text=SuitStorageInstruction.SlotHelmet OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotSuit OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBackpack OP_CODE: 3, Index=3, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotAirTank OP_CODE: 4, Index=4, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotWasteTank OP_CODE: 5, Index=5, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBatteryCell OP_CODE: 6, Index=6, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotPropellentTank OP_CODE: 7, Index=7, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotFilter OP_CODE: 8, Index=8, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotCoolantTank OP_CODE: 9, Index=9, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Pressure, LogicAccessTypes=0, 1, 2
-  - LogicName=Charge, LogicAccessTypes=0, 1, 2
-  - LogicName=ChargeRatio, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=PressureWaste, LogicAccessTypes=1
-  - LogicName=PressureAir, LogicAccessTypes=1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=On, LogicAccessTypes=0
-  - LogicName=Lock, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Pressure | 0, 1, 2 |
+| Charge | 0, 1, 2 |
+| ChargeRatio | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| PressureWaste | 1 |
+| PressureAir | 1 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| Open | 0 |
+| On | 0 |
+| Lock | 0 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Helmet, SlotType=Helmet, SlotIndex=0
-  - SlotName=Suit, SlotType=Suit, SlotIndex=1
-  - SlotName=Back, SlotType=Back, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Helmet | Helmet | 0 |
+| Suit | Suit | 1 |
+| Back | Back | 2 |
+
 **Build States:**
   - Description=1 x Kit (Suit Storage)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Input, LogicAccessTypes=2
-  - LogicName=Pipe Input 2, LogicAccessTypes=3
-  - LogicName=Pipe Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Input | 2 |
+| Pipe Input 2 | 3 |
+| Pipe Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Suit Storage), PrefabHash=1088892825, PageLink=ThingItemKitSuitStorage
 
@@ -1791,48 +1850,47 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Types:**
-  - Text=SuitStorageInstruction.SlotHelmet OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotSuit OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBackpack OP_CODE: 3, Index=3, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotAirTank OP_CODE: 4, Index=4, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotWasteTank OP_CODE: 5, Index=5, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBatteryCell OP_CODE: 6, Index=6, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotPropellentTank OP_CODE: 7, Index=7, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotFilter OP_CODE: 8, Index=8, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotCoolantTank OP_CODE: 9, Index=9, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Pressure, LogicAccessTypes=0, 1, 2
-  - LogicName=Charge, LogicAccessTypes=0, 1, 2
-  - LogicName=ChargeRatio, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=PressureWaste, LogicAccessTypes=1
-  - LogicName=PressureAir, LogicAccessTypes=1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=On, LogicAccessTypes=0
-  - LogicName=Lock, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Pressure | 0, 1, 2 |
+| Charge | 0, 1, 2 |
+| ChargeRatio | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| PressureWaste | 1 |
+| PressureAir | 1 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| Open | 0 |
+| On | 0 |
+| Lock | 0 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Helmet, SlotType=Helmet, SlotIndex=0
-  - SlotName=Suit, SlotType=Suit, SlotIndex=1
-  - SlotName=Back, SlotType=Back, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Helmet | Helmet | 0 |
+| Suit | Suit | 1 |
+| Back | Back | 2 |
+
 **Build States:**
   - Description=1 x Kit (Suit Storage)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Input, LogicAccessTypes=2
-  - LogicName=Pipe Input 2, LogicAccessTypes=3
-  - LogicName=Pipe Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Input | 2 |
+| Pipe Input 2 | 3 |
+| Pipe Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Suit Storage), PrefabHash=1088892825, PageLink=ThingItemKitSuitStorage
 
@@ -1853,48 +1911,47 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Types:**
-  - Text=SuitStorageInstruction.SlotHelmet OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotSuit OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBackpack OP_CODE: 3, Index=3, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotAirTank OP_CODE: 4, Index=4, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotWasteTank OP_CODE: 5, Index=5, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotBatteryCell OP_CODE: 6, Index=6, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotPropellentTank OP_CODE: 7, Index=7, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotFilter OP_CODE: 8, Index=8, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=SuitStorageInstruction.SlotCoolantTank OP_CODE: 9, Index=9, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SLOT_INDEX | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Pressure, LogicAccessTypes=0, 1, 2
-  - LogicName=Charge, LogicAccessTypes=0, 1, 2
-  - LogicName=ChargeRatio, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=PressureWaste, LogicAccessTypes=1
-  - LogicName=PressureAir, LogicAccessTypes=1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=On, LogicAccessTypes=0
-  - LogicName=Lock, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Pressure | 0, 1, 2 |
+| Charge | 0, 1, 2 |
+| ChargeRatio | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| PressureWaste | 1 |
+| PressureAir | 1 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| Open | 0 |
+| On | 0 |
+| Lock | 0 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Helmet, SlotType=Helmet, SlotIndex=0
-  - SlotName=Suit, SlotType=Suit, SlotIndex=1
-  - SlotName=Back, SlotType=Back, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Helmet | Helmet | 0 |
+| Suit | Suit | 1 |
+| Back | Back | 2 |
+
 **Build States:**
   - Description=1 x Kit (Suit Storage)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Input, LogicAccessTypes=2
-  - LogicName=Pipe Input 2, LogicAccessTypes=3
-  - LogicName=Pipe Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Input | 2 |
+| Pipe Input 2 | 3 |
+| Pipe Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Suit Storage), PrefabHash=1088892825, PageLink=ThingItemKitSuitStorage
 
@@ -1914,9 +1971,12 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=3 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -1936,10 +1996,13 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=3 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -1959,8 +2022,11 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=1 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -1980,10 +2046,13 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=2 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -2003,11 +2072,14 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=3 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -2027,12 +2099,15 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=3 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -2052,9 +2127,12 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=2 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -2074,8 +2152,11 @@ As tidy as it is useful, the suit storage rack holds an Eva Suit, Space Helmet a
 **Build States:**
   - Description=7 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 

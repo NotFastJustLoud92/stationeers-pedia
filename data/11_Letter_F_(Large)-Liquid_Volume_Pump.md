@@ -628,8 +628,11 @@
 **Build States:**
   - Description=1 x Kit (Logic Switch)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Switch), PrefabHash=124499454, PageLink=ThingItemKitLogicSwitch
 
@@ -711,7 +714,10 @@ The length of time a plant needs to be lit by the sun or a grow light each day-c
 **Build States:**
   - Description=1 x Kit (Lights)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Lights), PrefabHash=1108423476, PageLink=ThingItemWallLight
 
@@ -731,7 +737,10 @@ The length of time a plant needs to be lit by the sun or a grow light each day-c
 **Build States:**
   - Description=1 x Kit (Lights)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Lights), PrefabHash=1108423476, PageLink=ThingItemWallLight
 
@@ -751,7 +760,10 @@ The length of time a plant needs to be lit by the sun or a grow light each day-c
 **Build States:**
   - Description=1 x Kit (Lights)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Lights), PrefabHash=1108423476, PageLink=ThingItemWallLight
 
@@ -778,8 +790,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -798,8 +813,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -821,8 +839,11 @@ The linear rail door allows LArRE arms to pass through while travelling along a 
   - Description=Welding Torch 3 x Steel Sheets
   - Description=Crowbar 3 x Steel Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail Door), PrefabHash=-753675589, PageLink=ThingItemKitRobotArmDoor
 
@@ -841,8 +862,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -861,8 +885,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -881,8 +908,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -901,8 +931,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -921,8 +954,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -941,8 +977,11 @@ A component of a linear rail network to be used in conjunction with LArRE docks.
 **Build States:**
   - Description=1 x Kit (Linear Rail)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Linear Rail), PrefabHash=-441759975, PageLink=ThingItemKitLinearRail
 
@@ -987,9 +1026,12 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 **Build States:**
   - Description=1 x Kit (Liquid Regulator)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Regulator), PrefabHash=1951126161, PageLink=ThingItemKitLiquidRegulator
 
@@ -1032,9 +1074,12 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
   - Printer: Hydraulic Pipe Bender (Tier Two)
     - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -1055,8 +1100,11 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 **Build States:**
   - Description=10 x Kit (Rocket Liquid Fuel Tank)
 **Connections:**
-  - LogicName=Data Output, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Output | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Liquid Fuel Tank), PrefabHash=2032027950, PageLink=ThingItemKitRocketLiquidFuelTank
 
@@ -1079,8 +1127,11 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 **Build States:**
   - Description=5 x Kit (Rocket Liquid Fuel Tank)
 **Connections:**
-  - LogicName=Data Output, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Output | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Liquid Fuel Tank), PrefabHash=2032027950, PageLink=ThingItemKitRocketLiquidFuelTank
 
@@ -1103,8 +1154,11 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 **Build States:**
   - Description=1 x Kit (Rocket Liquid Fuel Tank)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Liquid Fuel Tank), PrefabHash=2032027950, PageLink=ThingItemKitRocketLiquidFuelTank
 
@@ -1140,9 +1194,12 @@ Carbon Dioxide in its liquid form. It can be created by lowering the temperature
 **Build States:**
   - Description=1 x Kit (Liquid Digital Valve)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Digital Valve), PrefabHash=309693520, PageLink=ThingItemWaterPipeDigitalValve
 
@@ -1336,9 +1393,12 @@ You can upgrade this pipe to an using an Kit (Insulated Liquid Pipe) and a Wrenc
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1362,10 +1422,13 @@ You can upgrade this pipe to an Insulated Liquid Pipe (4-Way Junction) using an 
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1389,11 +1452,14 @@ You can upgrade this pipe to an Insulated Liquid Pipe (5-Way Junction) using an 
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1417,12 +1483,15 @@ You can upgrade this pipe to an Insulated Liquid Pipe (6-Way Junction) using an 
 **Build States:**
   - Description=3 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1446,8 +1515,11 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Corner) using an Kit (Ins
 **Build States:**
   - Description=1 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1471,10 +1543,13 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Cross Junction) using an 
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1498,8 +1573,11 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 **Build States:**
   - Description=8 x Kit (Liquid Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1523,8 +1601,11 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 **Build States:**
   - Description=3 x Kit (Liquid Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1548,8 +1629,11 @@ Long variant of liquid piping. These variants cannot be merged or upgraded with 
 **Build States:**
   - Description=4 x Kit (Liquid Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1573,8 +1657,11 @@ You can upgrade this pipe to an Insulated Liquid Pipe (Straight) using an Kit (I
 **Build States:**
   - Description=1 x Kit (Liquid Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1598,9 +1685,12 @@ You can upgrade this pipe to an Insulated Liquid Pipe (T Junction) using an Kit 
 **Build States:**
   - Description=2 x Kit (Liquid Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe), PrefabHash=-1166461357, PageLink=ThingItemKitPipeLiquid
 
@@ -1619,7 +1709,10 @@ You can upgrade this pipe to an Insulated Liquid Pipe (T Junction) using an Kit 
 **Build States:**
   - Description=1 x Kit (Liquid Pipe Analyzer)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Pipe Analyzer), PrefabHash=226055671, PageLink=ThingItemLiquidPipeAnalyzer
 
@@ -1731,7 +1824,10 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 **Build States:**
   - Description=5 x Kit (Liquid Tank)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Tank), PrefabHash=-799849305, PageLink=ThingItemKitLiquidTank
 
@@ -1754,7 +1850,10 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 **Build States:**
   - Description=5 x Kit (Insulated Liquid Tank)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Tank), PrefabHash=617773453, PageLink=ThingItemKitLiquidTankInsulated
 
@@ -1777,7 +1876,10 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 **Build States:**
   - Description=1 x Kit (Liquid Tank)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Tank), PrefabHash=-799849305, PageLink=ThingItemKitLiquidTank
 
@@ -1800,7 +1902,10 @@ Liquid Sodium Chloride is unique in that it will remain in liquid form at extrem
 **Build States:**
   - Description=1 x Kit (Insulated Liquid Tank)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Liquid Tank), PrefabHash=617773453, PageLink=ThingItemKitLiquidTankInsulated
 
@@ -1819,29 +1924,38 @@ When connected to a liquid pipe network, the tank storage unit allows you to ref
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=Volume, LogicAccessTypes=0
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| Volume | 0 |
+| Open | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Liquid Canister | Liquid Canister | 0 |
+
 **Build States:**
   - Description=1 x Kit (Pipe Utility Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Utility Liquid), PrefabHash=595478589, PageLink=ThingItemKitPipeUtilityLiquid
   - NameOfThing=Kit (Liquid Canister Storage), PrefabHash=2037427578, PageLink=ThingItemLiquidTankStorage
@@ -1860,26 +1974,35 @@ When set to Inwards mode the Liquid Vacuum removes liquid from the world and int
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Outward | 0 |
+| Inward | 1 |
+
 
 ---
 
@@ -1896,9 +2019,12 @@ When set to Inwards mode the Liquid Vacuum removes liquid from the world and int
 **Build States:**
   - Description=1 x Kit (Liquid Volume Pump)
 **Connections:**
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Liquid Output | 0 |
+| Pipe Liquid Input | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Volume Pump), PrefabHash=-2106280569, PageLink=ThingItemLiquidPipeVolumePump
 

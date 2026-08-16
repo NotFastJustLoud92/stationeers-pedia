@@ -15,9 +15,12 @@ Regulates the volume ratio of liquid in the output Liquid pipe. This is expresse
 **Build States:**
   - Description=1 x Kit (Liquid Regulator)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Regulator), PrefabHash=1951126161, PageLink=ThingItemKitLiquidRegulator
 
@@ -32,25 +35,34 @@ Regulates the volume ratio of liquid in the output Liquid pipe. This is expresse
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Data Disk | Data Disk | 0 |
+
 **Build States:**
   - Description=1 x Kit (Liquid Wall Cooler)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Wall Cooler), PrefabHash=-1721846327, PageLink=ThingItemWaterWallCooler
 
@@ -69,32 +81,44 @@ The Loader will take objects from its left slot and put them in the available sl
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Payload, SlotType=Payload, SlotIndex=0
-  - SlotName=Recipient, SlotType=Recipient, SlotIndex=1
-  - SlotName=Export, SlotType=Export, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Payload | Payload | 0 |
+| Recipient | Recipient | 1 |
+| Export | Export | 2 |
+
 **Build States:**
   - Description=2 x Kit (Stacker)
-**Mode Options:**
-  - LogicName=Auto, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Auto | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Input 2, LogicAccessTypes=1
-  - LogicName=Chute Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Input 2 | 1 |
+| Chute Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Stacker), PrefabHash=1013244511, PageLink=ThingItemKitStacker
 
@@ -110,49 +134,55 @@ The Loader will take objects from its left slot and put them in the available sl
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
-  - SlotName=None, SlotType=None, SlotIndex=15
-  - SlotName=None, SlotType=None, SlotIndex=16
-  - SlotName=None, SlotType=None, SlotIndex=17
-  - SlotName=None, SlotType=None, SlotIndex=18
-  - SlotName=None, SlotType=None, SlotIndex=19
-  - SlotName=None, SlotType=None, SlotIndex=20
-  - SlotName=None, SlotType=None, SlotIndex=21
-  - SlotName=None, SlotType=None, SlotIndex=22
-  - SlotName=None, SlotType=None, SlotIndex=23
-  - SlotName=None, SlotType=None, SlotIndex=24
-  - SlotName=None, SlotType=None, SlotIndex=25
-  - SlotName=None, SlotType=None, SlotIndex=26
-  - SlotName=None, SlotType=None, SlotIndex=27
-  - SlotName=None, SlotType=None, SlotIndex=28
-  - SlotName=None, SlotType=None, SlotIndex=29
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+| None | None | 10 |
+| None | None | 11 |
+| None | None | 12 |
+| None | None | 13 |
+| None | None | 14 |
+| None | None | 15 |
+| None | None | 16 |
+| None | None | 17 |
+| None | None | 18 |
+| None | None | 19 |
+| None | None | 20 |
+| None | None | 21 |
+| None | None | 22 |
+| None | None | 23 |
+| None | None | 24 |
+| None | None | 25 |
+| None | None | 26 |
+| None | None | 27 |
+| None | None | 28 |
+| None | None | 29 |
+
 **Build States:**
   - Description=2 x Kit (Locker)
 **Constructed Things:**
@@ -170,23 +200,29 @@ The Loader will take objects from its left slot and put them in the available sl
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3 |
+| OccupantHash | 0, 1, 2, 3 |
+| Quantity | 0, 1, 2, 3 |
+| Damage | 0, 1, 2, 3 |
+| Class | 0, 1, 2, 3 |
+| MaxQuantity | 0, 1, 2, 3 |
+| PrefabHash | 0, 1, 2, 3 |
+| SortingClass | 0, 1, 2, 3 |
+| ReferenceId | 0, 1, 2, 3 |
+| FreeSlots | 0, 1, 2, 3 |
+| TotalSlots | 0, 1, 2, 3 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -259,16 +295,22 @@ A square button which sets Activate to 1 when pressed. Has an adjustable Color.
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Equals, LogicAccessTypes=0
-  - LogicName=Greater, LogicAccessTypes=1
-  - LogicName=Less, LogicAccessTypes=2
-  - LogicName=NotEquals, LogicAccessTypes=3
+**Mode:**
+| Name | Value |
+|---|---|
+| Equals | 0 |
+| Greater | 1 |
+| Less | 2 |
+| NotEquals | 3 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -325,18 +367,24 @@ A logic device that performs a logical operation on one or more binary inputs th
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=AND, LogicAccessTypes=0
-  - LogicName=OR, LogicAccessTypes=1
-  - LogicName=XOR, LogicAccessTypes=2
-  - LogicName=NAND, LogicAccessTypes=3
-  - LogicName=NOR, LogicAccessTypes=4
-  - LogicName=XNOR, LogicAccessTypes=5
+**Mode:**
+| Name | Value |
+|---|---|
+| AND | 0 |
+| OR | 1 |
+| XOR | 2 |
+| NAND | 3 |
+| NOR | 4 |
+| XNOR | 5 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -355,8 +403,11 @@ A logic device that performs a logical operation on one or more binary inputs th
 **Build States:**
   - Description=1 x Kit (Logic Memory)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Memory), PrefabHash=-2098214189, PageLink=ThingItemKitLogicMemory
 
@@ -375,20 +426,26 @@ A logic device that performs a logical operation on one or more binary inputs th
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Add, LogicAccessTypes=0
-  - LogicName=Subtract, LogicAccessTypes=1
-  - LogicName=Multiply, LogicAccessTypes=2
-  - LogicName=Divide, LogicAccessTypes=3
-  - LogicName=Mod, LogicAccessTypes=4
-  - LogicName=Atan2, LogicAccessTypes=5
-  - LogicName=Pow, LogicAccessTypes=6
-  - LogicName=Log, LogicAccessTypes=7
+**Mode:**
+| Name | Value |
+|---|---|
+| Add | 0 |
+| Subtract | 1 |
+| Multiply | 2 |
+| Divide | 3 |
+| Mod | 4 |
+| Atan2 | 5 |
+| Pow | 6 |
+| Log | 7 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -407,8 +464,11 @@ A logic device that performs a logical operation on one or more binary inputs th
 **Build States:**
   - Description=1 x Kit (Logic Memory)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Memory), PrefabHash=-2098214189, PageLink=ThingItemKitLogicMemory
 
@@ -427,14 +487,20 @@ A logic device that performs a logical operation on one or more binary inputs th
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Greater, LogicAccessTypes=0
-  - LogicName=Less, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Greater | 0 |
+| Less | 1 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -454,9 +520,12 @@ A logic device that performs a logical operation on one or more binary inputs th
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -491,9 +560,12 @@ A numeric input device. Sends pulses to Mode when pressing digit buttons. Can ch
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Modular Console Inputs)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Inputs), PrefabHash=1496399356, PageLink=ThingItemKitModularConsoleInputs
 
@@ -513,9 +585,12 @@ A numeric input device. Sends pulses to Mode when pressing digit buttons. Can ch
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -536,7 +611,10 @@ A numeric input device. Sends pulses to Mode when pressing digit buttons. Can ch
   - Description=4 x Cable Coil
   - Description=Screwdriver 2 x Electronic Parts
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Datalink), PrefabHash=-1256996603, PageLink=ThingItemKitRocketDatalink
 
@@ -555,16 +633,22 @@ A numeric input device. Sends pulses to Mode when pressing digit buttons. Can ch
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Equals, LogicAccessTypes=0
-  - LogicName=Greater, LogicAccessTypes=1
-  - LogicName=Less, LogicAccessTypes=2
-  - LogicName=NotEquals, LogicAccessTypes=3
+**Mode:**
+| Name | Value |
+|---|---|
+| Equals | 0 |
+| Greater | 1 |
+| Less | 2 |
+| NotEquals | 3 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -600,40 +684,45 @@ Contains an Internal Memory which is assessed to check whether something should 
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=SorterInstruction.FilterPrefabHashEquals OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | PREFAB_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=SorterInstruction.FilterPrefabHashNotEquals OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | PREFAB_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=SorterInstruction.FilterSortingClassCompare OP_CODE: 3, Index=3, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | CONDITION_OPERATION | BYTE_8 | | 16-31 | SORTING_CLASS | USHORT_16 | | 32-63 | UNUSED | 32 |
-  - Text=SorterInstruction.FilterSlotTypeCompare OP_CODE: 4, Index=4, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | CONDITION_OPERATION | BYTE_8 | | 16-31 | SLOT_TYPE | USHORT_16 | | 32-63 | UNUSED | 32 |
-  - Text=SorterInstruction.FilterQuantityCompare OP_CODE: 5, Index=5, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | CONDITION_OPERATION | BYTE_8 | | 16-31 | QUANTITY | USHORT_16 | | 32-63 | UNUSED | 32 |
-  - Text=SorterInstruction.LimitNextExecutionByCount OP_CODE: 6, Index=6, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | COUNT | UINT_32 | | 40-63 | UNUSED | 24 |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Export 2, SlotType=Export 2, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Export 2 | Export 2 | 2 |
+
 **Build States:**
   - Description=1 x Kit (Sorter)
-**Mode Options:**
-  - LogicName=All, LogicAccessTypes=0
-  - LogicName=Any, LogicAccessTypes=1
-  - LogicName=None, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| All | 0 |
+| Any | 1 |
+| None | 2 |
+
 **Connections:**
-  - LogicName=Chute Output 2, LogicAccessTypes=0
-  - LogicName=Chute Input, LogicAccessTypes=1
-  - LogicName=Chute Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Output 2 | 0 |
+| Chute Input | 1 |
+| Chute Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sorter), PrefabHash=969522478, PageLink=ThingItemKitSorter
 
@@ -652,32 +741,44 @@ The ODA does not approve of soundtracks or other distractions. As such, Statione
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=SoundCartridge, SlotType=SoundCartridge, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| SoundCartridge | SoundCartridge | 0 |
+
 **Build States:**
   - Description=1 x Kit (Music Machines)
-**Mode Options:**
-  - LogicName=Whole Note, LogicAccessTypes=0
-  - LogicName=Half Note, LogicAccessTypes=1
-  - LogicName=Quarter Note, LogicAccessTypes=2
-  - LogicName=Eighth Note, LogicAccessTypes=3
-  - LogicName=Sixteenth Note, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Whole Note | 0 |
+| Half Note | 1 |
+| Quarter Note | 2 |
+| Eighth Note | 3 |
+| Sixteenth Note | 4 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Power Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Power Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
 
@@ -733,14 +834,20 @@ Connects to Logic Transmitter
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Transmitter)
-**Mode Options:**
-  - LogicName=Passive, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Passive | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Input, LogicAccessTypes=1
-  - LogicName=Data Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Input | 1 |
+| Data Input | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Transmitter), PrefabHash=1005397063, PageLink=ThingItemKitLogicTransmitter
 
@@ -769,8 +876,11 @@ Connects to Logic Transmitter
   - Description=Screwdriver 2 x Electronic Parts
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Datalink), PrefabHash=-1256996603, PageLink=ThingItemKitRocketDatalink
 
@@ -793,8 +903,11 @@ Connects to Logic Transmitter
   - Description=Screwdriver 2 x Electronic Parts
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Datalink), PrefabHash=-1256996603, PageLink=ThingItemKitRocketDatalink
 
@@ -814,9 +927,12 @@ Connects to Logic Transmitter
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 
@@ -836,9 +952,12 @@ Connects to Logic Transmitter
 **Build States:**
   - Description=1 x Kit (Logic I/O)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic I/O), PrefabHash=1997293610, PageLink=ThingItemKitLogicInputOutput
 

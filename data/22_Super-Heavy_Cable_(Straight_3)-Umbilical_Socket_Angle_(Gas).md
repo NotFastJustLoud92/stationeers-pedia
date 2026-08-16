@@ -14,8 +14,11 @@
 **Build States:**
   - Description=3 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -35,8 +38,11 @@
 **Build States:**
   - Description=4 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -56,8 +62,11 @@
 **Build States:**
   - Description=1 x Cable Coil (Super Heavy)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Cable Coil (Super Heavy), PrefabHash=-551331063, PageLink=ThingItemCableCoilSuperHeavy
 
@@ -78,8 +87,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 3 x Kit (Pipe)
   - Description=Welding Torch 3 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -100,8 +112,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 3 x Kit (Pipe)
   - Description=Welding Torch 3 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -122,8 +137,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 3 x Kit (Pipe)
   - Description=Welding Torch 3 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -139,42 +157,36 @@ Connects to Logic Transmitter
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Charge, LogicAccessTypes=1
-  - LogicName=ChargeRatio, LogicAccessTypes=1
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-**Logic Bindings:**
-  - Header=db, Label=TOOLBELT
-  - Header=d0, Label=PROGRAMMABLECHIP
-  - Header=d1, Label=BATTERY
-  - Header=d2, Label=AUTOINJECTOR
-  - Header=d3, Label=AUTOINJECTOR
-  - Header=d4, Label=TOOL
-  - Header=d5, Label=TOOL
-  - Header=d6, Label=TOOL
-  - Header=d7, Label=TOOL
-  - Header=d8, Label=TOOL
-  - Header=d9, Label=TOOL
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Charge | 1 |
+| ChargeRatio | 1 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
-  - SlotName=Battery, SlotType=Battery, SlotIndex=1
-  - SlotName=Auto-Injector, SlotType=Auto-Injector, SlotIndex=2
-  - SlotName=Auto-Injector, SlotType=Auto-Injector, SlotIndex=3
-  - SlotName=Tool, SlotType=Tool, SlotIndex=4
-  - SlotName=Tool, SlotType=Tool, SlotIndex=5
-  - SlotName=Tool, SlotType=Tool, SlotIndex=6
-  - SlotName=Tool, SlotType=Tool, SlotIndex=7
-  - SlotName=Tool, SlotType=Tool, SlotIndex=8
-  - SlotName=Tool, SlotType=Tool, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+| Battery | Battery | 1 |
+| Auto-Injector | Auto-Injector | 2 |
+| Auto-Injector | Auto-Injector | 3 |
+| Tool | Tool | 4 |
+| Tool | Tool | 5 |
+| Tool | Tool | 6 |
+| Tool | Tool | 7 |
+| Tool | Tool | 8 |
+| Tool | Tool | 9 |
+| None | None | 10 |
+| None | None | 11 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 12000 x Energy + 5 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder)) + 10 x Silicon (from Ingot (Silicon))
@@ -195,8 +207,11 @@ Connects to Logic Transmitter
 **Build States:**
   - Description=1 x Kit (Logic Switch)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Switch), PrefabHash=124499454, PageLink=ThingItemKitLogicSwitch
 
@@ -282,7 +297,10 @@ Connects to Logic Transmitter
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
-  - SlotName=Tablet, SlotType=Tablet, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Tablet | Tablet | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 750 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 1 x Silicon (from Ingot (Silicon))
@@ -307,7 +325,10 @@ Connects to Logic Transmitter
 **Build States:**
   - Description=5 x Kit (Insulated Tank)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Tank), PrefabHash=1021053608, PageLink=ThingItemKitTankInsulated
 
@@ -330,7 +351,10 @@ Connects to Logic Transmitter
 **Build States:**
   - Description=1 x Kit (Insulated Tank)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Insulated Tank), PrefabHash=1021053608, PageLink=ThingItemKitTankInsulated
 
@@ -353,8 +377,11 @@ A telescope that can be oriented to observe Celestial Bodies. When within full a
   - Description=2 x Glass Sheets
   - Description=Screwdriver 4 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Telescope), PrefabHash=-2140672772, PageLink=ThingItemKitGroundTelescope
 
@@ -378,27 +405,36 @@ In order to control the temperature of a system, we have to either add heat to i
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| ReferenceId | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Dirt Canister, SlotType=Dirt Canister, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Dirt Canister | Dirt Canister | 1 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 1800 x Energy + 10 x Steel (from Ingot (Steel)) + 2 x Electrum (from Ingot (Electrum)) + 1 x Invar (from Ingot (Invar)) + 5 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -1212,14 +1248,17 @@ If there's one piece of equipment that embodies Stationeer life above all else, 
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Tool, SlotType=Tool, SlotIndex=2
-  - SlotName=Tool, SlotType=Tool, SlotIndex=3
-  - SlotName=Tool, SlotType=Tool, SlotIndex=4
-  - SlotName=Tool, SlotType=Tool, SlotIndex=5
-  - SlotName=Tool, SlotType=Tool, SlotIndex=6
-  - SlotName=Tool, SlotType=Tool, SlotIndex=7
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Tool | Tool | 2 |
+| Tool | Tool | 3 |
+| Tool | Tool | 4 |
+| Tool | Tool | 5 |
+| Tool | Tool | 6 |
+| Tool | Tool | 7 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 3 x Iron (from Ingot (Iron))
@@ -1237,28 +1276,34 @@ A large, ten-slot tool belt with two extra generic slots for carrying whatever t
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11 |
+
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Tool, SlotType=Tool, SlotIndex=2
-  - SlotName=Tool, SlotType=Tool, SlotIndex=3
-  - SlotName=Tool, SlotType=Tool, SlotIndex=4
-  - SlotName=Tool, SlotType=Tool, SlotIndex=5
-  - SlotName=Tool, SlotType=Tool, SlotIndex=6
-  - SlotName=Tool, SlotType=Tool, SlotIndex=7
-  - SlotName=Tool, SlotType=Tool, SlotIndex=8
-  - SlotName=Tool, SlotType=Tool, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Tool | Tool | 2 |
+| Tool | Tool | 3 |
+| Tool | Tool | 4 |
+| Tool | Tool | 5 |
+| Tool | Tool | 6 |
+| Tool | Tool | 7 |
+| Tool | Tool | 8 |
+| Tool | Tool | 9 |
+| None | None | 10 |
+| None | None | 11 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 5 x Constantan (from Ingot (Constantan))
@@ -1280,31 +1325,27 @@ No mission can be completed without the proper tools. The Norsec ThuulDek manufa
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Types:**
-  - Text=PrinterInstruction.StackPointer OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | INDEX | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.ExecuteRecipe OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | INT_32 | | 48-63 | UNUSED | 16 |
-  - Text=PrinterInstruction.WaitUntilNextValid OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.JumpIfNextInvalid OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.JumpToAddress OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=PrinterInstruction.DeviceSetLock OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | LOCK_STATE | BOOL_8 | | 16-63 | UNUSED | 48 |
-  - Text=PrinterInstruction.EjectReagent OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-39 | REAGENT_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=PrinterInstruction.EjectAllReagents OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=PrinterInstruction.MissingRecipeReagent OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 54 TO 62 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY_CEIL | BYTE_8 | | 16-47 | REAGENT_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Tool Manufactory)
   - Description=Welding Torch 2 x Iron Sheets
@@ -1315,10 +1356,13 @@ No mission can be completed without the proper tools. The Norsec ThuulDek manufa
 **Resources Used:**
   - NameOfThing=Ingots, PrefabHash=0, PageLink=IngotPage
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tool Manufactory), PrefabHash=529137748, PageLink=ThingItemKitToolManufactory
 
@@ -1409,19 +1453,25 @@ Man's best friend.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -1441,7 +1491,10 @@ Man's best friend.
 **Build States:**
   - Description=1 x Kit (Landing Pad Runway)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Runway), PrefabHash=-1267511065, PageLink=ThingItemKitLandingPadWaypoint
 
@@ -1469,9 +1522,12 @@ The large Norsec transformer is a critical component of extended electrical netw
 **Build States:**
   - Description=1 x Kit (Transformer Large)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
-  - LogicName=Power Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+| Power Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Large), PrefabHash=-453039435, PageLink=ThingItemKitTransformer
 
@@ -1491,8 +1547,11 @@ Transformers control the maximum power that will flow down a sub-network of cabl
 **Build States:**
   - Description=3 x Kit (Transformer Small)
 **Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-  - LogicName=Power and Data Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power Input | 0 |
+| Power and Data Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Small), PrefabHash=665194284, PageLink=ThingItemKitTransformerSmall
 
@@ -1512,8 +1571,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=1 x Kit (Transformer Small)
 **Connections:**
-  - LogicName=Power and Data Input, LogicAccessTypes=0
-  - LogicName=Power Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power and Data Input | 0 |
+| Power Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Small), PrefabHash=665194284, PageLink=ThingItemKitTransformerSmall
 
@@ -1531,8 +1593,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=3 x Kit (Transformer Small)
 **Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-  - LogicName=Power and Data Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power Input | 0 |
+| Power and Data Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Small), PrefabHash=665194284, PageLink=ThingItemKitTransformerSmall
 
@@ -1552,8 +1617,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=1 x Kit (Transformer Small)
 **Connections:**
-  - LogicName=Power Output, LogicAccessTypes=0
-  - LogicName=Power and Data Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Power Output | 0 |
+| Power and Data Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Small), PrefabHash=665194284, PageLink=ThingItemKitTransformerSmall
 
@@ -1572,9 +1640,12 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=1 x Kit (Transformer Small (Rocket))
 **Connections:**
-  - LogicName=Power Input, LogicAccessTypes=0
-  - LogicName=Power Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Power Input | 0 |
+| Power Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Transformer Small (Rocket)), PrefabHash=-932335800, PageLink=ThingItemKitRocketTransformerSmall
 
@@ -1593,8 +1664,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=3 x Kit (Trigger Plate)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Trigger Plate), PrefabHash=123504691, PageLink=ThingItemKitPressurePlate
 
@@ -1613,8 +1687,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=2 x Kit (Trigger Plate)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Trigger Plate), PrefabHash=123504691, PageLink=ThingItemKitPressurePlate
 
@@ -1633,8 +1710,11 @@ Transformers control the maximum power that will flow down a cable subnetwork, t
 **Build States:**
   - Description=1 x Kit (Trigger Plate)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Trigger Plate), PrefabHash=123504691, PageLink=ThingItemKitPressurePlate
 
@@ -1699,14 +1779,20 @@ Shifts 10 times more gas than a basic Volume Pump, with a mode that can be set t
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Turbo Volume Pump - Gas)
-**Mode Options:**
-  - LogicName=Right, LogicAccessTypes=0
-  - LogicName=Left, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Right | 0 |
+| Left | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Output | 2 |
+| Pipe Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Turbo Volume Pump - Gas), PrefabHash=-1248429712, PageLink=ThingItemKitTurboVolumePump
 
@@ -1728,14 +1814,20 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Turbo Volume Pump - Liquid)
-**Mode Options:**
-  - LogicName=Right, LogicAccessTypes=0
-  - LogicName=Left, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Right | 0 |
+| Left | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=2
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Pipe Liquid Input | 2 |
+| Pipe Liquid Output | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Turbo Volume Pump - Liquid), PrefabHash=-1805020897, PageLink=ThingItemKitLiquidTurboVolumePump
 
@@ -1751,29 +1843,41 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chute Umbilical)
-**Mode Options:**
-  - LogicName=Left, LogicAccessTypes=0
-  - LogicName=Center, LogicAccessTypes=1
-  - LogicName=Right, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Left | 0 |
+| Center | 1 |
+| Right | 2 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Chute Umbilical), PrefabHash=-876560854, PageLink=ThingItemKitChuteUmbilical
 
@@ -1791,13 +1895,19 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Gas Umbilical)
-**Mode Options:**
-  - LogicName=Left, LogicAccessTypes=0
-  - LogicName=Center, LogicAccessTypes=1
-  - LogicName=Right, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Left | 0 |
+| Center | 1 |
+| Right | 2 |
+
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Gas Umbilical), PrefabHash=-1867280568, PageLink=ThingItemKitGasUmbilical
 
@@ -1815,13 +1925,19 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Liquid Umbilical)
-**Mode Options:**
-  - LogicName=Left, LogicAccessTypes=0
-  - LogicName=Center, LogicAccessTypes=1
-  - LogicName=Right, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Left | 0 |
+| Center | 1 |
+| Right | 2 |
+
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Umbilical), PrefabHash=1571996765, PageLink=ThingItemKitLiquidUmbilical
 
@@ -1839,13 +1955,19 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Placeable In Rocket:** True
 **Build States:**
   - Description=1 x Kit (Power Umbilical)
-**Mode Options:**
-  - LogicName=Left, LogicAccessTypes=0
-  - LogicName=Center, LogicAccessTypes=1
-  - LogicName=Right, LogicAccessTypes=2
+**Mode:**
+| Name | Value |
+|---|---|
+| Left | 0 |
+| Center | 1 |
+| Right | 2 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Power Umbilical), PrefabHash=1603046970, PageLink=ThingItemKitElectricUmbilical
 
@@ -1861,24 +1983,33 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chute Umbilical)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Chute Umbilical), PrefabHash=-876560854, PageLink=ThingItemKitChuteUmbilical
 
@@ -1897,7 +2028,10 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 **Build States:**
   - Description=1 x Kit (Gas Umbilical)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Gas Umbilical), PrefabHash=-1867280568, PageLink=ThingItemKitGasUmbilical
 
@@ -1916,7 +2050,10 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 **Build States:**
   - Description=1 x Kit (Liquid Umbilical)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Umbilical), PrefabHash=1571996765, PageLink=ThingItemKitLiquidUmbilical
 
@@ -1935,7 +2072,10 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 **Build States:**
   - Description=1 x Kit (Power Umbilical)
 **Connections:**
-  - LogicName=Power Output, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Power Output | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Power Umbilical), PrefabHash=1603046970, PageLink=ThingItemKitElectricUmbilical
 
@@ -1951,24 +2091,33 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Transport Slot, SlotType=Transport Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Transport Slot | Transport Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Chute Umbilical)
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Chute Umbilical), PrefabHash=-876560854, PageLink=ThingItemKitChuteUmbilical
 
@@ -1987,7 +2136,10 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
 **Build States:**
   - Description=1 x Kit (Gas Umbilical)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Gas Umbilical), PrefabHash=-1867280568, PageLink=ThingItemKitGasUmbilical
 

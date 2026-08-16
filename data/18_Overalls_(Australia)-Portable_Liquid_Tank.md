@@ -11,10 +11,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -33,10 +36,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -55,10 +61,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -77,10 +86,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -99,10 +111,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -121,10 +136,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -143,10 +161,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -165,10 +186,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -187,10 +211,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -209,10 +236,13 @@
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -233,10 +263,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -255,10 +288,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -277,10 +313,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -299,10 +338,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -321,10 +363,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -343,10 +388,13 @@ Overalls that can be coloured using the Spray Paints.
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
@@ -365,21 +413,27 @@ Overalls that can be coloured using the Spray Paints.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -398,29 +452,35 @@ Overalls that can be coloured using the Spray Paints.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -489,28 +549,6 @@ A dock that spawns a passenger monorail train with two driver seats and eight pa
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=TrainInstruction.GotoStationHash OP_CODE: 1, Index=1, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.SetSpeed OP_CODE: 2, Index=2, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | SPEED_1_TO_30 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.SetDoors OP_CODE: 3, Index=3, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-23 | DOORMASK_0_ALL_ORBITMASK | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetInteriorLights OP_CODE: 4, Index=4, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetFrontLights OP_CODE: 5, Index=5, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.SetRearLights OP_CODE: 6, Index=6, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | ENABLE_1_OFF_0_NOCHANGE_255 | BYTE_8 | | 16-23 | COLOR_0_TO_7_NOCHANGE_255 | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.PlaySound OP_CODE: 7, Index=7, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | CLIP_INDEX | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.HonkHorn OP_CODE: 8, Index=8, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForIdle OP_CODE: 9, Index=9, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForDoorClear OP_CODE: 10, Index=A, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForCargoEmpty OP_CODE: 11, Index=B, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.WaitForSleep OP_CODE: 12, Index=C, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | DURATION_SECONDS | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.JumpToAddress OP_CODE: 13, Index=D, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForPassenger OP_CODE: 14, Index=E, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.Halt OP_CODE: 15, Index=F, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.DeleteTimetable OP_CODE: 16, Index=10, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.ToggleCargoBay OP_CODE: 17, Index=11, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | OPEN_1_CLOSE_0 | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.BranchIfSeatsOccupied OP_CODE: 18, Index=12, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | STACK_ADDRESS_0_53 | USHORT_16 | | 24-63 | UNUSED | 40 |
-  - Text=TrainInstruction.WaitForSeatsOccupied OP_CODE: 19, Index=13, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-15 | MINOCCUPIEDSEATS | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TrainInstruction.WaitForStationHash OP_CODE: 20, Index=14, Info=| VALID ONLY AT ADDRESSES 0 TO 53 | | 0-7 | OP_CODE | BYTE_8 | | 8-63 | UNUSED | 56 |
-  - Text=TrainInstruction.StackPointer OP_CODE: 63, Index=15, Info=| VALID ONLY AT ADDRESS 63 | | 0-7 | OP_CODE | BYTE_8 | | 8-23 | PROGRAM_COUNTER | USHORT_16 | | 24-63 | UNUSED | 40 |
 **Build States:**
   - Description=1 x Monorail Docks Kit
   - Description=1 x Kit (Transformer Large) 1 x Kit (Transformer Large)
@@ -521,9 +559,12 @@ A dock that spawns a passenger monorail train with two driver seats and eight pa
   - Description=1 x Kit (Logic Transmitter) 6 x Kit (Logic Switch)
   - Description=10 x Kit (Lights) 6 x Kit (Chairs)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Docks Kit, PrefabHash=-164820803, PageLink=ThingItemMonorailDocksKit
 
@@ -564,7 +605,10 @@ A passive liquid floor inlet that quickly removes liquids in one direction from 
 **Build States:**
   - Description=1 x Kit (Liquid Drain)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Drain), PrefabHash=2036225202, PageLink=ThingItemLiquidDrain
 
@@ -583,7 +627,10 @@ A passive liquid floor inlet that quickly removes liquids in one direction from 
 **Build States:**
   - Description=1 x Kit (Music Machines)
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
 
@@ -606,7 +653,10 @@ Passive vents allow gases to move into and out of pipe networks, which are close
 **Build States:**
   - Description=1 x Kit (Passive Vent)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Passive Vent), PrefabHash=238631271, PageLink=ThingItemPassiveVent
 
@@ -647,7 +697,10 @@ Used to mix atmospheres passively between two walls.
 **Build States:**
   - Description=1 x Pipe Cowl
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Pipe Cowl, PrefabHash=-38898376, PageLink=ThingItemPipeCowl
 
@@ -670,7 +723,10 @@ Passive vents (Valve) allow gasses to move into and out of pipe networks, which 
 **Build States:**
   - Description=1 x Kit (Passive Vent)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Passive Vent), PrefabHash=238631271, PageLink=ThingItemPassiveVent
 
@@ -691,28 +747,37 @@ The Payload Bay Large functions as an attachment point for the Payload Delivery 
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
 - **Rocket Mass:** 100kg
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Payload, SlotType=Payload, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Payload | Payload | 0 |
+
 **Build States:**
   - Description=1 x Kit (Payload Bay Large)
   - Description=Welding Torch 2 x Steel Sheets
   - Description=2 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Liquid Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Payload Bay Large), PrefabHash=357751071, PageLink=ThingItemKitRocketLargePayloadBay
 
@@ -729,16 +794,19 @@ When attached to a Payload Bay Large the Payload Delivery Container can be deplo
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Payload Delivery Container), PrefabHash=436274801, PageLink=ThingItemKitPayloadDeliveryContainer
 
@@ -1095,9 +1163,12 @@ A PID (Proportional Integral Derivative) controller that provides a closed-loop 
 **Build States:**
   - Description=1 x Kit (Logic Processor)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -1182,9 +1253,12 @@ You can upgrade this pipe to an Insulated Pipe (3-Way Junction) using an Kit (In
 **Build States:**
   - Description=2 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1208,10 +1282,13 @@ You can upgrade this pipe to an Insulated Pipe (4-Way Junction) using an Kit (In
 **Build States:**
   - Description=3 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1235,11 +1312,14 @@ You can upgrade this pipe to an Insulated Pipe (5-Way Junction) using an Kit (In
 **Build States:**
   - Description=3 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1263,12 +1343,15 @@ You can upgrade this pipe to an Insulated Pipe (6-Way Junction) using an Kit (In
 **Build States:**
   - Description=3 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+| Connection | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1292,8 +1375,11 @@ You can upgrade this pipe to an Insulated Pipe (Corner) using an Kit (Insulated 
 **Build States:**
   - Description=1 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1317,10 +1403,13 @@ You can upgrade this pipe to an Insulated Pipe (Cross Junction) using an Kit (In
 **Build States:**
   - Description=2 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1344,8 +1433,11 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 **Build States:**
   - Description=8 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1369,8 +1461,11 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 **Build States:**
   - Description=3 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1394,8 +1489,11 @@ Long variant of the straight pipe. These variants cannot be merged or upgraded w
 **Build States:**
   - Description=4 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1419,8 +1517,11 @@ You can upgrade this pipe to an Insulated Pipe (Straight) using an Kit (Insulate
 **Build States:**
   - Description=1 x Kit (Pipe) Wrench
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1444,9 +1545,12 @@ You can upgrade this pipe to an Insulated Pipe (T Junction) using an Kit (Insula
 **Build States:**
   - Description=2 x Kit (Pipe)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe), PrefabHash=-1619793705, PageLink=ThingItemKitPipe
 
@@ -1467,7 +1571,10 @@ Allegedly the outcome of a weekend father-daughter electronics project by an ove
 **Build States:**
   - Description=1 x Kit (Pipe Analyzer)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Analyzer), PrefabHash=-767597887, PageLink=ThingItemPipeAnalyizer
 
@@ -1553,8 +1660,11 @@ Adds 1000 joules of heat per tick to the contents of your pipe network. The Pipe
 **Build States:**
   - Description=1 x Pipe Heater Kit (Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Pipe Heater Kit (Gas), PrefabHash=-1751627006, PageLink=ThingItemPipeHeater
 
@@ -1577,8 +1687,11 @@ Adds 1000 joules of heat per tick to the contents of your pipe network. The Pipe
 **Build States:**
   - Description=1 x Pipe Heater Kit (Liquid)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Pipe Heater Kit (Liquid), PrefabHash=-248475032, PageLink=ThingItemLiquidPipeHeater
 
@@ -1643,7 +1756,10 @@ Ignites the atmosphere inside the attached pipe network.
 **Build States:**
   - Description=1 x Kit (Pipe Igniter)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Igniter), PrefabHash=1366030599, PageLink=ThingItemPipeIgniter
 
@@ -1703,12 +1819,18 @@ The pipe organ can be attached to one end of a Kit (Pipe Valve). The length of t
 - **Solar Heating Factor:** 0.097
 **Build States:**
   - Description=1 x Kit (Pipe Organ)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Organ), PrefabHash=-827125300, PageLink=ThingItemKitPipeOrgan
 
@@ -1767,7 +1889,10 @@ The Genetic Analyzer can be used to process samples from the Plant Sampler. Once
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Input, SlotType=Input, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Input | Input | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 4500 x Energy + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
@@ -1786,8 +1911,11 @@ The Genetic Splicer can be used to copy a single gene from one 'source' plant to
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Source Plant, SlotType=Source Plant, SlotIndex=0
-  - SlotName=Target Plant, SlotType=Target Plant, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Source Plant | Source Plant | 0 |
+| Target Plant | Target Plant | 1 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 5000 x Energy + 20 x Stellite (from Ingot (Stellite)) + 10 x Inconel (from Ingot (Inconel))
@@ -1806,14 +1934,20 @@ The Genetic Stabilizer can be used to manipulate gene stability on a specific Pl
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 5000 x Energy + 20 x Stellite (from Ingot (Stellite)) + 10 x Inconel (from Ingot (Inconel))
 
-**Mode Options:**
-  - LogicName=Stabilize, LogicAccessTypes=0
-  - LogicName=Destabilize, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Stabilize | 0 |
+| Destabilize | 1 |
+
 
 ---
 
@@ -1828,26 +1962,35 @@ The Plant Sampler allows you to take a gene sample of a growing plant. The sampl
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -1868,12 +2011,18 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Radiation Factor:** 0.001
 - **Solar Heating Factor:** 0.179
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+
 **Build States:**
   - Description=1 x Kit (Planter)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Planter), PrefabHash=119096484, PageLink=ThingItemKitPlanter
 
@@ -1915,7 +2064,10 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+
 **Build States:**
   - Description=1 x Kit (Furniture)
 
@@ -1932,14 +2084,20 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 2000 x Energy + 4 x Copper (from Ingot (Copper)) + 6 x Steel (from Ingot (Steel)) + 4 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Flatten, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Flatten | 1 |
+
 
 ---
 
@@ -2032,11 +2190,17 @@ The Sinotai-designed Huxi portable air conditioner cools by drawing heat from th
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=1
-**Mode Options:**
-  - LogicName=Cold, LogicAccessTypes=0
-  - LogicName=Hot, LogicAccessTypes=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Liquid Canister | Liquid Canister | 1 |
+
+**Mode:**
+| Name | Value |
+|---|---|
+| Cold | 0 |
+| Hot | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Air Conditioner), PrefabHash=1072914031, PageLink=ThingItemDynamicAirCon
 
@@ -2059,9 +2223,12 @@ A portable scrubber does just what it sounds like: removes specific substances f
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0.617
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Gas Filter | Gas Filter | 1 |
+| Gas Filter | Gas Filter | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Scrubber), PrefabHash=-971920158, PageLink=ThingItemDynamicScrubber
 
@@ -2106,17 +2273,23 @@ A simple composting device, the basic composter creates Fertilizer out of organi
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Battery, SlotType=Battery, SlotIndex=2
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Battery | Battery | 2 |
+| Liquid Canister | Liquid Canister | 3 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 20000 x Energy + 15 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -2138,7 +2311,10 @@ Portable gas tanks store gas. To refill one, bolt it to a Kit (Tank Connector), 
 - **Radiation Factor:** 0.129
 - **Solar Heating Factor:** 0.515
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Gas Tank), PrefabHash=-1061945368, PageLink=ThingItemKitDynamicCanister
 
@@ -2160,8 +2336,11 @@ Every Stationeer's best friend, the portable generator gets you up and running, 
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0.448
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
-  - SlotName=Battery, SlotType=Battery, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+| Battery | Battery | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Generator), PrefabHash=-732720413, PageLink=ThingItemKitDynamicGenerator
 
@@ -2182,15 +2361,18 @@ Every Stationeer's best friend, the portable generator gets you up and running, 
 - **Radiation Factor:** 0.228
 - **Solar Heating Factor:** 0.455
 **Slots:**
-  - SlotName=Plant, SlotType=Plant, SlotIndex=0
-  - SlotName=Plant, SlotType=Plant, SlotIndex=1
-  - SlotName=Plant, SlotType=Plant, SlotIndex=2
-  - SlotName=Plant, SlotType=Plant, SlotIndex=3
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=4
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=5
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=6
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=7
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=8
+| Name | Type | Index |
+|---|---|---|
+| Plant | Plant | 0 |
+| Plant | Plant | 1 |
+| Plant | Plant | 2 |
+| Plant | Plant | 3 |
+| Liquid Canister | Liquid Canister | 4 |
+| Liquid Canister | Liquid Canister | 5 |
+| Liquid Canister | Liquid Canister | 6 |
+| Liquid Canister | Liquid Canister | 7 |
+| Liquid Canister | Liquid Canister | 8 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Hydroponics), PrefabHash=-1861154222, PageLink=ThingItemKitDynamicHydroponics
 
@@ -2208,19 +2390,25 @@ Philippe Starck might not applaud, but this battery-powered light source undarke
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 8.27 kK (8000oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
@@ -2246,7 +2434,10 @@ This portable tank stores liquid. You can bolt one to a Portables Connector usin
 - **Radiation Factor:** 0.129
 - **Solar Heating Factor:** 0.515
 **Slots:**
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Liquid Canister | Liquid Canister | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Liquid Tank), PrefabHash=375541286, PageLink=ThingItemKitDynamicLiquidCanister
 

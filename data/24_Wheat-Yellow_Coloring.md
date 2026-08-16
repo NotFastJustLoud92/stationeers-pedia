@@ -141,8 +141,11 @@ The Wind Turbine is optimized to produce power (up to 500W) even on low atmosphe
   - Description=5 x Cable Coil
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Wind Turbine), PrefabHash=-868916503, PageLink=ThingItemKitWindTurbine
 
@@ -515,14 +518,17 @@ Wirecutters allow you to deconstruct various structures, as well as cross-lay ca
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Mode Options:**
-  - LogicName=Empty, LogicAccessTypes=0
-  - LogicName=Critical, LogicAccessTypes=1
-  - LogicName=VeryLow, LogicAccessTypes=2
-  - LogicName=Low, LogicAccessTypes=3
-  - LogicName=Medium, LogicAccessTypes=4
-  - LogicName=High, LogicAccessTypes=5
-  - LogicName=Full, LogicAccessTypes=6
+**Mode:**
+| Name | Value |
+|---|---|
+| Empty | 0 |
+| Critical | 1 |
+| VeryLow | 2 |
+| Low | 3 |
+| Medium | 4 |
+| High | 5 |
+| Full | 6 |
+
 
 ---
 

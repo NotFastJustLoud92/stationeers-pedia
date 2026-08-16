@@ -145,26 +145,35 @@ Built using the Kit (Filter Cleaner), this device is a valuable addition to Stat
 - **Paintable:** Yes
 - **Flashpoint:** 573 K (300oC)
 - **Auto Ignition:** 873 K (600oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=FilterType, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| FilterType | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+
 **Build States:**
   - Description=1 x Kit (Filter Cleaner)
 **Connections:**
-  - LogicName=Chute Output, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Chute Output | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Filter Cleaner), PrefabHash=1264344631, PageLink=ThingItemKitFilterCleaner
 
@@ -181,40 +190,48 @@ The Filtration Unit is based on a long-standing ExMin system, itself based on ol
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=FilterType, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| FilterType | 0, 1 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Gas Filter | Gas Filter | 0 |
+| Gas Filter | Gas Filter | 1 |
+| Programmable Chip | Programmable Chip | 2 |
+
 **Build States:**
   - Description=1 x Kit (Atmospherics)
   - Description=2 x Kit (Pipe)
   - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Waste, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output | 2 |
+| Pipe Waste | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Atmospherics), PrefabHash=1222286371, PageLink=ThingItemKitAtmospherics
 
@@ -229,40 +246,48 @@ The Filtration Unit is based on a long-standing ExMin system, itself based on ol
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=FilterType, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
-**Logic Bindings:**
-  - Header=db, Label=DEVICE
-  - Header=d0, Label=SCREW_0
-  - Header=d1, Label=SCREW_1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| FilterType | 0, 1 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Gas Filter | Gas Filter | 0 |
+| Gas Filter | Gas Filter | 1 |
+| Programmable Chip | Programmable Chip | 2 |
+
 **Build States:**
   - Description=1 x Kit (Liquid Filtration)
   - Description=2 x Kit (Liquid Pipe)
   - Description=Screwdriver 2 x Cable Coil
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Active, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Active | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
-  - LogicName=Pipe Liquid Waste, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Pipe Liquid Output | 2 |
+| Pipe Liquid Waste | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Liquid Filtration), PrefabHash=237370867, PageLink=ThingItemKitLiquidFiltration
 
@@ -279,7 +304,10 @@ Requires a canister filled with any inert liquid to opperate.
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Liquid Canister | Liquid Canister | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 1000 x Energy + 5 x Steel (from Ingot (Steel))
@@ -300,7 +328,10 @@ The Fire Extinguisher Storage is a designated shelf specifically designed to hol
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Fire Extinguisher, SlotType=Fire Extinguisher, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Fire Extinguisher | Fire Extinguisher | 0 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -387,8 +418,11 @@ The Fire Extinguisher Storage is a designated shelf specifically designed to hol
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Magazine, SlotType=Magazine, SlotIndex=0
-  - SlotName=Chamber, SlotType=Chamber, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Magazine | Magazine | 0 |
+| Chamber | Chamber | 1 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 2000 x Energy + 10 x Iron (from Ingot (Iron)) + 10 x Silicon (from Ingot (Silicon))
@@ -410,7 +444,10 @@ Few objects or ideas are as clearly and transparently named as the Flashing Ligh
 **Build States:**
   - Description=1 x Kit (Flashing Light)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Flashing Light), PrefabHash=-2107840748, PageLink=ThingItemFlashingLight
 
@@ -428,26 +465,35 @@ A flashlight with a narrow and wide beam options.
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Low Power, LogicAccessTypes=0
-  - LogicName=High Power, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Low Power | 0 |
+| High Power | 1 |
+
 
 ---
 
@@ -544,10 +590,13 @@ Switch which can be turned On.
 **Build States:**
   - Description=1 x Kit (Flood Light Large)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Flood Light Large), PrefabHash=-1211568098, PageLink=ThingItemKitFloodLight
 
@@ -566,11 +615,17 @@ Switch which can be turned On.
 - **Auto Ignition:** 575 K (302oC)
 **Build States:**
   - Description=1 x Kit (Flood Light Large)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Flood Light Large), PrefabHash=-1211568098, PageLink=ThingItemKitFloodLight
 
@@ -590,7 +645,10 @@ Switch which can be turned On.
 **Build States:**
   - Description=1 x Kit (Flood Light Large)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Flood Light Large), PrefabHash=-1211568098, PageLink=ThingItemKitFloodLight
 
@@ -682,39 +740,48 @@ The Xigo Koolaid fridge is a self-cooling storage device with 15 slots that pres
 - **Convection Factor:** 0
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0.734
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+| None | None | 10 |
+| None | None | 11 |
+| None | None | 12 |
+| None | None | 13 |
+| None | None | 14 |
+
 **Build States:**
   - Description=1 x Kit (Fridge Large)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Fridge Large), PrefabHash=-1168199498, PageLink=ThingItemKitFridgeBig
 
@@ -737,25 +804,34 @@ Essentially a heavily insulated box that allows users to pipe in any desired atm
 - **Convection Factor:** 0
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0.26
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+
 **Build States:**
   - Description=1 x Kit (Fridge Small)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Fridge Small), PrefabHash=1661226524, PageLink=ThingItemKitFridgeSmall
 
@@ -775,37 +851,49 @@ The Zhurong furnace employs a high-temperature gas mixture of Oxygen and Methane
 - **Convection Factor:** 0.816
 - **Radiation Factor:** 0.816
 - **Solar Heating Factor:** 4.08
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+
 **Build States:**
   - Description=1 x Kit (Furnace)
   - Description=Wrench 2 x Iron Sheets
   - Description=Welding Torch 2 x Iron Sheets
 **Resources Used:**
   - NameOfThing=Ores, PrefabHash=0, PageLink=OrePage
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Pipe Input, LogicAccessTypes=2
-  - LogicName=Pipe Output, LogicAccessTypes=3
-  - LogicName=Pipe Liquid Output 2, LogicAccessTypes=4
-  - LogicName=Connection, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Pipe Input | 2 |
+| Pipe Output | 3 |
+| Pipe Liquid Output 2 | 4 |
+| Connection | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Furnace), PrefabHash=-806743925, PageLink=ThingItemKitFurnace
 
@@ -1008,9 +1096,12 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
   - Printer: Hydraulic Pipe Bender (Tier Two)
     - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -1031,8 +1122,11 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 **Build States:**
   - Description=10 x Kit (Rocket Gas Fuel Tank)
 **Connections:**
-  - LogicName=Data Output, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Output | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Gas Fuel Tank), PrefabHash=-1629347579, PageLink=ThingItemKitRocketGasFuelTank
 
@@ -1055,8 +1149,11 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 **Build States:**
   - Description=5 x Kit (Rocket Gas Fuel Tank)
 **Connections:**
-  - LogicName=Data Output, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Output | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Gas Fuel Tank), PrefabHash=-1629347579, PageLink=ThingItemKitRocketGasFuelTank
 
@@ -1079,8 +1176,11 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 **Build States:**
   - Description=1 x Kit (Rocket Gas Fuel Tank)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Rocket Gas Fuel Tank), PrefabHash=-1629347579, PageLink=ThingItemKitRocketGasFuelTank
 
@@ -1122,10 +1222,13 @@ Information is power. Place this circuitboard into a Console to create a display
 **Build States:**
   - Description=1 x Kit (Gas Fuel Generator)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+| Pipe Output | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Gas Fuel Generator), PrefabHash=377745425, PageLink=ThingItemKitGasGenerator
 
@@ -1147,19 +1250,25 @@ This mask will mix with the world atmosphere but filter out the gasses based on 
 - **Convection Factor:** 0.029
 - **Radiation Factor:** 0.029
 - **Solar Heating Factor:** 0.292
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=FilterType, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| FilterType | 0, 1 |
+| ReferenceId | 0, 1 |
+
 **Slots:**
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
-  - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Gas Filter | Gas Filter | 0 |
+| Gas Filter | Gas Filter | 1 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 400 x Energy + 2 x Steel (from Ingot (Steel)) + 1 x Silicon (from Ingot (Silicon))
@@ -1180,7 +1289,10 @@ The Gas Mask Storage is a designated shelf specifically designed to hold a gas m
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Gas Mask, SlotType=Gas Mask, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Gas Mask | Gas Mask | 0 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -1203,10 +1315,13 @@ Indispensable for producing precise atmospheric ratios, this gas mixer blends tw
 **Build States:**
   - Description=1 x Kit (Gas Mixer)
 **Connections:**
-  - LogicName=Pipe Output, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
-  - LogicName=Pipe Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Pipe Output | 0 |
+| Pipe Input 2 | 1 |
+| Pipe Input | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Gas Mixer), PrefabHash=-1134459463, PageLink=ThingItemPipeGasMixer
 
@@ -1234,7 +1349,10 @@ Gas sensors are designed to monitor and report basic atmospheric information, in
 **Build States:**
   - Description=1 x Kit (Sensors)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Sensors), PrefabHash=-1776897113, PageLink=ThingItemKitSensor
 
@@ -1256,10 +1374,16 @@ Gas sensors are designed to monitor and report basic atmospheric information, in
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Portable Gas Tank Mk II), PrefabHash=1533501495, PageLink=ThingItemKitDynamicGasTankAdvanced
 
@@ -1278,29 +1402,38 @@ When connected to a pipe network, the tank storage unit allows you to refill a C
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 - **Placeable In Rocket:** True
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=Volume, LogicAccessTypes=0
-  - LogicName=Open, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| Volume | 0 |
+| Open | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Gas Canister | Gas Canister | 0 |
+
 **Build States:**
   - Description=1 x Kit (Pipe Utility Gas)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Canister Storage), PrefabHash=-2113012215, PageLink=ThingItemGasTankStorage
   - NameOfThing=Kit (Pipe Utility Gas), PrefabHash=1934508338, PageLink=ThingItemKitPipeUtility
@@ -1414,33 +1547,45 @@ The mainstay of power generation for Stationeers, this device provides 20kW of p
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Input, SlotType=Input, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Input | Input | 0 |
+
 **Build States:**
   - Description=1 x Kit (Solid Generator)
 **Resources Used:**
   - SubText=20 kW, SubValue=Energy, NameOfThing=Charcoal, PrefabHash=252561409, PageLink=ThingItemCharcoal
   - SubText=100 kW, SubValue=Energy, NameOfThing=Ore (Coal), PrefabHash=1724793494, PageLink=ThingItemCoalOre
   - SubText=200 kW, SubValue=Energy, NameOfThing=Solid Fuel (Hydrocarbon), PrefabHash=-365253871, PageLink=ThingItemSolidFuel
-**Mode Options:**
-  - LogicName=Not Generating, LogicAccessTypes=0
-  - LogicName=Generating, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Not Generating | 0 |
+| Generating | 1 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Power Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Connection | 1 |
+| Power Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Solid Generator), PrefabHash=1293995736, PageLink=ThingItemKitSolidGenerator
 
@@ -1467,12 +1612,18 @@ Plants have a set of Genes that modifies their behavior. A plant's genes will be
   - Description=1 x Kit (Door)
   - Description=Welding Torch 1 x Plastic Sheets
   - Description=Crowbar 2 x Glass Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Door), PrefabHash=168615924, PageLink=ThingItemKitDoor
 
@@ -1656,8 +1807,11 @@ Agrizero's leading hydroponic lighting system, the GrowUp UV light supplements s
 **Build States:**
   - Description=1 x Kit (Grow Light)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Grow Light), PrefabHash=341030083, PageLink=ThingItemKitGrowLight
 
@@ -1677,10 +1831,13 @@ Agrizero's leading hydroponic lighting system, the GrowUp UV light supplements s
 **Build States:**
   - Description=1 x Kit (Flood Light Large)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Flood Light Large), PrefabHash=-1211568098, PageLink=ThingItemKitFloodLight
 
@@ -1861,19 +2018,25 @@ The ExMin Off-whirled Hand Drill has been a companion to Stationeers for decades
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
@@ -1906,20 +2069,26 @@ The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as sta
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| ReferenceId | 0, 1 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
-  - SlotName=Cartridge, SlotType=Cartridge, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+| Cartridge | Cartridge | 1 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper)) + 5 x Solder (from Ingot (Solder))
@@ -1937,19 +2106,25 @@ The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as sta
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
@@ -1983,34 +2158,37 @@ A Hard Hat.
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Ore, SlotType=Ore, SlotIndex=0
-  - SlotName=Ore, SlotType=Ore, SlotIndex=1
-  - SlotName=Ore, SlotType=Ore, SlotIndex=2
-  - SlotName=Ore, SlotType=Ore, SlotIndex=3
-  - SlotName=Ore, SlotType=Ore, SlotIndex=4
-  - SlotName=Ore, SlotType=Ore, SlotIndex=5
-  - SlotName=Ore, SlotType=Ore, SlotIndex=6
-  - SlotName=Ore, SlotType=Ore, SlotIndex=7
-  - SlotName=Ore, SlotType=Ore, SlotIndex=8
-  - SlotName=Ore, SlotType=Ore, SlotIndex=9
-  - SlotName=Ore, SlotType=Ore, SlotIndex=10
-  - SlotName=Ore, SlotType=Ore, SlotIndex=11
-  - SlotName=Ore, SlotType=Ore, SlotIndex=12
-  - SlotName=Ore, SlotType=Ore, SlotIndex=13
-  - SlotName=Ore, SlotType=Ore, SlotIndex=14
-  - SlotName=Ore, SlotType=Ore, SlotIndex=15
-  - SlotName=Ore, SlotType=Ore, SlotIndex=16
-  - SlotName=Ore, SlotType=Ore, SlotIndex=17
-  - SlotName=Ore, SlotType=Ore, SlotIndex=18
-  - SlotName=Ore, SlotType=Ore, SlotIndex=19
-  - SlotName=Ore, SlotType=Ore, SlotIndex=20
-  - SlotName=Ore, SlotType=Ore, SlotIndex=21
-  - SlotName=Ore, SlotType=Ore, SlotIndex=22
-  - SlotName=Ore, SlotType=Ore, SlotIndex=23
-  - SlotName=Ore, SlotType=Ore, SlotIndex=24
-  - SlotName=Ore, SlotType=Ore, SlotIndex=25
-  - SlotName=Ore, SlotType=Ore, SlotIndex=26
-  - SlotName=Ore, SlotType=Ore, SlotIndex=27
+| Name | Type | Index |
+|---|---|---|
+| Ore | Ore | 0 |
+| Ore | Ore | 1 |
+| Ore | Ore | 2 |
+| Ore | Ore | 3 |
+| Ore | Ore | 4 |
+| Ore | Ore | 5 |
+| Ore | Ore | 6 |
+| Ore | Ore | 7 |
+| Ore | Ore | 8 |
+| Ore | Ore | 9 |
+| Ore | Ore | 10 |
+| Ore | Ore | 11 |
+| Ore | Ore | 12 |
+| Ore | Ore | 13 |
+| Ore | Ore | 14 |
+| Ore | Ore | 15 |
+| Ore | Ore | 16 |
+| Ore | Ore | 17 |
+| Ore | Ore | 18 |
+| Ore | Ore | 19 |
+| Ore | Ore | 20 |
+| Ore | Ore | 21 |
+| Ore | Ore | 22 |
+| Ore | Ore | 23 |
+| Ore | Ore | 24 |
+| Ore | Ore | 25 |
+| Ore | Ore | 26 |
+| Ore | Ore | 27 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 1000 x Energy + 6 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar))
@@ -2033,37 +2211,35 @@ Connects to Logic Transmitter
 - **Convection Factor:** 0.062
 - **Radiation Factor:** 0.062
 - **Solar Heating Factor:** 6.23
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=Pressure, LogicAccessTypes=0, 1
-  - LogicName=Temperature, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=2
-  - LogicName=ChargeRatio, LogicAccessTypes=2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-  - LogicName=FilterType, LogicAccessTypes=4, 5, 6, 7
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7
-**Logic Bindings:**
-  - Header=db, Label=SUIT
-  - Header=d0, Label=HELMET
-  - Header=d1, Label=BACKPACK
-  - Header=d2, Label=TOOLBELT
-  - Header=d3, Label=GLASSES
-  - Header=d4, Label=LEFT_HAND
-  - Header=d5, Label=RIGHT_HAND
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7 |
+| Pressure | 0, 1 |
+| Temperature | 0, 1 |
+| Charge | 2 |
+| ChargeRatio | 2 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7 |
+| FilterType | 4, 5, 6, 7 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7 |
+
 **Slots:**
-  - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
-  - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
-  - SlotName=Life Support, SlotType=Life Support, SlotIndex=2
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=3
-  - SlotName=Filter, SlotType=Filter, SlotIndex=4
-  - SlotName=Filter, SlotType=Filter, SlotIndex=5
-  - SlotName=Filter, SlotType=Filter, SlotIndex=6
-  - SlotName=Filter, SlotType=Filter, SlotIndex=7
+| Name | Type | Index |
+|---|---|---|
+| Air Tank | Air Tank | 0 |
+| Waste Tank | Waste Tank | 1 |
+| Life Support | Life Support | 2 |
+| Programmable Chip | Programmable Chip | 3 |
+| Filter | Filter | 4 |
+| Filter | Filter | 5 |
+| Filter | Filter | 6 |
+| Filter | Filter | 7 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 3000 x Energy + 20 x Steel (from Ingot (Steel)) + 2 x Stellite (from Ingot (Stellite)) + 10 x Astroloy (from Ingot (Astroloy))
@@ -2081,36 +2257,42 @@ This backpack can be useful when you are working inside and don't need to fly ar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
-  - SlotName=None, SlotType=None, SlotIndex=15
-  - SlotName=None, SlotType=None, SlotIndex=16
-  - SlotName=None, SlotType=None, SlotIndex=17
-  - SlotName=None, SlotType=None, SlotIndex=18
-  - SlotName=None, SlotType=None, SlotIndex=19
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+| None | None | 10 |
+| None | None | 11 |
+| None | None | 12 |
+| None | None | 13 |
+| None | None | 14 |
+| None | None | 15 |
+| None | None | 16 |
+| None | None | 17 |
+| None | None | 18 |
+| None | None | 19 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 1500 x Energy + 15 x Steel (from Ingot (Steel)) + 5 x Stellite (from Ingot (Stellite)) + 5 x Astroloy (from Ingot (Astroloy))
@@ -2149,33 +2331,39 @@ The Norsec jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Pressure, LogicAccessTypes=0
-  - LogicName=Temperature, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Pressure | 0 |
+| Temperature | 0 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+
 **Slots:**
-  - SlotName=Propellant, SlotType=Propellant, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
-  - SlotName=None, SlotType=None, SlotIndex=10
-  - SlotName=None, SlotType=None, SlotIndex=11
-  - SlotName=None, SlotType=None, SlotIndex=12
-  - SlotName=None, SlotType=None, SlotIndex=13
-  - SlotName=None, SlotType=None, SlotIndex=14
+| Name | Type | Index |
+|---|---|---|
+| Propellant | Propellant | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+| None | None | 10 |
+| None | None | 11 |
+| None | None | 12 |
+| None | None | 13 |
+| None | None | 14 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 1750 x Energy + 20 x Steel (from Ingot (Steel)) + 8 x Waspaloy (from Ingot (Waspaloy)) + 8 x Stellite (from Ingot (Stellite)) + 8 x Astroloy (from Ingot (Astroloy))
@@ -2217,39 +2405,37 @@ The HARM Suit is the Stationeer's last resort against hostile environments. It i
 - **Convection Factor:** 0
 - **Radiation Factor:** 0.032
 - **Solar Heating Factor:** 0.127
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=Pressure, LogicAccessTypes=0, 1
-  - LogicName=Temperature, LogicAccessTypes=0, 1
-  - LogicName=Charge, LogicAccessTypes=3
-  - LogicName=ChargeRatio, LogicAccessTypes=3
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-  - LogicName=FilterType, LogicAccessTypes=5, 6, 7, 8
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9
-**Logic Bindings:**
-  - Header=db, Label=SUIT
-  - Header=d0, Label=HELMET
-  - Header=d1, Label=BACKPACK
-  - Header=d2, Label=TOOLBELT
-  - Header=d3, Label=GLASSES
-  - Header=d4, Label=LEFT_HAND
-  - Header=d5, Label=RIGHT_HAND
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| Pressure | 0, 1 |
+| Temperature | 0, 1 |
+| Charge | 3 |
+| ChargeRatio | 3 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+| FilterType | 5, 6, 7, 8 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9 |
+
 **Slots:**
-  - SlotName=Air Tank, SlotType=Air Tank, SlotIndex=0
-  - SlotName=Waste Tank, SlotType=Waste Tank, SlotIndex=1
-  - SlotName=Coolant Tank, SlotType=Coolant Tank, SlotIndex=2
-  - SlotName=Battery, SlotType=Battery, SlotIndex=3
-  - SlotName=Chip, SlotType=Chip, SlotIndex=4
-  - SlotName=Filter1, SlotType=Filter1, SlotIndex=5
-  - SlotName=Filter2, SlotType=Filter2, SlotIndex=6
-  - SlotName=Filter3, SlotType=Filter3, SlotIndex=7
-  - SlotName=Filter4, SlotType=Filter4, SlotIndex=8
-  - SlotName=Back, SlotType=Back, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| Air Tank | Air Tank | 0 |
+| Waste Tank | Waste Tank | 1 |
+| Coolant Tank | Coolant Tank | 2 |
+| Battery | Battery | 3 |
+| Chip | Chip | 4 |
+| Filter1 | Filter1 | 5 |
+| Filter2 | Filter2 | 6 |
+| Filter3 | Filter3 | 7 |
+| Filter4 | Filter4 | 8 |
+| Back | Back | 9 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 150000 x Energy + 5 x Steel (from Ingot (Steel)) + 20 x Stellite (from Ingot (Stellite)) + 20 x Hastelloy (from Ingot (Hastelloy)) + 20 x Astroloy (from Ingot (Astroloy))
@@ -2270,33 +2456,45 @@ Use above a Hydroponics Tray or Hydroponics Device to manage the planting and ha
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Import, SlotType=Import, SlotIndex=0
-  - SlotName=Export, SlotType=Export, SlotIndex=1
-  - SlotName=Hand, SlotType=Hand, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Import | Import | 0 |
+| Export | Export | 1 |
+| Hand | Hand | 2 |
+
 **Build States:**
   - Description=1 x Kit (Harvie)
-**Mode Options:**
-  - LogicName=Idle, LogicAccessTypes=0
-  - LogicName=Happy, LogicAccessTypes=1
-  - LogicName=UnHappy, LogicAccessTypes=2
-  - LogicName=Dead, LogicAccessTypes=3
+**Mode:**
+| Name | Value |
+|---|---|
+| Idle | 0 |
+| Happy | 1 |
+| UnHappy | 2 |
+| Dead | 3 |
+
 **Connections:**
-  - LogicName=Chute Input, LogicAccessTypes=0
-  - LogicName=Chute Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Chute Input | 0 |
+| Chute Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Harvie), PrefabHash=-1022693454, PageLink=ThingItemKitHarvie
 
@@ -2316,9 +2514,12 @@ Use above a Hydroponics Tray or Hydroponics Device to manage the planting and ha
   - Printer: Electronics Printer (Tier One)
     - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Prefab, LogicAccessTypes=0
-  - LogicName=GasLiquid, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Prefab | 0 |
+| GasLiquid | 1 |
+
 
 ---
 

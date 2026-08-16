@@ -130,8 +130,11 @@ Air-tight and resistant to extreme temperatures, composite walls come in several
   - Description=1 x Cable Coil
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Composite Window Shutter), PrefabHash=1779979754, PageLink=ThingItemKitWindowShutter
 
@@ -300,22 +303,28 @@ A modular equivalent to the Computer (Modern) for hosting motherboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Motherboard | Motherboard | 0 |
+| Data Disk | Data Disk | 1 |
+| Data Disk | Data Disk | 2 |
+
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
 **Constructed Things:**
@@ -332,26 +341,35 @@ A modular equivalent to the Computer (Modern) for hosting motherboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Motherboard | Motherboard | 0 |
+
 **Build States:**
   - Description=1 x Kit (Computer)
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Computer), PrefabHash=1990225489, PageLink=ThingItemKitComputer
 
@@ -366,26 +384,35 @@ A modular equivalent to the Computer (Modern) for hosting motherboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Motherboard | Motherboard | 0 |
+
 **Build States:**
   - Description=1 x Kit (Computer)
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Computer), PrefabHash=1990225489, PageLink=ThingItemKitComputer
 
@@ -402,28 +429,37 @@ This unit operates with a wide range of motherboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Data Disk | Data Disk | 0 |
+| Data Disk | Data Disk | 1 |
+| Motherboard | Motherboard | 2 |
+
 **Build States:**
   - Description=1 x Kit (Computer)
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Computer), PrefabHash=1990225489, PageLink=ThingItemKitComputer
 
@@ -440,28 +476,37 @@ This unit operates with a wide range of motherboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| SortingClass | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+| FreeSlots | 0, 1, 2 |
+| TotalSlots | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Data Disk | Data Disk | 0 |
+| Data Disk | Data Disk | 1 |
+| Motherboard | Motherboard | 2 |
+
 **Build States:**
   - Description=1 x Kit (Computer)
   - Description=Screwdriver
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Computer), PrefabHash=1990225489, PageLink=ThingItemKitComputer
 
@@ -486,11 +531,14 @@ A device for safely condensing gasses into liquids. Liquids and Gasses will both
   - Description=Wrench 2 x Steel Sheets
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input 2, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Power Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Pipe Input 2 | 0 |
+| Pipe Input | 1 |
+| Pipe Liquid Output | 2 |
+| Connection | 3 |
+| Power Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Phase Change Device), PrefabHash=1587787610, PageLink=ThingItemKitEvaporationChamber
 
@@ -510,8 +558,11 @@ Allows for the removal of any liquids from a gas pipe into a liquid pipe. Only a
 **Build States:**
   - Description=1 x Kit (Pipe Valve)
 **Connections:**
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=0
-  - LogicName=Pipe Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Output | 0 |
+| Pipe Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Pipe Valve), PrefabHash=799323450, PageLink=ThingItemPipeValve
 
@@ -555,26 +606,35 @@ This control box manages devices such as the Active Vent, Gas Sensor and Composi
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=Mode, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| Mode | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+
 **Build States:**
   - Description=1 x Kit (Console)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -590,22 +650,28 @@ A modular equivalent to the Console for hosting circuitboards.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=Mode, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| Mode | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
   - Description=1 x Glass Sheets
@@ -625,27 +691,36 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=Mode, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| Mode | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
-  - SlotName=Data Disk, SlotType=Data Disk, SlotIndex=1
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+| Data Disk | Data Disk | 1 |
+
 **Build States:**
   - Description=2 x Kit (Large Console)
   - Description=2 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Console), PrefabHash=-497108550, PageLink=ThingItemKitLargeConsole
 
@@ -664,12 +739,15 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -688,12 +766,15 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -712,12 +793,15 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -736,12 +820,15 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -760,13 +847,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=3 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -785,13 +875,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=6 x Kit (Modular Console)
   - Description=6 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -810,13 +903,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=3 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -835,13 +931,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=6 x Kit (Modular Console)
   - Description=6 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -860,10 +959,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -882,10 +984,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -904,10 +1009,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -926,10 +1034,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -948,11 +1059,14 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -971,11 +1085,14 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Connection, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Connection | 3 |
+| Connection | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -994,10 +1111,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=3 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1016,10 +1136,13 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=3 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1038,9 +1161,12 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1059,9 +1185,12 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1080,13 +1209,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1105,19 +1237,22 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=8 x Kit (Modular Console)
   - Description=8 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
-  - LogicName= Input, LogicAccessTypes=10
-  - LogicName= Input, LogicAccessTypes=11
-  - LogicName= Input, LogicAccessTypes=12
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+| Input | 10 |
+| Input | 11 |
+| Input | 12 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1136,16 +1271,19 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1164,13 +1302,16 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=2 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1189,19 +1330,22 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=8 x Kit (Modular Console)
   - Description=8 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
-  - LogicName= Input, LogicAccessTypes=10
-  - LogicName= Input, LogicAccessTypes=11
-  - LogicName= Input, LogicAccessTypes=12
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+| Input | 10 |
+| Input | 11 |
+| Input | 12 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1220,16 +1364,19 @@ This Norsec-designed control box manages devices such as the Active Vent, Passiv
   - Description=4 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1246,27 +1393,36 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=Mode, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| Mode | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+
 **Build States:**
   - Description=1 x Kit (Console)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -1285,10 +1441,13 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1307,10 +1466,13 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1329,9 +1491,12 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1350,8 +1515,11 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1370,10 +1538,13 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1392,12 +1563,15 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1416,12 +1590,15 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=2 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1440,14 +1617,17 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=3 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1466,14 +1646,17 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=2 x Kit (Modular Console)
   - Description=6 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1492,16 +1675,19 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=6 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1520,16 +1706,19 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=12 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1548,18 +1737,21 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=1 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
-  - LogicName= Input, LogicAccessTypes=10
-  - LogicName= Input, LogicAccessTypes=11
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+| Input | 10 |
+| Input | 11 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1578,28 +1770,31 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=4 x Kit (Modular Console)
   - Description=8 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
-  - LogicName= Input, LogicAccessTypes=10
-  - LogicName= Input, LogicAccessTypes=11
-  - LogicName= Input, LogicAccessTypes=12
-  - LogicName= Input, LogicAccessTypes=13
-  - LogicName= Input, LogicAccessTypes=14
-  - LogicName= Input, LogicAccessTypes=15
-  - LogicName= Input, LogicAccessTypes=16
-  - LogicName= Input, LogicAccessTypes=17
-  - LogicName= Input, LogicAccessTypes=18
-  - LogicName= Input, LogicAccessTypes=19
-  - LogicName= Input, LogicAccessTypes=20
-  - LogicName= Input, LogicAccessTypes=21
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+| Input | 10 |
+| Input | 11 |
+| Input | 12 |
+| Input | 13 |
+| Input | 14 |
+| Input | 15 |
+| Input | 16 |
+| Input | 17 |
+| Input | 18 |
+| Input | 19 |
+| Input | 20 |
+| Input | 21 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1618,23 +1813,26 @@ This control box manages devices such as the Active Vent, Gas Sensor, Composite 
   - Description=2 x Kit (Modular Console)
   - Description=4 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName= Input, LogicAccessTypes=2
-  - LogicName= Input, LogicAccessTypes=3
-  - LogicName= Input, LogicAccessTypes=4
-  - LogicName= Input, LogicAccessTypes=5
-  - LogicName= Input, LogicAccessTypes=6
-  - LogicName= Input, LogicAccessTypes=7
-  - LogicName= Input, LogicAccessTypes=8
-  - LogicName= Input, LogicAccessTypes=9
-  - LogicName= Input, LogicAccessTypes=10
-  - LogicName= Input, LogicAccessTypes=11
-  - LogicName= Input, LogicAccessTypes=12
-  - LogicName= Input, LogicAccessTypes=13
-  - LogicName= Input, LogicAccessTypes=14
-  - LogicName= Input, LogicAccessTypes=15
-  - LogicName= Input, LogicAccessTypes=16
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Input | 2 |
+| Input | 3 |
+| Input | 4 |
+| Input | 5 |
+| Input | 6 |
+| Input | 7 |
+| Input | 8 |
+| Input | 9 |
+| Input | 10 |
+| Input | 11 |
+| Input | 12 |
+| Input | 13 |
+| Input | 14 |
+| Input | 15 |
+| Input | 16 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1651,26 +1849,35 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=Mode, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| Mode | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Circuitboard, SlotType=Circuitboard, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Circuitboard | Circuitboard | 0 |
+
 **Build States:**
   - Description=1 x Kit (Console)
   - Description=1 x Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -1689,7 +1896,10 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1708,8 +1918,11 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
   - Description=1 x Kit (Modular Console)
   - Description=2 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1728,10 +1941,13 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1750,10 +1966,13 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
   - Description=1 x Kit (Modular Console)
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName= Input, LogicAccessTypes=0
-  - LogicName= Input, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Input | 0 |
+| Input | 1 |
+| Connection | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console), PrefabHash=1054277649, PageLink=ThingItemKitModularConsole
 
@@ -1804,7 +2023,10 @@ Getting Started Typically you will use kits to initiate construction and then a 
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Container Slot, SlotType=Container Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Container Slot | Container Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Container Mount)
 **Constructed Things:**
@@ -2105,25 +2327,31 @@ Made using Cooked Corn and an Empty Can in a Basic Packaging Machine or Advanced
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5 |
+| OccupantHash | 0, 1, 2, 3, 4, 5 |
+| Quantity | 0, 1, 2, 3, 4, 5 |
+| Damage | 0, 1, 2, 3, 4, 5 |
+| Class | 0, 1, 2, 3, 4, 5 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5 |
+| PrefabHash | 0, 1, 2, 3, 4, 5 |
+| SortingClass | 0, 1, 2, 3, 4, 5 |
+| ReferenceId | 0, 1, 2, 3, 4, 5 |
+| FreeSlots | 0, 1, 2, 3, 4, 5 |
+| TotalSlots | 0, 1, 2, 3, 4, 5 |
+
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 **Build States:**
   - Description=1 x Kit (Locker)
 **Constructed Things:**
@@ -2146,10 +2374,13 @@ Exchange heat from one pipe network to another. By drawing down the pressure of 
   - Description=1 x Kit (CounterFlow Heat Exchanger)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Output 2, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Input 2 | 1 |
+| Pipe Output | 2 |
+| Pipe Output 2 | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CounterFlow Heat Exchanger), PrefabHash=636112787, PageLink=ThingItemKitPassthroughHeatExchanger
 
@@ -2170,10 +2401,13 @@ Exchange heat from one pipe network to another. By drawing down the pressure of 
   - Description=1 x Kit (CounterFlow Heat Exchanger)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
-  - LogicName=Pipe Output, LogicAccessTypes=2
-  - LogicName=Pipe Liquid Output 2, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Liquid Input 2 | 1 |
+| Pipe Output | 2 |
+| Pipe Liquid Output 2 | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CounterFlow Heat Exchanger), PrefabHash=636112787, PageLink=ThingItemKitPassthroughHeatExchanger
 
@@ -2194,10 +2428,13 @@ Exchange heat from one pipe network to another. By drawing down the pressure of 
   - Description=1 x Kit (CounterFlow Heat Exchanger)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
-  - LogicName=Pipe Liquid Output 2, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Input 2 | 1 |
+| Pipe Liquid Output | 2 |
+| Pipe Liquid Output 2 | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (CounterFlow Heat Exchanger), PrefabHash=636112787, PageLink=ThingItemKitPassthroughHeatExchanger
 
@@ -2233,16 +2470,19 @@ A more heavily reinforced version of the iconic Dynamic Crate, the Crate Mk II i
 - **Flashpoint:** 0 K (-273oC)
 - **Auto Ignition:** 0 K (-273oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crate Mk II), PrefabHash=-1585956426, PageLink=ThingItemKitCrateMkII
 
@@ -2319,7 +2559,10 @@ A more heavily reinforced version of the iconic Dynamic Crate, the Crate Mk II i
 **Build States:**
   - Description=1 x Kit (Crew Electronics)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Crew Electronics), PrefabHash=1332869314, PageLink=ThingItemKitCrewModuleElectronics
 

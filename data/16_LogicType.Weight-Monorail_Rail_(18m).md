@@ -61,15 +61,21 @@ The low frequency oscillator (or LFO) makes everything sound dark, twisted and c
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Music Machines)
-**Mode Options:**
-  - LogicName=Whole Note, LogicAccessTypes=0
-  - LogicName=Half Note, LogicAccessTypes=1
-  - LogicName=Quarter Note, LogicAccessTypes=2
-  - LogicName=Eighth Note, LogicAccessTypes=3
-  - LogicName=Sixteenth Note, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| Whole Note | 0 |
+| Half Note | 1 |
+| Quarter Note | 2 |
+| Eighth Note | 3 |
+| Sixteenth Note | 4 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Music Machines), PrefabHash=-2038889137, PageLink=ThingItemKitMusicMachines
 
@@ -146,9 +152,12 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 **Build States:**
   - Description=1 x Kit (Door)
   - Description=Welding Torch 1 x Iron Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Door), PrefabHash=168615924, PageLink=ThingItemKitDoor
 
@@ -180,12 +189,15 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Auto-Injector, SlotType=Auto-Injector, SlotIndex=0
-  - SlotName=Auto-Injector, SlotType=Auto-Injector, SlotIndex=1
-  - SlotName=Auto-Injector, SlotType=Auto-Injector, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| Auto-Injector | Auto-Injector | 0 |
+| Auto-Injector | Auto-Injector | 1 |
+| Auto-Injector | Auto-Injector | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 3000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Silicon (from Ingot (Silicon))
@@ -204,7 +216,10 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 1750 x Energy + 4 x Gold (from Ingot (Gold)) + 8 x Steel (from Ingot (Steel)) + 4 x Silicon (from Ingot (Silicon))
@@ -223,10 +238,13 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Flashpoint:** 313 K (40oC)
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
-  - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| Access Card | Access Card | 2 |
+| Credit Card | Credit Card | 3 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 10 x Silicon (from Ingot (Silicon))
@@ -247,26 +265,32 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Logic Processor)
-**Mode Options:**
-  - LogicName=Ceil, LogicAccessTypes=0
-  - LogicName=Floor, LogicAccessTypes=1
-  - LogicName=Abs, LogicAccessTypes=2
-  - LogicName=Log, LogicAccessTypes=3
-  - LogicName=Exp, LogicAccessTypes=4
-  - LogicName=Round, LogicAccessTypes=5
-  - LogicName=Rand, LogicAccessTypes=6
-  - LogicName=Sqrt, LogicAccessTypes=7
-  - LogicName=Sin, LogicAccessTypes=8
-  - LogicName=Cos, LogicAccessTypes=9
-  - LogicName=Tan, LogicAccessTypes=10
-  - LogicName=Asin, LogicAccessTypes=11
-  - LogicName=Acos, LogicAccessTypes=12
-  - LogicName=Atan, LogicAccessTypes=13
-  - LogicName=Not, LogicAccessTypes=14
+**Mode:**
+| Name | Value |
+|---|---|
+| Ceil | 0 |
+| Floor | 1 |
+| Abs | 2 |
+| Log | 3 |
+| Exp | 4 |
+| Round | 5 |
+| Rand | 6 |
+| Sqrt | 7 |
+| Sin | 8 |
+| Cos | 9 |
+| Tan | 10 |
+| Asin | 11 |
+| Acos | 12 |
+| Atan | 13 |
+| Not | 14 |
+
 **Connections:**
-  - LogicName=Data Input, LogicAccessTypes=0
-  - LogicName=Data Output, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Data Input | 0 |
+| Data Output | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Logic Processor), PrefabHash=220644373, PageLink=ThingItemKitLogicProcessor
 
@@ -289,8 +313,11 @@ A stand-alone radiator unit optimized for exchanging heat with its surrounding a
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Medium Radiator), PrefabHash=-1752768283, PageLink=ThingItemKitPassiveLargeRadiatorGas
 
@@ -314,8 +341,11 @@ Has been replaced by Medium Convection Radiator.
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+
 
 ---
 
@@ -337,8 +367,11 @@ A stand-alone liquid radiator unit optimized for exchanging heat with its surrou
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Medium Radiator Liquid), PrefabHash=1453961898, PageLink=ThingItemKitPassiveLargeRadiatorLiquid
 
@@ -362,8 +395,11 @@ Has been replaced by Medium Convection Radiator Liquid.
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 2 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 
 ---
 
@@ -669,12 +705,18 @@ Has been replaced by Medium Convection Radiator Liquid.
 **Build States:**
   - Description=2 x Kit (Hangar Door)
   - Description=Welding Torch 2 x Steel Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hangar Door), PrefabHash=682546947, PageLink=ThingItemKitAirlockGate
 
@@ -697,8 +739,11 @@ A stand-alone radiator unit optimized for radiating heat in vacuums.
   - Description=1 x Kit (Medium Radiator)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Medium Radiator), PrefabHash=-1752768283, PageLink=ThingItemKitPassiveLargeRadiatorGas
 
@@ -721,8 +766,11 @@ A stand-alone liquid radiator unit optimized for radiating heat in vacuums.
   - Description=1 x Kit (Medium Radiator Liquid)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Medium Radiator Liquid), PrefabHash=1453961898, PageLink=ThingItemKitPassiveLargeRadiatorLiquid
 
@@ -740,33 +788,17 @@ This medium communications unit can be used to communicate with nearby trade ves
 - **Memory Access:** Read Write
 - **Has Memory:** true
 - **Paintable:** Yes
-**Logic Types:**
-  - Text=TraderInstruction.WriteTraderData OP_CODE: 1, Index=1, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | WRITE_INDEX | BYTE_8 | | 16-63 | UNUSED | 48 |
-  - Text=TraderInstruction.StrongestContactIdHash OP_CODE: 2, Index=2, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | TRADER_ID_HASH | UINT_32 | | 40-63 | UNUSED | 24 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=TraderInstruction.StrongestContactMetaData OP_CODE: 3, Index=3, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | SHUTTLE_TYPE | BYTE_8 | | 16-23 | CONTACT_SLOT_INDEX | BYTE_8 | | 24-31 | CONTACTED | BYTE_8 | | 32-63 | UNUSED | 32 |
-  - Text=TraderInstruction.StrongestContactSignalData OP_CODE: 4, Index=4, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-23 | WATTS_TO_RESOLVE | USHORT_16 | | 24-39 | LIFETIME | USHORT_16 | | 40-63 | UNUSED | 24 |
-  - Text=TraderInstruction.WriteTraderBuyData OP_CODE: 5, Index=5, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | WRITE_INDEX | BYTE_8 | | 16-23 | WRITE_COUNT | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TraderInstruction.WriteTraderSellData OP_CODE: 6, Index=6, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | WRITE_INDEX | BYTE_8 | | 16-23 | WRITE_COUNT | BYTE_8 | | 24-63 | UNUSED | 40 |
-  - Text=TraderInstruction.TraderBuyThingData OP_CODE: 7, Index=7, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=TraderInstruction.TraderBuyThingChildData OP_CODE: 8, Index=8, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=TraderInstruction.TraderBuyGasData OP_CODE: 9, Index=9, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | GAS_TYPES_BITFLAG | UINT_32 | | 48-63 | UNUSED | 16 |
-  - Text=TraderInstruction.TraderSellThingData OP_CODE: 10, Index=A, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=TraderInstruction.TraderSellGasData OP_CODE: 11, Index=B, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | GAS_TYPES_BITFLAG | UINT_32 | | 48-63 | UNUSED | 16 |
-  - Text=TraderInstruction.TraderSellThingChildData OP_CODE: 12, Index=C, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | QUANTITY | BYTE_8 | | 16-47 | PREFAB_HASH | UINT_32 | | 48-63 | UNUSED | 16 | | HASH REPORTED UNSIGNED - MUST BE MANUALLY SIGNED |
-  - Text=TraderInstruction.FilterPrefabHashEquals OP_CODE: 13, Index=D, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | PREFAB_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=TraderInstruction.FilterPrefabHashNotEquals OP_CODE: 14, Index=E, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | PREFAB_HASH | INT_32 | | 40-63 | UNUSED | 24 |
-  - Text=TraderInstruction.FilterSortingClassCompare OP_CODE: 15, Index=F, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | CONDITION_OPERATION | BYTE_8 | | 16-31 | SORTING_CLASS | USHORT_16 | | 32-63 | UNUSED | 32 |
-  - Text=TraderInstruction.FilterQuantityCompare OP_CODE: 16, Index=10, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-15 | CONDITION_OPERATION | BYTE_8 | | 16-31 | QUANTITY | USHORT_16 | | 32-63 | UNUSED | 32 |
-  - Text=TraderInstruction.FilterGasContains OP_CODE: 17, Index=11, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | GAS_TYPES_BITFLAG | UINT_32 | | 40-63 | UNUSED | 24 |
-  - Text=TraderInstruction.FilterGasNotContains OP_CODE: 18, Index=12, Info=| 0-7 | OP_CODE | BYTE_8 | | 8-39 | GAS_TYPES_BITFLAG | UINT_32 | | 40-63 | UNUSED | 24 |
 **Build States:**
   - Description=1 x Kit (Medium Satellite Dish)
   - Description=Welding Torch 1 x Steel Sheets
   - Description=Wrench
   - Description=1 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Medium Satellite Dish), PrefabHash=178422810, PageLink=ThingItemKitSatelliteDish
 
@@ -831,7 +863,10 @@ While countless 'better' ways of cooking Food have been invented in the last few
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
-  - SlotName=Output, SlotType=Output, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Output | Output | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 1500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -874,12 +909,18 @@ The Norsec Wireless Power Transmitter is an uni-directional, A-to-B, far field m
   - Description=1 x Kit (Power Transmitter)
   - Description=2 x Iron Sheets
   - Description=1 x Electronic Parts
-**Mode Options:**
-  - LogicName=Unlinked, LogicAccessTypes=0
-  - LogicName=Linked, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Unlinked | 0 |
+| Linked | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Power Transmitter), PrefabHash=291368213, PageLink=ThingItemKitPowerTransmitter
 
@@ -902,12 +943,18 @@ The Norsec Wireless Power Transmitter is an uni-directional, A-to-B, far field m
   - Description=1 x Kit (Power Transmitter)
   - Description=2 x Iron Sheets
   - Description=3 x Electronic Parts
-**Mode Options:**
-  - LogicName=Unlinked, LogicAccessTypes=0
-  - LogicName=Linked, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Unlinked | 0 |
+| Linked | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Power Input, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Power Input | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Power Transmitter), PrefabHash=291368213, PageLink=ThingItemKitPowerTransmitter
 
@@ -968,30 +1015,33 @@ You can mine ore using a Mining Drill. If you wear a Mining Belt the ore will au
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Ore, SlotType=Ore, SlotIndex=0
-  - SlotName=Ore, SlotType=Ore, SlotIndex=1
-  - SlotName=Ore, SlotType=Ore, SlotIndex=2
-  - SlotName=Ore, SlotType=Ore, SlotIndex=3
-  - SlotName=Ore, SlotType=Ore, SlotIndex=4
-  - SlotName=Ore, SlotType=Ore, SlotIndex=5
-  - SlotName=Ore, SlotType=Ore, SlotIndex=6
-  - SlotName=Ore, SlotType=Ore, SlotIndex=7
-  - SlotName=Ore, SlotType=Ore, SlotIndex=8
-  - SlotName=Ore, SlotType=Ore, SlotIndex=9
-  - SlotName=Ore, SlotType=Ore, SlotIndex=10
-  - SlotName=Ore, SlotType=Ore, SlotIndex=11
-  - SlotName=Ore, SlotType=Ore, SlotIndex=12
-  - SlotName=Ore, SlotType=Ore, SlotIndex=13
-  - SlotName=Ore, SlotType=Ore, SlotIndex=14
-  - SlotName=Ore, SlotType=Ore, SlotIndex=15
-  - SlotName=Ore, SlotType=Ore, SlotIndex=16
-  - SlotName=Ore, SlotType=Ore, SlotIndex=17
-  - SlotName=Ore, SlotType=Ore, SlotIndex=18
-  - SlotName=Ore, SlotType=Ore, SlotIndex=19
-  - SlotName=Ore, SlotType=Ore, SlotIndex=20
-  - SlotName=Ore, SlotType=Ore, SlotIndex=21
-  - SlotName=Ore, SlotType=Ore, SlotIndex=22
-  - SlotName=Ore, SlotType=Ore, SlotIndex=23
+| Name | Type | Index |
+|---|---|---|
+| Ore | Ore | 0 |
+| Ore | Ore | 1 |
+| Ore | Ore | 2 |
+| Ore | Ore | 3 |
+| Ore | Ore | 4 |
+| Ore | Ore | 5 |
+| Ore | Ore | 6 |
+| Ore | Ore | 7 |
+| Ore | Ore | 8 |
+| Ore | Ore | 9 |
+| Ore | Ore | 10 |
+| Ore | Ore | 11 |
+| Ore | Ore | 12 |
+| Ore | Ore | 13 |
+| Ore | Ore | 14 |
+| Ore | Ore | 15 |
+| Ore | Ore | 16 |
+| Ore | Ore | 17 |
+| Ore | Ore | 18 |
+| Ore | Ore | 19 |
+| Ore | Ore | 20 |
+| Ore | Ore | 21 |
+| Ore | Ore | 22 |
+| Ore | Ore | 23 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 800 x Energy + 6 x Iron (from Ingot (Iron))
@@ -1010,16 +1060,19 @@ Originally developed by Recurso Espaciais for asteroid mining, the Stationeer's 
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Ore, SlotType=Ore, SlotIndex=2
-  - SlotName=Ore, SlotType=Ore, SlotIndex=3
-  - SlotName=Ore, SlotType=Ore, SlotIndex=4
-  - SlotName=Ore, SlotType=Ore, SlotIndex=5
-  - SlotName=Ore, SlotType=Ore, SlotIndex=6
-  - SlotName=Ore, SlotType=Ore, SlotIndex=7
-  - SlotName=Ore, SlotType=Ore, SlotIndex=8
-  - SlotName=Ore, SlotType=Ore, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Ore | Ore | 2 |
+| Ore | Ore | 3 |
+| Ore | Ore | 4 |
+| Ore | Ore | 5 |
+| Ore | Ore | 6 |
+| Ore | Ore | 7 |
+| Ore | Ore | 8 |
+| Ore | Ore | 9 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 3 x Iron (from Ingot (Iron))
@@ -1037,31 +1090,37 @@ A larger and more capacious mining belt, the Mk II is similar to the Mining Belt
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14 |
+
 **Slots:**
-  - SlotName=Tool, SlotType=Tool, SlotIndex=0
-  - SlotName=Tool, SlotType=Tool, SlotIndex=1
-  - SlotName=Ore, SlotType=Ore, SlotIndex=2
-  - SlotName=Ore, SlotType=Ore, SlotIndex=3
-  - SlotName=Ore, SlotType=Ore, SlotIndex=4
-  - SlotName=Ore, SlotType=Ore, SlotIndex=5
-  - SlotName=Ore, SlotType=Ore, SlotIndex=6
-  - SlotName=Ore, SlotType=Ore, SlotIndex=7
-  - SlotName=Ore, SlotType=Ore, SlotIndex=8
-  - SlotName=Ore, SlotType=Ore, SlotIndex=9
-  - SlotName=Ore, SlotType=Ore, SlotIndex=10
-  - SlotName=Ore, SlotType=Ore, SlotIndex=11
-  - SlotName=Ore, SlotType=Ore, SlotIndex=12
-  - SlotName=Ore, SlotType=Ore, SlotIndex=13
-  - SlotName=Ore, SlotType=Ore, SlotIndex=14
+| Name | Type | Index |
+|---|---|---|
+| Tool | Tool | 0 |
+| Tool | Tool | 1 |
+| Ore | Ore | 2 |
+| Ore | Ore | 3 |
+| Ore | Ore | 4 |
+| Ore | Ore | 5 |
+| Ore | Ore | 6 |
+| Ore | Ore | 7 |
+| Ore | Ore | 8 |
+| Ore | Ore | 9 |
+| Ore | Ore | 10 |
+| Ore | Ore | 11 |
+| Ore | Ore | 12 |
+| Ore | Ore | 13 |
+| Ore | Ore | 14 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 1000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Constantan (from Ingot (Constantan))
@@ -1088,9 +1147,12 @@ A low cost, high yield explosive with a 10 second timer.
   - Printer: Tool Manufactory (Tier One)
     - 6000 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 5 x Silicon (from Ingot (Silicon))
 
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 
 ---
 
@@ -1106,26 +1168,35 @@ The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick d
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier One)
     - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
 
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Flatten, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Flatten | 1 |
+
 
 ---
 
@@ -1141,26 +1212,35 @@ Sometimes mining trips require something a little bigger to bring home the goods
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
 
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Flatten, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Flatten | 1 |
+
 
 ---
 
@@ -1175,12 +1255,15 @@ Sometimes mining trips require something a little bigger to bring home the goods
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+
 
 ---
 
@@ -1310,19 +1393,25 @@ Angles-be-gone with the trusty angle grinder. The MK II is more resistant to tem
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper)) + 4 x Electrum (from Ingot (Electrum))
@@ -1340,19 +1429,25 @@ Angles-be-gone with the trusty angle grinder. The MK II is more resistant to tem
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 14 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
@@ -1391,19 +1486,25 @@ The ExMin Off-whirled Hand Drill has been a companion to Stationeers for decades
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 5 x Electrum (from Ingot (Electrum))
@@ -1443,26 +1544,35 @@ The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick d
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Tool Manufactory (Tier Two)
     - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper)) + 5 x Electrum (from Ingot (Electrum))
 
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Flatten, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Flatten | 1 |
+
 
 ---
 
@@ -1556,8 +1666,11 @@ A device for reducing sanitation needs. Requires Water and outputs Polluted Wate
 **Build States:**
   - Description=1 x Kit (Toilet)
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Output | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Toilet), PrefabHash=1484917493, PageLink=ThingItemKitToilet
 
@@ -1634,8 +1747,11 @@ A curved monorail track segment with a wide 10-meter radius. Use this rail to bu
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -1654,8 +1770,11 @@ A curved monorail track segment with a wide 14-meter radius. Use this rail to bu
 **Build States:**
   - Description=1 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -1750,9 +1869,12 @@ A left-branching switch. Setting=0 selects the straight A-B path; Setting=1 sele
 **Build States:**
   - Description=1 x Monorail Switches Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Switches Kit, PrefabHash=496624275, PageLink=ThingItemMonorailSwitchesKit
 
@@ -1806,8 +1928,11 @@ Players can board and disembark (passenger) trains here. Turnstiles open for app
 **Build States:**
   - Description=2 x Monorail Stations Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Stations Kit, PrefabHash=-511293804, PageLink=ThingItemMonorailStationKit
 
@@ -1827,7 +1952,10 @@ A device that taps power from the nearest train dock on the same rail network an
 **Build States:**
   - Description=1 x Monorail Power draw Adapter Kit
 **Connections:**
-  - LogicName=Power and Data Output, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Power and Data Output | 0 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Power draw Adapter Kit, PrefabHash=-828052736, PageLink=ThingItemMonorailRailAdapterPowerKit
 
@@ -1866,8 +1994,11 @@ A straight 10-meter monorail track segment. Snaps to the 2x2 grid and connects e
 **Build States:**
   - Description=3 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -1886,8 +2017,11 @@ A straight 14-meter monorail track segment. Snaps to the 2x2 grid and connects e
 **Build States:**
   - Description=3 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 
@@ -1906,8 +2040,11 @@ A straight 18-meter monorail track segment. Snaps to the 2x2 grid and connects e
 **Build States:**
   - Description=4 x Monorail Rails Kit
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Monorail Rails Kit, PrefabHash=-1514871690, PageLink=ThingItemMonorailsKit
 

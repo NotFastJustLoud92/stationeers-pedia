@@ -411,55 +411,61 @@ Klaxons allow you to play over 50 announcements and sounds, depending on your Lo
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Speaker)
-**Mode Options:**
-  - LogicName=None, LogicAccessTypes=0
-  - LogicName=Alarm2, LogicAccessTypes=1
-  - LogicName=Alarm3, LogicAccessTypes=2
-  - LogicName=Alarm4, LogicAccessTypes=3
-  - LogicName=Alarm5, LogicAccessTypes=4
-  - LogicName=Alarm6, LogicAccessTypes=5
-  - LogicName=Alarm7, LogicAccessTypes=6
-  - LogicName=Music1, LogicAccessTypes=7
-  - LogicName=Music2, LogicAccessTypes=8
-  - LogicName=Music3, LogicAccessTypes=9
-  - LogicName=Alarm8, LogicAccessTypes=10
-  - LogicName=Alarm9, LogicAccessTypes=11
-  - LogicName=Alarm10, LogicAccessTypes=12
-  - LogicName=Alarm11, LogicAccessTypes=13
-  - LogicName=Alarm12, LogicAccessTypes=14
-  - LogicName=Danger, LogicAccessTypes=15
-  - LogicName=Warning, LogicAccessTypes=16
-  - LogicName=Alert, LogicAccessTypes=17
-  - LogicName=StormIncoming, LogicAccessTypes=18
-  - LogicName=IntruderAlert, LogicAccessTypes=19
-  - LogicName=Depressurising, LogicAccessTypes=20
-  - LogicName=Pressurising, LogicAccessTypes=21
-  - LogicName=AirlockCycling, LogicAccessTypes=22
-  - LogicName=PowerLow, LogicAccessTypes=23
-  - LogicName=SystemFailure, LogicAccessTypes=24
-  - LogicName=Welcome, LogicAccessTypes=25
-  - LogicName=MalfunctionDetected, LogicAccessTypes=26
-  - LogicName=HaltWhoGoesThere, LogicAccessTypes=27
-  - LogicName=FireFireFire, LogicAccessTypes=28
-  - LogicName=One, LogicAccessTypes=29
-  - LogicName=Two, LogicAccessTypes=30
-  - LogicName=Three, LogicAccessTypes=31
-  - LogicName=Four, LogicAccessTypes=32
-  - LogicName=Five, LogicAccessTypes=33
-  - LogicName=Floor, LogicAccessTypes=34
-  - LogicName=RocketLaunching, LogicAccessTypes=35
-  - LogicName=LiftOff, LogicAccessTypes=36
-  - LogicName=TraderIncoming, LogicAccessTypes=37
-  - LogicName=TraderLanded, LogicAccessTypes=38
-  - LogicName=PressureHigh, LogicAccessTypes=39
-  - LogicName=PressureLow, LogicAccessTypes=40
-  - LogicName=TemperatureHigh, LogicAccessTypes=41
-  - LogicName=TemperatureLow, LogicAccessTypes=42
-  - LogicName=PollutantsDetected, LogicAccessTypes=43
-  - LogicName=HighCarbonDioxide, LogicAccessTypes=44
-  - LogicName=Alarm1, LogicAccessTypes=45
+**Mode:**
+| Name | Value |
+|---|---|
+| None | 0 |
+| Alarm2 | 1 |
+| Alarm3 | 2 |
+| Alarm4 | 3 |
+| Alarm5 | 4 |
+| Alarm6 | 5 |
+| Alarm7 | 6 |
+| Music1 | 7 |
+| Music2 | 8 |
+| Music3 | 9 |
+| Alarm8 | 10 |
+| Alarm9 | 11 |
+| Alarm10 | 12 |
+| Alarm11 | 13 |
+| Alarm12 | 14 |
+| Danger | 15 |
+| Warning | 16 |
+| Alert | 17 |
+| StormIncoming | 18 |
+| IntruderAlert | 19 |
+| Depressurising | 20 |
+| Pressurising | 21 |
+| AirlockCycling | 22 |
+| PowerLow | 23 |
+| SystemFailure | 24 |
+| Welcome | 25 |
+| MalfunctionDetected | 26 |
+| HaltWhoGoesThere | 27 |
+| FireFireFire | 28 |
+| One | 29 |
+| Two | 30 |
+| Three | 31 |
+| Four | 32 |
+| Five | 33 |
+| Floor | 34 |
+| RocketLaunching | 35 |
+| LiftOff | 36 |
+| TraderIncoming | 37 |
+| TraderLanded | 38 |
+| PressureHigh | 39 |
+| PressureLow | 40 |
+| TemperatureHigh | 41 |
+| TemperatureLow | 42 |
+| PollutantsDetected | 43 |
+| HighCarbonDioxide | 44 |
+| Alarm1 | 45 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Speaker), PrefabHash=-126038526, PageLink=ThingItemKitSpeaker
 
@@ -495,9 +501,12 @@ Emissive text label. Has an adjustable Color and a blink Mode.
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
 
@@ -516,9 +525,12 @@ Emissive text label. Has an adjustable Color and a blink Mode.
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
 
@@ -791,19 +803,25 @@ A labeller lets you set names and values on a variety of devices and structures,
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 523 K (250oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Charge, LogicAccessTypes=0
-  - LogicName=ChargeRatio, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Charge | 0 |
+| ChargeRatio | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| ReferenceId | 0 |
+
 **Slots:**
-  - SlotName=Battery, SlotType=Battery, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Battery | Battery | 0 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier One)
     - 800 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
@@ -869,15 +887,18 @@ A labeller lets you set names and values on a variety of devices and structures,
 - **Memory Access:** None
 - **Paintable:** Yes
 **Slots:**
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=0
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=1
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=2
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=3
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=4
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=5
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=6
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=7
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=8
+| Name | Type | Index |
+|---|---|---|
+| Crate Slot | Crate Slot | 0 |
+| Crate Slot | Crate Slot | 1 |
+| Crate Slot | Crate Slot | 2 |
+| Crate Slot | Crate Slot | 3 |
+| Crate Slot | Crate Slot | 4 |
+| Crate Slot | Crate Slot | 5 |
+| Portable Slot | Portable Slot | 6 |
+| Portable Slot | Portable Slot | 7 |
+| Crate Slot | Crate Slot | 8 |
+
 
 ---
 
@@ -890,17 +911,20 @@ A labeller lets you set names and values on a variety of devices and structures,
 - **Memory Access:** None
 - **Paintable:** No
 **Slots:**
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=0
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=1
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=2
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=3
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=4
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=5
-  - SlotName=Crate Slot, SlotType=Crate Slot, SlotIndex=6
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=7
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=8
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=9
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=10
+| Name | Type | Index |
+|---|---|---|
+| Crate Slot | Crate Slot | 0 |
+| Crate Slot | Crate Slot | 1 |
+| Crate Slot | Crate Slot | 2 |
+| Crate Slot | Crate Slot | 3 |
+| Crate Slot | Crate Slot | 4 |
+| Crate Slot | Crate Slot | 5 |
+| Crate Slot | Crate Slot | 6 |
+| Portable Slot | Portable Slot | 7 |
+| Portable Slot | Portable Slot | 8 |
+| Portable Slot | Portable Slot | 9 |
+| Portable Slot | Portable Slot | 10 |
+
 
 ---
 
@@ -916,10 +940,13 @@ A labeller lets you set names and values on a variety of devices and structures,
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -937,10 +964,13 @@ A labeller lets you set names and values on a variety of devices and structures,
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -959,17 +989,23 @@ The target point where the trader shuttle will land. Requires a clear view of th
 **Build States:**
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
-**Mode Options:**
-  - LogicName=None, LogicAccessTypes=0
-  - LogicName=NoContact, LogicAccessTypes=1
-  - LogicName=Moving, LogicAccessTypes=2
-  - LogicName=Holding, LogicAccessTypes=3
-  - LogicName=Landed, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| None | 0 |
+| NoContact | 1 |
+| Moving | 2 |
+| Holding | 3 |
+| Landed | 4 |
+
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -989,10 +1025,13 @@ Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -1012,18 +1051,24 @@ Provides power to the landing pad. The data port must be connected to the data p
 **Build States:**
   - Description=1 x Kit (Landing Pad Basic)
   - Description=10 x Cable Coil
-**Mode Options:**
-  - LogicName=None, LogicAccessTypes=0
-  - LogicName=NoContact, LogicAccessTypes=1
-  - LogicName=Moving, LogicAccessTypes=2
-  - LogicName=Holding, LogicAccessTypes=3
-  - LogicName=Landed, LogicAccessTypes=4
+**Mode:**
+| Name | Value |
+|---|---|
+| None | 0 |
+| NoContact | 1 |
+| Moving | 2 |
+| Holding | 3 |
+| Landed | 4 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
-  - LogicName=Landing Pad Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+| Landing Pad Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -1043,10 +1088,13 @@ Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -1065,11 +1113,14 @@ Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=1 x Kit (Volume Pump)
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+| Pipe Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1090,11 +1141,14 @@ Pumps gas purchased from a trader out of the landing pad. You can increase the l
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=1 x Kit (Volume Pump)
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+| Pipe Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1113,11 +1167,14 @@ Pumps gas purchased from a trader out of the landing pad. You can increase the l
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=1 x Kit (Liquid Volume Pump)
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+| Pipe Liquid Input | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1138,11 +1195,14 @@ Pumps liquid purchased from a trader out of the landing pad. You can increase th
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=1 x Kit (Liquid Volume Pump)
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=4
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+| Pipe Liquid Output | 4 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1162,10 +1222,13 @@ Extends the size of the landing pad area. A basic trader shuttle requires a 3x3 
   - Description=1 x Kit (Landing Pad Basic)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Basic), PrefabHash=293581318, PageLink=ThingItemKitLandingPadBasic
 
@@ -1186,14 +1249,17 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=2 x Kit (Tank)
   - Description=Welding Torch 5 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
-  - LogicName=Landing Pad Input, LogicAccessTypes=4
-  - LogicName=Landing Pad Input, LogicAccessTypes=5
-  - LogicName=Landing Pad Input, LogicAccessTypes=6
-  - LogicName=Landing Pad Input, LogicAccessTypes=7
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+| Landing Pad Input | 4 |
+| Landing Pad Input | 5 |
+| Landing Pad Input | 6 |
+| Landing Pad Input | 7 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1213,10 +1279,13 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=1 x Kit (Tank)
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1231,31 +1300,43 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Portable Slot | Portable Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=4 x Kit (Pipe) Screwdriver
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1270,31 +1351,43 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Portable Slot, SlotType=Portable Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Portable Slot | Portable Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (Landing Pad Atmospherics)
   - Description=4 x Kit (Liquid Pipe) Screwdriver
-**Mode Options:**
-  - LogicName=Mode0, LogicAccessTypes=0
-  - LogicName=Mode1, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Mode0 | 0 |
+| Mode1 | 1 |
+
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Connection, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Connection | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Atmospherics), PrefabHash=1817007843, PageLink=ThingItemKitLandingPadAtmos
 
@@ -1312,10 +1405,13 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=1 x Kit (Landing Pad Runway)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Runway), PrefabHash=-1267511065, PageLink=ThingItemKitLandingPadWaypoint
 
@@ -1333,10 +1429,13 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=1 x Kit (Landing Pad Runway)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Runway), PrefabHash=-1267511065, PageLink=ThingItemKitLandingPadWaypoint
 
@@ -1354,10 +1453,13 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=1 x Kit (Landing Pad Runway)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Landing Pad Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Landing Pad Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Runway), PrefabHash=-1267511065, PageLink=ThingItemKitLandingPadWaypoint
 
@@ -1376,10 +1478,13 @@ Increases the volume of the landing pads gas storage capacity. This volume is us
   - Description=1 x Kit (Landing Pad Runway)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Landing Pad Input, LogicAccessTypes=0
-  - LogicName=Landing Pad Input, LogicAccessTypes=1
-  - LogicName=Landing Pad Input, LogicAccessTypes=2
-  - LogicName=Data Input, LogicAccessTypes=3
+| Name | Value |
+|---|---|
+| Landing Pad Input | 0 |
+| Landing Pad Input | 1 |
+| Landing Pad Input | 2 |
+| Data Input | 3 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Landing Pad Runway), PrefabHash=-1267511065, PageLink=ThingItemKitLandingPadWaypoint
 
@@ -1397,23 +1502,27 @@ The Laptop functions as a portable IC editor. To operate the Laptop it must be p
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2
-  - LogicName=Charge, LogicAccessTypes=1
-  - LogicName=ChargeRatio, LogicAccessTypes=1
-  - LogicName=Class, LogicAccessTypes=0, 1, 2
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2
-**Logic Bindings:**
-  - Header=db, Label=LAPTOP
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2 |
+| OccupantHash | 0, 1, 2 |
+| Quantity | 0, 1, 2 |
+| Damage | 0, 1, 2 |
+| Charge | 1 |
+| ChargeRatio | 1 |
+| Class | 0, 1, 2 |
+| MaxQuantity | 0, 1, 2 |
+| PrefabHash | 0, 1, 2 |
+| ReferenceId | 0, 1, 2 |
+
 **Slots:**
-  - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
-  - SlotName=Battery, SlotType=Battery, SlotIndex=1
-  - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=2
+| Name | Type | Index |
+|---|---|---|
+| Programmable Chip | Programmable Chip | 0 |
+| Battery | Battery | 1 |
+| Motherboard | Motherboard | 2 |
+
 **Build Recipe:**
   - Printer: Electronics Printer (Tier Two)
     - 18000 x Energy + 12 x Gold (from Ingot (Gold)) + 5.5 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
@@ -1432,16 +1541,19 @@ The Laptop functions as a portable IC editor. To operate the Laptop it must be p
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
-  - SlotName=None, SlotType=None, SlotIndex=0
-  - SlotName=None, SlotType=None, SlotIndex=1
-  - SlotName=None, SlotType=None, SlotIndex=2
-  - SlotName=None, SlotType=None, SlotIndex=3
-  - SlotName=None, SlotType=None, SlotIndex=4
-  - SlotName=None, SlotType=None, SlotIndex=5
-  - SlotName=None, SlotType=None, SlotIndex=6
-  - SlotName=None, SlotType=None, SlotIndex=7
-  - SlotName=None, SlotType=None, SlotIndex=8
-  - SlotName=None, SlotType=None, SlotIndex=9
+| Name | Type | Index |
+|---|---|---|
+| None | None | 0 |
+| None | None | 1 |
+| None | None | 2 |
+| None | None | 3 |
+| None | None | 4 |
+| None | None | 5 |
+| None | None | 6 |
+| None | None | 7 |
+| None | None | 8 |
+| None | None | 9 |
+
 **Build Recipe:**
   - Printer: Autolathe (Tier Two)
     - 600 x Energy + 4 x Silicon (from Ingot (Silicon))
@@ -1464,8 +1576,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 1 x Kit (Pipe)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Liquid Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -1486,8 +1601,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 1 x Kit (Pipe)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+| Pipe Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -1508,8 +1626,11 @@ Direct Heat Exchangers equalize the temperature of the two input networks.
   - Description=Wrench 1 x Kit (Pipe)
   - Description=Welding Torch 1 x Steel Sheets
 **Connections:**
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=0
-  - LogicName=Pipe Input 2, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Pipe Liquid Input | 0 |
+| Pipe Input 2 | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Direct Heat Exchanger), PrefabHash=450164077, PageLink=ThingItemKitLargeDirectHeatExchanger
 
@@ -1534,9 +1655,12 @@ Optimized for radiating heat in vacuum and low pressure environments. If pointed
   - Description=Welding Torch 2 x Steel Sheets
   - Description=5 x Stellite Glass Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Pipe Liquid Input, LogicAccessTypes=1
-  - LogicName=Pipe Liquid Output, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Pipe Liquid Input | 1 |
+| Pipe Liquid Output | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Extendable Radiator), PrefabHash=847430620, PageLink=ThingItemKitLargeExtendableRadiator
 
@@ -1556,12 +1680,18 @@ Optimized for radiating heat in vacuum and low pressure environments. If pointed
 **Build States:**
   - Description=3 x Kit (Hangar Door)
   - Description=Welding Torch 3 x Steel Sheets
-**Mode Options:**
-  - LogicName=Operate, LogicAccessTypes=0
-  - LogicName=Logic, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Operate | 0 |
+| Logic | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Hangar Door), PrefabHash=682546947, PageLink=ThingItemKitAirlockGate
 
@@ -1587,8 +1717,11 @@ This large communications unit can be used to communicate with nearby trade vess
   - Description=10 x Cable Coil (Heavy)
   - Description=10 x Plastic Sheets
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Large Satellite Dish), PrefabHash=-2039971217, PageLink=ThingItemKitLargeSatelliteDish
 
@@ -1611,7 +1744,10 @@ This large communications unit can be used to communicate with nearby trade vess
 **Build States:**
   - Description=5 x Kit (Tank)
 **Connections:**
-  - LogicName=Pipe Input, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Pipe Input | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Tank), PrefabHash=771439840, PageLink=ThingItemKitTank
 
@@ -1628,26 +1764,35 @@ The Linear Articulated Rail Entity or LArRE can be used to plant, harvest and fe
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Arm Slot, SlotType=Arm Slot, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Arm Slot | Arm Slot | 0 |
+
 **Build States:**
   - Description=1 x Kit (LArRE)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE), PrefabHash=-1228287398, PageLink=ThingItemKitRoboticArm
 
@@ -1668,31 +1813,43 @@ The atmospherics LArRE can pump gas into and out of its storage canister. When l
 - **Convection Factor:** 0
 - **Radiation Factor:** 0
 - **Solar Heating Factor:** 0
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=FilterType, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| FilterType | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Filter, SlotType=Filter, SlotIndex=0
+| Name | Type | Index |
+|---|---|---|
+| Filter | Filter | 0 |
+
 **Build States:**
   - Description=1 x Kit (LArRE Dock Atmos)
   - Description=Screwdriver 2 x Electronic Parts
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Outward | 0 |
+| Inward | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE Dock Atmos), PrefabHash=385528206, PageLink=ThingItemKitLarreDockAtmos
 
@@ -1713,9 +1870,12 @@ The bypass dock allows LArRE arms to move off the main rail so that others may p
   - Description=1 x Kit (LArRE Dock Bypass)
   - Description=Screwdriver 2 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE Dock Bypass), PrefabHash=-940470326, PageLink=ThingItemKitLarreDockBypass
 
@@ -1732,28 +1892,37 @@ The cargo LArRE can take things out of and put things into slots on devices. The
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0
-  - LogicName=OccupantHash, LogicAccessTypes=0
-  - LogicName=Quantity, LogicAccessTypes=0
-  - LogicName=Damage, LogicAccessTypes=0
-  - LogicName=Class, LogicAccessTypes=0
-  - LogicName=MaxQuantity, LogicAccessTypes=0
-  - LogicName=PrefabHash, LogicAccessTypes=0
-  - LogicName=SortingClass, LogicAccessTypes=0
-  - LogicName=ReferenceId, LogicAccessTypes=0
-  - LogicName=FreeSlots, LogicAccessTypes=0
-  - LogicName=TotalSlots, LogicAccessTypes=0
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0 |
+| OccupantHash | 0 |
+| Quantity | 0 |
+| Damage | 0 |
+| Class | 0 |
+| MaxQuantity | 0 |
+| PrefabHash | 0 |
+| SortingClass | 0 |
+| ReferenceId | 0 |
+| FreeSlots | 0 |
+| TotalSlots | 0 |
+
 **Slots:**
-  - SlotName=Arm Slot, SlotType=Arm Slot, SlotIndex=0
-  - SlotName=Target Slot, SlotType=Proxy, SlotIndex=255
+| Name | Type | Index |
+|---|---|---|
+| Arm Slot | Arm Slot | 0 |
+| Target Slot | Proxy | 255 |
+
 **Build States:**
   - Description=1 x Kit (LArRE Dock Cargo)
   - Description=Screwdriver 2 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE Dock Cargo), PrefabHash=-1067485367, PageLink=ThingItemKitLarreDockCargo
 
@@ -1770,49 +1939,61 @@ The collector LArRE can suck up nearby loose items when its mode is set to inwar
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Quantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Damage, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=Class, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=SortingClass, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| OccupantHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Quantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Damage | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| Class | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| MaxQuantity | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| PrefabHash | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| SortingClass | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| ReferenceId | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| FreeSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+| TotalSlots | 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19 |
+
 **Slots:**
-  - SlotName=Storage, SlotType=Storage, SlotIndex=0
-  - SlotName=Storage, SlotType=Storage, SlotIndex=1
-  - SlotName=Storage, SlotType=Storage, SlotIndex=2
-  - SlotName=Storage, SlotType=Storage, SlotIndex=3
-  - SlotName=Storage, SlotType=Storage, SlotIndex=4
-  - SlotName=Storage, SlotType=Storage, SlotIndex=5
-  - SlotName=Storage, SlotType=Storage, SlotIndex=6
-  - SlotName=Storage, SlotType=Storage, SlotIndex=7
-  - SlotName=Storage, SlotType=Storage, SlotIndex=8
-  - SlotName=Storage, SlotType=Storage, SlotIndex=9
-  - SlotName=Storage, SlotType=Storage, SlotIndex=10
-  - SlotName=Storage, SlotType=Storage, SlotIndex=11
-  - SlotName=Storage, SlotType=Storage, SlotIndex=12
-  - SlotName=Storage, SlotType=Storage, SlotIndex=13
-  - SlotName=Storage, SlotType=Storage, SlotIndex=14
-  - SlotName=Storage, SlotType=Storage, SlotIndex=15
-  - SlotName=Storage, SlotType=Storage, SlotIndex=16
-  - SlotName=Storage, SlotType=Storage, SlotIndex=17
-  - SlotName=Storage, SlotType=Storage, SlotIndex=18
-  - SlotName=Storage, SlotType=Storage, SlotIndex=19
+| Name | Type | Index |
+|---|---|---|
+| Storage | Storage | 0 |
+| Storage | Storage | 1 |
+| Storage | Storage | 2 |
+| Storage | Storage | 3 |
+| Storage | Storage | 4 |
+| Storage | Storage | 5 |
+| Storage | Storage | 6 |
+| Storage | Storage | 7 |
+| Storage | Storage | 8 |
+| Storage | Storage | 9 |
+| Storage | Storage | 10 |
+| Storage | Storage | 11 |
+| Storage | Storage | 12 |
+| Storage | Storage | 13 |
+| Storage | Storage | 14 |
+| Storage | Storage | 15 |
+| Storage | Storage | 16 |
+| Storage | Storage | 17 |
+| Storage | Storage | 18 |
+| Storage | Storage | 19 |
+
 **Build States:**
   - Description=1 x Kit (LArRE Dock Collector)
   - Description=Screwdriver 2 x Electronic Parts
-**Mode Options:**
-  - LogicName=Outward, LogicAccessTypes=0
-  - LogicName=Inward, LogicAccessTypes=1
+**Mode:**
+| Name | Value |
+|---|---|
+| Outward | 0 |
+| Inward | 1 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE Dock Collector), PrefabHash=347658127, PageLink=ThingItemKitLarreDockCollector
 
@@ -1829,29 +2010,38 @@ The hydroponics LArRE can plant and harvest plants as well as place fertiliser i
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Logic Slot Types:**
-  - LogicName=Occupied, LogicAccessTypes=0, 1
-  - LogicName=OccupantHash, LogicAccessTypes=0, 1
-  - LogicName=Quantity, LogicAccessTypes=0, 1
-  - LogicName=Damage, LogicAccessTypes=0, 1
-  - LogicName=Class, LogicAccessTypes=0, 1
-  - LogicName=MaxQuantity, LogicAccessTypes=0, 1
-  - LogicName=PrefabHash, LogicAccessTypes=0, 1
-  - LogicName=SortingClass, LogicAccessTypes=0, 1
-  - LogicName=ReferenceId, LogicAccessTypes=0, 1
-  - LogicName=FreeSlots, LogicAccessTypes=0, 1
-  - LogicName=TotalSlots, LogicAccessTypes=0, 1
+**Logic Slots:**
+| Name | Value |
+|---|---|
+| Occupied | 0, 1 |
+| OccupantHash | 0, 1 |
+| Quantity | 0, 1 |
+| Damage | 0, 1 |
+| Class | 0, 1 |
+| MaxQuantity | 0, 1 |
+| PrefabHash | 0, 1 |
+| SortingClass | 0, 1 |
+| ReferenceId | 0, 1 |
+| FreeSlots | 0, 1 |
+| TotalSlots | 0, 1 |
+
 **Slots:**
-  - SlotName=Arm Slot, SlotType=Arm Slot, SlotIndex=0
-  - SlotName=Hopper Slot, SlotType=Hopper Slot, SlotIndex=1
-  - SlotName=Target Slot, SlotType=Proxy, SlotIndex=255
+| Name | Type | Index |
+|---|---|---|
+| Arm Slot | Arm Slot | 0 |
+| Hopper Slot | Hopper Slot | 1 |
+| Target Slot | Proxy | 255 |
+
 **Build States:**
   - Description=1 x Kit (LArRE Dock Hydroponics)
   - Description=Screwdriver 2 x Electronic Parts
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
-  - LogicName=Connection, LogicAccessTypes=1
-  - LogicName=Connection, LogicAccessTypes=2
+| Name | Value |
+|---|---|
+| Connection | 0 |
+| Connection | 1 |
+| Connection | 2 |
+
 **Constructed Things:**
   - NameOfThing=Kit (LArRE Dock Hydroponics), PrefabHash=656181408, PageLink=ThingItemKitLarreDockHydroponics
 
@@ -1916,7 +2106,10 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 **Build States:**
   - Description=1 x Kit (Lights)
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Lights), PrefabHash=1108423476, PageLink=ThingItemWallLight
 
@@ -1935,26 +2128,32 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=3 x Kit (Console)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -1973,26 +2172,32 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=2 x Kit (Console)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -2011,26 +2216,32 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=2 x Kit (Console)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -2049,26 +2260,32 @@ The first piece to place when building a rocket. Rockets can be constructed and/
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=2 x Kit (Console)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -2089,26 +2306,32 @@ This LED console normally displays the raw numeric value of its setting. When yo
 - **Auto Ignition:** 573 K (300oC)
 **Build States:**
   - Description=1 x Kit (Console)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Connections:**
-  - LogicName=Connection, LogicAccessTypes=0
+| Name | Value |
+|---|---|
+| Connection | 0 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Console), PrefabHash=-1241851179, PageLink=ThingItemKitConsole
 
@@ -2127,24 +2350,27 @@ Displays a Setting value. Has an adjustable Color.
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
 
@@ -2163,24 +2389,27 @@ Displays a Setting value. Has an adjustable Color.
 - **Paintable:** Yes
 **Build States:**
   - Description=1 x Kit (Modular Console Displays)
-**Mode Options:**
-  - LogicName=Default, LogicAccessTypes=0
-  - LogicName=Percent, LogicAccessTypes=1
-  - LogicName=Power, LogicAccessTypes=2
-  - LogicName=Kelvin, LogicAccessTypes=3
-  - LogicName=Celsius, LogicAccessTypes=4
-  - LogicName=Meters, LogicAccessTypes=5
-  - LogicName=Credits, LogicAccessTypes=6
-  - LogicName=Seconds, LogicAccessTypes=7
-  - LogicName=Minutes, LogicAccessTypes=8
-  - LogicName=Days, LogicAccessTypes=9
-  - LogicName=String, LogicAccessTypes=10
-  - LogicName=Fahrenheit, LogicAccessTypes=11
-  - LogicName=Litres, LogicAccessTypes=12
-  - LogicName=Mol, LogicAccessTypes=13
-  - LogicName=Pa, LogicAccessTypes=14
-  - LogicName=Newtons, LogicAccessTypes=15
-  - LogicName=Degrees, LogicAccessTypes=16
+**Mode:**
+| Name | Value |
+|---|---|
+| Default | 0 |
+| Percent | 1 |
+| Power | 2 |
+| Kelvin | 3 |
+| Celsius | 4 |
+| Meters | 5 |
+| Credits | 6 |
+| Seconds | 7 |
+| Minutes | 8 |
+| Days | 9 |
+| String | 10 |
+| Fahrenheit | 11 |
+| Litres | 12 |
+| Mol | 13 |
+| Pa | 14 |
+| Newtons | 15 |
+| Degrees | 16 |
+
 **Constructed Things:**
   - NameOfThing=Kit (Modular Console Displays), PrefabHash=210802104, PageLink=ThingItemKitModularConsoleDisplays
 
