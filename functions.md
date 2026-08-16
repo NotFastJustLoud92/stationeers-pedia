@@ -1,0 +1,774 @@
+# IC10 Function Library
+
+Extracted from the game's own script-editor "Functions" help panel (`Assets.Scripts.UI.ScriptHelpWindow`).
+
+## abs
+
+
+---
+
+## acos
+
+
+---
+
+## add
+
+
+---
+
+## alias
+
+
+---
+
+## and
+
+
+---
+
+## asin
+
+
+---
+
+## atan
+
+
+---
+
+## atan2
+
+
+---
+
+## bap
+
+
+---
+
+## bapal
+
+
+---
+
+## bapz
+
+
+---
+
+## bapzal
+
+
+---
+
+## bdns
+
+
+---
+
+## bdnsal
+
+
+---
+
+## bdnvl
+
+
+---
+
+## bdnvs
+
+
+---
+
+## bdse
+
+
+---
+
+## bdseal
+
+
+---
+
+## beq
+
+
+---
+
+## beqal
+
+
+---
+
+## beqz
+
+
+---
+
+## beqzal
+
+
+---
+
+## bge
+
+
+---
+
+## bgeal
+
+
+---
+
+## bgez
+
+
+---
+
+## bgezal
+
+
+---
+
+## bgt
+
+
+---
+
+## bgtal
+
+
+---
+
+## bgtz
+
+
+---
+
+## bgtzal
+
+
+---
+
+## ble
+
+
+---
+
+## bleal
+
+
+---
+
+## blez
+
+
+---
+
+## blezal
+
+
+---
+
+## blt
+
+
+---
+
+## bltal
+
+
+---
+
+## bltz
+
+
+---
+
+## bltzal
+
+
+---
+
+## bna
+
+
+---
+
+## bnaal
+
+
+---
+
+## bnan
+
+
+---
+
+## bnaz
+
+
+---
+
+## bnazal
+
+
+---
+
+## bne
+
+
+---
+
+## bneal
+
+
+---
+
+## bnez
+
+
+---
+
+## bnezal
+
+
+---
+
+## brap
+
+
+---
+
+## brapz
+
+
+---
+
+## brdns
+
+
+---
+
+## brdse
+
+
+---
+
+## breq
+
+
+---
+
+## breqz
+
+
+---
+
+## brge
+
+
+---
+
+## brgez
+
+
+---
+
+## brgt
+
+
+---
+
+## brgtz
+
+
+---
+
+## brle
+
+
+---
+
+## brlez
+
+
+---
+
+## brlt
+
+
+---
+
+## brltz
+
+
+---
+
+## brna
+
+
+---
+
+## brnan
+
+
+---
+
+## brnaz
+
+
+---
+
+## brne
+
+
+---
+
+## brnez
+
+
+---
+
+## ceil
+
+
+---
+
+## clamp
+
+
+---
+
+## clr
+
+
+---
+
+## clrd
+
+
+---
+
+## cos
+
+
+---
+
+## define
+
+
+---
+
+## div
+
+
+---
+
+## exp
+
+
+---
+
+## ext
+
+
+---
+
+## floor
+
+
+---
+
+## get
+
+
+---
+
+## getd
+
+
+---
+
+## hcf
+
+
+---
+
+## ins
+
+
+---
+
+## j
+
+
+---
+
+## jal
+
+
+---
+
+## jr
+
+
+---
+
+## l
+
+
+---
+
+## label
+
+
+---
+
+## lb
+
+
+---
+
+## lbn
+
+
+---
+
+## lbns
+
+
+---
+
+## lbs
+
+
+---
+
+## ld
+
+
+---
+
+## lerp
+
+
+---
+
+## log
+
+
+---
+
+## lr
+
+
+---
+
+## ls
+
+
+---
+
+## max
+
+
+---
+
+## min
+
+
+---
+
+## mod
+
+
+---
+
+## move
+
+
+---
+
+## mul
+
+
+---
+
+## nor
+
+
+---
+
+## not
+
+
+---
+
+## or
+
+
+---
+
+## peek
+
+
+---
+
+## poke
+
+
+---
+
+## pop
+
+
+---
+
+## pow
+
+
+---
+
+## push
+
+
+---
+
+## put
+
+
+---
+
+## putd
+
+
+---
+
+## rand
+
+
+---
+
+## rmap
+
+
+---
+
+## rol
+
+
+---
+
+## ror
+
+
+---
+
+## round
+
+
+---
+
+## s
+
+
+---
+
+## sap
+
+
+---
+
+## sapz
+
+
+---
+
+## sb
+
+
+---
+
+## sbn
+
+
+---
+
+## sbs
+
+
+---
+
+## sd
+
+
+---
+
+## sdns
+
+
+---
+
+## sdse
+
+
+---
+
+## select
+
+
+---
+
+## seq
+
+
+---
+
+## seqz
+
+
+---
+
+## sge
+
+
+---
+
+## sgez
+
+
+---
+
+## sgn
+
+
+---
+
+## sgt
+
+
+---
+
+## sgtz
+
+
+---
+
+## sin
+
+
+---
+
+## sla
+
+
+---
+
+## sle
+
+
+---
+
+## sleep
+
+
+---
+
+## slez
+
+
+---
+
+## sll
+
+
+---
+
+## slt
+
+
+---
+
+## sltz
+
+
+---
+
+## sna
+
+
+---
+
+## snan
+
+
+---
+
+## snanz
+
+
+---
+
+## snaz
+
+
+---
+
+## sne
+
+
+---
+
+## snez
+
+
+---
+
+## sqrt
+
+
+---
+
+## sra
+
+
+---
+
+## srl
+
+
+---
+
+## ss
+
+
+---
+
+## sub
+
+
+---
+
+## tan
+
+
+---
+
+## trunc
+
+
+---
+
+## xor
+
+
+---
+
+## yield
+
+
+---
+

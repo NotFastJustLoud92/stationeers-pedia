@@ -2100,6 +2100,7 @@ The amount of water this plant consumes.
 
 The Solar System's planets are not as calm as they may seem. After seven days on any world with an atmosphere, the inscrutable forces of nature swing into action – hitting unwary Stationeers with blizzards, dust storms and volcanic events. As such, the ODA recommends that freshly deployed Stationeers create an airtight base within 7 days of landing. Any dynamic objects left outside in a storm – on Mars, Loulan, Vulcan or Europa – risks being blown far, far away, including your lander. Likewise, be aware that solar panels are fragile and may have their glass shattered, or occasionally even be destroyed by a sufficiently ferocious storm. During storms, their output is also drastically reduced.
 
+- **Content Type:** Guide
 - **Key:** WeatherPage
 
 ---

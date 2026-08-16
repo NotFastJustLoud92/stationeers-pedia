@@ -48,6 +48,7 @@ A solid chunk of Liquid Sodium Chloride. It has a very high melt temperature and
 
 Over time satisfying thirst and hunger of Stationeers will cause them to need to relieve themselves. The ODA recommends that Stationeers set up a Modern Toilet within their base after landing, requiring an atmosphere and Water to operate. This will output Polluted Water which can be recycled using a Water Purifier and then used for other purposes, such as farming or drinking. The Waste Bag can be used as a portable alternative to the toilet but the contents are not recoverable.
 
+- **Content Type:** Guide
 - **Key:** SanitationPage
 
 ---
@@ -1384,6 +1385,7 @@ This small communications unit can be used to communicate with nearby trade vess
 
 Once you have ore, you need to turn it into ingots so you can use their reagents. Smelting will often produce gases. This occurs in either the Arc Furnace (for simple recipes) and the Furnace for more complicated Alloys, and finally the Advanced Furnace for very complicated Superalloys. For the complex alloys, you will need to achieve mixtures at perfect ratios, Temperature, and Pressure.
 
+- **Content Type:** Guide
 - **Key:** SmeltingPage
 
 ---

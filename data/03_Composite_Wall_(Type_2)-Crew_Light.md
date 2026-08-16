@@ -2008,6 +2008,7 @@ This control box manages devices such as the Active Vent, Passive Vent, Gas Sens
 
 Getting Started Typically you will use kits to initiate construction and then a variety of tools and resources to complete. Pay close attention to how many of your kit are required to construct what you have selected, as some structures require more than one of the stack to be consumed. For some kits you will have multiple options, use the Scroll Wheel to change the current option you are looking to build. Build States Some structures will have multiple build states that require different combinations to complete. Your tooltip will advise you of what combination you need to complete the structure. Sometimes you will need to have two objects, one in each hand, to complete a build state. Some tools will need to be turned on first, which can done by pressing O while it's in your active hand. Tooltips If you look directly at a structure that is incomplete you will get information about what you need to do to complete it. If you have a tool in your hand and its not the right tool, a tooltip will appear telling you what you would need to use to deconstruct it. Pressure When building, it's important to note that pressure is measured as a differential. Most structures have a 200kPa pressure limit: if the difference between inside and outside is greater than that, you've got problems.
 
+- **Content Type:** Guide
 - **Key:** ConstructionPage
 
 ---

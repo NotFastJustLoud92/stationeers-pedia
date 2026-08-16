@@ -697,6 +697,7 @@ These are Items that are consumed to provide nutrition.
 
 Food decays over time into Decayed Food, unless refrigerated in a sutable atmosphere. The exact speed of decay varies individually by: - TEMPERATURE - Refrigeration will slow decay, but many foods will be damaged by exposure to extreme low pressure, as well as extreme heat. The optimum temperature is 0 kelvin (-272 C). - FOOD TYPE - Each food type has its own decay properties. Tomato Soup lasts a lot longer than a Tomato, for instance. - PRESSURE - Food decays faster when the pressure drops below 1 atmosphere (101kPa). Decay happens exponentially more quickly as the atmosphere approaches a perfect vacuum. There is no effect from higher pressures. - ATMOSPHERE - Different gases can slow and accelerate the decay process. The process will take account of respective gas ratios in mixed atmospheres in calculating the decay modifier. The following rates apply across all foods: > Oxygen x 1.3 > Nitrogen x 0.6 > Carbon Dioxide x 0.8 > Methane x 1 > Pollutant x 3 > Nitrous Oxide x 1.5 > Water x 2 > Vacuum - see PRESSURE (above).
 
+- **Content Type:** Guide
 - **Key:** DecayPage
 
 ---
@@ -1595,6 +1596,7 @@ The mainstay of power generation for Stationeers, this device provides 20kW of p
 
 Plants have a set of Genes that modifies their behavior. A plant's genes will be manipulated in a number of ways, both naturally as well as artificially. When a plant produces fruit or seeds it will pass on its genetics with a small random mutation. On top of random mutations, a plant's condition over its life can also affect its genes - for example if a plant is starved of water, while it may affect the plants growth speed and yield, the offspring will receive genes that make it require less water. In this way you can manipulate your crop's ideal conditions. There are a number of tools you will need to manage your crops effectively: Plant Sampler and Plant Genetic Analyzer. These tools allow you to sample a growing plant and see the state of its genes. Plant genetics is not an exact science and will require trial and error and repeated attempts before you are able to reach your targets.
 
+- **Content Type:** Guide
 - **Key:** GeneticsPage
 
 ---
@@ -1847,6 +1849,7 @@ Agrizero's leading hydroponic lighting system, the GrowUp UV light supplements s
 
 To survive on alien worlds, the ODA expects all Stationeers to set up viable hydroponic systems, or contact registered local resource traders. SETTING UP When setting up your hydroponic system, you will need seeds. Alternatively, you can plant the food itself. Common Stationeer hydroponic equipment includes: - Portable Hydroponics - Kit (Hydroponic Tray) - Kit (Hydroponic Station) - Harvie All hydroponics systems require water, sunlight and the correct gas mixture - plants require Carbon Dioxide and produce oxygen (except for Alien Mushroom). PLants will not grow in the wrong atmosphere. If plants do not have enough light, you will need to build a Grow Light. Your system will depend on available resources and time, but a well-designed farming system can be almost fully automated given sufficient time and resources. HARVESTING Most plants have several growth stages. The first stages are the plant growing through its lifecycle. During the second-to-last phase, the plant will yield fruit but no seeds. In the final phase, seeds and fruit may be harvested from the plant. After that, unless cleared, the plant will die. FERTILIZER Fertilizer alters plant growth processes, and is created by the Portable Composter and the Advanced Composter using organic matter. Fertilizer's affects depend on its ingredients: - Food increases individual PLANT YIELD by up to 3 items - Decayed Food increases plant GROWTH SPEED up to 3 times - Biomass increases the NUMBER OF GROWTH CYCLES the fertilizer lasts for to a maximum of 5 The effect of these ingredients depends on their respective proportions in the composter when processing is activated. Fertilizer is produced at a 1:3 ratio of fertilizer to ingredients. When processing, Nitrogen and Methane is released, as well a small amount of heat.
 
+- **Content Type:** Guide
 - **Key:** FarmingPage
 
 ---

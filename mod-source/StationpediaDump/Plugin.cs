@@ -82,6 +82,10 @@ namespace StationpediaDump
             string outRoot = Path.GetFullPath(Path.Combine(Paths.PluginPath, "..", "..", "StationpediaDump_Output"));
             Directory.CreateDirectory(outRoot);
 
+            var guideKeys = new HashSet<string>(Stationpedia.GuidesPages ?? new List<string>());
+            var loreKeys = new HashSet<string>(Stationpedia.LorePages ?? new List<string>());
+            Log.LogInfo($"[StationpediaDump] GuidesPages: {guideKeys.Count} keys, LorePages: {loreKeys.Count} keys.");
+
             // Neither PageCustomCategories (mostly empty) nor DisplayFilter
             // (a coarse Guide/Lore/everything-else UI filter, not the detailed
             // category tree) map cleanly onto the in-game category browser -
@@ -113,7 +117,7 @@ namespace StationpediaDump
                 sb.Append("# ").Append(DisplayTitle(chunk.First())).Append(" - ").AppendLine(DisplayTitle(chunk.Last()));
                 sb.AppendLine();
                 foreach (var page in chunk)
-                    WritePage(sb, page);
+                    WritePage(sb, page, guideKeys, loreKeys);
                 File.WriteAllText(Path.Combine(outRoot, fileName), sb.ToString());
                 idx.Append("- [").Append(DisplayTitle(chunk.First())).Append(" - ").Append(DisplayTitle(chunk.Last()))
                    .Append("](").Append(fileName).Append(") (").Append(chunk.Count).AppendLine(" pages)");
@@ -125,6 +129,112 @@ namespace StationpediaDump
 
             DumpIcons(sorted, outRoot);
             DumpGasIcons(outRoot);
+            DumpFunctionLibrary(outRoot);
+        }
+
+        /// <summary>
+        /// Stationpedia.GuidesPages / LorePages are List&lt;string&gt; of page
+        /// Keys - cross-referencing them against StationpediaPages tells us
+        /// which pages are guide/tutorial content vs. lore/story content vs.
+        /// regular device/item reference, so the site can split them into
+        /// separate sections instead of mixing everything into one
+        /// alphabetical list.
+        /// </summary>
+        private static string ContentTypeFor(StationpediaPage page, HashSet<string> guideKeys, HashSet<string> loreKeys)
+        {
+            if (!string.IsNullOrEmpty(page.Key) && guideKeys.Contains(page.Key)) return "Guide";
+            if (!string.IsNullOrEmpty(page.Key) && loreKeys.Contains(page.Key)) return "Lore";
+            return null;
+        }
+
+        /// <summary>
+        /// Extracts the IC10 "Functions" library (Assets.Scripts.UI.
+        /// ScriptHelpWindow, the same panel the in-game script editor's
+        /// Function button opens) to a separate functions.md - a completely
+        /// different data domain from Stationpedia (device/item docs), so it
+        /// isn't one of the chunked page files. ScriptCommand is a complete
+        /// enum of every IC10 opcode (154 values); HelpReference (populated
+        /// lazily by the UI, same pattern as Stationpedia pages) carries the
+        /// actual signature/category/description text when available. Always
+        /// dumps at least the full opcode list even if the UI text can't be
+        /// forced to populate, so this degrades gracefully instead of an
+        /// all-or-nothing result like the gas-icon investigation.
+        /// </summary>
+        private static void DumpFunctionLibrary(string outRoot)
+        {
+            var sb = new StringBuilder();
+            sb.AppendLine("# IC10 Function Library");
+            sb.AppendLine();
+            sb.AppendLine("Extracted from the game's own script-editor \"Functions\" help panel (`Assets.Scripts.UI.ScriptHelpWindow`).");
+            sb.AppendLine();
+
+            var descriptions = new Dictionary<string, (string type, string text, string desc)>(StringComparer.OrdinalIgnoreCase);
+            try
+            {
+                var shwType = typeof(Stationpedia).Assembly.GetType("Assets.Scripts.UI.ScriptHelpWindow");
+                var singletonField = shwType?.GetField("ScriptLibraryWindow", BindingFlags.Public | BindingFlags.Static);
+                var inst = singletonField?.GetValue(null);
+                if (inst == null)
+                {
+                    Log.LogWarning("[StationpediaDump] ScriptHelpWindow.ScriptLibraryWindow singleton is null - functions.md will only have bare opcode names.");
+                }
+                else
+                {
+                    TryInvoke(inst, "Initialize");
+                    TryInvokeWithArgs(inst, "ForceSearch", new object[] { "" });
+                    TryInvokeWithArgs(inst, "DoLiteralSearch", new object[] { -1 });
+                    TryInvokeWithArgs(inst, "DoCategorySearch", new object[] { -1 });
+
+                    var listField = shwType.GetField("_helpReferences", BindingFlags.NonPublic | BindingFlags.Instance);
+                    var list = listField?.GetValue(inst) as IEnumerable;
+                    int n = 0;
+                    if (list != null)
+                    {
+                        foreach (var item in list)
+                        {
+                            if (item == null) continue;
+                            Type t = item.GetType();
+                            string textStr = t.GetField("TextString")?.GetValue(item) as string;
+                            string typeStr = t.GetField("TypeString")?.GetValue(item) as string;
+                            string descStr = t.GetField("DescString")?.GetValue(item) as string;
+                            if (string.IsNullOrWhiteSpace(textStr)) continue;
+                            string key = textStr.Split(' ', '(', '\t').FirstOrDefault() ?? textStr;
+                            descriptions[key] = (typeStr, textStr, descStr);
+                            n++;
+                        }
+                    }
+                    Log.LogInfo($"[StationpediaDump] ScriptHelpWindow._helpReferences: {n} entries captured.");
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("[StationpediaDump] DumpFunctionLibrary UI extraction failed (falling back to bare opcode list): " + e.Message);
+            }
+
+            var scType = typeof(Stationpedia).Assembly.GetType("Assets.Scripts.Objects.Electrical.ScriptCommand");
+            var names = scType != null ? Enum.GetNames(scType).OrderBy(n => n, StringComparer.OrdinalIgnoreCase) : Enumerable.Empty<string>();
+            int withDesc = 0;
+            foreach (var name in names)
+            {
+                sb.Append("## ").AppendLine(name);
+                sb.AppendLine();
+                if (descriptions.TryGetValue(name, out var d))
+                {
+                    withDesc++;
+                    if (!string.IsNullOrWhiteSpace(d.type)) sb.Append("- **Category:** ").AppendLine(Clean(d.type));
+                    if (!string.IsNullOrWhiteSpace(d.text)) sb.Append("- **Signature:** ").AppendLine(Clean(d.text));
+                    if (!string.IsNullOrWhiteSpace(d.desc))
+                    {
+                        sb.AppendLine();
+                        sb.AppendLine(Clean(d.desc));
+                    }
+                }
+                sb.AppendLine();
+                sb.AppendLine("---");
+                sb.AppendLine();
+            }
+            File.WriteAllText(Path.Combine(outRoot, "functions.md"), sb.ToString());
+            Log.LogInfo($"[StationpediaDump] Wrote functions.md: {names.Count()} opcodes, {withDesc} with full description text.");
         }
 
         /// <summary>
@@ -241,6 +351,26 @@ namespace StationpediaDump
             catch (Exception e)
             {
                 Log.LogWarning($"[StationpediaDump] Stationpedia.{methodName}() call failed: " + e.Message);
+            }
+        }
+
+        // Same as TryInvoke but for a method taking the given argument values
+        // (matched by parameter count only, not exact types - good enough for
+        // the handful of best-effort UI-nudge calls this is used for).
+        private static void TryInvokeWithArgs(object instance, string methodName, object[] args)
+        {
+            try
+            {
+                var m = instance.GetType()
+                    .GetMethods(BindingFlags.Public | BindingFlags.NonPublic | BindingFlags.Instance)
+                    .FirstOrDefault(x => x.Name == methodName && x.GetParameters().Length == args.Length);
+                if (m == null) { Log.LogInfo($"[StationpediaDump] {methodName}({args.Length} args) not found."); return; }
+                m.Invoke(instance, args);
+                Log.LogInfo($"[StationpediaDump] Called {methodName}({string.Join(", ", args)}).");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[StationpediaDump] {methodName}() call failed: " + e.Message);
             }
         }
 
@@ -471,7 +601,7 @@ namespace StationpediaDump
             return string.IsNullOrEmpty(cleaned) ? raw : cleaned;
         }
 
-        private static void WritePage(StringBuilder sb, StationpediaPage page)
+        private static void WritePage(StringBuilder sb, StationpediaPage page, HashSet<string> guideKeys, HashSet<string> loreKeys)
         {
             // StationpediaPage.Parsed is a lazily-evaluated property; several
             // fields (notably LogicInstructions) appear to only populate once
@@ -487,6 +617,7 @@ namespace StationpediaDump
                 sb.AppendLine();
             }
 
+            WriteField(sb, "Content Type", ContentTypeFor(page, guideKeys, loreKeys));
             WriteField(sb, "Key", page.Key);
             WriteField(sb, "Prefab Name", page.PrefabName);
             WriteField(sb, "Prefab Hash", page.PrefabHash != 0 ? page.PrefabHash.ToString() : null);

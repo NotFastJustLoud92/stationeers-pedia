@@ -874,6 +874,7 @@ Founded by Noboru Hiiragi in the aftermath of the 2110s economic bubble, Hiiragi
 
 HUNGER Stationeers get hungry eventually, but not all food is created equal. Also, your hunger rate varies depending on settings and difficulty. Eating will only consume that part of an item adequate to restoring your hunger to 100%. Stationeers receive supplies of food such as Agrizero Cereal Bar in their lander upon arriving on a new world. When these are exhausted, you must find new sources of sustenance - such as growing your own, from the seeds supplied, or contacting a Trader. NUTRITION Eating raw ingredients will satisfy hunger less than meals, ie will replace a smaller proportion of your hunger. The basic elements of food are created using hydroponics systems. These can be processed into recipe ingredients using the Reagent Processor, then turned into meals using a Microwave or Automated Oven. Your hunger rate can be adjusted set in the main settings menu by adjusting the Hunger/Hydration rate slider in the settings. Note that the hunger slider also governs your Thirst.
 
+- **Content Type:** Guide
 - **Key:** NutritionPage
 
 ---

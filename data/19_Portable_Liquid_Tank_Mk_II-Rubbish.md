@@ -2484,6 +2484,7 @@ When placed in a Rocket Scanner, the Surface Scanner Head will scan the map for 
 
 Rocket parts are printed on the Rocket Manufactory. Fuselage (Type A1) must be built upon a Launch Mount. A Pumped Gas Engine must be placed in an Engine Mount (Type A1). Resource Umbilicals are placed on the Launch Tower and connect between Umbilical (Gas) and Umbilical Socket (Gas) placed inside the rocket. A Computer (Modern) with the Rocket Control Motherboard provides a user interface to control the rocket. A Pair of datalinks are used to create a planet-side Logic Uplink and a rocket-side Logic Rocket Downlink which must be hooked up to the Computer (Modern). An Rocket Avionics should be placed in the rocket to act as the main rocket controller. On the Rocket Control Motherboard Map Screen you can set the rocket destination. Igniting the rocket without a destination set allows you to see rocket performance and fuel usage without launching the rocket. Expect to use 5-20Kmol of fuel per rocket trip, depending on rocket size. A Rocket Scanner is used to chart unknown locations and discover minable asteroids. More complex rockets may use Rocket Miner and Cargo Storage (Small).
 
+- **Content Type:** Guide
 - **Key:** AutomatedRocketPage
 
 ---

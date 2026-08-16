@@ -122,6 +122,29 @@
     margin-top: 5px;
   }
 
+  /* ============ TABS ============ */
+  .tab-bar {
+    max-width: 1200px;
+    margin: 18px auto 0;
+    display: flex;
+    gap: 8px;
+  }
+  .tab-btn {
+    font-family: var(--mono);
+    font-size: 12px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--text-muted);
+    background: var(--panel);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    padding: 9px 18px;
+    cursor: pointer;
+    transition: background 0.12s, color 0.12s, border-color 0.12s;
+  }
+  .tab-btn:hover { color: var(--text); border-color: var(--text-faint); }
+  .tab-btn.active { background: var(--accent-soft); color: var(--accent-strong); border-color: var(--accent); }
+
   /* ============ SEARCH BAR ============ */
   .search-wrap {
     max-width: 1200px;
@@ -169,6 +192,93 @@
     border-right: 1px solid var(--border);
   }
   #results { overflow-y: auto; border-right: 1px solid var(--border); background: var(--bg-2); }
+
+  /* ============ CATEGORY GRID (landing view) ============ */
+  .category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 12px;
+    padding: 24px;
+  }
+  .category-tile {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    background: var(--panel);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    padding: 14px 16px;
+    cursor: pointer;
+    text-align: left;
+    transition: transform 0.12s, border-color 0.12s, background 0.12s;
+  }
+  .category-tile:hover { transform: translateY(-2px); border-color: var(--cat-color, var(--cyan)); background: var(--panel-2); }
+  .category-badge {
+    width: 44px; height: 44px;
+    flex-shrink: 0;
+    border-radius: var(--radius);
+    display: flex; align-items: center; justify-content: center;
+    font-family: var(--mono);
+    font-weight: 700;
+    font-size: 11px;
+    letter-spacing: 0.02em;
+    color: var(--cat-color, var(--cyan));
+    border: 1.5px solid var(--cat-color, var(--cyan));
+    background: var(--cat-bg, var(--panel-2));
+  }
+  .category-tile-text { min-width: 0; }
+  .category-tile-name { font-size: 14px; font-weight: 600; color: var(--text); }
+  .category-tile-count { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 3px; }
+
+  .breadcrumb {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 18px;
+    border-bottom: 1px solid var(--border);
+    font-family: var(--mono);
+    font-size: 11.5px;
+  }
+  .breadcrumb button {
+    background: none;
+    border: none;
+    color: var(--cyan);
+    cursor: pointer;
+    font-family: var(--mono);
+    font-size: 11.5px;
+    padding: 0;
+  }
+  .breadcrumb button:hover { text-decoration: underline; }
+  .breadcrumb .sep { color: var(--text-faint); }
+  .breadcrumb .current { color: var(--text-muted); }
+
+  /* ============ FUNCTION LIBRARY ============ */
+  .func-item .result-text { font-family: var(--mono); }
+  .func-cat-pill {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    background: var(--cyan-soft);
+    border: 1px solid var(--cyan);
+    border-radius: 3px;
+    padding: 2px 8px;
+    margin-bottom: 14px;
+  }
+  .func-signature {
+    font-family: var(--mono);
+    font-size: 16px;
+    color: var(--accent-strong);
+    background: var(--panel-2);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    padding: 12px 16px;
+    margin-bottom: 18px;
+    word-break: break-word;
+  }
+  .func-no-desc { color: var(--text-faint); font-size: 13px; font-style: italic; }
   .result-item {
     display: flex;
     align-items: center;
@@ -345,10 +455,18 @@
   }
   @keyframes flicker { 0%, 92%, 100% { opacity: 1; } 94% { opacity: 0.75; } 96% { opacity: 1; } }
 
+  /* Category-grid landing view wants the full page width, not the narrow
+     340px results sidebar - widen #results to span the whole main area and
+     hide the (empty) detail pane while it's showing. */
+  main.category-mode { grid-template-columns: 1fr; }
+  main.category-mode #detail { display: none; }
+
   @media (max-width: 760px) {
     main { grid-template-columns: 1fr; }
     #results { border-right: none; border-bottom: 1px solid var(--border); max-height: 40vh; }
+    main.category-mode #results { max-height: none; }
     .readouts { display: none; }
+    .category-grid { grid-template-columns: 1fr 1fr; padding: 14px; gap: 8px; }
   }
 </style>
 </head>
@@ -362,7 +480,7 @@
       </div>
       <div class="brand-text">
         <h1>STATIONEERS PEDIA</h1>
-        <div class="tagline">Device specs, build recipes, and the full LogicType reference — extracted directly from live game data.</div>
+        <div class="tagline">Device specs, build recipes, guides, and the IC10 function library — extracted directly from live game data.</div>
       </div>
     </div>
     <div class="readouts">
@@ -370,9 +488,15 @@
     </div>
   </div>
 
+  <div class="tab-bar">
+    <button class="tab-btn active" data-tab="universe">Universe</button>
+    <button class="tab-btn" data-tab="guides">Guides</button>
+    <button class="tab-btn" data-tab="functions">Functions</button>
+  </div>
+
   <div class="search-wrap">
     <span class="search-prompt">&gt;</span>
-    <input type="text" id="searchBox" placeholder="Search a device, item, or LogicType... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autofocus autocomplete="off" spellcheck="false">
+    <input type="text" id="searchBox" placeholder="Search a device, item, or LogicType... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autocomplete="off" spellcheck="false">
   </div>
   <div id="resultCount" style="max-width:1200px;margin:9px auto 0;"></div>
 </header>
@@ -387,6 +511,7 @@
 </footer>
 
 <script type="application/json" id="pages-data">__PAGES_JSON__</script>
+<script type="application/json" id="functions-data">__FUNCTIONS_JSON__</script>
 <script>
 (function(){
   var PAGES = JSON.parse(document.getElementById('pages-data').textContent);
@@ -543,10 +668,48 @@
     return html;
   }
 
+  var FUNCTIONS = JSON.parse(document.getElementById('functions-data').textContent);
+  var mainEl = document.querySelector('main');
+
+  // Same category-color language as the gas badges, applied to the home
+  // category tiles and reused as a small identity marker throughout. No
+  // real per-category icon art exists to extract (see build_search_index.ps1
+  // - PageCustomCategories/DisplayFilter were both dead ends), so every
+  // category gets a short mono-font abbreviation instead, consistent with
+  // how gas types already work.
+  var CATEGORY_INFO = {
+    'Ores': ['ORE', '#a8845a'], 'Ingots': ['ING', '#d9b64a'],
+    'Structure Kits': ['KIT', '#5b8fd9'], 'Fabricators': ['FAB', '#e2542e'],
+    'Gases': ['GAS', '#57d6c8'], 'Reagents': ['REA', '#8a94a6'],
+    'Atmospherics': ['ATM', '#4fa3d1'], 'Electronics': ['ELC', '#d9c23a'],
+    'Logic Devices': ['LOG', '#9a5fd1'], 'Structures': ['STR', '#8d9aa7'],
+    'Organics and Food': ['O&F', '#5bbf6a'], 'Rockets': ['RKT', '#e2942e'],
+    'Genetics': ['GEN', '#e08fd0'], 'Trading': ['TRD', '#c9773f'],
+    'Hand Tools': ['TLS', '#a8d15a'], 'Cartridges': ['CRT', '#c07fd1'],
+    'Personal': ['PER', '#3fae9e'], 'Furniture': ['FUR', '#d8cbb0'],
+    'Import/Export': ['I/E', '#7a8f5e'], 'Logic Reference': ['REF', '#f3a06a']
+  };
+  var CATEGORY_ORDER = ['Structures', 'Logic Reference', 'Structure Kits', 'Atmospherics',
+    'Organics and Food', 'Logic Devices', 'Electronics', 'Personal', 'Reagents', 'Furniture',
+    'Import/Export', 'Gases', 'Rockets', 'Ingots', 'Fabricators', 'Ores', 'Cartridges',
+    'Hand Tools', 'Genetics', 'Trading'];
+
+  var PLACEHOLDERS = {
+    universe: 'Search a device, item, or LogicType... (e.g. "volume pump", "invar", "LogicType.Setting")',
+    guides: 'Search guides and lore...',
+    functions: 'Search IC10 functions... (e.g. "add", "lbn", "HASH")'
+  };
+
+  var state = { tab: 'universe', category: null };
   var activeBtn = null;
-  function showPage(page, btn) {
+
+  function selectRow(btn) {
     if (activeBtn) activeBtn.classList.remove('active');
     if (btn) { btn.classList.add('active'); activeBtn = btn; }
+  }
+
+  function showPage(page, btn) {
+    selectRow(btn);
     var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">'
       : (page.g ? gasBadgeHtml(page.g, 'detail-icon') : '');
     detailEl.innerHTML =
@@ -556,47 +719,171 @@
     detailEl.scrollTop = 0;
   }
 
-  function render(query) {
+  function showFunction(fn, btn) {
+    selectRow(btn);
+    var html = '<div class="detail-header"><div class="detail-header-text"><h2>' + escapeHtml(fn.n) + '</h2></div></div>';
+    if (fn.cat) html += '<div class="func-cat-pill">' + escapeHtml(fn.cat) + '</div>';
+    if (fn.sig) html += '<div class="func-signature">' + escapeHtml(fn.sig) + '</div>';
+    html += fn.d
+      ? '<p>' + escapeHtml(fn.d) + '</p>'
+      : '<p class="func-no-desc">No description text could be extracted for this instruction (the game only builds this data inside a live, rendered script-editor window) - the full opcode name above is confirmed real either way.</p>';
+    detailEl.innerHTML = html;
+    detailEl.scrollTop = 0;
+  }
+
+  function makeResultRow(html) {
+    var btn = document.createElement('button');
+    btn.className = 'result-item';
+    btn.innerHTML = html;
+    return btn;
+  }
+
+  function renderCategoryGrid() {
+    mainEl.classList.add('category-mode');
+    var counts = {};
+    PAGES.forEach(function(p) { if (p.c && p.c !== 'Guide' && p.c !== 'Lore') counts[p.c] = (counts[p.c] || 0) + 1; });
+    var order = CATEGORY_ORDER.filter(function(c) { return counts[c]; });
+    Object.keys(counts).forEach(function(c) { if (order.indexOf(c) === -1) order.push(c); });
+
+    var grid = document.createElement('div');
+    grid.className = 'category-grid';
+    order.forEach(function(c) {
+      var info = CATEGORY_INFO[c] || [c.slice(0, 3).toUpperCase(), '#d97b4a'];
+      var tile = document.createElement('button');
+      tile.className = 'category-tile';
+      tile.style.setProperty('--cat-color', info[1]);
+      tile.style.setProperty('--cat-bg', info[1] + '1a');
+      tile.innerHTML = '<span class="category-badge">' + escapeHtml(info[0]) + '</span>' +
+        '<span class="category-tile-text"><span class="category-tile-name">' + escapeHtml(c) + '</span>' +
+        '<span class="category-tile-count">' + counts[c].toLocaleString() + ' entries</span></span>';
+      tile.addEventListener('click', function() { state.category = c; render(''); });
+      grid.appendChild(tile);
+    });
+
+    resultsEl.innerHTML = '';
+    resultsEl.appendChild(grid);
+    countEl.textContent = order.length + ' categories';
+    detailEl.innerHTML = '<div id="empty">Select a category above, or search across everything.</div>';
+  }
+
+  function renderUniverse(query) {
     var q = query.trim().toLowerCase();
+    if (q === '' && !state.category) { renderCategoryGrid(); return; }
+
+    var pool = PAGES.filter(function(p) { return p.c !== 'Guide' && p.c !== 'Lore'; });
+    if (state.category) pool = pool.filter(function(p) { return p.c === state.category; });
+
     var matches;
     if (q === '') {
-      matches = PAGES;
+      matches = pool;
     } else {
       var titleMatches = [], bodyMatches = [];
-      for (var i = 0; i < PAGES.length; i++) {
-        var p = PAGES[i];
-        if (p.t.toLowerCase().indexOf(q) !== -1) { titleMatches.push(p); continue; }
-        if (p.b.toLowerCase().indexOf(q) !== -1) bodyMatches.push(p);
-      }
+      pool.forEach(function(p) {
+        if (p.t.toLowerCase().indexOf(q) !== -1) titleMatches.push(p);
+        else if (p.b.toLowerCase().indexOf(q) !== -1) bodyMatches.push(p);
+      });
       matches = titleMatches.concat(bodyMatches);
     }
 
-    countEl.textContent = matches.length.toLocaleString() + ' result' + (matches.length === 1 ? '' : 's');
     resultsEl.innerHTML = '';
     activeBtn = null;
 
+    if (state.category) {
+      var crumb = document.createElement('div');
+      crumb.className = 'breadcrumb';
+      crumb.innerHTML = '<button>&larr; Categories</button><span class="sep">/</span><span class="current">' + escapeHtml(state.category) + '</span>';
+      crumb.querySelector('button').addEventListener('click', function() { state.category = null; searchBox.value = ''; render(''); });
+      resultsEl.appendChild(crumb);
+    }
+
+    countEl.textContent = matches.length.toLocaleString() + ' result' + (matches.length === 1 ? '' : 's');
     var cap = matches.slice(0, 300);
     var frag = document.createDocumentFragment();
     cap.forEach(function(p) {
-      var btn = document.createElement('button');
-      btn.className = 'result-item';
       var icon = p.i ? '<img class="result-icon" src="' + escapeHtml(p.i) + '" alt="" loading="lazy" onerror="this.remove()">'
         : (p.g ? gasBadgeHtml(p.g, 'result-icon') : '');
-      btn.innerHTML = icon + '<span class="result-text">' + escapeHtml(p.t) + '</span>';
-      btn.addEventListener('click', function(){ showPage(p, btn); });
+      var btn = makeResultRow(icon + '<span class="result-text">' + escapeHtml(p.t) + '</span>');
+      btn.addEventListener('click', function() { showPage(p, btn); });
       frag.appendChild(btn);
     });
     resultsEl.appendChild(frag);
 
-    if (q !== '' && cap.length > 0) showPage(cap[0], resultsEl.firstChild);
-    else if (cap.length === 0) detailEl.innerHTML = '<div id="empty">No matches for that search.</div>';
-    else detailEl.innerHTML = '<div id="empty">Type to search, or select an entry from the index.</div>';
+    var firstRow = resultsEl.querySelector('.result-item');
+    if (cap.length > 0) showPage(cap[0], firstRow);
+    else detailEl.innerHTML = '<div id="empty">No matches for that search.</div>';
   }
+
+  function renderGuides(query) {
+    var q = query.trim().toLowerCase();
+    var pool = PAGES.filter(function(p) { return p.c === 'Guide' || p.c === 'Lore'; });
+    var matches = q === '' ? pool : pool.filter(function(p) {
+      return p.t.toLowerCase().indexOf(q) !== -1 || p.b.toLowerCase().indexOf(q) !== -1;
+    });
+
+    resultsEl.innerHTML = '';
+    activeBtn = null;
+    countEl.textContent = matches.length + ' guide' + (matches.length === 1 ? '' : 's');
+    var frag = document.createDocumentFragment();
+    matches.forEach(function(p) {
+      var tag = p.c === 'Lore' ? ' <span style="color:var(--text-faint);font-size:10px">(Lore)</span>' : '';
+      var btn = makeResultRow('<span class="result-text">' + escapeHtml(p.t) + tag + '</span>');
+      btn.addEventListener('click', function() { showPage(p, btn); });
+      frag.appendChild(btn);
+    });
+    resultsEl.appendChild(frag);
+
+    if (matches.length > 0) showPage(matches[0], resultsEl.firstChild);
+    else detailEl.innerHTML = '<div id="empty">No guides found.</div>';
+  }
+
+  function renderFunctions(query) {
+    var q = query.trim().toLowerCase();
+    var matches = q === '' ? FUNCTIONS : FUNCTIONS.filter(function(f) {
+      return f.n.toLowerCase().indexOf(q) !== -1
+        || (f.d && f.d.toLowerCase().indexOf(q) !== -1)
+        || (f.sig && f.sig.toLowerCase().indexOf(q) !== -1);
+    });
+
+    resultsEl.innerHTML = '';
+    activeBtn = null;
+    countEl.textContent = matches.length + ' function' + (matches.length === 1 ? '' : 's');
+    var frag = document.createDocumentFragment();
+    matches.forEach(function(fn) {
+      var btn = makeResultRow('<span class="result-text">' + escapeHtml(fn.n) + '</span>');
+      btn.className += ' func-item';
+      btn.addEventListener('click', function() { showFunction(fn, btn); });
+      frag.appendChild(btn);
+    });
+    resultsEl.appendChild(frag);
+
+    if (matches.length > 0) showFunction(matches[0], resultsEl.firstChild);
+    else detailEl.innerHTML = '<div id="empty">No functions found.</div>';
+  }
+
+  function render(query) {
+    query = query || '';
+    mainEl.classList.remove('category-mode');
+    if (state.tab === 'universe') renderUniverse(query);
+    else if (state.tab === 'guides') renderGuides(query);
+    else renderFunctions(query);
+  }
+
+  Array.prototype.slice.call(document.querySelectorAll('.tab-btn')).forEach(function(tabBtn) {
+    tabBtn.addEventListener('click', function() {
+      document.querySelectorAll('.tab-btn').forEach(function(x) { x.classList.remove('active'); });
+      tabBtn.classList.add('active');
+      state.tab = tabBtn.getAttribute('data-tab');
+      state.category = null;
+      searchBox.value = '';
+      searchBox.placeholder = PLACEHOLDERS[state.tab];
+      render('');
+    });
+  });
 
   var debounceTimer;
   searchBox.addEventListener('input', function() {
     clearTimeout(debounceTimer);
-    debounceTimer = setTimeout(function(){ render(searchBox.value); }, 80);
+    debounceTimer = setTimeout(function() { render(searchBox.value); }, 80);
   });
 
   render('');
