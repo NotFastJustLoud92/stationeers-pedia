@@ -15,8 +15,10 @@
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -35,8 +37,10 @@
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -55,8 +59,10 @@
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -77,8 +83,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -97,8 +105,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -117,8 +127,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -137,8 +149,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -157,8 +171,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -177,8 +193,10 @@ Overalls that can be coloured using the Spray Paints.
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -504,8 +522,10 @@ When the sun sets and the Mining Drill runs dead, its batteries drained and your
 - **Memory Access:** None
 - **Paintable:** No
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -820,8 +840,10 @@ Three centuries of pharmaceutical technology compressed into one small, easy to 
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.67 kK (1400oC)
-**Build Steps:**
-  - PrinterName=Chemistry Station, TierName=Tier One, Description=1 x Silver from Ingot (Silver), Ore (Silver) 10 x Fenoxitone from Fern 1 x Cobalt from Ore (Cobalt) , PageLink=ThingApplianceChemistryStation
+**Build Recipe:**
+  - Printer: Chemistry Station (Tier One)
+    - 1 x Silver (from Ingot (Silver), Ore (Silver)) + 10 x Fenoxitone (from Fern) + 1 x Cobalt (from Ore (Cobalt))
+
 
 ---
 
@@ -840,8 +862,10 @@ Through rarely publicized, the existence of this pill is an open secret. For use
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Chemistry Station, TierName=Tier One, Description=4 x Carbon from Charcoal 10 x Fenoxitone from Fern , PageLink=ThingApplianceChemistryStation
+**Build Recipe:**
+  - Printer: Chemistry Station (Tier One)
+    - 4 x Carbon (from Charcoal) + 10 x Fenoxitone (from Fern)
+
 
 ---
 
@@ -1133,8 +1157,10 @@ Apply to an Hydraulic Pipe Bender with a Welding Torch or Arc Welder to upgrade 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=72000 x Energy 35 x Steel from Ingot (Steel) 8 x Electrum from Ingot (Electrum) 8 x Constantan from Ingot (Constantan) 8 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 72000 x Energy + 35 x Steel (from Ingot (Steel)) + 8 x Electrum (from Ingot (Electrum)) + 8 x Constantan (from Ingot (Constantan)) + 8 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1170,8 +1196,10 @@ This creates a Pipe Cowl that can be placed on the end of pipes to expose them t
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Passive Vent (Pipe Cowl), PrefabHash=465816159, PageLink=ThingStructurePipeCowl
 
@@ -1238,8 +1266,10 @@ Creates a Pipe Heater (Gas).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 3 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Pipe Heater (Gas), PrefabHash=-419758574, PageLink=ThingStructurePipeHeater
 
@@ -1258,8 +1288,10 @@ Creates a Pipe Heater (Liquid).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 3 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Pipe Heater (Liquid), PrefabHash=-287495560, PageLink=ThingStructureLiquidPipeHeater
 
@@ -1396,8 +1428,10 @@ The Genetic Analyzer can be used to process samples from the Plant Sampler. Once
 - **Paintable:** Yes
 **Slots:**
   - SlotName=Input, SlotType=Input, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=4500 x Energy 1 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 4500 x Energy + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
+
 
 ---
 
@@ -1414,8 +1448,10 @@ The Genetic Splicer can be used to copy a single gene from one 'source' plant to
 **Slots:**
   - SlotName=Source Plant, SlotType=Source Plant, SlotIndex=0
   - SlotName=Target Plant, SlotType=Target Plant, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=5000 x Energy 20 x Stellite from Ingot (Stellite) 10 x Inconel from Ingot (Inconel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 5000 x Energy + 20 x Stellite (from Ingot (Stellite)) + 10 x Inconel (from Ingot (Inconel))
+
 
 ---
 
@@ -1431,8 +1467,10 @@ The Genetic Stabilizer can be used to manipulate gene stability on a specific Pl
 - **Paintable:** Yes
 **Slots:**
   - SlotName=Plant, SlotType=Plant, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=5000 x Energy 20 x Stellite from Ingot (Stellite) 10 x Inconel from Ingot (Inconel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 5000 x Energy + 20 x Stellite (from Ingot (Stellite)) + 10 x Inconel (from Ingot (Inconel))
+
 **Mode Options:**
   - LogicName=Stabilize, LogicAccessTypes=0
   - LogicName=Destabilize, LogicAccessTypes=1
@@ -1463,8 +1501,10 @@ The Plant Sampler allows you to take a gene sample of a growing plant. The sampl
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1513,8 +1553,10 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 0.5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 0.5 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1547,8 +1589,10 @@ A small planter for decorative or hydroponic purposes. Can be connected to Water
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=2000 x Energy 4 x Copper from Ingot (Copper) 6 x Steel from Ingot (Steel) 4 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 2000 x Energy + 4 x Copper (from Ingot (Copper)) + 6 x Steel (from Ingot (Steel)) + 4 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Default, LogicAccessTypes=0
   - LogicName=Flatten, LogicAccessTypes=1
@@ -1704,8 +1748,10 @@ A simple composting device, the basic composter creates Fertilizer out of organi
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Battery, SlotType=Battery, SlotIndex=2
   - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=20000 x Energy 15 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 20000 x Energy + 15 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1804,8 +1850,10 @@ Philippe Starck might not applaud, but this battery-powered light source undarke
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1874,8 +1922,10 @@ This portable tank stores liquid and is fully insulated. You can bolt one to a P
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=200 x Energy 5 x Iron from Ingot (Iron) 3 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 200 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -2022,9 +2072,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=4 x Egg from Egg, Egg , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=4 x Egg from Egg, Egg , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 4 x Egg (from Egg, Egg)
+  - Printer: Microwave (Tier One)
+    - 4 x Egg (from Egg, Egg)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine

@@ -96,8 +96,10 @@ An advanced and stronger version of Iron Frames, steel frames are placed by righ
 - **Stack Size:** 30
 - **Paintable:** Yes
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=800 x Energy 2 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 800 x Energy + 2 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Steel Frame, PrefabHash=1432512808, PageLink=ThingStructureFrame
   - NameOfThing=Steel Frame (Side), PrefabHash=-302420053, PageLink=ThingStructureFrameSide
@@ -117,8 +119,10 @@ An advanced building material, Ingot (Steel) sheets are used when constructing a
 - **Memory Access:** None
 - **Stack Size:** 50
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 0.5 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 0.5 x Steel (from Ingot (Steel))
+
 
 ---
 
@@ -142,8 +146,10 @@ A stronger glass substitute.
 - **Memory Access:** None
 - **Stack Size:** 50
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 2 x Silicon from Ingot (Silicon) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 2 x Silicon (from Ingot (Silicon)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -875,8 +881,10 @@ Connects to Logic Transmitter
   - SlotName=Tool, SlotType=Tool, SlotIndex=9
   - SlotName=None, SlotType=None, SlotIndex=10
   - SlotName=None, SlotType=None, SlotIndex=11
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=12000 x Energy 5 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 10 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 12000 x Energy + 5 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder)) + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -957,8 +965,10 @@ Connects to Logic Transmitter
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
   - SlotName=Tablet, SlotType=Tablet, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=750 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 750 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1058,8 +1068,10 @@ In order to control the temperature of a system, we have to either add heat to i
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Dirt Canister, SlotType=Dirt Canister, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1800 x Energy 10 x Steel from Ingot (Steel) 2 x Electrum from Ingot (Electrum) 1 x Invar from Ingot (Invar) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1800 x Energy + 10 x Steel (from Ingot (Steel)) + 2 x Electrum (from Ingot (Electrum)) + 1 x Invar (from Ingot (Invar)) + 5 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1220,9 +1232,12 @@ Made using Cooked Tomatos and an Empty Can in a Basic Packaging Machine or Advan
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Tomato from Cooked Tomato , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Tomato from Cooked Tomato , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Tomato (from Cooked Tomato)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Tomato (from Cooked Tomato)
+
 
 ---
 
@@ -1245,8 +1260,10 @@ If there's one piece of equipment that embodies Stationeer life above all else, 
   - SlotName=Tool, SlotType=Tool, SlotIndex=5
   - SlotName=Tool, SlotType=Tool, SlotIndex=6
   - SlotName=Tool, SlotType=Tool, SlotIndex=7
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1282,8 +1299,10 @@ A large, ten-slot tool belt with two extra generic slots for carrying whatever t
   - SlotName=Tool, SlotType=Tool, SlotIndex=9
   - SlotName=None, SlotType=None, SlotIndex=10
   - SlotName=None, SlotType=None, SlotIndex=11
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 3 x Iron from Ingot (Iron) 5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 5 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -1345,8 +1364,10 @@ Apply to an Tool Manufactory with a Welding Torch or Arc Welder to upgrade for i
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=72000 x Energy 35 x Steel from Ingot (Steel) 8 x Electrum from Ingot (Electrum) 8 x Constantan from Ingot (Constantan) 8 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 72000 x Energy + 35 x Steel (from Ingot (Steel)) + 8 x Electrum (from Ingot (Electrum)) + 8 x Constantan (from Ingot (Constantan)) + 8 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1382,8 +1403,10 @@ The length of time a plant can stay above its toxins resistance threshold before
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
 
 ---
 
@@ -1410,8 +1433,10 @@ The length of time a plant can stay above its toxins resistance threshold before
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -2009,8 +2034,10 @@ Shifts 10 times more liquid than a basic Volume Pump, with a mode that can be se
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=3
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=4
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 

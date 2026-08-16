@@ -132,8 +132,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -148,8 +150,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -164,8 +168,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -180,8 +186,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -196,8 +204,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -212,8 +222,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -228,8 +240,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -244,8 +258,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -260,8 +276,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -276,8 +294,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -292,8 +312,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -308,8 +330,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -324,8 +348,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -340,8 +366,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -356,8 +384,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -372,8 +402,10 @@ Has been replaced by Medium Convection Radiator Liquid.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2500 x Energy 5 x Iron from Ingot (Iron) 5 x Silver from Ingot (Silver) 1 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Silver (from Ingot (Silver)) + 1 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -517,8 +549,10 @@ While countless 'better' ways of cooking Food have been invented in the last few
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
   - SlotName=Output, SlotType=Output, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Resources Used:**
   - NameOfThing=Cheese, PrefabHash=1695894944, PageLink=ThingItemCheeseWedge
   - NameOfThing=Cocoa Powder, PrefabHash=457286516, PageLink=ThingItemCocoaPowder
@@ -621,8 +655,10 @@ Full disclosure, it's not actually 'milk', but an Agrizero-invented synthesis of
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Chemistry Station, TierName=Tier One, Description=5 x Oil from Soy Oil 5 x Fenoxitone from Fern , PageLink=ThingApplianceChemistryStation
+**Build Recipe:**
+  - Printer: Chemistry Station (Tier One)
+    - 5 x Oil (from Soy Oil) + 5 x Fenoxitone (from Fern)
+
 **Used In:**
   - NameOfThing=Microwave, PrefabHash=-1136173965, PageLink=ThingApplianceMicrowave
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
@@ -672,8 +708,10 @@ You can mine ore using a Mining Drill. If you wear a Mining Belt the ore will au
   - SlotName=Ore, SlotType=Ore, SlotIndex=21
   - SlotName=Ore, SlotType=Ore, SlotIndex=22
   - SlotName=Ore, SlotType=Ore, SlotIndex=23
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=800 x Energy 6 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 800 x Energy + 6 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -698,8 +736,10 @@ Originally developed by Recurso Espaciais for asteroid mining, the Stationeer's 
   - SlotName=Ore, SlotType=Ore, SlotIndex=7
   - SlotName=Ore, SlotType=Ore, SlotIndex=8
   - SlotName=Ore, SlotType=Ore, SlotIndex=9
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -738,8 +778,10 @@ A larger and more capacious mining belt, the Mk II is similar to the Mining Belt
   - SlotName=Ore, SlotType=Ore, SlotIndex=12
   - SlotName=Ore, SlotType=Ore, SlotIndex=13
   - SlotName=Ore, SlotType=Ore, SlotIndex=14
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=1000 x Energy 10 x Steel from Ingot (Steel) 5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 1000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -756,9 +798,12 @@ A low cost, high yield explosive with a 10 second timer.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 3 x Silicon from Ingot (Silicon) , PageLink=ThingStructureSecurityPrinter
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=6000 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Silicon (from Ingot (Silicon))
+  - Printer: Tool Manufactory (Tier One)
+    - 6000 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 5 x Silicon (from Ingot (Silicon))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -790,8 +835,10 @@ The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick d
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Default, LogicAccessTypes=0
   - LogicName=Flatten, LogicAccessTypes=1
@@ -823,8 +870,10 @@ Sometimes mining trips require something a little bigger to bring home the goods
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=2500 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 10 x Invar from Ingot (Invar) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Default, LogicAccessTypes=0
   - LogicName=Flatten, LogicAccessTypes=1
@@ -862,8 +911,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel))
+
 
 ---
 
@@ -876,8 +927,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel))
+
 
 ---
 
@@ -890,8 +943,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) 10 x Invar from Ingot (Invar) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Invar (from Ingot (Invar))
+
 
 ---
 
@@ -904,8 +959,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) 10 x Invar from Ingot (Invar) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Invar (from Ingot (Invar))
+
 
 ---
 
@@ -918,8 +975,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) 10 x Electrum from Ingot (Electrum) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -932,8 +991,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) 10 x Invar from Ingot (Invar) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Invar (from Ingot (Invar))
+
 
 ---
 
@@ -946,8 +1007,10 @@ Replaceable drill head for Rocket Miner
 - **Memory Access:** None
 - **Stack Size:** 100
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 20 x Steel from Ingot (Steel) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Constantan (from Ingot (Constantan))
+
 
 ---
 
@@ -976,8 +1039,10 @@ Angles-be-gone with the trusty angle grinder. The MK II is more resistant to tem
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Copper from Ingot (Copper) 4 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper)) + 4 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1004,8 +1069,10 @@ Angles-be-gone with the trusty angle grinder. The MK II is more resistant to tem
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=2500 x Energy 10 x Steel from Ingot (Steel) 14 x Electrum from Ingot (Electrum) 5 x Invar from Ingot (Invar) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 14 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1021,8 +1088,10 @@ Recurso's entry-level crowbar is useful in a variety of everyday Stationeer sett
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 5 x Iron from Ingot (Iron) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1051,8 +1120,10 @@ The ExMin Off-whirled Hand Drill has been a companion to Stationeers for decades
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 5 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1069,8 +1140,10 @@ In the distant past, one of Earth's great champions taught a generation of 'Fix-
 - **Paintable:** No
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1099,8 +1172,10 @@ The handheld 'Topo' tri-cone rotary mining drill was made for one thing: quick d
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 3 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper)) + 5 x Electrum (from Ingot (Electrum))
+
 **Mode Options:**
   - LogicName=Default, LogicAccessTypes=0
   - LogicName=Flatten, LogicAccessTypes=1
@@ -1119,8 +1194,10 @@ This standard issue frictional adherence adjustor is a top of the line, bi-rotat
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 2 x Iron from Ingot (Iron) 2 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1136,8 +1213,10 @@ Wirecutters allow you to deconstruct various structures, as well as cross-lay ca
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 3 x Iron from Ingot (Iron) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 5 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1153,8 +1232,10 @@ One of humanity's enduring contributions to the cosmos, the wrench represents th
 - **Paintable:** Yes
 - **Flashpoint:** 873 K (600oC)
 - **Auto Ignition:** 973 K (700oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=500 x Energy 3 x Iron from Ingot (Iron) 3 x Electrum from Ingot (Electrum) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 3 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1170,8 +1251,10 @@ Can't decide which mode you love most? This circuit board allows you to switch a
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1246,9 +1329,12 @@ A delicious, semi-healthful snack, nothing comforts a Stationeer 800 million kil
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour 10 x Milk from Milk 1 x Egg from Egg, Egg , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour 10 x Milk from Milk 1 x Egg from Egg, Egg , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour) + 10 x Milk (from Milk) + 1 x Egg (from Egg, Egg)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour) + 10 x Milk (from Milk) + 1 x Egg (from Egg, Egg)
+
 
 ---
 
@@ -1346,8 +1432,10 @@ Grow a Mushroom.
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=2750 x Energy 5 x Steel from Ingot (Steel) 5 x Silicon from Ingot (Silicon) 10 x Hastelloy from Ingot (Hastelloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 2750 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Silicon (from Ingot (Silicon)) + 10 x Hastelloy (from Ingot (Hastelloy))
+
 
 ---
 
@@ -1615,8 +1703,10 @@ Humanity wouldn't have got to space without humble, combustible coal. Burn it in
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Hydrocarbon , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Hydrocarbon
+
 **Found In Gas:**
   - NameOfThing=Pollutant, QuantityOfThing=3 mol
   - NameOfThing=Carbon Dioxide, QuantityOfThing=10 mol
@@ -1641,8 +1731,10 @@ Cobalt is a chemical element with the symbol "Co" and is typically found in only
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Cobalt , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Cobalt
+
 **Found In Gas:**
   - NameOfThing=Nitrogen, QuantityOfThing=3 mol
   - NameOfThing=Methane, QuantityOfThing=1 mol
@@ -1667,8 +1759,10 @@ Copper is a chemical element with the symbol "Cu". This common and highly conduc
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Copper , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Copper
+
 **Found In Gas:**
   - NameOfThing=Nitrogen, QuantityOfThing=0.5 mol
   - NameOfThing=Carbon Dioxide, QuantityOfThing=1 mol
@@ -1694,8 +1788,10 @@ Surprisingly common throughout the Solar System, Gold is thought to originate in
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Gold , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Gold
+
 **Found In Gas:**
   - NameOfThing=Oxygen, QuantityOfThing=0.2 mol
   - NameOfThing=Nitrogen, QuantityOfThing=0.5 mol
@@ -1722,8 +1818,10 @@ Abundant throughout the Solar System, iron is the ore most commonly used by Stat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Iron , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Iron
+
 **Found In Gas:**
   - NameOfThing=Carbon Dioxide, QuantityOfThing=0.5 mol
   - NameOfThing=Pollutant, QuantityOfThing=2 mol
@@ -1748,8 +1846,10 @@ Lead is a chemical element with the symbol "Pb". It is a dense, heavy metal with
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Lead , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Lead
+
 **Found In Gas:**
   - NameOfThing=Nitrous Oxide, QuantityOfThing=0.4 mol
   - NameOfThing=Nitrogen, QuantityOfThing=1 mol
@@ -1776,8 +1876,10 @@ Nickel is a chemical element with the symbol "Ni" and is a rare metal commonly u
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Nickel , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Nickel
+
 **Found In Gas:**
   - NameOfThing=Nitrogen, QuantityOfThing=0.5 mol
   - NameOfThing=Carbon Dioxide, QuantityOfThing=1 mol
@@ -1803,8 +1905,10 @@ Silicon is a chemical element with the symbol "Si" and is one of the most useful
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Silicon , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Silicon
+
 **Found In Gas:**
   - NameOfThing=Nitrogen, QuantityOfThing=1 mol
   - NameOfThing=Carbon Dioxide, QuantityOfThing=1 mol
@@ -1830,8 +1934,10 @@ Silver is a chemical element with the symbol "Ag". Valued by many Stationeers fo
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Silver , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Silver
+
 **Found In Gas:**
   - NameOfThing=Nitrogen, QuantityOfThing=0.4 mol
   - NameOfThing=Nitrous Oxide, QuantityOfThing=1 mol
@@ -1858,8 +1964,10 @@ In 1934, Enrico Fermi noticed that bombarding uranium with neutrons produced a b
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Uranium , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Uranium
+
 **Found In Gas:**
   - NameOfThing=Pollutant, QuantityOfThing=35 mol
 **Used In:**
@@ -1894,8 +2002,10 @@ A device for locating specific ores. The closer the player is to the selected ty
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 2 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Iron, LogicAccessTypes=0
   - LogicName=Coal, LogicAccessTypes=1
@@ -1942,8 +2052,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1962,8 +2074,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1982,8 +2096,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -2002,8 +2118,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -2022,8 +2140,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -2042,8 +2162,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -2062,8 +2184,10 @@ These are items that are mined and can often be smelted. You can also get mixed 
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 25 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 25 x Silicon (from Ingot (Silicon))
+
 
 ---
 

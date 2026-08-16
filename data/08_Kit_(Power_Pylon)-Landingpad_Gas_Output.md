@@ -13,8 +13,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=24000 x Energy 15 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 24000 x Energy + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Power Pylon Terminus, PrefabHash=-1234910677, PageLink=ThingStructurePowerPylonTerminus
   - NameOfThing=Power Pylon, PrefabHash=980657345, PageLink=ThingStructurePowerPylon
@@ -32,8 +34,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 4 x Gold from Ingot (Gold) 8 x Copper from Ingot (Copper) 4 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 8 x Copper (from Ingot (Copper)) + 4 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Power Transmitter Omni, PrefabHash=-327468845, PageLink=ThingStructurePowerTransmitterOmni
 
@@ -50,8 +54,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Gold from Ingot (Gold) 7 x Copper from Ingot (Copper) 3 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 7 x Copper (from Ingot (Copper)) + 3 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Microwave Power Transmitter, PrefabHash=-65087121, PageLink=ThingStructurePowerTransmitter
   - NameOfThing=Microwave Power Receiver, PrefabHash=1195820278, PageLink=ThingStructurePowerTransmitterReceiver
@@ -69,8 +75,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 5 x Gold from Ingot (Gold) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Umbilical Socket (Power), PrefabHash=101488029, PageLink=ThingStructurePowerUmbilicalFemale
   - NameOfThing=Umbilical Socket Angle (Power), PrefabHash=1922506192, PageLink=ThingStructurePowerUmbilicalFemaleSide
@@ -89,9 +97,12 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 2 x Electrum from Ingot (Electrum) 2 x Constantan from Ingot (Constantan) , PageLink=ThingStructureAutolathe
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 2 x Electrum from Ingot (Electrum) 2 x Constantan from Ingot (Constantan) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Electrum (from Ingot (Electrum)) + 2 x Constantan (from Ingot (Constantan))
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Electrum (from Ingot (Electrum)) + 2 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Chute Digital Valve Right, PrefabHash=-1337091041, PageLink=ThingStructureChuteDigitalValveRight
   - NameOfThing=Chute Digital Valve Left, PrefabHash=648608238, PageLink=ThingStructureChuteDigitalValveLeft
@@ -111,8 +122,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Memory Access:** None
 - **Stack Size:** 5
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=1000 x Energy 5 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 2 x Invar from Ingot (Invar) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 1000 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 2 x Invar (from Ingot (Invar))
+
 **Constructed From Kits:**
   - NameOfThing=Powered Vent, PrefabHash=938836756, PageLink=ThingStructurePoweredVent
   - NameOfThing=Powered Vent Large, PrefabHash=-785498334, PageLink=ThingStructurePoweredVentLarge
@@ -130,8 +143,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 20 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 20 x Invar from Ingot (Invar) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 20 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 20 x Invar (from Ingot (Invar)) + 10 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Pressure Fed Gas Engine, PrefabHash=-624011170, PageLink=ThingStructurePressureFedGasEngine
 
@@ -148,8 +163,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 15 x Waspaloy from Ingot (Waspaloy) 5 x Inconel from Ingot (Inconel) 10 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 15 x Waspaloy (from Ingot (Waspaloy)) + 5 x Inconel (from Ingot (Inconel)) + 10 x Astroloy (from Ingot (Astroloy))
+
 **Constructed From Kits:**
   - NameOfThing=Pressure Fed Liquid Engine, PrefabHash=379750958, PageLink=ThingStructurePressureFedLiquidEngine
 
@@ -166,8 +183,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Pressure Regulator, PrefabHash=209854039, PageLink=ThingStructurePressureRegulator
   - NameOfThing=Back Pressure Regulator, PrefabHash=-1149857558, PageLink=ThingStructureBackPressureRegulator
@@ -187,8 +206,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Pumped Gas Engine, PrefabHash=-214232602, PageLink=ThingStructureGovernedGasEngine
 
@@ -205,8 +226,10 @@ Builds every part of a power pylon line. Two kits raise a Power Pylon, and one k
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 15 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 15 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Pumped Liquid Engine, PrefabHash=-2031440019, PageLink=ThingStructurePumpedLiquidEngine
 
@@ -239,8 +262,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Railing Elegant (Type 1), PrefabHash=399661231, PageLink=ThingRailingElegant01
   - NameOfThing=Railing Elegant (Type 2), PrefabHash=-1898247915, PageLink=ThingRailingElegant02
@@ -260,8 +285,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=12000 x Energy 20 x Iron from Ingot (Iron) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 12000 x Energy + 20 x Iron (from Ingot (Iron)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Recycler, PrefabHash=-1633947337, PageLink=ThingStructureRecycler
 
@@ -278,8 +305,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=700 x Energy 2 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 700 x Energy + 2 x Astroloy (from Ingot (Astroloy))
+
 **Constructed From Kits:**
   - NameOfThing=Reinforced Window (Composite), PrefabHash=2027713511, PageLink=ThingStructureReinforcedCompositeWindow
   - NameOfThing=Reinforced Window (Composite Steel), PrefabHash=-816454272, PageLink=ThingStructureReinforcedCompositeWindowSteel
@@ -318,8 +347,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=9000 x Energy 20 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 9000 x Energy + 20 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Gas Filtration, PrefabHash=-1061194321, PageLink=ThingStructureRocketFiltrationGas
   - NameOfThing=Rocket Gas Collector, PrefabHash=-1720125735, PageLink=ThingStructureRocketGasCollector
@@ -337,8 +368,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=10000 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 10000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Battery (Medium), PrefabHash=-1125305264, PageLink=ThingStructureBatteryMedium
   - NameOfThing=Auxiliary Rocket Battery , PrefabHash=-2123455080, PageLink=ThingStructureBatterySmall
@@ -356,8 +389,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=30000 x Energy 10 x Steel from Ingot (Steel) 5 x Invar from Ingot (Invar) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 30000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Invar (from Ingot (Invar)) + 10 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Cargo Storage (Small), PrefabHash=-1493672123, PageLink=ThingStructureCargoStorageSmall
   - NameOfThing=Cargo Storage (Medium), PrefabHash=1151864003, PageLink=ThingStructureCargoStorageMedium
@@ -375,8 +410,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 5 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Celestial Tracker, PrefabHash=997453927, PageLink=ThingStructureRocketCelestialTracker
 
@@ -393,8 +430,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 2 x Electrum from Ingot (Electrum) 3 x Solder from Ingot (Solder) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 2 x Electrum (from Ingot (Electrum)) + 3 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Circuit Housing, PrefabHash=150135861, PageLink=ThingStructureRocketCircuitHousing
 
@@ -411,8 +450,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 2 x Electrum from Ingot (Electrum) 3 x Solder from Ingot (Solder) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 2 x Electrum (from Ingot (Electrum)) + 3 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Logic Uplink, PrefabHash=546002924, PageLink=ThingStructureLogicRocketUplink
   - NameOfThing=Logic Uplink (Compact), PrefabHash=-124589902, PageLink=ThingStructureLogicRocketUplinkCompact
@@ -431,8 +472,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 5 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 5 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Gas Capsule Tank Small, PrefabHash=-1385712131, PageLink=ThingStructureCapsuleTankGas
   - NameOfThing=Gas Capsule Tank Medium, PrefabHash=-1093860567, PageLink=ThingStructureMediumRocketGasFuelTank
@@ -451,8 +494,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=30000 x Energy 10 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 30000 x Energy + 10 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Launch Tower, PrefabHash=-654619479, PageLink=ThingStructureRocketTower
 
@@ -469,8 +514,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=5000 x Energy 5 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 5000 x Energy + 5 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Liquid Capsule Tank Small, PrefabHash=1415396263, PageLink=ThingStructureCapsuleTankLiquid
   - NameOfThing=Liquid Capsule Tank Medium, PrefabHash=1143639539, PageLink=ThingStructureMediumRocketLiquidFuelTank
@@ -489,8 +536,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=12000 x Energy 20 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 12000 x Energy + 20 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Manufactory, PrefabHash=1781051034, PageLink=ThingStructureRocketManufactory
 
@@ -507,8 +556,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 5 x Invar from Ingot (Invar) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Miner, PrefabHash=-2087223687, PageLink=ThingStructureRocketMiner
 
@@ -525,8 +576,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 10 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 10 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Scanner, PrefabHash=2014252591, PageLink=ThingStructureRocketScanner
 
@@ -543,8 +596,10 @@ This kit creates a Pipe Convection Radiator.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=2000 x Energy 15 x Copper from Ingot (Copper) 80 x Steel from Ingot (Steel) 10 x Electrum from Ingot (Electrum) 5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 2000 x Energy + 15 x Copper (from Ingot (Copper)) + 80 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Rover MKI, PrefabHash=861674123, PageLink=ThingRover_MkI_build_states
 
@@ -577,8 +632,10 @@ This kit creates a Kit (RTG).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=700 x Energy 15 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 700 x Energy + 15 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=SDB Hopper, PrefabHash=-1875856925, PageLink=ThingStructureSDBHopper
   - NameOfThing=SDB Hopper Advanced, PrefabHash=467225612, PageLink=ThingStructureSDBHopperAdvanced
@@ -598,8 +655,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=24000 x Energy 20 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 24000 x Energy + 20 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=SDB Silo, PrefabHash=1155865682, PageLink=ThingStructureSDBSilo
 
@@ -616,8 +675,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=36000 x Energy 20 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 36000 x Energy + 20 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Security Printer, PrefabHash=-641491515, PageLink=ThingStructureSecurityPrinter
 
@@ -634,8 +695,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Daylight Sensor, PrefabHash=1076425094, PageLink=ThingStructureDaylightSensor
   - NameOfThing=Motion Sensor, PrefabHash=-1713470563, PageLink=ThingStructureMotionSensor
@@ -656,8 +719,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=3000 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) 5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 3000 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 5 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Shower, PrefabHash=-775128944, PageLink=ThingStructureShower
   - NameOfThing=Shower (Powered), PrefabHash=-1081797501, PageLink=ThingStructureShowerPowered
@@ -675,8 +740,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=100 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 100 x Energy + 3 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Sign 1x1, PrefabHash=879058460, PageLink=ThingStructureSign1x1
   - NameOfThing=Sign 2x1, PrefabHash=908320837, PageLink=ThingStructureSign2x1
@@ -694,8 +761,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=6000 x Energy 10 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 25 x Steel from Ingot (Steel) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 6000 x Energy + 10 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 25 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Sleeper Left, PrefabHash=1213495833, PageLink=ThingStructureSleeperLeft
   - NameOfThing=Sleeper Right, PrefabHash=-1812330717, PageLink=ThingStructureSleeperRight
@@ -713,8 +782,10 @@ This kit creates a SDB Silo.
 - **Memory Access:** None
 - **Stack Size:** 10
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Copper from Ingot (Copper) 3 x Steel from Ingot (Steel) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Copper (from Ingot (Copper)) + 3 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Small Direct Heat Exchanger - Gas + Gas, PrefabHash=1310303582, PageLink=ThingStructureSmallDirectHeatExchangeGastoGas
   - NameOfThing=Small Direct Heat Exchanger - Liquid + Gas , PrefabHash=1825212016, PageLink=ThingStructureSmallDirectHeatExchangeLiquidtoGas
@@ -733,8 +804,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Small Flag, PrefabHash=-1529819532, PageLink=ThingStructureFlagSmall
 
@@ -751,8 +824,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=6000 x Energy 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 6000 x Energy + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Small Satellite Dish, PrefabHash=-2138748650, PageLink=ThingStructureSmallSatelliteDish
 
@@ -769,8 +844,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=24000 x Energy 10 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 2 x Electrum from Ingot (Electrum) 10 x Invar from Ingot (Invar) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 24000 x Energy + 10 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 2 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar))
+
 **Constructed From Kits:**
   - NameOfThing=Solar Panel (Heavy Flat), PrefabHash=1697196770, PageLink=ThingStructureSolarPanelFlatReinforced
   - NameOfThing=Solar Panel (Heavy Angled), PrefabHash=930865127, PageLink=ThingStructureSolarPanel45Reinforced
@@ -788,8 +865,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1000 x Energy 10 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 10 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Solar Panel (Flat), PrefabHash=1968102968, PageLink=ThingStructureSolarPanelFlat
   - NameOfThing=Solar Panel (Angled), PrefabHash=-1554349863, PageLink=ThingStructureSolarPanel45
@@ -807,8 +886,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=24000 x Energy 20 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 15 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 24000 x Energy + 20 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 15 x Astroloy (from Ingot (Astroloy))
+
 **Constructed From Kits:**
   - NameOfThing=Solar Panel (Heavy), PrefabHash=-934345724, PageLink=ThingStructureSolarPanelReinforced
   - NameOfThing=Solar Panel (Heavy Dual), PrefabHash=-1545574413, PageLink=ThingStructureSolarPanelDualReinforced
@@ -828,8 +909,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=6000 x Energy 5 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 6000 x Energy + 5 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Solar Panel, PrefabHash=-2045627372, PageLink=ThingStructureSolarPanel
   - NameOfThing=Solar Panel (Dual), PrefabHash=-539224550, PageLink=ThingStructureSolarPanelDual
@@ -849,8 +932,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1000 x Energy 50 x Iron from Ingot (Iron) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 50 x Iron (from Ingot (Iron)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Generator (Solid Fuel), PrefabHash=813146305, PageLink=ThingStructureSolidFuelGenerator
 
@@ -867,8 +952,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Sorter, PrefabHash=-1009150565, PageLink=ThingStructureSorter
   - NameOfThing=Logic Sorter, PrefabHash=873418029, PageLink=ThingStructureLogicSorter
@@ -886,8 +973,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1000 x Energy 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Klaxon Speaker, PrefabHash=-828056979, PageLink=ThingStructureKlaxon
 
@@ -904,8 +993,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Stacker, PrefabHash=-2020231820, PageLink=ThingStructureStacker
   - NameOfThing=Stacker, PrefabHash=1585641623, PageLink=ThingStructureStackerReverse
@@ -925,8 +1016,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 15 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 15 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Stairs, PrefabHash=1405018945, PageLink=ThingStructureStairs4x2
   - NameOfThing=Stairs with Rails, PrefabHash=-1088008720, PageLink=ThingStructureStairs4x2Rails
@@ -946,9 +1039,12 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=6000 x Energy 15 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=6000 x Energy 15 x Iron from Ingot (Iron) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 6000 x Energy + 15 x Iron (from Ingot (Iron))
+  - Printer: Rocket Manufactory (Tier One)
+    - 6000 x Energy + 15 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Stairwell (Front Passthrough), PrefabHash=-1625452928, PageLink=ThingStructureStairwellFrontPassthrough
   - NameOfThing=Stairwell (Back Passthrough), PrefabHash=-862048392, PageLink=ThingStructureStairwellBackPassthrough
@@ -971,8 +1067,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=6000 x Energy 5 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) 30 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 6000 x Energy + 5 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper)) + 30 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Stirling Engine, PrefabHash=-260316435, PageLink=ThingStructureStirlingEngine
 
@@ -989,8 +1087,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 15 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) 5 x Silver from Ingot (Silver) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 15 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 5 x Silver (from Ingot (Silver))
+
 **Constructed From Kits:**
   - NameOfThing=Suit Storage, PrefabHash=255034731, PageLink=ThingStructureSuitStorage
   - NameOfThing=Suit Storage Frame, PrefabHash=-504802150, PageLink=ThingStructureSuitStorageFrame
@@ -1009,8 +1109,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Powered Bench, PrefabHash=-2042448192, PageLink=ThingStructureBench
   - NameOfThing=Kitchen Table (Tall), PrefabHash=-1386237782, PageLink=ThingKitchenTableTall
@@ -1042,8 +1144,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=2000 x Energy 5 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 2000 x Energy + 5 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Small Tank, PrefabHash=-1474141050, PageLink=ThingStructureTankSmallInLine
   - NameOfThing=Large Tank, PrefabHash=-327575161, PageLink=ThingStructureTankBigInLine
@@ -1061,8 +1165,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=24000 x Energy 25 x Steel from Ingot (Steel) 15 x Electrum from Ingot (Electrum) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 24000 x Energy + 25 x Steel (from Ingot (Steel)) + 15 x Electrum (from Ingot (Electrum)) + 10 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Telescope, PrefabHash=-619745681, PageLink=ThingStructureGroundBasedTelescope
 
@@ -1079,8 +1185,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 15 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) 5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 15 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 5 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Modern Toilet, PrefabHash=768716816, PageLink=ThingStructureToiletModern
 
@@ -1097,8 +1205,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=24000 x Energy 20 x Iron from Ingot (Iron) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 24000 x Energy + 20 x Iron (from Ingot (Iron)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Tool Manufactory, PrefabHash=-465741100, PageLink=ThingStructureToolManufactory
 
@@ -1115,8 +1225,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=12000 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 12000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Transformer (Large), PrefabHash=-1423212473, PageLink=ThingStructureTransformer
 
@@ -1133,8 +1245,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=12000 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 12000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Transformer Small (Rocket), PrefabHash=518925193, PageLink=ThingStructureRocketTransformerSmall
 
@@ -1151,8 +1265,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Transformer (Small), PrefabHash=-890946730, PageLink=ThingStructureTransformerSmall
   - NameOfThing=Transformer Reversed (Small), PrefabHash=1054059374, PageLink=ThingStructureTransformerSmallReversed
@@ -1172,8 +1288,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1000 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Trigger Plate (Small), PrefabHash=-1536471028, PageLink=ThingStructurePressurePlateSmall
   - NameOfThing=Trigger Plate (Medium), PrefabHash=1269458680, PageLink=ThingStructurePressurePlateMedium
@@ -1192,8 +1310,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=500 x Energy 4 x Gold from Ingot (Gold) 4 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 4 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Turbo Volume Pump (Gas), PrefabHash=1310794736, PageLink=ThingStructureTurboVolumePump
 
@@ -1210,8 +1330,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=500 x Energy 4 x Gold from Ingot (Gold) 4 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 4 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Turbo Volume Pump (Liquid), PrefabHash=-1051805505, PageLink=ThingStructureLiquidTurboVolumePump
 
@@ -1228,8 +1350,10 @@ This kit creates a SDB Silo.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=12000 x Energy 10 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 12000 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Upright Wind Turbine, PrefabHash=1622183451, PageLink=ThingStructureUprightWindTurbine
 
@@ -1246,8 +1370,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=25000 x Energy 60 x Gold from Ingot (Gold) 40 x Steel from Ingot (Steel) 80 x Electrum from Ingot (Electrum) 30 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 25000 x Energy + 60 x Gold (from Ingot (Gold)) + 40 x Steel (from Ingot (Steel)) + 80 x Electrum (from Ingot (Electrum)) + 30 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Refrigerated Vending Machine, PrefabHash=-1577831321, PageLink=ThingStructureRefrigeratedVendingMachine
 
@@ -1264,8 +1390,10 @@ This kit creates a SDB Silo.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=7500 x Energy 25 x Gold from Ingot (Gold) 10 x Steel from Ingot (Steel) 25 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 7500 x Energy + 25 x Gold (from Ingot (Gold)) + 10 x Steel (from Ingot (Steel)) + 25 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Vending Machine, PrefabHash=-443130773, PageLink=ThingStructureVendingMachine
   - NameOfThing=Vending Machine Small, PrefabHash=19591354, PageLink=ThingStructureVendingMachineSmall
@@ -1283,8 +1411,10 @@ This kit creates a Volume Pump.
 - **Memory Access:** None
 - **Stack Size:** 5
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Volume Pump, PrefabHash=-321403609, PageLink=ThingStructureVolumePump
 
@@ -1303,8 +1433,10 @@ This kit creates a Wall Cooler.
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 1.07 kK (800oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Wall Cooler, PrefabHash=-739292323, PageLink=ThingStructureWallCooler
 
@@ -1323,8 +1455,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 1.07 kK (800oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Wall Heater, PrefabHash=24258244, PageLink=ThingStructureWallHeater
 
@@ -1341,8 +1475,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 1 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Composite Wall (Type 1), PrefabHash=1237302061, PageLink=ThingStructureCompositeWall
   - NameOfThing=Composite Wall (Type 2), PrefabHash=718343384, PageLink=ThingStructureCompositeWall02
@@ -1363,8 +1499,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=620 x Energy 5 x Iron from Ingot (Iron) 3 x Copper from Ingot (Copper) 8 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 620 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper)) + 8 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Waterbottle Filler, PrefabHash=-756587791, PageLink=ThingStructureWaterBottleFillerPowered
   - NameOfThing=Waterbottle Filler, PrefabHash=1986658780, PageLink=ThingStructureWaterBottleFillerPoweredBottom
@@ -1382,8 +1520,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=6000 x Energy 10 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 6000 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Water Purifier, PrefabHash=887383294, PageLink=ThingStructureWaterPurifier
 
@@ -1400,8 +1540,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=12000 x Energy 8 x Iron from Ingot (Iron) 3 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 3 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 12000 x Energy + 8 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 3 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Weather Station, PrefabHash=1997212478, PageLink=ThingStructureWeatherStation
 
@@ -1418,8 +1560,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=12000 x Energy 10 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 12000 x Energy + 10 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Wind Turbine, PrefabHash=-2082355173, PageLink=ThingStructureWindTurbine
 
@@ -1467,8 +1611,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Portable A Frame Sign (Stripes), PrefabHash=-52434020, PageLink=ThingDynamicAFrameStripes
 
@@ -1485,8 +1631,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Portable A Frame Sign (WIP), PrefabHash=-2056227038, PageLink=ThingDynamicAFrameWIP
 
@@ -1503,8 +1651,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Portable Barrier, PrefabHash=-573275518, PageLink=ThingDynamicBarrier
 
@@ -1521,8 +1671,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Portable Channelizer, PrefabHash=-1175477382, PageLink=ThingDynamicChannelizer
 
@@ -1539,8 +1691,10 @@ This kit creates a Kit (Wall Heater).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Portable Work Cone, PrefabHash=-1052087580, PageLink=ThingDynamicWorkCone
 
@@ -1716,9 +1870,12 @@ A labeller lets you set names and values on a variety of devices and structures,
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=800 x Energy 3 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 800 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
 
 ---
 

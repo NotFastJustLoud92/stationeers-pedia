@@ -431,8 +431,10 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=4000 x Energy 10 x Gold from Ingot (Gold) 4 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 4000 x Energy + 10 x Gold (from Ingot (Gold)) + 4 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 2 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -571,9 +573,12 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 4 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
-  - PrinterName=Terraforming Manufactory, TierName=Tier One, Description=200 x Energy 4 x Iron from Ingot (Iron) , PageLink=ThingStructureTerraformingManufactory
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 4 x Iron (from Ingot (Iron))
+  - Printer: Terraforming Manufactory (Tier One)
+    - 200 x Energy + 4 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Iron Frame, PrefabHash=-1240951678, PageLink=ThingStructureFrameIron
 
@@ -588,8 +593,10 @@ Insulated pipes greatly reduce heat loss from gases stored in them.
 - **Memory Access:** None
 - **Stack Size:** 50
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -716,8 +723,10 @@ The basic CHAC jetpack isn't 'technically' a jetpack, it's a gas thruster. It ca
   - SlotName=None, SlotType=None, SlotIndex=7
   - SlotName=None, SlotType=None, SlotIndex=8
   - SlotName=None, SlotType=None, SlotIndex=9
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1500 x Energy 2 x Gold from Ingot (Gold) 10 x Steel from Ingot (Steel) 5 x Lead from Ingot (Lead) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1500 x Energy + 2 x Gold (from Ingot (Gold)) + 10 x Steel (from Ingot (Steel)) + 5 x Lead (from Ingot (Lead))
+
 
 ---
 
@@ -736,8 +745,10 @@ The basic CHAC jetpack isn't 'technically' a jetpack, it's a gas thruster. It ca
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -752,9 +763,12 @@ The basic CHAC jetpack isn't 'technically' a jetpack, it's a gas thruster. It ca
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=15000 x Energy 2 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureAutolathe
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=9000 x Energy 3 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 15000 x Energy + 2 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder))
+  - Printer: Rocket Manufactory (Tier One)
+    - 9000 x Energy + 3 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Access Bridge, PrefabHash=1298920475, PageLink=ThingStructureAccessBridge
 
@@ -773,8 +787,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** Yes
 - **Flashpoint:** 1.47 kK (1200oC)
 - **Auto Ignition:** 8.27 kK (8000oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Active Vent, PrefabHash=-1129453144, PageLink=ThingStructureActiveVent
   - NameOfThing=Crew Module Active Vent, PrefabHash=-1817129150, PageLink=ThingStructureCrewModuleActiveVent
@@ -792,8 +808,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=20000 x Energy 15 x Copper from Ingot (Copper) 30 x Steel from Ingot (Steel) 20 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 20000 x Energy + 15 x Copper (from Ingot (Copper)) + 30 x Steel (from Ingot (Steel)) + 20 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Advanced Composter, PrefabHash=446212963, PageLink=ThingStructureAdvancedComposter
 
@@ -810,8 +828,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=36000 x Energy 5 x Gold from Ingot (Gold) 25 x Copper from Ingot (Copper) 30 x Steel from Ingot (Steel) 15 x Electrum from Ingot (Electrum) 8 x Solder from Ingot (Solder) 6 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 36000 x Energy + 5 x Gold (from Ingot (Gold)) + 25 x Copper (from Ingot (Copper)) + 30 x Steel (from Ingot (Steel)) + 15 x Electrum (from Ingot (Electrum)) + 8 x Solder (from Ingot (Solder)) + 6 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Advanced Furnace, PrefabHash=545937711, PageLink=ThingStructureAdvancedFurnace
 
@@ -828,8 +848,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=18000 x Energy 10 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) 15 x Electrum from Ingot (Electrum) 10 x Constantan from Ingot (Constantan) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 18000 x Energy + 10 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel)) + 15 x Electrum (from Ingot (Electrum)) + 10 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
 
@@ -846,8 +868,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=2200 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 22 x Steel from Ingot (Steel) 15 x Electrum from Ingot (Electrum) 7 x Invar from Ingot (Invar) 8 x Constantan from Ingot (Constantan) 10 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 2200 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 22 x Steel (from Ingot (Steel)) + 15 x Electrum (from Ingot (Electrum)) + 7 x Invar (from Ingot (Invar)) + 8 x Constantan (from Ingot (Constantan)) + 10 x Astroloy (from Ingot (Astroloy))
+
 **Constructed From Kits:**
   - NameOfThing=AIMeE Bot, PrefabHash=434786784, PageLink=ThingRobot
 
@@ -864,8 +888,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=5000 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 5000 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Airlock, PrefabHash=-2105052344, PageLink=ThingStructureAirlock
   - NameOfThing=Airlock Wide, PrefabHash=1941072263, PageLink=ThingStructureAirlockWide
@@ -883,8 +909,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=6000 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 6000 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Arc Furnace, PrefabHash=-247344692, PageLink=ThingStructureArcFurnace
 
@@ -901,8 +929,10 @@ When constructed, this kit places an Active Vent on any support structure.
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 1 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Wall (Arch), PrefabHash=-858143148, PageLink=ThingStructureWallArch
   - NameOfThing=Wall (Arch Arrow), PrefabHash=1649708822, PageLink=ThingStructureWallArchArrow
@@ -927,8 +957,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=5000 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) 3 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 5000 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper)) + 3 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Area Power Control, PrefabHash=1999523701, PageLink=ThingStructureAreaPowerControl
   - NameOfThing=Area Power Control (Reversed), PrefabHash=-1032513487, PageLink=ThingStructureAreaPowerControlReversed
@@ -946,8 +978,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=6000 x Energy 10 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 6000 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Air Conditioner, PrefabHash=-2087593337, PageLink=ThingStructureAirConditioner
   - NameOfThing=Filtration, PrefabHash=-348054045, PageLink=ThingStructureFiltration
@@ -969,8 +1003,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=36000 x Energy 20 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 36000 x Energy + 20 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
 
@@ -1003,8 +1039,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=15000 x Energy 10 x Gold from Ingot (Gold) 15 x Copper from Ingot (Copper) 25 x Steel from Ingot (Steel) 5 x Constantan from Ingot (Constantan) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 15000 x Energy + 10 x Gold (from Ingot (Gold)) + 15 x Copper (from Ingot (Copper)) + 25 x Steel (from Ingot (Steel)) + 5 x Constantan (from Ingot (Constantan)) + 10 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Automated Oven, PrefabHash=-1672404896, PageLink=ThingStructureAutomatedOven
 
@@ -1021,8 +1059,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=9000 x Energy 15 x Iron from Ingot (Iron) 15 x Copper from Ingot (Copper) 100 x Steel from Ingot (Steel) 50 x Electrum from Ingot (Electrum) 25 x Invar from Ingot (Invar) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 9000 x Energy + 15 x Iron (from Ingot (Iron)) + 15 x Copper (from Ingot (Copper)) + 100 x Steel (from Ingot (Steel)) + 50 x Electrum (from Ingot (Electrum)) + 25 x Invar (from Ingot (Invar))
+
 **Constructed From Kits:**
   - NameOfThing=Autominer (Small), PrefabHash=7274344, PageLink=ThingStructureAutoMinerSmall
 
@@ -1039,8 +1079,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 2 x Electrum from Ingot (Electrum) 3 x Solder from Ingot (Solder) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 2 x Electrum (from Ingot (Electrum)) + 3 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Rocket Avionics, PrefabHash=808389066, PageLink=ThingStructureRocketAvionics
 
@@ -1057,9 +1099,12 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Chute (Straight), PrefabHash=168307007, PageLink=ThingStructureChuteStraight
   - NameOfThing=Chute (Corner), PrefabHash=1360330136, PageLink=ThingStructureChuteCorner
@@ -1087,8 +1132,10 @@ This kit places a Area Power Control (APC) on any support structure. The APC kit
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Basket Hoop, PrefabHash=-1613497288, PageLink=ThingStructureBasketHoop
 
@@ -1107,8 +1154,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum))
+
 **Constructed From Kits:**
   - NameOfThing=Battery Cell Charger, PrefabHash=1945930022, PageLink=ThingStructureBatteryCharger
 
@@ -1125,8 +1174,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=96000 x Energy 35 x Gold from Ingot (Gold) 35 x Copper from Ingot (Copper) 35 x Steel from Ingot (Steel) 10 x Electrum from Ingot (Electrum) 5 x Silicon from Ingot (Silicon) 2 x Stellite from Ingot (Stellite) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 96000 x Energy + 35 x Gold (from Ingot (Gold)) + 35 x Copper (from Ingot (Copper)) + 35 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Silicon (from Ingot (Silicon)) + 2 x Stellite (from Ingot (Stellite))
+
 **Constructed From Kits:**
   - NameOfThing=Station Battery (Large), PrefabHash=-1388288459, PageLink=ThingStructureBatteryLarge
 
@@ -1143,8 +1194,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=12000 x Energy 20 x Gold from Ingot (Gold) 20 x Copper from Ingot (Copper) 20 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 12000 x Energy + 20 x Gold (from Ingot (Gold)) + 20 x Copper (from Ingot (Copper)) + 20 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Station Battery, PrefabHash=-400115994, PageLink=ThingStructureBattery
 
@@ -1161,8 +1214,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 4 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Beacon, PrefabHash=-188177083, PageLink=ThingStructureBeacon
 
@@ -1179,8 +1234,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Single Bed, PrefabHash=-492611, PageLink=ThingStructureSingleBed
   - NameOfThing=Block Bed, PrefabHash=697908419, PageLink=ThingStructureBlockBed
@@ -1198,8 +1255,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=500 x Energy 3 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 500 x Energy + 3 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Blast Door, PrefabHash=337416191, PageLink=ThingStructureBlastDoor
 
@@ -1216,8 +1275,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Cable Analyzer, PrefabHash=1036015121, PageLink=ThingStructureCableAnalysizer
 
@@ -1234,8 +1295,10 @@ This kit produces a 5-slot Kit (Battery Charger).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Fuse (1kW), PrefabHash=-1103727120, PageLink=ThingStructureCableFuse1k
   - NameOfThing=Fuse (5kW), PrefabHash=-631590668, PageLink=ThingStructureCableFuse5k
@@ -1272,8 +1335,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=18000 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 18000 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Centrifuge, PrefabHash=690945935, PageLink=ThingStructureCentrifuge
 
@@ -1290,8 +1355,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Chair (Thick Single), PrefabHash=-1510009608, PageLink=ThingStructureChairThickSingle
   - NameOfThing=Chair (Thick Double), PrefabHash=-1245724402, PageLink=ThingStructureChairThickDouble
@@ -1318,8 +1385,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=2500 x Energy 3 x Copper from Ingot (Copper) 10 x Steel from Ingot (Steel) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 2500 x Energy + 3 x Copper (from Ingot (Copper)) + 10 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Umbilical Socket (Chute), PrefabHash=-1918892177, PageLink=ThingStructureChuteUmbilicalFemale
   - NameOfThing=Umbilical Socket Angle (Chute), PrefabHash=-659093969, PageLink=ThingStructureChuteUmbilicalFemaleSide
@@ -1338,8 +1407,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Composite Cladding (Panel), PrefabHash=1997436771, PageLink=ThingStructureCompositeCladdingPanel
   - NameOfThing=Composite Cladding (Angled), PrefabHash=-1513030150, PageLink=ThingStructureCompositeCladdingAngled
@@ -1371,8 +1442,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Memory Access:** None
 - **Stack Size:** 1
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=24000 x Energy 20 x Steel from Ingot (Steel) 10 x Invar from Ingot (Invar) 5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 24000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Invar (from Ingot (Invar)) + 5 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Combustion Centrifuge, PrefabHash=1238905683, PageLink=ThingStructureCombustionCentrifuge
 
@@ -1389,8 +1462,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=96000 x Energy 50 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 10 x Hastelloy from Ingot (Hastelloy) 5 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 96000 x Energy + 50 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Hastelloy (from Ingot (Hastelloy)) + 5 x Astroloy (from Ingot (Astroloy))
+
 **Constructed From Kits:**
   - NameOfThing=Combustion Deep Miner, PrefabHash=1234476501, PageLink=ThingStructureCombustionDeepMiner
 
@@ -1407,8 +1482,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 2 x Steel from Ingot (Steel) 1 x Solder from Ingot (Solder) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 2 x Steel (from Ingot (Steel)) + 1 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Composite Window Shutter, PrefabHash=1580592998, PageLink=ThingStructureCompositeWindowShutter
   - NameOfThing=Composite Window Shutter Controller, PrefabHash=-2078371660, PageLink=ThingStructureCompositeWindowShutterController
@@ -1427,8 +1504,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=6000 x Energy 5 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 6000 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Computer (Modern), PrefabHash=-626563514, PageLink=ThingStructureComputer
   - NameOfThing=Computer (Retro), PrefabHash=-405593895, PageLink=ThingStructureComputerUpright
@@ -1448,8 +1527,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Iron from Ingot (Iron) 3 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Iron (from Ingot (Iron)) + 3 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Console, PrefabHash=235638270, PageLink=ThingStructureConsole
   - NameOfThing=Console Dual, PrefabHash=-722284333, PageLink=ThingStructureConsoleDual
@@ -1473,8 +1554,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Container Mount, PrefabHash=-733500083, PageLink=ThingStructureCrateMount
 
@@ -1489,8 +1572,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Memory Access:** None
 - **Stack Size:** 1
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=1000 x Energy 10 x Steel from Ingot (Steel) 10 x Invar from Ingot (Invar) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 1000 x Energy + 10 x Steel (from Ingot (Steel)) + 10 x Invar (from Ingot (Invar))
+
 **Constructed From Kits:**
   - NameOfThing=CounterFlow Heat Exchanger - Gas + Gas, PrefabHash=-1674187440, PageLink=ThingStructurePassthroughHeatExchangerGasToGas
   - NameOfThing=CounterFlow Heat Exchanger - Gas + Liquid, PrefabHash=1928991265, PageLink=ThingStructurePassthroughHeatExchangerGasToLiquid
@@ -1509,8 +1594,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=200 x Energy 10 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 200 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold))
+
 **Constructed From Kits:**
   - NameOfThing=Crate Mk II, PrefabHash=8709219, PageLink=ThingCrateMkII
 
@@ -1527,8 +1614,10 @@ This kit produces a Kit (Canister Storage) for refilling a Canister.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 10 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 10 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Dynamic Crate, PrefabHash=1941079206, PageLink=ThingDynamicCrate
 
@@ -1643,8 +1732,10 @@ This kit creates that miracle of modern science, a Kit (Creative RTG).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=24000 x Energy 10 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 35 x Steel from Ingot (Steel) 5 x Silver from Ingot (Silver) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 24000 x Energy + 10 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 35 x Steel (from Ingot (Steel)) + 5 x Silver (from Ingot (Silver))
+
 **Constructed From Kits:**
   - NameOfThing=Cryo Tube Horizontal, PrefabHash=1443059329, PageLink=ThingStructureCryoTubeHorizontal
   - NameOfThing=Cryo Tube Vertical, PrefabHash=-1381321828, PageLink=ThingStructureCryoTubeVertical
@@ -1662,8 +1753,10 @@ This kit creates that miracle of modern science, a Kit (Creative RTG).
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=72000 x Energy 50 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 10 x Invar from Ingot (Invar) 5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 72000 x Energy + 50 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar)) + 5 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Deep Miner, PrefabHash=265720906, PageLink=ThingStructureDeepMiner
 
@@ -1680,8 +1773,10 @@ This kit creates a Digital Valve.
 - **Memory Access:** None
 - **Stack Size:** 5
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 2 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) 3 x Invar from Ingot (Invar) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 2 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 3 x Invar (from Ingot (Invar))
+
 **Constructed From Kits:**
   - NameOfThing=Digital Valve, PrefabHash=-1280984102, PageLink=ThingStructureDigitalValve
 
@@ -1712,8 +1807,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 7 x Iron from Ingot (Iron) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 7 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Glass Door, PrefabHash=-324331872, PageLink=ThingStructureGlassDoor
   - NameOfThing=Composite Door, PrefabHash=-793837322, PageLink=ThingStructureCompositeDoor
@@ -1734,8 +1831,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=620 x Energy 5 x Iron from Ingot (Iron) 3 x Copper from Ingot (Copper) 8 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 620 x Energy + 5 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper)) + 8 x Silicon (from Ingot (Silicon))
+
 **Constructed From Kits:**
   - NameOfThing=Drinking Fountain, PrefabHash=-739488459, PageLink=ThingStructureDrinkingFountain2x1
 
@@ -1752,8 +1851,10 @@ This kit creates a Digital Valve.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=12000 x Energy 20 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 12000 x Energy + 20 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
 
@@ -1770,8 +1871,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 4 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Steel from Ingot (Steel) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 4 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 2 x Solder (from Ingot (Solder))
+
 **Constructed From Kits:**
   - NameOfThing=Elevator Shaft, PrefabHash=1998354978, PageLink=ThingStructureElevatorShaftIndustrial
   - NameOfThing=Elevator Shaft (Cabled), PrefabHash=826144419, PageLink=ThingStructureElevatorShaft
@@ -1791,8 +1894,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 673 K (400oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Iron from Ingot (Iron) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Iron (from Ingot (Iron)) + 3 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Flashing Light, PrefabHash=-1535893860, PageLink=ThingStructureFlashingLight
 
@@ -1809,8 +1914,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 1 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Wall (Flat), PrefabHash=1635864154, PageLink=ThingStructureWallFlat
   - NameOfThing=Wall (Large Panel), PrefabHash=1492930217, PageLink=ThingStructureWallLargePanel
@@ -1839,8 +1946,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 **Constructed From Kits:**
   - NameOfThing=Composite Floor Grating, PrefabHash=324868581, PageLink=ThingStructureCompositeFloorGrating
   - NameOfThing=Composite Floor Grating (Type 2), PrefabHash=-895027741, PageLink=ThingStructureCompositeFloorGrating2
@@ -1863,8 +1972,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 20 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel))
+
 **Constructed From Kits:**
   - NameOfThing=Fridge (Large), PrefabHash=958476921, PageLink=ThingStructureFridgeBig
 
@@ -1881,8 +1992,10 @@ This kit creates a Digital Valve.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 10 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 10 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Fridge Small, PrefabHash=751887598, PageLink=ThingStructureFridgeSmall
 
@@ -1899,8 +2012,10 @@ This kit creates a Digital Valve.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=12000 x Energy 30 x Iron from Ingot (Iron) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 12000 x Energy + 30 x Iron (from Ingot (Iron)) + 10 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Furnace, PrefabHash=1947944864, PageLink=ThingStructureFurnace
 
@@ -1917,8 +2032,10 @@ This kit creates a Digital Valve.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 20 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 20 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Plinth, PrefabHash=989835703, PageLink=ThingStructurePlinth
 

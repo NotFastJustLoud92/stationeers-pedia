@@ -66,9 +66,12 @@ Made using Cooked Corn and an Empty Can in a Basic Packaging Machine or Advanced
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Corn from Cooked Corn , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Corn from Cooked Corn , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Corn (from Cooked Corn)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Corn (from Cooked Corn)
+
 
 ---
 
@@ -260,8 +263,10 @@ A more heavily reinforced version of the iconic Dynamic Crate, the Crate Mk II i
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=200 x Energy 2 x Copper from Ingot (Copper) 5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 200 x Energy + 2 x Copper (from Ingot (Copper)) + 5 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -503,8 +508,10 @@ Recurso's entry-level crowbar is useful in a variety of everyday Stationeer sett
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -660,8 +667,10 @@ The length of time a plant can stay in darkness before it starts taking damage.
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -752,9 +761,12 @@ Drills through terrain until it hits bedrock. Once inside bedrock Dirty Ore is p
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier Two, Description=500 x Energy 1 x Electrum from Ingot (Electrum) 1 x Solder from Ingot (Solder) 3 x Silicon from Ingot (Silicon) , PageLink=ThingStructureSecurityPrinter
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=9000 x Energy 1 x Electrum from Ingot (Electrum) 2 x Solder from Ingot (Solder) 7 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Security Printer (Tier Two)
+    - 500 x Energy + 1 x Electrum (from Ingot (Electrum)) + 1 x Solder (from Ingot (Solder)) + 3 x Silicon (from Ingot (Silicon))
+  - Printer: Tool Manufactory (Tier Two)
+    - 9000 x Energy + 1 x Electrum (from Ingot (Electrum)) + 2 x Solder (from Ingot (Solder)) + 7 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1000,8 +1012,10 @@ A container the will fill with Dirt when using a Mining Drill when placed inside
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1800 x Energy 10 x Iron from Ingot (Iron) 2 x Electrum from Ingot (Electrum) 2 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1800 x Energy + 10 x Iron (from Ingot (Iron)) + 2 x Electrum (from Ingot (Electrum)) + 2 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1056,8 +1070,10 @@ Consumable battery the recharges your suit battery. If used on a HEM-Droid it wi
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1000 x Energy 2 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1000 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1073,8 +1089,10 @@ A basic tool of Stationeer base construction, this circuit board provides a way 
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1145,8 +1163,10 @@ In the distant past, one of Earth's great champions taught a generation of 'Fix-
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1252,8 +1272,10 @@ Within, eggs reside in mysterious, marmoreal silence.
   - SlotName=Egg, SlotType=Egg, SlotIndex=3
   - SlotName=Egg, SlotType=Egg, SlotIndex=4
   - SlotName=Egg, SlotType=Egg, SlotIndex=5
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=100 x Energy 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 100 x Energy + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1276,8 +1298,10 @@ A belt with two tool slots and six slots restricted to Cable Coil, Cable Coil (H
   - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=5
   - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=6
   - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=7
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1326,8 +1350,10 @@ The Norsec-designed Electrolyzer splits Water into hydrogen and Oxygen. Employin
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=10 x Energy 3 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 10 x Energy + 3 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1343,8 +1369,10 @@ Apply to an Electronics Printer with a Welding Torch or Arc Welder to upgrade fo
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=72000 x Energy 35 x Steel from Ingot (Steel) 8 x Electrum from Ingot (Electrum) 8 x Constantan from Ingot (Constantan) 8 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 72000 x Energy + 35 x Steel (from Ingot (Steel)) + 8 x Electrum (from Ingot (Electrum)) + 8 x Constantan (from Ingot (Constantan)) + 8 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1733,8 +1761,10 @@ Used for making soups when combined with food in the Basic Packaging Machine or 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=70 x Energy 1 x Steel from Ingot (Steel) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 70 x Energy + 1 x Steel (from Ingot (Steel))
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -1816,9 +1846,12 @@ The EVA suit is the basic suit Stationeers need to survive in the inhospitable e
   - SlotName=Filter, SlotType=Filter, SlotIndex=3
   - SlotName=Filter, SlotType=Filter, SlotIndex=4
   - SlotName=Filter, SlotType=Filter, SlotIndex=5
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 

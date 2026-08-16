@@ -679,9 +679,12 @@ Bodily metaphors are tired and anthropocentric, but it was Frida Stuppen, the fi
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
   - SlotType=, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=200 x Energy 0.5 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 0.5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 200 x Energy + 0.5 x Copper (from Ingot (Copper))
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 0.5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Cable (Straight), PrefabHash=605357050, PageLink=ThingStructureCableStraight
   - NameOfThing=Cable (Corner), PrefabHash=-889269388, PageLink=ThingStructureCableCorner
@@ -710,8 +713,10 @@ Use heavy cable coil for power systems with large draws. Unlike Cable Coil, whic
 - **Paintable:** Yes
 - **Flashpoint:** 413 K (140oC)
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 0.5 x Gold from Ingot (Gold) 0.5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 0.5 x Gold (from Ingot (Gold)) + 0.5 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Heavy Cable (Straight), PrefabHash=-146200530, PageLink=ThingStructureCableStraightH
   - NameOfThing=Heavy Cable (Corner), PrefabHash=-39359015, PageLink=ThingStructureCableCornerH
@@ -738,8 +743,10 @@ Use heavy cable coil for power systems with large draws. Unlike Cable Coil, whic
 - **Paintable:** Yes
 - **Flashpoint:** 413 K (140oC)
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=800 x Energy 0.5 x Electrum from Ingot (Electrum) 0.5 x Constantan from Ingot (Constantan) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 800 x Energy + 0.5 x Electrum (from Ingot (Electrum)) + 0.5 x Constantan (from Ingot (Constantan))
+
 **Constructed From Kits:**
   - NameOfThing=Super-Heavy Cable (Straight), PrefabHash=-743746917, PageLink=ThingStructureCableSuperHeavyStraight
   - NameOfThing=Super-Heavy Cable (Corner), PrefabHash=449808474, PageLink=ThingStructureCableSuperHeavyCorner
@@ -795,8 +802,10 @@ Create long straight cable sections easily. Works with Cable Coil, Cable Coil (H
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Cable Ammo, SlotType=Cable Ammo, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=2000 x Energy 10 x Steel from Ingot (Steel) 10 x Solder from Ingot (Solder) 10 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 2000 x Energy + 10 x Steel (from Ingot (Steel)) + 10 x Solder (from Ingot (Solder)) + 10 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -821,9 +830,12 @@ When placing cables with Cable Coil you create cable networks. These contain vol
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour 5 x Milk from Milk 1 x Egg from Egg, Egg 50 x Sugar from Sugar, Sugarcane , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour 5 x Milk from Milk 1 x Egg from Egg, Egg 50 x Sugar from Sugar, Sugarcane , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour) + 5 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 50 x Sugar (from Sugar, Sugarcane)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour) + 5 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 50 x Sugar (from Sugar, Sugarcane)
+
 
 ---
 
@@ -858,8 +870,10 @@ Nothing says 'I care' like a security camera that's been linked a Motion Sensor 
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -878,9 +892,12 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Condense
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=200 x Milk from Condensed Milk, Milk 1 x Steel from Empty Can , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=200 x Milk from Condensed Milk, Milk 1 x Steel from Empty Can , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 200 x Milk (from Condensed Milk, Milk) + 1 x Steel (from Empty Can)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 200 x Milk (from Condensed Milk, Milk) + 1 x Steel (from Empty Can)
+
 
 ---
 
@@ -899,9 +916,12 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Cooked S
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 15 x Soy from Cooked Soybean , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 15 x Soy from Cooked Soybean , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 15 x Soy (from Cooked Soybean)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 15 x Soy (from Cooked Soybean)
+
 
 ---
 
@@ -920,9 +940,12 @@ Because space would suck without 'em.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 1 x Potato from Baked Potato , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 1 x Potato from Baked Potato , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 1 x Potato (from Baked Potato)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 1 x Potato (from Baked Potato)
+
 
 ---
 
@@ -941,9 +964,12 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Cooked M
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Mushroom from Cooked Mushroom , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Mushroom from Cooked Mushroom , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Mushroom (from Cooked Mushroom)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Mushroom (from Cooked Mushroom)
+
 
 ---
 
@@ -962,9 +988,12 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Powdered
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=5 x Egg from Powdered Eggs 1 x Steel from Empty Can 1 x Oil from Soy Oil , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=5 x Egg from Powdered Eggs 1 x Steel from Empty Can 1 x Oil from Soy Oil , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 5 x Egg (from Powdered Eggs) + 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 5 x Egg (from Powdered Eggs) + 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil)
+
 
 ---
 
@@ -983,9 +1012,12 @@ Made in an Advanced Packaging Machine or Basic Packaging Machine, using Cooked R
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Rice from Cooked Rice , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 5 x Rice from Cooked Rice , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Rice (from Cooked Rice)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 5 x Rice (from Cooked Rice)
+
 
 ---
 
@@ -1036,8 +1068,10 @@ You breathe it out, plants breath it in. They don't grow without it. You can use
   - SlotName=None, SlotType=None, SlotIndex=3
   - SlotName=None, SlotType=None, SlotIndex=4
   - SlotName=None, SlotType=None, SlotIndex=5
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=120 x Energy 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 120 x Energy + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1264,8 +1298,10 @@ You breathe it out, plants breath it in. They don't grow without it. You can use
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1281,8 +1317,10 @@ The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by Ex
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1296,8 +1334,10 @@ The Lorenz atmos analyzer is a multi-functional mass-spectrometer designed by Ex
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1311,8 +1351,10 @@ Displays the makeup of ore mined at this location using a Deep Miner
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1328,8 +1370,10 @@ A minor masterpiece of micro-electronic engineering, the network analyzer displa
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1345,8 +1389,10 @@ When inserted into a Handheld Tablet the scanner will display minerals hidden un
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Electrum from Ingot (Electrum) 5 x Invar from Ingot (Invar) 5 x Constantan from Ingot (Constantan) 5 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 5 x Constantan (from Ingot (Constantan)) + 5 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1358,8 +1404,10 @@ When inserted into a Handheld Tablet the scanner will display minerals hidden un
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1373,8 +1421,10 @@ When inserted into a Handheld Tablet the scanner will display minerals hidden un
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1667,9 +1717,12 @@ Sustains, without decay. If only all our relationships were so well balanced.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour)
+
 
 ---
 

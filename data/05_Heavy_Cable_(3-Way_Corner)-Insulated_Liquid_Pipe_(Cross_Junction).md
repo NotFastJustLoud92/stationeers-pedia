@@ -255,8 +255,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -271,8 +273,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -287,8 +291,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -303,8 +309,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -319,8 +327,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -335,8 +345,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -351,8 +363,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -367,8 +381,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -383,8 +399,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -399,8 +417,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -415,8 +435,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -431,8 +453,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -447,8 +471,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -463,8 +489,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -479,8 +507,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -495,8 +525,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=4000 x Energy 5 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) 1 x Stellite from Ingot (Stellite) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 4000 x Energy + 5 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar)) + 1 x Stellite (from Ingot (Stellite))
+
 
 ---
 
@@ -576,8 +608,10 @@ Repairs damaged HEM-Droids to full health.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.67 kK (1400oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=1500 x Energy 10 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) 5 x Inconel from Ingot (Inconel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 1500 x Energy + 10 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder)) + 5 x Inconel (from Ingot (Inconel))
+
 
 ---
 
@@ -886,8 +920,10 @@ When placed in a Computer (Modern), the IC Editor allows players to write and ed
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1001,8 +1037,10 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
 - **Paintable:** Yes
 - **Flashpoint:** 483 K (210oC)
 - **Auto Ignition:** 623 K (350oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1024,8 +1062,10 @@ Used to house a Integrated Circuit (IC10) to run complex logic code.
   - SlotName=Filter, SlotType=Filter, SlotIndex=3
   - SlotName=Filter, SlotType=Filter, SlotIndex=4
   - SlotName=Filter, SlotType=Filter, SlotIndex=5
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1478,7 +1518,7 @@ Due to the original Stationeer manual collapsing into a singularity, Astroloy re
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Astroloy
   - Printer: Advanced Furnace
     - 0.25 Copper (from Ore (Copper)) + 0.5 Steel + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1 kK (727oC) to 100 kK (99726oC) | Pressure: 30 MPa to 40 MPa
@@ -1505,7 +1545,7 @@ Due to the original Stationeer manual collapsing into a singularity, Astroloy re
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Constantan
   - Printer: Advanced Furnace / Furnace
     - 0.5 Copper (from Ore (Copper)) + 0.5 Nickel (from Ore (Nickel)) | Temp: 1 kK (727oC) to 100 kK (99726oC) | Pressure: 20 MPa to 100 MPa
@@ -1534,7 +1574,7 @@ Copper ingots are created by smelting Ore (Copper) in the Furnace and Arc Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 500 x Energy 1 x Copper from Ore (Copper)
   - Printer: Advanced Furnace / Furnace
     - 1 Copper (from Ore (Copper)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1561,7 +1601,7 @@ Copper ingots are created by smelting Ore (Copper) in the Furnace and Arc Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Electrum
   - Printer: Advanced Furnace / Furnace
     - 0.5 Gold (from Ore (Gold)) + 0.5 Silver (from Ore (Silver)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 800 kPa to 2.4 MPa
@@ -1590,7 +1630,7 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 2000 x Energy 1 x Gold from Ore (Gold)
   - Printer: Advanced Furnace / Furnace
     - 1 Gold (from Ore (Gold)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1617,7 +1657,7 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Hastelloy
   - Printer: Advanced Furnace
     - 0.5 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 950 K (677oC) to 1 kK (727oC) | Pressure: 25 MPa to 30 MPa
@@ -1644,7 +1684,7 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Inconel
   - Printer: Advanced Furnace
     - 0.5 Gold (from Ore (Gold)) + 0.25 Steel + 0.25 Nickel (from Ore (Nickel)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 23.5 MPa to 24 MPa
@@ -1671,7 +1711,7 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Invar
   - Printer: Advanced Furnace / Furnace
     - 0.5 Iron (from Ore (Iron)) + 0.5 Nickel (from Ore (Nickel)) | Temp: 1.2 kK (927oC) to 1.5 kK (1227oC) | Pressure: 18 MPa to 20 MPa
@@ -1700,7 +1740,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 200 x Energy 1 x Iron from Ore (Iron)
   - Printer: Advanced Furnace / Furnace
     - 1 Iron (from Ore (Iron)) | Temp: 800 K (527oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1727,7 +1767,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1000 x Energy 1 x Lead from Ore (Lead)
   - Printer: Advanced Furnace / Furnace
     - 1 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1754,7 +1794,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1000 x Energy 1 x Nickel from Ore (Nickel)
   - Printer: Advanced Furnace / Furnace
     - 1 Nickel (from Ore (Nickel)) | Temp: 800 K (527oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1781,7 +1821,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 100 x Energy 1 x Silicon from Ore (Silicon)
   - Printer: Advanced Furnace / Furnace
     - 1 Silicon (from Ore (Silicon)) | Temp: 900 K (627oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1808,7 +1848,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1000 x Energy 1 x Silver from Ore (Silver)
   - Printer: Advanced Furnace / Furnace
     - 1 Silver (from Ore (Silver)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -1836,7 +1876,7 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Solder
   - Printer: Advanced Furnace / Furnace
     - 0.5 Iron (from Ore (Iron)) + 0.5 Lead (from Ore (Lead)) | Temp: 350 K (76.8oC) to 550 K (277oC) | Pressure: 1 MPa to 100 MPa
@@ -1865,7 +1905,7 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Steel
   - Printer: Advanced Furnace / Furnace
     - 0.75 Iron (from Ore (Iron)) + 0.25 Carbon (from Charcoal) | Temp: 900 K (627oC) to 100 kK (99726oC) | Pressure: 1 MPa to 100 MPa
@@ -1893,7 +1933,7 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Stellite
   - Printer: Advanced Furnace
     - 0.25 Silver (from Ore (Silver)) + 0.5 Silicon (from Ore (Silicon)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1.8 kK (1527oC) to 100 kK (99726oC) | Pressure: 10 MPa to 20 MPa
@@ -1920,7 +1960,7 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 1 x Waspaloy
   - Printer: Advanced Furnace
     - 0.25 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.5 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 800 K (527oC) | Pressure: 50 MPa to 100 MPa

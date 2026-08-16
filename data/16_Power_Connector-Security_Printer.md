@@ -45,8 +45,10 @@ Under distant suns and demanding environments, Stationeer systems need to balanc
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -422,9 +424,12 @@ Pumpkins are a perennial plant, with both a long growth time, and a long time be
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=100 x Flour from Flour 10 x Milk from Milk 1 x Egg from Egg, Egg 10 x Pumpkin from Pumpkin , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=100 x Flour from Flour 10 x Milk from Milk 1 x Egg from Egg, Egg 10 x Pumpkin from Pumpkin , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 100 x Flour (from Flour) + 10 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 10 x Pumpkin (from Pumpkin)
+  - Printer: Microwave (Tier One)
+    - 100 x Flour (from Flour) + 10 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 10 x Pumpkin (from Pumpkin)
+
 
 ---
 
@@ -466,9 +471,12 @@ Made using Cooked Pumpkin and an Empty Can in a Basic Packaging Machine or Advan
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 2 x Pumpkin from Cooked Pumpkin , PageLink=ThingStructureAdvancedPackagingMachine
-  - PrinterName=Basic Packaging Machine, TierName=Tier One, Description=1 x Steel from Empty Can 1 x Oil from Soy Oil 2 x Pumpkin from Cooked Pumpkin , PageLink=ThingAppliancePackagingMachine
+**Build Recipe:**
+  - Printer: Advanced Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 2 x Pumpkin (from Cooked Pumpkin)
+  - Printer: Basic Packaging Machine (Tier One)
+    - 1 x Steel (from Empty Can) + 1 x Oil (from Soy Oil) + 2 x Pumpkin (from Cooked Pumpkin)
+
 
 ---
 
@@ -1120,8 +1128,10 @@ Sitting somewhere between a high powered juicer and an alchemist's alembic, the 
 **Slots:**
   - SlotName=Input, SlotType=Input, SlotIndex=0
   - SlotName=Output, SlotType=Output, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Resources Used:**
   - NameOfThing=Wheat, PrefabHash=-1057658015, PageLink=ThingItemWheat
   - NameOfThing=Sugarcane, PrefabHash=-1335056202, PageLink=ThingItemSugarCane
@@ -1478,8 +1488,10 @@ Enjoy vistas of even the most savage, alien landscapes with these heavy duty win
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=1500 x Energy 5 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 1500 x Energy + 5 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel)) + 5 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1624,8 +1636,10 @@ Designed to burn anywhere in the Solar System, the EZC magnesium fusee supplies 
 - **Paintable:** Yes
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1750,8 +1764,10 @@ The Celestial Tracker can be placed in Rockets and when turned on will provide d
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1937,8 +1953,10 @@ Gathers available resources at the rocket's current space location. Mining also 
 - **Memory Access:** None
 - **Stack Size:** 1
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 2 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1953,8 +1971,10 @@ When placed in a Rocket Scanner, the Surface Scanner Head will scan the map for 
 - **Memory Access:** None
 - **Stack Size:** 1
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Rocket Manufactory, TierName=Tier One, Description=60000 x Energy 2 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) , PageLink=ThingStructureRocketManufactory
+**Build Recipe:**
+  - Printer: Rocket Manufactory (Tier One)
+    - 60000 x Energy + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -2074,8 +2094,10 @@ This standard issue frictional adherence adjustor is a top of the line, bi-rotat
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron))
+
 
 ---
 

@@ -865,8 +865,10 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -887,8 +889,10 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
   - SlotName=None, SlotType=None, SlotIndex=3
   - SlotName=None, SlotType=None, SlotIndex=4
   - SlotName=None, SlotType=None, SlotIndex=5
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=3000 x Energy 20 x Steel from Ingot (Steel) 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 3000 x Energy + 20 x Steel (from Ingot (Steel)) + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -904,8 +908,10 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1750 x Energy 4 x Gold from Ingot (Gold) 8 x Steel from Ingot (Steel) 4 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1750 x Energy + 4 x Gold (from Ingot (Gold)) + 8 x Steel (from Ingot (Steel)) + 4 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -924,8 +930,10 @@ Can be welded using a Welding Torch or Arc Welder to lock it in the current stat
   - SlotName=None, SlotType=None, SlotIndex=1
   - SlotName=Access Card, SlotType=Access Card, SlotIndex=2
   - SlotName=Credit Card, SlotType=Credit Card, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 

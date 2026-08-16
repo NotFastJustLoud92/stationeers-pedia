@@ -13,7 +13,7 @@ Charcoal is a lightweight, black carbon residue produced by heating Biomass in a
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Yield: 500 x Energy 1 x Biomass from Biomass
   - Printer: Advanced Furnace / Furnace
     - 1 Biomass (from Biomass) | Temp: 580 K (307oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
@@ -72,8 +72,10 @@ A safe and slightly rave-some source of blue light. Snap to activate.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 533 K (260oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -90,8 +92,10 @@ Enliven the dreariest, airless rock with this glowy green light. Snap to activat
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 533 K (260oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -108,8 +112,10 @@ A red glowstick. Snap to activate. Then reach for the lasers.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 533 K (260oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -126,8 +132,10 @@ Snap the glowstick to activate a pale radiance that keeps the darkness at bay.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 533 K (260oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -144,8 +152,10 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 533 K (260oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -161,8 +171,10 @@ Dispel the darkness with this yellow glowstick.
 - **Auto Ignition:** 1.47 kK (1200oC)
 **Slots:**
   - SlotName=Output, SlotType=Output, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1500 x Energy 1 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1500 x Energy + 1 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
+
 **Resources Used:**
   - NameOfThing=Charcoal, PrefabHash=252561409, PageLink=ThingItemCharcoal
   - NameOfThing=Ore (Cobalt), PrefabHash=-983091249, PageLink=ThingItemCobaltOre
@@ -218,9 +230,12 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=10 x Sugar from Sugar, Sugarcane 2 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=10 x Sugar from Sugar, Sugarcane 2 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 10 x Sugar (from Sugar, Sugarcane) + 2 x Cocoa (from Cocoa Powder, Cocoa)
+  - Printer: Microwave (Tier One)
+    - 10 x Sugar (from Sugar, Sugarcane) + 2 x Cocoa (from Cocoa Powder, Cocoa)
+
 
 ---
 
@@ -237,9 +252,12 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour 5 x Milk from Milk 1 x Egg from Egg, Egg 50 x Sugar from Sugar, Sugarcane 2 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour 5 x Milk from Milk 1 x Egg from Egg, Egg 50 x Sugar from Sugar, Sugarcane 2 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour) + 5 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 50 x Sugar (from Sugar, Sugarcane) + 2 x Cocoa (from Cocoa Powder, Cocoa)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour) + 5 x Milk (from Milk) + 1 x Egg (from Egg, Egg) + 50 x Sugar (from Sugar, Sugarcane) + 2 x Cocoa (from Cocoa Powder, Cocoa)
+
 
 ---
 
@@ -256,9 +274,12 @@ Dispel the darkness with this yellow glowstick.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour 1 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour 1 x Cocoa from Cocoa Powder, Cocoa , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour) + 1 x Cocoa (from Cocoa Powder, Cocoa)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour) + 1 x Cocoa (from Cocoa Powder, Cocoa)
+
 
 ---
 
@@ -914,8 +935,10 @@ These are Items that can be worn by entities in slots.
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=70 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 70 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1037,8 +1060,10 @@ When placed in a Computer (Modern) and connected to a Landingpad Data And Power,
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) 5 x Silver from Ingot (Silver) 2 x Electrum from Ingot (Electrum) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper)) + 5 x Silver (from Ingot (Silver)) + 2 x Electrum (from Ingot (Electrum))
+
 
 ---
 
@@ -1815,9 +1840,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=100 x Milk from Milk , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=100 x Milk from Milk , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 100 x Milk (from Milk)
+  - Printer: Microwave (Tier One)
+    - 100 x Milk (from Milk)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -1967,9 +1995,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Corn from Corn , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Corn from Corn , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Corn (from Corn)
+  - Printer: Microwave (Tier One)
+    - 1 x Corn (from Corn)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -1991,9 +2022,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Mushroom from Mushroom , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Mushroom from Mushroom , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Mushroom (from Mushroom)
+  - Printer: Microwave (Tier One)
+    - 1 x Mushroom (from Mushroom)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -2015,9 +2049,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Pumpkin from Pumpkin , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Pumpkin from Pumpkin , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Pumpkin (from Pumpkin)
+  - Printer: Microwave (Tier One)
+    - 1 x Pumpkin (from Pumpkin)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -2039,9 +2076,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Rice from Rice , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Rice from Rice , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Rice (from Rice)
+  - Printer: Microwave (Tier One)
+    - 1 x Rice (from Rice)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -2063,9 +2103,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Soy from Soybean , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Soy from Soybean , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Soy (from Soybean)
+  - Printer: Microwave (Tier One)
+    - 1 x Soy (from Soybean)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -2087,9 +2130,12 @@ A high-nutrient cooked food, which can be canned.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Tomato from Tomato , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Tomato from Tomato , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Tomato (from Tomato)
+  - Printer: Microwave (Tier One)
+    - 1 x Tomato (from Tomato)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine

@@ -11,8 +11,10 @@
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -29,8 +31,10 @@ Given humanity's obsession with exhaling Carbon Dioxide, all Stationeers are iss
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -45,8 +49,10 @@ Given humanity's obsession with exhaling Carbon Dioxide, all Stationeers are iss
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -61,8 +67,10 @@ Given humanity's obsession with exhaling Carbon Dioxide, all Stationeers are iss
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -77,8 +85,10 @@ Given humanity's obsession with exhaling Carbon Dioxide, all Stationeers are iss
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -93,8 +103,10 @@ Given humanity's obsession with exhaling Carbon Dioxide, all Stationeers are iss
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -111,8 +123,10 @@ Filters are used to capture various gases, which can be disposed of or used else
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -129,8 +143,10 @@ Filters are used to capture various gases, which can be disposed of or used else
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -145,8 +161,10 @@ Filters are used to capture various gases, which can be disposed of or used else
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -163,8 +181,10 @@ Sinotai have cornered the market in filter design. Their trademarked templates a
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -179,8 +199,10 @@ Sinotai have cornered the market in filter design. Their trademarked templates a
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -197,8 +219,10 @@ Filters are used to capture various gases, such as waste emissions from a Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -213,8 +237,10 @@ Filters are used to capture various gases, such as waste emissions from a Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -229,8 +255,10 @@ Filters are used to capture various gases, such as waste emissions from a Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -245,8 +273,10 @@ Filters are used to capture various gases, such as waste emissions from a Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -263,8 +293,10 @@ Sinotai filters are used to capture various gases, which can be disposed of, or 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -352,8 +384,10 @@ Requires a canister filled with any inert liquid to opperate.
 - **Paintable:** Yes
 **Slots:**
   - SlotName=Liquid Canister, SlotType=Liquid Canister, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1000 x Energy 5 x Steel from Ingot (Steel) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1000 x Energy + 5 x Steel (from Ingot (Steel))
+
 
 ---
 
@@ -459,8 +493,10 @@ The Fire Extinguisher Storage is a designated shelf specifically designed to hol
 **Slots:**
   - SlotName=Magazine, SlotType=Magazine, SlotIndex=0
   - SlotName=Chamber, SlotType=Chamber, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=2000 x Energy 10 x Iron from Ingot (Iron) 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 2000 x Energy + 10 x Iron (from Ingot (Iron)) + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -509,8 +545,10 @@ A flashlight with a narrow and wide beam options.
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Low Power, LogicAccessTypes=0
   - LogicName=High Power, LogicAccessTypes=1
@@ -598,9 +636,12 @@ Food decays over time into Decayed Food, unless refrigerated in a sutable atmosp
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=5 x Oil from Soy Oil 3 x Potato from Potato , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=5 x Oil from Soy Oil 3 x Potato from Potato , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 5 x Oil (from Soy Oil) + 3 x Potato (from Potato)
+  - Printer: Microwave (Tier One)
+    - 5 x Oil (from Soy Oil) + 3 x Potato (from Potato)
+
 
 ---
 
@@ -919,8 +960,10 @@ A standard fuselage for a rocket with doors to allow easy access to contents wit
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=1000 x Energy 2 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1002,8 +1045,10 @@ Information is power. Place this circuitboard into a Console to create a display
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1056,8 +1101,10 @@ This mask will mix with the world atmosphere but filter out the gasses based on 
 **Slots:**
   - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=0
   - SlotName=Gas Filter, SlotType=Gas Filter, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=400 x Energy 2 x Steel from Ingot (Steel) 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 400 x Energy + 2 x Steel (from Ingot (Steel)) + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1329,8 +1376,10 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 - **Memory Access:** None
 - **Stack Size:** 50
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1344,8 +1393,10 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=250 x Energy 15 x Iron from Ingot (Iron) 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 250 x Energy + 15 x Iron (from Ingot (Iron)) + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1391,8 +1442,10 @@ A fundamental construction component, glass sheets are created from Silicon. Fab
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1587,8 +1640,10 @@ The ExMin Off-whirled Hand Drill has been a companion to Stationeers for decades
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1631,8 +1686,10 @@ The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as sta
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Cartridge, SlotType=Cartridge, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Gold from Ingot (Gold) 3 x Copper from Ingot (Copper) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 3 x Copper (from Ingot (Copper)) + 5 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1659,8 +1716,10 @@ The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as sta
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1701,8 +1760,10 @@ The Xigo handheld 'Padi' tablet is an all-purpose data platform, provided as sta
   - SlotName=Ore, SlotType=Ore, SlotIndex=25
   - SlotName=Ore, SlotType=Ore, SlotIndex=26
   - SlotName=Ore, SlotType=Ore, SlotIndex=27
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=1000 x Energy 6 x Steel from Ingot (Steel) 1 x Invar from Ingot (Invar) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 1000 x Energy + 6 x Steel (from Ingot (Steel)) + 1 x Invar (from Ingot (Invar))
+
 
 ---
 
@@ -1749,8 +1810,10 @@ Connects to Logic Transmitter
   - SlotName=Filter, SlotType=Filter, SlotIndex=5
   - SlotName=Filter, SlotType=Filter, SlotIndex=6
   - SlotName=Filter, SlotType=Filter, SlotIndex=7
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=3000 x Energy 20 x Steel from Ingot (Steel) 2 x Stellite from Ingot (Stellite) 10 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 3000 x Energy + 20 x Steel (from Ingot (Steel)) + 2 x Stellite (from Ingot (Stellite)) + 10 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1794,8 +1857,10 @@ This backpack can be useful when you are working inside and don't need to fly ar
   - SlotName=None, SlotType=None, SlotIndex=17
   - SlotName=None, SlotType=None, SlotIndex=18
   - SlotName=None, SlotType=None, SlotIndex=19
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=1500 x Energy 15 x Steel from Ingot (Steel) 5 x Stellite from Ingot (Stellite) 5 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 1500 x Energy + 15 x Steel (from Ingot (Steel)) + 5 x Stellite (from Ingot (Stellite)) + 5 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1810,8 +1875,10 @@ The Hardsuit Helmet is similar to the Space Helmet, but can withstand higher tem
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=1750 x Energy 10 x Steel from Ingot (Steel) 2 x Stellite from Ingot (Stellite) 2 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 1750 x Energy + 10 x Steel (from Ingot (Steel)) + 2 x Stellite (from Ingot (Stellite)) + 2 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1852,8 +1919,10 @@ The Norsec jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It
   - SlotName=None, SlotType=None, SlotIndex=12
   - SlotName=None, SlotType=None, SlotIndex=13
   - SlotName=None, SlotType=None, SlotIndex=14
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=1750 x Energy 20 x Steel from Ingot (Steel) 8 x Waspaloy from Ingot (Waspaloy) 8 x Stellite from Ingot (Stellite) 8 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 1750 x Energy + 20 x Steel (from Ingot (Steel)) + 8 x Waspaloy (from Ingot (Waspaloy)) + 8 x Stellite (from Ingot (Stellite)) + 8 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1866,8 +1935,10 @@ The Norsec jetpack isn't 'technically' a jetpack at all, it's a gas thruster. It
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=75000 x Energy 5 x Gold from Ingot (Gold) 5 x Steel from Ingot (Steel) 5 x Stellite from Ingot (Stellite) 5 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 75000 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Steel (from Ingot (Steel)) + 5 x Stellite (from Ingot (Stellite)) + 5 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1916,8 +1987,10 @@ The HARM Suit is the Stationeer's last resort against hostile environments. It i
   - SlotName=Filter3, SlotType=Filter3, SlotIndex=7
   - SlotName=Filter4, SlotType=Filter4, SlotIndex=8
   - SlotName=Back, SlotType=Back, SlotIndex=9
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=150000 x Energy 5 x Steel from Ingot (Steel) 20 x Stellite from Ingot (Stellite) 20 x Hastelloy from Ingot (Hastelloy) 20 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 150000 x Energy + 5 x Steel (from Ingot (Steel)) + 20 x Stellite (from Ingot (Stellite)) + 20 x Hastelloy (from Ingot (Hastelloy)) + 20 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1976,8 +2049,10 @@ Use above a Hydroponics Tray or Hydroponics Device to manage the planting and ha
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Prefab, LogicAccessTypes=0
   - LogicName=GasLiquid, LogicAccessTypes=1
@@ -2033,8 +2108,10 @@ Use above a Hydroponics Tray or Hydroponics Device to manage the planting and ha
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 

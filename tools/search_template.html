@@ -356,8 +356,9 @@
   // Renders one page body (already-cleaned plain-ish markdown from the dump:
   // "- **Key:** Value" spec lines, "**Section:**" headers introducing a run of
   // "- item" lines, and plain paragraphs). Spec lines become a key/value grid;
-  // a Furnace Recipe section gets its own card treatment since it's the
-  // highlight feature; everything else becomes a labeled plain list.
+  // a Build Recipe section (furnace smelting or standard printer builds)
+  // gets its own card treatment since it's the highlight feature; everything
+  // else becomes a labeled plain list.
   function renderBody(md) {
     var lines = md.replace(/\r\n/g, '\n').split('\n');
     var html = '';
@@ -392,7 +393,7 @@
           items.push(lines[i].replace(/^\s*-\s+/, ''));
           i++;
         }
-        if (label === 'Furnace Recipe') {
+        if (label === 'Build Recipe') {
           html += '<div class="recipe-card"><div class="section-label">' + escapeHtml(label) + '</div>';
           items.forEach(function(it) {
             if (/^Yield:|^Printer:/.test(it)) {

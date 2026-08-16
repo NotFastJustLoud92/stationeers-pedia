@@ -7,10 +7,12 @@ using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
 using Assets.Scripts;
+using Assets.Scripts.Objects;
 using Assets.Scripts.UI;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using UnityEngine;
 
 namespace StationpediaDump
 {
@@ -102,6 +104,111 @@ namespace StationpediaDump
             File.WriteAllText(Path.Combine(outRoot, "README.md"), idx.ToString());
 
             Log.LogInfo($"[StationpediaDump] Wrote {fileCount} files + README to {outRoot} ({pages.Count} pages total)");
+
+            DumpIcons(sorted, outRoot);
+        }
+
+        /// <summary>
+        /// Exports each page's Thing.Thumbnail sprite as a PNG named by
+        /// PrefabHash, so the search site can show real item icons like the
+        /// in-game SPDA does. Most non-physical pages (LogicType.* glossary
+        /// entries, guide/lore pages) have no PrefabHash/Thing and are
+        /// silently skipped - only real placeable Things have thumbnails.
+        /// </summary>
+        private static void DumpIcons(List<StationpediaPage> pages, string outRoot)
+        {
+            string iconDir = Path.Combine(outRoot, "icons");
+            Directory.CreateDirectory(iconDir);
+            int ok = 0, skipped = 0, failed = 0;
+            int diagLogged = 0;
+            foreach (var page in pages)
+            {
+                if (page.PrefabHash == 0) { skipped++; continue; }
+                string fname = Path.Combine(iconDir, page.PrefabHash + ".png");
+                if (File.Exists(fname)) { ok++; continue; } // shared prefab hash across pages
+                try
+                {
+                    Thing thing = Prefab.Find(page.PrefabHash);
+                    Sprite sprite = thing != null ? thing.Thumbnail : null;
+                    if (sprite == null) { skipped++; continue; }
+
+                    if (diagLogged < 5)
+                    {
+                        diagLogged++;
+                        Texture2D dt = sprite.texture;
+                        Log.LogInfo($"[StationpediaDump] ICON DIAG {page.Key}: tex={(dt != null ? dt.name : "null")} " +
+                            $"isReadable={(dt != null ? dt.isReadable.ToString() : "n/a")} " +
+                            $"texSize={(dt != null ? dt.width + "x" + dt.height : "n/a")} " +
+                            $"rect={sprite.textureRect} spriteRect={sprite.rect} " +
+                            $"format={(dt != null ? dt.format.ToString() : "n/a")}");
+                    }
+
+                    byte[] png = EncodeSpriteToPng(sprite);
+                    if (png == null) { failed++; continue; }
+                    File.WriteAllBytes(fname, png);
+                    ok++;
+                }
+                catch (Exception e)
+                {
+                    failed++;
+                    Log.LogWarning($"[StationpediaDump] Icon export failed for {page.Key}: {e.Message}");
+                }
+            }
+            Log.LogInfo($"[StationpediaDump] Icons: {ok} exported, {skipped} skipped (no prefab/sprite), {failed} failed.");
+        }
+
+        /// <summary>
+        /// Crops a Sprite's region out of its backing Texture2D and encodes it
+        /// as PNG. Tries a direct GetPixels() read first (works when the
+        /// texture asset is marked readable); falls back to a GPU
+        /// blit-to-RenderTexture-then-ReadPixels round trip for non-readable
+        /// textures (the common case for packed UI atlases).
+        /// </summary>
+        private static byte[] EncodeSpriteToPng(Sprite sprite)
+        {
+            Texture2D tex = sprite.texture;
+            if (tex == null) return null;
+            Rect r = sprite.textureRect;
+            int x = Mathf.RoundToInt(r.x), y = Mathf.RoundToInt(r.y);
+            int w = Mathf.RoundToInt(r.width), h = Mathf.RoundToInt(r.height);
+            if (w <= 0 || h <= 0) return null;
+
+            Texture2D readable = null;
+            RenderTexture rt = null;
+            RenderTexture prevActive = null;
+            try
+            {
+                if (!tex.isReadable)
+                {
+                    rt = RenderTexture.GetTemporary(tex.width, tex.height, 0, RenderTextureFormat.ARGB32);
+                    Graphics.Blit(tex, rt);
+                    prevActive = RenderTexture.active;
+                    RenderTexture.active = rt;
+                    readable = new Texture2D(tex.width, tex.height, TextureFormat.RGBA32, false);
+                    readable.ReadPixels(new Rect(0, 0, tex.width, tex.height), 0, 0);
+                    readable.Apply();
+                }
+
+                Texture2D source = readable ?? tex;
+                x = Mathf.Clamp(x, 0, Math.Max(0, source.width - w));
+                y = Mathf.Clamp(y, 0, Math.Max(0, source.height - h));
+                var pixels = source.GetPixels(x, y, w, h);
+                var cropped = new Texture2D(w, h, TextureFormat.RGBA32, false);
+                cropped.SetPixels(pixels);
+                cropped.Apply();
+                byte[] png = cropped.EncodeToPNG();
+                UnityEngine.Object.Destroy(cropped);
+                return png;
+            }
+            finally
+            {
+                if (readable != null) UnityEngine.Object.Destroy(readable);
+                if (rt != null)
+                {
+                    RenderTexture.active = prevActive;
+                    RenderTexture.ReleaseTemporary(rt);
+                }
+            }
         }
 
         /// <summary>
@@ -182,7 +289,7 @@ namespace StationpediaDump
             WriteList(sb, "Logic Slot Types", page.LogicSlotInsert);
             WriteList(sb, "Logic Bindings", page.LogicBindings);
             WriteList(sb, "Slots", page.SlotInserts);
-            if (!TryRenderFurnaceRecipes(page, sb))
+            if (!TryRenderBuildRecipe(page, sb))
                 WriteList(sb, "Build Steps", page.HowToBuild);
             WriteList(sb, "Build States", page.BuildStates);
             WriteList(sb, "Constructed From Kits", page.ConstructedByKits);
@@ -243,14 +350,19 @@ namespace StationpediaDump
         }
 
         /// <summary>
-        /// Replaces the generic "Build Steps" (page.HowToBuild) dump with a clean parsed recipe
-        /// for anything smelted (Furnace/Advanced Furnace), deduplicating the two
-        /// printer tiers when they share identical requirements (the usual case).
-        /// Returns false (write nothing, caller falls back to the generic dump)
-        /// for anything that isn't furnace-based - kit-built structures/items
-        /// keep their existing simple rendering.
+        /// Replaces the generic "Build Steps" (page.HowToBuild) dump - previously
+        /// a raw reflection-formatted "PrinterName=X, TierName=Y, Description=Z"
+        /// line - with a clean "Build Recipe" card for every printer-built item,
+        /// not just furnace-smelted alloys. Furnace/Advanced Furnace rows carry
+        /// a Temperature/Pressure clause and get the original dedicated parse
+        /// (dedup printer tiers sharing identical requirements, one shared
+        /// Yield line); everything else (Autolathe, Electronics Printer, etc.)
+        /// gets a generic per-(printer,tier) ingredient breakdown instead.
+        /// Returns false (caller falls back to the plain list dump) only when
+        /// HowToBuild is empty/unparseable - kit-built structures (no printer
+        /// involved) keep their existing simple rendering via ResourcesUsed.
         /// </summary>
-        private static bool TryRenderFurnaceRecipes(StationpediaPage page, StringBuilder sb)
+        private static bool TryRenderBuildRecipe(StationpediaPage page, StringBuilder sb)
         {
             var howToBuild = page.HowToBuild;
             if (howToBuild == null) return false;
@@ -259,22 +371,24 @@ namespace StationpediaDump
             catch { return false; }
             if (items.Count == 0) return false;
 
-            var rows = new List<(string printer, string desc)>();
+            var rows = new List<(string printer, string tier, string desc)>();
             foreach (var item in items)
             {
                 Type t = item.GetType();
                 string printer = Clean(GetStringMember(item, t, "PrinterName") ?? "");
+                string tier = Clean(GetStringMember(item, t, "TierName") ?? "");
                 string desc = GetStringMember(item, t, "Description");
                 if (desc == null) continue;
-                rows.Add((printer, Clean(desc)));
+                rows.Add((printer, tier, Clean(desc)));
             }
+            if (rows.Count == 0) return false;
 
-            bool anyFurnace = rows.Any(r => r.printer.IndexOf("Furnace", StringComparison.OrdinalIgnoreCase) >= 0);
-            if (!anyFurnace) return false;
+            bool anyFurnace = rows.Any(r => FurnaceVariantPattern.IsMatch(r.desc));
+            if (!anyFurnace) return RenderGenericPrinterRecipe(rows, sb);
 
             var variantsByPrinter = new Dictionary<string, List<string>>();
             string yieldText = null;
-            foreach (var (printer, desc) in rows)
+            foreach (var (printer, _, desc) in rows)
             {
                 if (FurnaceVariantPattern.IsMatch(desc))
                 {
@@ -318,7 +432,7 @@ namespace StationpediaDump
                 printers.Add(kv.Key);
             }
 
-            sb.AppendLine("**Furnace Recipe:**");
+            sb.AppendLine("**Build Recipe:**");
             if (yieldText != null)
                 sb.Append("  - Yield: ").AppendLine(yieldText);
 
@@ -343,6 +457,43 @@ namespace StationpediaDump
                     sb.Append("    - ").Append(string.Join(" + ", ingredientParts))
                       .Append(" | Temp: ").Append(temp).Append(" | Pressure: ").AppendLine(pressure);
                 }
+            }
+            sb.AppendLine();
+            return true;
+        }
+
+        /// <summary>
+        /// "Build Recipe" rendering for non-furnace printers (Autolathe,
+        /// Electronics Printer, Rocket Manufactory, etc.). Raw Description text
+        /// for these has no Temperature/Pressure clause - it's a flat run of
+        /// "N x Ingredient (from Source)?" tokens, where the first token is
+        /// conventionally the print's power cost ("500 x Energy"). Grouped by
+        /// (Printer, Tier) since cost/ingredients commonly shift across tiers.
+        /// </summary>
+        private static bool RenderGenericPrinterRecipe(List<(string printer, string tier, string desc)> rows, StringBuilder sb)
+        {
+            var seenGroups = new List<(string label, string ingredients)>();
+            foreach (var (printer, tier, desc) in rows)
+            {
+                var parts = new List<string>();
+                foreach (Match im in FurnaceIngredientPattern.Matches(desc))
+                {
+                    string src = im.Groups[3].Success ? im.Groups[3].Value.Trim() : null;
+                    string part = $"{im.Groups[1].Value} x {im.Groups[2].Value.Trim()}";
+                    if (!string.IsNullOrEmpty(src)) part += $" (from {src})";
+                    parts.Add(part);
+                }
+                if (parts.Count == 0) continue;
+                string label = string.IsNullOrEmpty(tier) ? printer : $"{printer} ({tier})";
+                seenGroups.Add((label, string.Join(" + ", parts)));
+            }
+            if (seenGroups.Count == 0) return false;
+
+            sb.AppendLine("**Build Recipe:**");
+            foreach (var (label, ingredients) in seenGroups)
+            {
+                sb.Append("  - Printer: ").AppendLine(label);
+                sb.Append("    - ").AppendLine(ingredients);
             }
             sb.AppendLine();
             return true;

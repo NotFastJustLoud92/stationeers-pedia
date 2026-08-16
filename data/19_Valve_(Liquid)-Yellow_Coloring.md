@@ -1112,8 +1112,10 @@ A disposable bag that can be used to clear sanitation needs. Cannot be used when
 - **Memory Access:** None
 - **Stack Size:** 10
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1157,8 +1159,10 @@ Delicious and pure H20, refined from local sources as varied as Venusian ice and
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=120 x Energy 2 x Iron from Ingot (Iron) 4 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 120 x Energy + 2 x Iron (from Ingot (Iron)) + 4 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1426,8 +1430,10 @@ Stored in the standard issue Stationeers Tool Belt, the Arlite welding torch is 
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
   - SlotName=Gas Canister, SlotType=Gas Canister, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1621,8 +1627,10 @@ Wirecutters allow you to deconstruct various structures, as well as cross-lay ca
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1715,8 +1723,10 @@ One of humanity's enduring contributions to the cosmos, the wrench represents th
 - **Memory Access:** None
 - **Paintable:** Yes
 - **Auto Ignition:** 523 K (250oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron))
+
 
 ---
 

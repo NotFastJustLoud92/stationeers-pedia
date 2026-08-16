@@ -26,8 +26,10 @@ These Norsec glasses might not be the most fashionable thing, but when a Sensor 
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
   - SlotName=Sensor Processing Unit, SlotType=Sensor Processing Unit, SlotIndex=1
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=3500 x Energy 5 x Steel from Ingot (Steel) 5 x Silicon from Ingot (Silicon) 5 x Inconel from Ingot (Inconel) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 3500 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Silicon (from Ingot (Silicon)) + 5 x Inconel (from Ingot (Inconel))
+
 
 ---
 
@@ -41,8 +43,10 @@ These Norsec glasses might not be the most fashionable thing, but when a Sensor 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=100 x Energy 5 x Iron from Ingot (Iron) 5 x Electrum from Ingot (Electrum) 5 x Silicon from Ingot (Silicon) 5 x Waspaloy from Ingot (Waspaloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 100 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Silicon (from Ingot (Silicon)) + 5 x Waspaloy (from Ingot (Waspaloy))
+
 
 ---
 
@@ -58,8 +62,10 @@ The Sensor Processing unit can be inserted into Sensor Lenses to reveal undergro
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=100 x Energy 5 x Electrum from Ingot (Electrum) 5 x Silicon from Ingot (Silicon) 5 x Waspaloy from Ingot (Waspaloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 100 x Energy + 5 x Electrum (from Ingot (Electrum)) + 5 x Silicon (from Ingot (Silicon)) + 5 x Waspaloy (from Ingot (Waspaloy))
+
 
 ---
 
@@ -75,8 +81,10 @@ The T-Ray Scanner Sensor Processing Unit can be inserted into the Sensor Lenses 
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=100 x Energy 5 x Iron from Ingot (Iron) 5 x Electrum from Ingot (Electrum) 5 x Silicon from Ingot (Silicon) 5 x Waspaloy from Ingot (Waspaloy) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 100 x Energy + 5 x Iron (from Ingot (Iron)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Silicon (from Ingot (Silicon)) + 5 x Waspaloy (from Ingot (Waspaloy))
+
 
 ---
 
@@ -824,8 +832,10 @@ Adding a solar control board to a Console lets you manually control the horizont
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1125,7 +1135,7 @@ This solar panel is resistant to storm damage.
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Furnace Recipe:**
+**Build Recipe:**
   - Printer: Advanced Furnace / Furnace
     - 1 Methane + 1 Hydrocarbon (from Ore (Coal)) | Temp: 950 K (677oC) to 100 kK (99726oC) | Pressure: 1 MPa to 100 MPa Requires a pure gas mixture of only the listed types
 
@@ -1196,8 +1206,10 @@ Motherboards are connected to Computer (Modern)s to perform various technical fu
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 5 x Gold from Ingot (Gold) 5 x Silver from Ingot (Silver) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Silver (from Ingot (Silver))
+
 
 ---
 
@@ -1211,8 +1223,10 @@ Motherboards are connected to Computer (Modern)s to perform various technical fu
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1226,8 +1240,10 @@ Motherboards are connected to Computer (Modern)s to perform various technical fu
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1241,8 +1257,10 @@ Motherboards are connected to Computer (Modern)s to perform various technical fu
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1256,8 +1274,10 @@ Motherboards are connected to Computer (Modern)s to perform various technical fu
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper)) + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1360,9 +1380,12 @@ The basic space helmet insulates Stationeers against everything from hard vacuum
 - **Paintable:** No
 - **Flashpoint:** 483 K (210oC)
 - **Auto Ignition:** 623 K (350oC)
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureAutolathe
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1416,8 +1439,10 @@ The basic CHAC spacepack isn't 'technically' a jetpack, it's a gas thruster. It 
   - SlotName=None, SlotType=None, SlotIndex=7
   - SlotName=None, SlotType=None, SlotIndex=8
   - SlotName=None, SlotType=None, SlotIndex=9
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -1434,8 +1459,10 @@ Use with Spray cans in the Spray Can to paint structures, cables and pipes. Much
 - **Auto Ignition:** 523 K (250oC)
 **Slots:**
   - SlotName=Spray Can, SlotType=Spray Can, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=2000 x Energy 10 x Steel from Ingot (Steel) 5 x Invar from Ingot (Invar) 10 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 2000 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Invar (from Ingot (Invar)) + 10 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1452,8 +1479,10 @@ Black spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1470,8 +1499,10 @@ Blue spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1488,8 +1519,10 @@ Metallic bronze spray paint. Using it with a spray gun will extend the usage gre
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1506,8 +1539,10 @@ Brown spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1524,8 +1559,10 @@ Metallic gold spray paint. Using it with a spray gun will extend the usage great
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1542,8 +1579,10 @@ Green spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1560,8 +1599,10 @@ Grey spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1578,8 +1619,10 @@ Khaki spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1596,8 +1639,10 @@ Metallic obsidian spray paint. Using it with a spray gun will extend the usage g
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1614,8 +1659,10 @@ Orange spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1632,8 +1679,10 @@ Pink spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1650,8 +1699,10 @@ Purple spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1668,8 +1719,10 @@ Red spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1686,8 +1739,10 @@ Metallic silver spray paint. Using it with a spray gun will extend the usage gre
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1704,8 +1759,10 @@ White spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1722,8 +1779,10 @@ Yellow spray paint. Using it with a spray gun will extend the usage greatly.
 - **Paintable:** No
 - **Flashpoint:** 553 K (280oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Iron from Ingot (Iron) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Iron (from Ingot (Iron))
+
 
 ---
 

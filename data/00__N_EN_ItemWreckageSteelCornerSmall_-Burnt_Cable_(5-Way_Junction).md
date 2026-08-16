@@ -65,8 +65,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -80,8 +82,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -95,8 +99,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -110,8 +116,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -125,8 +133,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -140,8 +150,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -155,8 +167,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -170,8 +184,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -185,8 +201,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -200,8 +218,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -215,8 +235,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -230,8 +252,10 @@ Extendable bridge that spans three grids
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Security Printer, TierName=Tier One, Description=200 x Energy 1 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureSecurityPrinter
+**Build Recipe:**
+  - Printer: Security Printer (Tier One)
+    - 200 x Energy + 1 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -310,8 +334,10 @@ The active vent is a powered device for maintaining gas pressure by pumping gas 
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=200 x Energy 0.5 x Steel from Ingot (Steel) 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 200 x Energy + 0.5 x Steel (from Ingot (Steel)) + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -325,8 +351,10 @@ The active vent is a powered device for maintaining gas pressure by pumping gas 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -491,8 +519,10 @@ The advanced Xigo Padi 2 tablet is an improved version of the basic Handheld Tab
   - SlotName=Cartridge, SlotType=Cartridge, SlotIndex=1
   - SlotName=Cartridge1, SlotType=Cartridge1, SlotIndex=2
   - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=3
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=12000 x Energy 3 x Iron from Ingot (Iron) 12 x Gold from Ingot (Gold) 5.5 x Copper from Ingot (Copper) 2 x Steel from Ingot (Steel) 1 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 12000 x Energy + 3 x Iron (from Ingot (Iron)) + 12 x Gold (from Ingot (Gold)) + 5.5 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 1 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -603,8 +633,10 @@ When added to a Console, air control circuit boards allow you to program an Acti
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -620,8 +652,10 @@ To enter setup mode, use a {THING: Screwdriver} on the screw on the side of Cons
 - **Paintable:** No
 - **Flashpoint:** 393 K (120oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=100 x Energy 1 x Iron from Ingot (Iron) 5 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 100 x Energy + 1 x Iron (from Ingot (Iron)) + 5 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -731,8 +765,10 @@ Angles-be-gone with the trusty angle grinder.
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 3 x Iron from Ingot (Iron) 1 x Copper from Ingot (Copper) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 3 x Iron (from Ingot (Iron)) + 1 x Copper (from Ingot (Copper))
+
 
 ---
 
@@ -746,8 +782,10 @@ Angles-be-gone with the trusty angle grinder.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -761,8 +799,10 @@ Angles-be-gone with the trusty angle grinder.
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 2 x Iron from Ingot (Iron) 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 2 x Iron (from Ingot (Iron)) + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -789,8 +829,10 @@ The seed tray can hold up to twelve plants or seeds and can be used to facilitat
   - SlotName=Plant, SlotType=Plant, SlotIndex=9
   - SlotName=Plant, SlotType=Plant, SlotIndex=10
   - SlotName=Plant, SlotType=Plant, SlotIndex=11
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) 5 x Copper from Ingot (Copper) 15 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 5 x Copper (from Ingot (Copper)) + 15 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -872,8 +914,10 @@ The simplest smelting system available to the average Stationeer, Recurso's arc 
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=2500 x Energy 10 x Steel from Ingot (Steel) 10 x Electrum from Ingot (Electrum) 5 x Invar from Ingot (Invar) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 10 x Electrum (from Ingot (Electrum)) + 5 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -987,8 +1031,10 @@ An Area Power Control (APC) has three main functions. Its primary purpose is to 
 - **Memory Access:** None
 - **Stack Size:** 50
 - **Paintable:** No
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 2 x Steel from Ingot (Steel) 1 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 2 x Steel (from Ingot (Steel)) + 1 x Astroloy (from Ingot (Astroloy))
+
 
 ---
 
@@ -1118,8 +1164,10 @@ Apply to an Autolathe with a Welding Torch or Arc Welder to upgrade for increase
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=72000 x Energy 35 x Steel from Ingot (Steel) 8 x Electrum from Ingot (Electrum) 8 x Constantan from Ingot (Constantan) 8 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 72000 x Energy + 35 x Steel (from Ingot (Steel)) + 8 x Electrum (from Ingot (Electrum)) + 8 x Constantan (from Ingot (Constantan)) + 8 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -1280,9 +1328,12 @@ Unlike the Pressure Regulator, which closes when the input exceeds a given press
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=1 x Potato from Potato , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=1 x Potato from Potato , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 1 x Potato (from Potato)
+  - Printer: Microwave (Tier One)
+    - 1 x Potato (from Potato)
+
 **Used In:**
   - NameOfThing=Basic Packaging Machine, PrefabHash=-749191906, PageLink=ThingAppliancePackagingMachine
   - NameOfThing=Advanced Packaging Machine, PrefabHash=-463037670, PageLink=ThingStructureAdvancedPackagingMachine
@@ -1303,8 +1354,10 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 - **Auto Ignition:** 573 K (300oC)
 **Slots:**
   - SlotName=Export, SlotType=Export, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=500 x Energy 10 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 500 x Energy + 10 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Resources Used:**
   - NameOfThing=Condensed Milk, PrefabHash=1715917521, PageLink=ThingItemCookedCondensedMilk
   - NameOfThing=Cooked Corn, PrefabHash=1344773148, PageLink=ThingItemCookedCorn
@@ -1331,8 +1384,10 @@ The Xigo Cannifier requires Empty Can and cooked food to create long-lasting, ea
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier One, Description=500 x Energy 1 x Silicon from Ingot (Silicon) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier One)
+    - 500 x Energy + 1 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1468,8 +1523,10 @@ First mass-produced by Xigo in 2155 on the basis of a unattributed prototype, th
 - **Paintable:** No
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=20000 x Energy 5 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 20000 x Energy + 5 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
+
 **Mode Options:**
   - LogicName=Empty, LogicAccessTypes=0
   - LogicName=Critical, LogicAccessTypes=1
@@ -1494,8 +1551,10 @@ Illegal on Earth since the Chengdu Event, Norsec nuclear power cells found a new
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=360000 x Energy 5 x Steel from Ingot (Steel) 5 x Inconel from Ingot (Inconel) 10 x Astroloy from Ingot (Astroloy) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 360000 x Energy + 5 x Steel (from Ingot (Steel)) + 5 x Inconel (from Ingot (Inconel)) + 10 x Astroloy (from Ingot (Astroloy))
+
 **Mode Options:**
   - LogicName=Empty, LogicAccessTypes=0
   - LogicName=Critical, LogicAccessTypes=1
@@ -1520,8 +1579,10 @@ Harnessing a design pioneered in the early 21st century, the small battery cell 
 - **Paintable:** No
 - **Flashpoint:** 973 K (700oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=1000 x Energy 2 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 5 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 1000 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 5 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Empty, LogicAccessTypes=0
   - LogicName=Critical, LogicAccessTypes=1
@@ -1587,8 +1648,10 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=250 x Energy 5 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 2 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 250 x Energy + 5 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 2 x Copper (from Ingot (Copper))
+
 **Constructed From Kits:**
   - NameOfThing=Battery Charger Small, PrefabHash=-761772413, PageLink=ThingStructureBatteryChargerSmall
 
@@ -1642,8 +1705,10 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=10000 x Energy 2 x Iron from Ingot (Iron) 2 x Gold from Ingot (Gold) 10 x Copper from Ingot (Copper) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 10000 x Energy + 2 x Iron (from Ingot (Iron)) + 2 x Gold (from Ingot (Gold)) + 10 x Copper (from Ingot (Copper))
+
 **Mode Options:**
   - LogicName=Empty, LogicAccessTypes=0
   - LogicName=Critical, LogicAccessTypes=1
@@ -1666,8 +1731,10 @@ The 5-slot Xigo battery charger fits the Battery Cell (Small), Battery Cell (Lar
 - **Paintable:** Yes
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier One, Description=20000 x Energy 5 x Gold from Ingot (Gold) 15 x Copper from Ingot (Copper) 5 x Steel from Ingot (Steel) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier One)
+    - 20000 x Energy + 5 x Gold (from Ingot (Gold)) + 15 x Copper (from Ingot (Copper)) + 5 x Steel (from Ingot (Steel))
+
 **Mode Options:**
   - LogicName=Empty, LogicAccessTypes=0
   - LogicName=Critical, LogicAccessTypes=1
@@ -1926,8 +1993,10 @@ Diced organic material that is returned when food and organic matter is passed t
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Biomass , PageLink=ThingStructureCentrifuge
+**Build Recipe:**
+  - Printer: Centrifuge (Tier One)
+    - 1 x Biomass
+
 **Found In Gas:**
   - NameOfThing=Methane, QuantityOfThing=8 mol
   - NameOfThing=Pollutant, QuantityOfThing=4 mol
@@ -2075,8 +2144,10 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
 
 ---
 
@@ -2088,8 +2159,10 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
 
 ---
 
@@ -2101,8 +2174,10 @@ Airtight and almost undamageable, the original 'Millmar' series of blast door wa
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) 1 x Gold from Ingot (Gold) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron)) + 1 x Gold (from Ingot (Gold))
+
 
 ---
 
@@ -2136,9 +2211,12 @@ When dead players decay they will move into a body bag. If they have not respawn
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=200 x Flour from Flour 5 x Oil from Soy Oil , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=200 x Flour from Flour 5 x Oil from Soy Oil , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 200 x Flour (from Flour) + 5 x Oil (from Soy Oil)
+  - Printer: Microwave (Tier One)
+    - 200 x Flour (from Flour) + 5 x Oil (from Soy Oil)
+
 
 ---
 
@@ -2155,9 +2233,12 @@ When dead players decay they will move into a body bag. If they have not respawn
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 1.47 kK (1200oC)
-**Build Steps:**
-  - PrinterName=Automated Oven, TierName=Tier One, Description=50 x Flour from Flour 1 x Egg from Egg, Egg 1 x Oil from Soy Oil 2 x Tomato from Tomato 1 x Cheese from Cheese , PageLink=ThingStructureAutomatedOven
-  - PrinterName=Microwave, TierName=Tier One, Description=50 x Flour from Flour 1 x Egg from Egg, Egg 1 x Oil from Soy Oil 2 x Tomato from Tomato 1 x Cheese from Cheese , PageLink=ThingApplianceMicrowave
+**Build Recipe:**
+  - Printer: Automated Oven (Tier One)
+    - 50 x Flour (from Flour) + 1 x Egg (from Egg, Egg) + 1 x Oil (from Soy Oil) + 2 x Tomato (from Tomato) + 1 x Cheese (from Cheese)
+  - Printer: Microwave (Tier One)
+    - 50 x Flour (from Flour) + 1 x Egg (from Egg, Egg) + 1 x Oil (from Soy Oil) + 2 x Tomato (from Tomato) + 1 x Cheese (from Cheese)
+
 
 ---
 
@@ -2175,8 +2256,10 @@ A container for a Burger that is both asethetic and practical as it will signifi
 - **Auto Ignition:** 533 K (260oC)
 **Slots:**
   - SlotName=Burger, SlotType=Burger, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier One, Description=100 x Energy 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier One)
+    - 100 x Energy + 2 x Silicon (from Ingot (Silicon))
+
 
 ---
 

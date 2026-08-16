@@ -290,8 +290,10 @@ The Laptop functions as a portable IC editor. To operate the Laptop it must be p
   - SlotName=Programmable Chip, SlotType=Programmable Chip, SlotIndex=0
   - SlotName=Battery, SlotType=Battery, SlotIndex=1
   - SlotName=Motherboard, SlotType=Motherboard, SlotIndex=2
-**Build Steps:**
-  - PrinterName=Electronics Printer, TierName=Tier Two, Description=18000 x Energy 12 x Gold from Ingot (Gold) 5.5 x Copper from Ingot (Copper) 2 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 5 x Solder from Ingot (Solder) , PageLink=ThingStructureElectronicsPrinter
+**Build Recipe:**
+  - Printer: Electronics Printer (Tier Two)
+    - 18000 x Energy + 12 x Gold (from Ingot (Gold)) + 5.5 x Copper (from Ingot (Copper)) + 2 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 5 x Solder (from Ingot (Solder))
+
 
 ---
 
@@ -316,8 +318,10 @@ The Laptop functions as a portable IC editor. To operate the Laptop it must be p
   - SlotName=None, SlotType=None, SlotIndex=7
   - SlotName=None, SlotType=None, SlotIndex=8
   - SlotName=None, SlotType=None, SlotIndex=9
-**Build Steps:**
-  - PrinterName=Autolathe, TierName=Tier Two, Description=600 x Energy 4 x Silicon from Ingot (Silicon) , PageLink=ThingStructureAutolathe
+**Build Recipe:**
+  - Printer: Autolathe (Tier Two)
+    - 600 x Energy + 4 x Silicon (from Ingot (Silicon))
+
 
 ---
 
@@ -1250,8 +1254,10 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier One, Description=500 x Energy 5 x Iron from Ingot (Iron) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier One)
+    - 500 x Energy + 5 x Iron (from Ingot (Iron))
+
 
 ---
 
@@ -1265,8 +1271,10 @@ Regulates the volume ratio of liquid in the input Liquid pipe. This is expressed
 - **Memory Size:** 0 B
 - **Memory Access:** None
 - **Paintable:** Yes
-**Build Steps:**
-  - PrinterName=Hydraulic Pipe Bender, TierName=Tier Two, Description=1000 x Energy 2 x Copper from Ingot (Copper) 15 x Steel from Ingot (Steel) 2 x Silicon from Ingot (Silicon) , PageLink=ThingStructureHydraulicPipeBender
+**Build Recipe:**
+  - Printer: Hydraulic Pipe Bender (Tier Two)
+    - 1000 x Energy + 2 x Copper (from Ingot (Copper)) + 15 x Steel (from Ingot (Steel)) + 2 x Silicon (from Ingot (Silicon))
+
 **Mode Options:**
   - LogicName=Mode0, LogicAccessTypes=0
   - LogicName=Mode1, LogicAccessTypes=1
@@ -1945,8 +1953,10 @@ When set to Inwards mode the Liquid Vacuum removes liquid from the world and int
   - LogicName=ReferenceId, LogicAccessTypes=0
 **Slots:**
   - SlotName=Battery, SlotType=Battery, SlotIndex=0
-**Build Steps:**
-  - PrinterName=Tool Manufactory, TierName=Tier Two, Description=2500 x Energy 10 x Steel from Ingot (Steel) 5 x Electrum from Ingot (Electrum) 10 x Invar from Ingot (Invar) 10 x Solder from Ingot (Solder) , PageLink=ThingStructureToolManufactory
+**Build Recipe:**
+  - Printer: Tool Manufactory (Tier Two)
+    - 2500 x Energy + 10 x Steel (from Ingot (Steel)) + 5 x Electrum (from Ingot (Electrum)) + 10 x Invar (from Ingot (Invar)) + 10 x Solder (from Ingot (Solder))
+
 **Mode Options:**
   - LogicName=Outward, LogicAccessTypes=0
   - LogicName=Inward, LogicAccessTypes=1
