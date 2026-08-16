@@ -203,32 +203,38 @@
   .category-tile {
     display: flex;
     align-items: center;
-    gap: 14px;
+    gap: 16px;
     background: var(--panel);
     border: 1px solid var(--border-strong);
     border-radius: var(--radius);
-    padding: 14px 16px;
+    padding: 16px 18px;
     cursor: pointer;
     text-align: left;
-    transition: transform 0.12s, border-color 0.12s, background 0.12s;
+    transition: transform 0.14s ease, border-color 0.14s, background 0.14s, box-shadow 0.14s;
   }
-  .category-tile:hover { transform: translateY(-2px); border-color: var(--cat-color, var(--cyan)); background: var(--panel-2); }
+  .category-tile:hover {
+    transform: translateY(-3px);
+    border-color: var(--cat-color, var(--cyan));
+    background: var(--panel-2);
+    box-shadow: 0 6px 18px -6px var(--cat-bg, transparent);
+  }
   .category-badge {
-    width: 44px; height: 44px;
+    width: 56px; height: 56px;
     flex-shrink: 0;
-    border-radius: var(--radius);
+    border-radius: 50%;
     display: flex; align-items: center; justify-content: center;
+    color: var(--cat-color, var(--cyan));
+    background: radial-gradient(circle at 35% 30%, var(--cat-bg, var(--panel-2)), var(--panel-2) 80%);
+    box-shadow: 0 0 0 1px var(--cat-color, var(--cyan));
     font-family: var(--mono);
     font-weight: 700;
-    font-size: 11px;
-    letter-spacing: 0.02em;
-    color: var(--cat-color, var(--cyan));
-    border: 1.5px solid var(--cat-color, var(--cyan));
-    background: var(--cat-bg, var(--panel-2));
+    font-size: 13px;
   }
+  .category-badge img { width: 36px; height: 36px; object-fit: contain; }
+  .category-gas-badge { width: 30px; height: 30px; font-size: 9px; border-radius: 7px; }
   .category-tile-text { min-width: 0; }
-  .category-tile-name { font-size: 14px; font-weight: 600; color: var(--text); }
-  .category-tile-count { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 3px; }
+  .category-tile-name { font-size: 14.5px; font-weight: 600; color: var(--text); }
+  .category-tile-count { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 4px; }
 
   .breadcrumb {
     display: flex;
@@ -671,12 +677,13 @@
   var FUNCTIONS = JSON.parse(document.getElementById('functions-data').textContent);
   var mainEl = document.querySelector('main');
 
-  // Same category-color language as the gas badges, applied to the home
-  // category tiles and reused as a small identity marker throughout. No
-  // real per-category icon art exists to extract (see build_search_index.ps1
-  // - PageCustomCategories/DisplayFilter were both dead ends), so every
-  // category gets a short mono-font abbreviation instead, consistent with
-  // how gas types already work.
+  // Real per-category icon art doesn't exist to extract (see
+  // build_search_index.ps1 - PageCustomCategories/DisplayFilter/
+  // HomePageOverrides were all dead ends). Hand-drawn glyphs didn't work
+  // out visually - using a real representative item icon per category
+  // instead (see CATEGORY_REP_ICON below). CATEGORY_INFO's color is still
+  // used for the badge's glow/border, and its abbreviation is the final
+  // fallback for a category with no real icon available at all.
   var CATEGORY_INFO = {
     'Ores': ['ORE', '#a8845a'], 'Ingots': ['ING', '#d9b64a'],
     'Structure Kits': ['KIT', '#5b8fd9'], 'Fabricators': ['FAB', '#e2542e'],
@@ -738,6 +745,19 @@
     return btn;
   }
 
+  // Real per-category icon art doesn't exist in the game data, but real
+  // per-ITEM icons do (1,868 of them, already extracted) - so instead of
+  // inventing category glyphs, use an actual representative item's real
+  // icon on each category tile. Picks the first page in each category with
+  // a genuine extracted icon, skipping wreckage/debris junk items so the
+  // representative isn't something ugly/irrelevant.
+  var CATEGORY_REP_ICON = {};
+  PAGES.forEach(function(p) {
+    if (!p.c || !p.i || CATEGORY_REP_ICON[p.c]) return;
+    if (/Wreckage|N:EN:/.test(p.t)) return;
+    CATEGORY_REP_ICON[p.c] = p.i;
+  });
+
   function renderCategoryGrid() {
     mainEl.classList.add('category-mode');
     var counts = {};
@@ -749,11 +769,19 @@
     grid.className = 'category-grid';
     order.forEach(function(c) {
       var info = CATEGORY_INFO[c] || [c.slice(0, 3).toUpperCase(), '#d97b4a'];
+      var icon;
+      if (CATEGORY_REP_ICON[c]) {
+        icon = '<img src="' + escapeHtml(CATEGORY_REP_ICON[c]) + '" alt="" loading="lazy">';
+      } else if (c === 'Gases') {
+        icon = gasBadgeHtml('Oxygen', 'category-gas-badge');
+      } else {
+        icon = escapeHtml(info[0]);
+      }
       var tile = document.createElement('button');
       tile.className = 'category-tile';
       tile.style.setProperty('--cat-color', info[1]);
       tile.style.setProperty('--cat-bg', info[1] + '1a');
-      tile.innerHTML = '<span class="category-badge">' + escapeHtml(info[0]) + '</span>' +
+      tile.innerHTML = '<span class="category-badge">' + icon + '</span>' +
         '<span class="category-tile-text"><span class="category-tile-name">' + escapeHtml(c) + '</span>' +
         '<span class="category-tile-count">' + counts[c].toLocaleString() + ' entries</span></span>';
       tile.addEventListener('click', function() { state.category = c; render(''); });
