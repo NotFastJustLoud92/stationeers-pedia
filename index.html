@@ -230,7 +230,17 @@
     font-weight: 700;
     font-size: 13px;
   }
-  .category-badge img { width: 36px; height: 36px; object-fit: contain; }
+  /* Real item icons range from bright to dark/muted metallic tones - a
+     plain dark badge swallows the darker ones. A light neutral plate behind
+     the image (not the badge itself, which keeps its category-color glow)
+     guarantees contrast for any icon color. */
+  .category-badge .icon-plate {
+    width: 44px; height: 44px;
+    border-radius: 50%;
+    background: #d9dde2;
+    display: flex; align-items: center; justify-content: center;
+  }
+  .category-badge img { width: 32px; height: 32px; object-fit: contain; }
   .category-gas-badge { width: 30px; height: 30px; font-size: 9px; border-radius: 7px; }
   .category-tile-text { min-width: 0; }
   .category-tile-name { font-size: 14.5px; font-weight: 600; color: var(--text); }
@@ -771,7 +781,7 @@
       var info = CATEGORY_INFO[c] || [c.slice(0, 3).toUpperCase(), '#d97b4a'];
       var icon;
       if (CATEGORY_REP_ICON[c]) {
-        icon = '<img src="' + escapeHtml(CATEGORY_REP_ICON[c]) + '" alt="" loading="lazy">';
+        icon = '<span class="icon-plate"><img src="' + escapeHtml(CATEGORY_REP_ICON[c]) + '" alt="" loading="lazy"></span>';
       } else if (c === 'Gases') {
         icon = gasBadgeHtml('Oxygen', 'category-gas-badge');
       } else {
