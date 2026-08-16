@@ -36,6 +36,8 @@ Text/spec data extraction is confirmed working on a fully headless dedicated ser
 
 Every printer-built item — furnace-smelted alloys as well as anything made on an Autolathe, Electronics Printer, Rocket Manufactory, etc. — gets a dedicated **Build Recipe** section instead of a raw field dump: printer(s), tier, resource cost, and (for furnace items specifically) temperature/pressure range, parsed out of the game's raw build-step data. Furnace/Advanced Furnace variants are deduplicated when they share identical requirements. Search `search.html` for any item name to find its recipe.
 
-## Known limitation
+## Known limitations
 
 Per-device "Logic Types" (which `LogicType` values a specific structure actually reads/writes) only populate for devices with a placed instance somewhere in the world at extraction time — a fresh/empty test world has nothing to source that from, so most device pages are missing that specific section even though the field is real and gets dumped whenever it's populated. The `LogicType.*` glossary pages (one per enum value, e.g. `LogicType.On`, `LogicType.Setting`) are complete regardless and cover what each logic type means generally.
+
+Gas-property pages (Oxygen, Nitrogen, etc.) have full spec data — Specific Heat, Latent Heat, freeze/boil points, Combustion reactions — but no icon. Icons are matched by `Prefab Hash`, and pure gas types aren't spawnable `Thing` prefabs the way physical items/structures are, so there's no `Thing.Thumbnail` sprite to extract for them. The in-game SPDA sources gas icons from a separate `Stationpedia._gasThumbnails` list instead - not currently wired up here.
