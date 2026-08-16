@@ -3,62 +3,177 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Stationeers Pedia Search</title>
+<title>Stationeers Pedia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Michroma&family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   :root {
-    --bg: #0f1216;
-    --bg-2: #161b21;
-    --panel: #1a2027;
-    --border: #2a323c;
-    --text: #dbe4ec;
-    --text-muted: #8b98a5;
-    --text-faint: #5c6b78;
+    /* Dark-only by deliberate choice, matching the project's own P&ID/console
+       diagrams: this is meant to read as an in-universe technical readout, not
+       a document that should adapt to a light host theme. Every color is
+       still declared explicitly (no reliance on prefers-color-scheme) so it
+       holds correctly on any viewer regardless of their OS theme. */
+    --bg: #0a0d11;
+    --bg-2: #10141a;
+    --panel: #151a21;
+    --panel-2: #1a2129;
+    --border: #232b34;
+    --border-strong: #34404c;
+    --text: #e7ecf0;
+    --text-muted: #8d9aa7;
+    --text-faint: #536170;
     --accent: #d97b4a;
+    --accent-strong: #f3a06a;
     --accent-soft: rgba(217,123,74,0.14);
-    --mono: "Cascadia Code", "SF Mono", Consolas, monospace;
-    --sans: "Segoe UI", system-ui, sans-serif;
+    --cyan: #57d6c8;
+    --cyan-soft: rgba(87,214,200,0.12);
+    --display: "Michroma", "Segoe UI", sans-serif;
+    --sans: "IBM Plex Sans", "Segoe UI", system-ui, sans-serif;
+    --mono: "IBM Plex Mono", "Cascadia Code", Consolas, monospace;
+    --radius: 4px;
   }
   * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
-  body { min-height: 100vh; display: flex; flex-direction: column; }
-
-  header {
-    padding: 24px 28px 16px;
-    border-bottom: 1px solid var(--border);
-    background: var(--bg-2);
-  }
-  h1 { margin: 0 0 4px; font-size: 20px; font-weight: 700; }
-  .sub { color: var(--text-muted); font-size: 13px; margin-bottom: 16px; }
-  #searchBox {
-    width: 100%;
-    max-width: 640px;
-    padding: 11px 14px;
-    font-size: 15px;
-    background: var(--panel);
-    border: 1px solid var(--border);
-    border-radius: 6px;
+  html, body { margin: 0; padding: 0; height: 100%; }
+  body {
+    background: var(--bg);
     color: var(--text);
     font-family: var(--sans);
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
   }
-  #searchBox:focus { outline: none; border-color: var(--accent); }
-  #resultCount { color: var(--text-faint); font-family: var(--mono); font-size: 12px; margin-top: 8px; }
+  ::-webkit-scrollbar { width: 10px; height: 10px; }
+  ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 5px; }
+  ::-webkit-scrollbar-track { background: var(--bg-2); }
+  ::selection { background: var(--accent-soft); color: var(--accent-strong); }
+  a { color: var(--cyan); }
+  :focus-visible { outline: 2px solid var(--cyan); outline-offset: 2px; }
 
+  /* ============ MASTHEAD ============ */
+  header {
+    position: relative;
+    padding: 28px 32px 22px;
+    background:
+      linear-gradient(var(--bg-2), var(--bg-2)),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 28px),
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.025) 0 1px, transparent 1px 28px);
+    border-bottom: 1px solid var(--border);
+    overflow: hidden;
+  }
+  header::after {
+    content: "";
+    position: absolute;
+    left: 0; right: 0; bottom: -1px;
+    height: 2px;
+    background: linear-gradient(90deg, var(--accent) 0%, var(--cyan) 55%, transparent 100%);
+    opacity: 0.7;
+  }
+  .masthead-row {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 18px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  .brand { display: flex; align-items: center; gap: 14px; }
+  .mark {
+    width: 40px; height: 40px;
+    flex-shrink: 0;
+    border: 1.5px solid var(--accent);
+    border-radius: 3px;
+    display: flex; align-items: center; justify-content: center;
+    background: var(--accent-soft);
+    position: relative;
+  }
+  .mark svg { width: 22px; height: 22px; }
+  .brand-text h1 {
+    margin: 0;
+    font-family: var(--display);
+    font-size: 22px;
+    letter-spacing: 0.06em;
+    font-weight: 400;
+    text-wrap: balance;
+  }
+  .brand-text .tagline {
+    margin-top: 4px;
+    font-size: 12.5px;
+    color: var(--text-muted);
+    max-width: 52ch;
+  }
+  .readouts { display: flex; gap: 22px; }
+  .readout { text-align: right; }
+  .readout .num {
+    font-family: var(--mono);
+    font-size: 22px;
+    font-weight: 600;
+    color: var(--cyan);
+    font-variant-numeric: tabular-nums;
+    line-height: 1;
+  }
+  .readout .lbl {
+    font-family: var(--mono);
+    font-size: 9.5px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--text-faint);
+    margin-top: 5px;
+  }
+
+  /* ============ SEARCH BAR ============ */
+  .search-wrap {
+    max-width: 1200px;
+    margin: 20px auto 0;
+    position: relative;
+  }
+  .search-prompt {
+    position: absolute;
+    left: 16px; top: 50%; transform: translateY(-50%);
+    font-family: var(--mono);
+    color: var(--accent);
+    font-size: 15px;
+    pointer-events: none;
+  }
+  #searchBox {
+    width: 100%;
+    padding: 13px 16px 13px 34px;
+    font-size: 15px;
+    font-family: var(--mono);
+    background: var(--panel);
+    border: 1px solid var(--border-strong);
+    border-radius: var(--radius);
+    color: var(--text);
+  }
+  #searchBox::placeholder { color: var(--text-faint); }
+  #searchBox:focus { outline: none; border-color: var(--cyan); box-shadow: 0 0 0 3px var(--cyan-soft); }
+  #resultCount {
+    color: var(--text-faint);
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    margin-top: 9px;
+  }
+
+  /* ============ MAIN ============ */
   main {
     flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
     display: grid;
     grid-template-columns: 340px 1fr;
     min-height: 0;
-  }
-  #results {
-    overflow-y: auto;
+    border-left: 1px solid var(--border);
     border-right: 1px solid var(--border);
-    background: var(--bg-2);
   }
+  #results { overflow-y: auto; border-right: 1px solid var(--border); background: var(--bg-2); }
   .result-item {
     display: block;
     width: 100%;
     text-align: left;
-    padding: 10px 16px;
+    padding: 11px 18px;
     border: none;
     border-bottom: 1px solid var(--border);
     background: none;
@@ -66,38 +181,160 @@
     cursor: pointer;
     font-family: var(--sans);
     font-size: 13.5px;
+    font-weight: 500;
+    transition: background 0.1s;
   }
   .result-item:hover { background: var(--panel); }
-  .result-item.active { background: var(--accent-soft); color: var(--accent); }
-  .result-item .rf { display: block; font-family: var(--mono); font-size: 10px; color: var(--text-faint); margin-top: 3px; }
+  .result-item.active { background: var(--accent-soft); color: var(--accent-strong); box-shadow: inset 3px 0 0 var(--accent); }
+  .result-item .rf {
+    display: block;
+    font-family: var(--mono);
+    font-size: 9.5px;
+    color: var(--text-faint);
+    margin-top: 4px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+  }
+  .result-item.active .rf { color: var(--accent); opacity: 0.8; }
 
-  #detail { overflow-y: auto; padding: 28px 36px; max-width: 900px; }
-  #detail h2 { margin: 0 0 6px; font-size: 22px; }
-  #detail .src { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-bottom: 18px; }
-  #detail p { line-height: 1.6; margin: 0 0 12px; }
-  #detail ul { margin: 0 0 14px; padding-left: 0; list-style: none; }
-  #detail li { padding: 3px 0 3px 4px; font-size: 13.5px; line-height: 1.5; border-left: 2px solid var(--border); padding-left: 10px; margin-bottom: 3px; }
-  #detail strong { color: var(--accent-strong, #f0985f); }
-  #detail .section-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); margin: 16px 0 6px; }
-  #empty { color: var(--text-faint); padding: 40px; text-align: center; }
+  #detail { overflow-y: auto; padding: 34px 40px 60px; background: var(--bg); }
+  .detail-header { border-bottom: 1px solid var(--border); padding-bottom: 18px; margin-bottom: 22px; }
+  #detail h2 {
+    margin: 0 0 8px;
+    font-family: var(--display);
+    font-size: 21px;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    text-wrap: balance;
+  }
+  #detail .src {
+    display: inline-block;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--text-faint);
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 3px;
+    padding: 2px 8px;
+  }
+  #detail p { line-height: 1.65; margin: 0 0 20px; color: var(--text); max-width: 66ch; font-size: 14.5px; }
 
-  ::-webkit-scrollbar { width: 10px; }
-  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+  .spec-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    gap: 1px;
+    background: var(--border);
+    border: 1px solid var(--border);
+    border-radius: var(--radius);
+    overflow: hidden;
+    margin-bottom: 22px;
+  }
+  .spec-row { background: var(--panel); padding: 9px 13px; }
+  .spec-row .k { font-family: var(--mono); font-size: 9.5px; letter-spacing: 0.07em; text-transform: uppercase; color: var(--text-faint); }
+  .spec-row .v { font-family: var(--mono); font-size: 13px; color: var(--text); margin-top: 3px; font-variant-numeric: tabular-nums; word-break: break-word; }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 11px;
+    letter-spacing: 0.09em;
+    text-transform: uppercase;
+    color: var(--cyan);
+    margin: 24px 0 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-label::after { content: ""; flex: 1; height: 1px; background: var(--border); }
+
+  .plain-list { margin: 0 0 4px; padding: 0; list-style: none; }
+  .plain-list li {
+    font-size: 13px;
+    line-height: 1.55;
+    padding: 6px 0 6px 12px;
+    border-left: 2px solid var(--border);
+    margin-bottom: 4px;
+    color: var(--text-muted);
+  }
+
+  .recipe-card {
+    background: var(--panel-2);
+    border: 1px solid var(--accent);
+    border-radius: var(--radius);
+    padding: 4px 16px 14px;
+    margin-bottom: 6px;
+  }
+  .recipe-card .section-label { color: var(--accent-strong); }
+  .recipe-card .section-label::after { background: var(--border-strong); }
+  .recipe-line {
+    font-family: var(--mono);
+    font-size: 12.5px;
+    line-height: 1.7;
+    color: var(--text);
+    padding: 5px 0;
+    border-bottom: 1px dashed var(--border);
+  }
+  .recipe-line:last-child { border-bottom: none; }
+  .recipe-meta { font-family: var(--mono); font-size: 12px; color: var(--cyan); margin-bottom: 2px; }
+
+  #empty { color: var(--text-faint); padding: 60px 20px; text-align: center; font-family: var(--mono); font-size: 13px; }
+
+  footer {
+    text-align: center;
+    padding: 16px;
+    font-family: var(--mono);
+    font-size: 10.5px;
+    color: var(--text-faint);
+    border-top: 1px solid var(--border);
+    background: var(--bg-2);
+  }
+  footer a { color: var(--text-faint); }
+
+  @media (prefers-reduced-motion: no-preference) {
+    .readout .num { animation: flicker 6s ease-in-out infinite; }
+  }
+  @keyframes flicker { 0%, 92%, 100% { opacity: 1; } 94% { opacity: 0.75; } 96% { opacity: 1; } }
+
+  @media (max-width: 760px) {
+    main { grid-template-columns: 1fr; }
+    #results { border-right: none; border-bottom: 1px solid var(--border); max-height: 40vh; }
+    .readouts { display: none; }
+  }
 </style>
 </head>
 <body>
 
 <header>
-  <h1>Stationeers Pedia Search</h1>
-  <div class="sub">__PAGE_COUNT__ pages, extracted from live game data. Search by device/item name or any word in its description, specs, or recipe.</div>
-  <input type="text" id="searchBox" placeholder="Search... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autofocus>
-  <div id="resultCount"></div>
+  <div class="masthead-row">
+    <div class="brand">
+      <div class="mark">
+        <svg viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="1.6"><path d="M12 2 L21 7 L21 17 L12 22 L3 17 L3 7 Z"/><path d="M12 2 L12 22 M3 7 L21 17 M21 7 L3 17"/><circle cx="12" cy="12" r="2.4" fill="var(--accent)" stroke="none"/></svg>
+      </div>
+      <div class="brand-text">
+        <h1>STATIONEERS PEDIA</h1>
+        <div class="tagline">Device specs, build recipes, and the full LogicType reference — extracted directly from live game data.</div>
+      </div>
+    </div>
+    <div class="readouts">
+      <div class="readout"><div class="num">__PAGE_COUNT__</div><div class="lbl">Entries</div></div>
+      <div class="readout"><div class="num">19</div><div class="lbl">Furnace Recipes</div></div>
+    </div>
+  </div>
+
+  <div class="search-wrap">
+    <span class="search-prompt">&gt;</span>
+    <input type="text" id="searchBox" placeholder="Search a device, item, or LogicType... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autofocus autocomplete="off" spellcheck="false">
+  </div>
+  <div id="resultCount" style="max-width:1200px;margin:9px auto 0;"></div>
 </header>
 
 <main>
   <div id="results"></div>
-  <div id="detail"><div id="empty">Type to search, or pick a page from the list.</div></div>
+  <div id="detail"><div id="empty">Type to search, or select an entry from the index.</div></div>
 </main>
+
+<footer>
+  Generated from Stationeers game data via a headless-server extraction mod &middot; <a href="https://github.com/NotFastJustLoud92/stationeers-pedia" target="_blank" rel="noopener">source on GitHub</a>
+</footer>
 
 <script type="application/json" id="pages-data">__PAGES_JSON__</script>
 <script>
@@ -109,36 +346,77 @@
   var detailEl = document.getElementById('detail');
   var countEl = document.getElementById('resultCount');
 
-  function mdToHtml(md) {
-    var lines = md.split('\n');
-    var html = '', inList = false;
-    lines.forEach(function(line) {
-      if (/^\s*$/.test(line)) { if (inList) { html += '</ul>'; inList = false; } return; }
-      var listMatch = line.match(/^\s*-\s+(.*)/);
-      if (listMatch) {
-        if (!inList) { html += '<ul>'; inList = true; }
-        html += '<li>' + inline(listMatch[1]) + '</li>';
-        return;
-      }
-      var boldLine = line.match(/^\*\*(.+):\*\*\s*$/);
-      if (boldLine) {
-        if (inList) { html += '</ul>'; inList = false; }
-        html += '<div class="section-label">' + escapeHtml(boldLine[1]) + '</div>';
-        return;
-      }
-      if (inList) { html += '</ul>'; inList = false; }
-      html += '<p>' + inline(line) + '</p>';
-    });
-    if (inList) html += '</ul>';
-    return html;
-  }
   function escapeHtml(s) {
     return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
   }
-  function inline(s) {
-    s = escapeHtml(s);
-    s = s.replace(/\*\*(.+?):\*\*/g, '<strong>$1:</strong>');
-    return s;
+  function inlineText(s) {
+    // Strip markdown bold marker, keep the text - used inside spec/list values.
+    return escapeHtml(s.replace(/\*\*/g, ''));
+  }
+
+  // Renders one page body (already-cleaned plain-ish markdown from the dump:
+  // "- **Key:** Value" spec lines, "**Section:**" headers introducing a run of
+  // "- item" lines, and plain paragraphs). Spec lines become a key/value grid;
+  // a Furnace Recipe section gets its own card treatment since it's the
+  // highlight feature; everything else becomes a labeled plain list.
+  function renderBody(md) {
+    var lines = md.split('\n');
+    var html = '';
+    var specRows = [];
+    var i = 0;
+
+    function flushSpecs() {
+      if (specRows.length === 0) return;
+      html += '<div class="spec-grid">' + specRows.join('') + '</div>';
+      specRows = [];
+    }
+
+    while (i < lines.length) {
+      var line = lines[i];
+
+      if (/^\s*$/.test(line)) { i++; continue; }
+
+      var specMatch = line.match(/^-\s*\*\*(.+?):\*\*\s*(.*)$/);
+      if (specMatch) {
+        specRows.push('<div class="spec-row"><div class="k">' + escapeHtml(specMatch[1]) + '</div><div class="v">' + inlineText(specMatch[2]) + '</div></div>');
+        i++;
+        continue;
+      }
+
+      var sectionMatch = line.match(/^\*\*(.+):\*\*\s*$/);
+      if (sectionMatch) {
+        flushSpecs();
+        var label = sectionMatch[1];
+        var items = [];
+        i++;
+        while (i < lines.length && /^\s*-\s+/.test(lines[i])) {
+          items.push(lines[i].replace(/^\s*-\s+/, ''));
+          i++;
+        }
+        if (label === 'Furnace Recipe') {
+          html += '<div class="recipe-card"><div class="section-label">' + escapeHtml(label) + '</div>';
+          items.forEach(function(it) {
+            if (/^Yield:|^Printer:/.test(it)) {
+              html += '<div class="recipe-meta">' + inlineText(it) + '</div>';
+            } else {
+              html += '<div class="recipe-line">' + inlineText(it) + '</div>';
+            }
+          });
+          html += '</div>';
+        } else {
+          html += '<div class="section-label">' + escapeHtml(label) + '</div><ul class="plain-list">';
+          items.forEach(function(it) { html += '<li>' + inlineText(it) + '</li>'; });
+          html += '</ul>';
+        }
+        continue;
+      }
+
+      flushSpecs();
+      html += '<p>' + inlineText(line) + '</p>';
+      i++;
+    }
+    flushSpecs();
+    return html;
   }
 
   var activeBtn = null;
@@ -146,9 +424,9 @@
     if (activeBtn) activeBtn.classList.remove('active');
     if (btn) { btn.classList.add('active'); activeBtn = btn; }
     detailEl.innerHTML =
-      '<h2>' + escapeHtml(page.t) + '</h2>' +
-      '<div class="src">' + escapeHtml(page.f) + '</div>' +
-      mdToHtml(page.b);
+      '<div class="detail-header"><h2>' + escapeHtml(page.t) + '</h2><span class="src">' + escapeHtml(page.f) + '</span></div>' +
+      renderBody(page.b);
+    detailEl.scrollTop = 0;
   }
 
   function render(query) {
@@ -160,28 +438,30 @@
       var titleMatches = [], bodyMatches = [];
       for (var i = 0; i < PAGES.length; i++) {
         var p = PAGES[i];
-        var titleLower = p.t.toLowerCase();
-        if (titleLower.indexOf(q) !== -1) { titleMatches.push(p); continue; }
+        if (p.t.toLowerCase().indexOf(q) !== -1) { titleMatches.push(p); continue; }
         if (p.b.toLowerCase().indexOf(q) !== -1) bodyMatches.push(p);
       }
       matches = titleMatches.concat(bodyMatches);
     }
 
-    countEl.textContent = matches.length + ' result' + (matches.length === 1 ? '' : 's');
+    countEl.textContent = matches.length.toLocaleString() + ' result' + (matches.length === 1 ? '' : 's');
     resultsEl.innerHTML = '';
     activeBtn = null;
 
     var cap = matches.slice(0, 300);
+    var frag = document.createDocumentFragment();
     cap.forEach(function(p) {
       var btn = document.createElement('button');
       btn.className = 'result-item';
       btn.innerHTML = escapeHtml(p.t) + '<span class="rf">' + escapeHtml(p.f) + '</span>';
       btn.addEventListener('click', function(){ showPage(p, btn); });
-      resultsEl.appendChild(btn);
+      frag.appendChild(btn);
     });
+    resultsEl.appendChild(frag);
 
     if (q !== '' && cap.length > 0) showPage(cap[0], resultsEl.firstChild);
-    else if (cap.length === 0) detailEl.innerHTML = '<div id="empty">No matches.</div>';
+    else if (cap.length === 0) detailEl.innerHTML = '<div id="empty">No matches for that search.</div>';
+    else detailEl.innerHTML = '<div id="empty">Type to search, or select an entry from the index.</div>';
   }
 
   var debounceTimer;
