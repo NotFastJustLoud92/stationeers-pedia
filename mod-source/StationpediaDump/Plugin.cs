@@ -22,17 +22,34 @@ namespace StationpediaDump
     {
         private void Awake()
         {
-            Harmony.CreateAndPatchAll(typeof(DumpPatch));
-            Logger.LogInfo("[StationpediaDump] Harmony patch applied, waiting for GameManager.StartGame...");
+            Harmony.CreateAndPatchAll(typeof(DumpPatchStartGame));
+            Harmony.CreateAndPatchAll(typeof(DumpPatchReadyToPlay));
+            Logger.LogInfo("[StationpediaDump] Harmony patches applied, waiting for GameManager.StartGame or OnReadyToPlay...");
         }
     }
 
+    // GameManager.StartGame is host/server-authoritative - fires when hosting
+    // a world (dedicated server or singleplayer), but never fires for a
+    // client joining someone else's already-running server. OnReadyToPlay
+    // fires for both, so both are patched; DumpGuard makes sure whichever
+    // fires first is the one that actually runs the dump.
     [HarmonyPatch(typeof(GameManager), nameof(GameManager.StartGame))]
-    public class DumpPatch
+    public class DumpPatchStartGame
+    {
+        public static void Postfix() => DumpGuard.RunOnce();
+    }
+
+    [HarmonyPatch(typeof(GameManager), nameof(GameManager.OnReadyToPlay))]
+    public class DumpPatchReadyToPlay
+    {
+        public static void Postfix() => DumpGuard.RunOnce();
+    }
+
+    public static class DumpGuard
     {
         private static bool _done;
 
-        public static void Postfix()
+        public static void RunOnce()
         {
             if (_done) return;
             _done = true;
