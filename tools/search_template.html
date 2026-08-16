@@ -360,7 +360,7 @@
   // a Furnace Recipe section gets its own card treatment since it's the
   // highlight feature; everything else becomes a labeled plain list.
   function renderBody(md) {
-    var lines = md.split('\n');
+    var lines = md.replace(/\r\n/g, '\n').split('\n');
     var html = '';
     var specRows = [];
     var i = 0;
