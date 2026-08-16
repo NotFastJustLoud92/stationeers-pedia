@@ -1,14 +1,25 @@
 # Stationeers Pedia
 
-A reference library of Stationeers' Stationpedia (device docs, specs, build recipes, real item icons, and the full `LogicType` glossary), extracted directly from live game data — not hand-transcribed, not scraped from a wiki. Covers vanilla content plus every device/item added by the Cragspire server's Workshop mod set. Built for use as accurate reference material when writing IC10 scripts or working on the [stationeers-atmospherics](https://github.com/NotFastJustLoud92/stationeers-atmospherics) build.
+A reference library of Stationeers' Stationpedia (device docs, specs, build recipes, real item icons, and the full `LogicType` glossary) plus the IC10 instruction set, extracted directly from live game data — not hand-transcribed, not scraped from a wiki. Covers vanilla content plus every device/item added by the Cragspire server's Workshop mod set. Built for use as accurate reference material when writing IC10 scripts or working on the [stationeers-atmospherics](https://github.com/NotFastJustLoud92/stationeers-atmospherics) build.
+
+The site is organized like the in-game SPDA itself: a **Universe** tab for browsing devices/items by category (Ores, Ingots, Fabricators, Atmospherics, Logic Devices, etc.), a **Guides** tab for real in-game tutorial/lore content, and a **Functions** tab covering all 154 IC10 opcodes.
 
 ## Contents
 
-- [`search.html`](search.html) — download/clone the repo and open this locally for a searchable interface over all 2,435 pages (title + full-text search, no server or internet connection needed). Regenerate it with `tools/build_search_index.ps1` any time `data/` or `icons/` changes.
+- [`search.html`](search.html) — download/clone the repo and open this locally for a searchable, categorized interface over all 2,435 pages plus 154 IC10 functions (no server or internet connection needed). Regenerate it with `tools/build_search_index.ps1` any time `data/`, `icons/`, or `functions.md` changes.
 - [`data/`](data/) — the extracted library itself. 2,435 pages, chunked alphabetically into 25 files. Start at [`data/README.md`](data/README.md) for the index and a note on current known gaps.
+- [`functions.md`](functions.md) — the IC10 instruction library (all 154 opcodes; see Known Limitations for the current state of description text).
 - [`icons/`](icons/) — real in-game item icons, one PNG per `Prefab Hash` that has one (1,868 of 2,435 pages). Matched to pages automatically by `build_search_index.ps1`.
-- [`mod-source/StationpediaDump/`](mod-source/StationpediaDump/) — the BepInEx/Harmony mod that generates `data/` and `icons/`. Not published to Steam Workshop; it's a one-off extraction tool, run manually whenever the library needs refreshing (e.g. after a game update or mod-set change).
+- [`mod-source/StationpediaDump/`](mod-source/StationpediaDump/) — the BepInEx/Harmony mod that generates `data/`, `icons/`, and `functions.md`. Not published to Steam Workshop; it's a one-off extraction tool, run manually whenever the library needs refreshing (e.g. after a game update or mod-set change).
 - [`tools/`](tools/) — `build_search_index.ps1` + its HTML template regenerate `search.html`; `icon_receiver.ps1` is the server-side receiver used during a client-side icon capture run (see below).
+
+## Categories, Guides, and Functions
+
+**Categories** (Universe tab): no clean per-item category field exists anywhere in the extracted game data — `PageCustomCategories` is almost always empty, `DisplayFilter` is ~99% `Undefined`, and `Stationpedia.HomePageOverrides` turned out to be just the home-screen button list, not a per-item mapping (all confirmed via reflection). Categories are instead assigned by a title/prefab-name pattern classifier in `build_search_index.ps1` (`Get-Category`) - a good approximation of the native SPDA's own bucket set, but not authoritative. Full-text search always covers every entry regardless of which category it landed in.
+
+**Guides/Lore**: `Stationpedia.GuidesPages` and `Stationpedia.LorePages` are real `List<string>` fields holding the page Keys for genuine tutorial and lore content (e.g. "Mining", "Making Music"). Cross-referenced against every page during extraction and tagged with a `Content Type` field, so these show up in their own tab instead of being mixed into the device/item list alphabetically.
+
+**Functions**: `Assets.Scripts.Objects.Electrical.ScriptCommand` is a complete enum of all 154 IC10 opcodes, extracted directly (100% reliable, no UI needed). The rich per-instruction documentation (argument signature, category, full description) lives in `Assets.Scripts.UI.ScriptHelpWindow`/`HelpReference` instead, which - like gas icons - only populates when the actual script-editor UI panel renders in a live client; every attempt to force it headless or via reflection failed the same way the gas-icon investigation did. Ships with the confirmed-real opcode list; description text is a possible future enhancement if a client-side capture attempt is worth pursuing.
 
 ## How the extraction works
 
