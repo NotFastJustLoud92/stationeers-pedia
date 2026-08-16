@@ -1,0 +1,197 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Stationeers Pedia Search</title>
+<style>
+  :root {
+    --bg: #0f1216;
+    --bg-2: #161b21;
+    --panel: #1a2027;
+    --border: #2a323c;
+    --text: #dbe4ec;
+    --text-muted: #8b98a5;
+    --text-faint: #5c6b78;
+    --accent: #d97b4a;
+    --accent-soft: rgba(217,123,74,0.14);
+    --mono: "Cascadia Code", "SF Mono", Consolas, monospace;
+    --sans: "Segoe UI", system-ui, sans-serif;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--bg); color: var(--text); font-family: var(--sans); }
+  body { min-height: 100vh; display: flex; flex-direction: column; }
+
+  header {
+    padding: 24px 28px 16px;
+    border-bottom: 1px solid var(--border);
+    background: var(--bg-2);
+  }
+  h1 { margin: 0 0 4px; font-size: 20px; font-weight: 700; }
+  .sub { color: var(--text-muted); font-size: 13px; margin-bottom: 16px; }
+  #searchBox {
+    width: 100%;
+    max-width: 640px;
+    padding: 11px 14px;
+    font-size: 15px;
+    background: var(--panel);
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    color: var(--text);
+    font-family: var(--sans);
+  }
+  #searchBox:focus { outline: none; border-color: var(--accent); }
+  #resultCount { color: var(--text-faint); font-family: var(--mono); font-size: 12px; margin-top: 8px; }
+
+  main {
+    flex: 1;
+    display: grid;
+    grid-template-columns: 340px 1fr;
+    min-height: 0;
+  }
+  #results {
+    overflow-y: auto;
+    border-right: 1px solid var(--border);
+    background: var(--bg-2);
+  }
+  .result-item {
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 10px 16px;
+    border: none;
+    border-bottom: 1px solid var(--border);
+    background: none;
+    color: var(--text);
+    cursor: pointer;
+    font-family: var(--sans);
+    font-size: 13.5px;
+  }
+  .result-item:hover { background: var(--panel); }
+  .result-item.active { background: var(--accent-soft); color: var(--accent); }
+  .result-item .rf { display: block; font-family: var(--mono); font-size: 10px; color: var(--text-faint); margin-top: 3px; }
+
+  #detail { overflow-y: auto; padding: 28px 36px; max-width: 900px; }
+  #detail h2 { margin: 0 0 6px; font-size: 22px; }
+  #detail .src { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-bottom: 18px; }
+  #detail p { line-height: 1.6; margin: 0 0 12px; }
+  #detail ul { margin: 0 0 14px; padding-left: 0; list-style: none; }
+  #detail li { padding: 3px 0 3px 4px; font-size: 13.5px; line-height: 1.5; border-left: 2px solid var(--border); padding-left: 10px; margin-bottom: 3px; }
+  #detail strong { color: var(--accent-strong, #f0985f); }
+  #detail .section-label { font-family: var(--mono); font-size: 11px; text-transform: uppercase; letter-spacing: 0.05em; color: var(--text-faint); margin: 16px 0 6px; }
+  #empty { color: var(--text-faint); padding: 40px; text-align: center; }
+
+  ::-webkit-scrollbar { width: 10px; }
+  ::-webkit-scrollbar-thumb { background: var(--border); border-radius: 5px; }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Stationeers Pedia Search</h1>
+  <div class="sub">__PAGE_COUNT__ pages, extracted from live game data. Search by device/item name or any word in its description, specs, or recipe.</div>
+  <input type="text" id="searchBox" placeholder="Search... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autofocus>
+  <div id="resultCount"></div>
+</header>
+
+<main>
+  <div id="results"></div>
+  <div id="detail"><div id="empty">Type to search, or pick a page from the list.</div></div>
+</main>
+
+<script type="application/json" id="pages-data">__PAGES_JSON__</script>
+<script>
+(function(){
+  var PAGES = JSON.parse(document.getElementById('pages-data').textContent);
+
+  var searchBox = document.getElementById('searchBox');
+  var resultsEl = document.getElementById('results');
+  var detailEl = document.getElementById('detail');
+  var countEl = document.getElementById('resultCount');
+
+  function mdToHtml(md) {
+    var lines = md.split('\n');
+    var html = '', inList = false;
+    lines.forEach(function(line) {
+      if (/^\s*$/.test(line)) { if (inList) { html += '</ul>'; inList = false; } return; }
+      var listMatch = line.match(/^\s*-\s+(.*)/);
+      if (listMatch) {
+        if (!inList) { html += '<ul>'; inList = true; }
+        html += '<li>' + inline(listMatch[1]) + '</li>';
+        return;
+      }
+      var boldLine = line.match(/^\*\*(.+):\*\*\s*$/);
+      if (boldLine) {
+        if (inList) { html += '</ul>'; inList = false; }
+        html += '<div class="section-label">' + escapeHtml(boldLine[1]) + '</div>';
+        return;
+      }
+      if (inList) { html += '</ul>'; inList = false; }
+      html += '<p>' + inline(line) + '</p>';
+    });
+    if (inList) html += '</ul>';
+    return html;
+  }
+  function escapeHtml(s) {
+    return s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;');
+  }
+  function inline(s) {
+    s = escapeHtml(s);
+    s = s.replace(/\*\*(.+?):\*\*/g, '<strong>$1:</strong>');
+    return s;
+  }
+
+  var activeBtn = null;
+  function showPage(page, btn) {
+    if (activeBtn) activeBtn.classList.remove('active');
+    if (btn) { btn.classList.add('active'); activeBtn = btn; }
+    detailEl.innerHTML =
+      '<h2>' + escapeHtml(page.t) + '</h2>' +
+      '<div class="src">' + escapeHtml(page.f) + '</div>' +
+      mdToHtml(page.b);
+  }
+
+  function render(query) {
+    var q = query.trim().toLowerCase();
+    var matches;
+    if (q === '') {
+      matches = PAGES;
+    } else {
+      var titleMatches = [], bodyMatches = [];
+      for (var i = 0; i < PAGES.length; i++) {
+        var p = PAGES[i];
+        var titleLower = p.t.toLowerCase();
+        if (titleLower.indexOf(q) !== -1) { titleMatches.push(p); continue; }
+        if (p.b.toLowerCase().indexOf(q) !== -1) bodyMatches.push(p);
+      }
+      matches = titleMatches.concat(bodyMatches);
+    }
+
+    countEl.textContent = matches.length + ' result' + (matches.length === 1 ? '' : 's');
+    resultsEl.innerHTML = '';
+    activeBtn = null;
+
+    var cap = matches.slice(0, 300);
+    cap.forEach(function(p) {
+      var btn = document.createElement('button');
+      btn.className = 'result-item';
+      btn.innerHTML = escapeHtml(p.t) + '<span class="rf">' + escapeHtml(p.f) + '</span>';
+      btn.addEventListener('click', function(){ showPage(p, btn); });
+      resultsEl.appendChild(btn);
+    });
+
+    if (q !== '' && cap.length > 0) showPage(cap[0], resultsEl.firstChild);
+    else if (cap.length === 0) detailEl.innerHTML = '<div id="empty">No matches.</div>';
+  }
+
+  var debounceTimer;
+  searchBox.addEventListener('input', function() {
+    clearTimeout(debounceTimer);
+    debounceTimer = setTimeout(function(){ render(searchBox.value); }, 80);
+  });
+
+  render('');
+})();
+</script>
+</body>
+</html>

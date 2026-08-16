@@ -1125,9 +1125,10 @@ This solar panel is resistant to storm damage.
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 950 K (677oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa Requires a pure gas mixture of only the listed types 1 x Methane 1 x Hydrocarbon from Ore (Coal) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 950 K (677oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa Requires a pure gas mixture of only the listed types 1 x Methane 1 x Hydrocarbon from Ore (Coal) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Printer: Advanced Furnace / Furnace
+    - 1 Methane + 1 Hydrocarbon (from Ore (Coal)) | Temp: 950 K (677oC) to 100 kK (99726oC) | Pressure: 1 MPa to 100 MPa Requires a pure gas mixture of only the listed types
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter

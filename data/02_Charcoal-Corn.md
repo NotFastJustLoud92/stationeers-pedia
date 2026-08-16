@@ -13,11 +13,11 @@ Charcoal is a lightweight, black carbon residue produced by heating Biomass in a
 - **Paintable:** No
 - **Flashpoint:** 323 K (50oC)
 - **Auto Ignition:** 373 K (100oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 580 K (307oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Biomass from Biomass , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=500 x Energy 1 x Biomass from Biomass , PageLink=ThingStructureArcFurnace
-  - PrinterName=Centrifuge, TierName=Tier One, Description=1 x Carbon , PageLink=ThingStructureCentrifuge
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 580 K (307oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Biomass from Biomass , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 500 x Energy 1 x Biomass from Biomass
+  - Printer: Advanced Furnace / Furnace
+    - 1 Biomass (from Biomass) | Temp: 580 K (307oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Found In Gas:**
   - NameOfThing=Pollutant, QuantityOfThing=3 mol
   - NameOfThing=Carbon Dioxide, QuantityOfThing=3 mol

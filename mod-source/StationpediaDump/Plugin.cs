@@ -182,7 +182,8 @@ namespace StationpediaDump
             WriteList(sb, "Logic Slot Types", page.LogicSlotInsert);
             WriteList(sb, "Logic Bindings", page.LogicBindings);
             WriteList(sb, "Slots", page.SlotInserts);
-            WriteList(sb, "Build Steps", page.HowToBuild);
+            if (!TryRenderFurnaceRecipes(page, sb))
+                WriteList(sb, "Build Steps", page.HowToBuild);
             WriteList(sb, "Build States", page.BuildStates);
             WriteList(sb, "Constructed From Kits", page.ConstructedByKits);
             WriteList(sb, "Resources Used", page.ResourcesUsed);
@@ -211,6 +212,140 @@ namespace StationpediaDump
             s = Regex.Replace(s, "\r\n|\r|\n", " ").Trim();
             s = Regex.Replace(s, "\\s{2,}", " ");
             return s;
+        }
+
+        // Matches one alternative furnace recipe: "Temperature: X to Y Pressure: A to
+        // B 0.75 x Iron from Ore (Iron) 0.25 x Carbon from Charcoal". BuildStates
+        // holds one such row per *alternative* recipe (e.g. Steel accepts either
+        // Charcoal or Ore (Coal) as its carbon source - each is a complete,
+        // independent row, not two ingredients of one recipe split across rows),
+        // plus one trailing row with just the yield ("1 x Steel") shared by every
+        // variant above it for that printer.
+        // The "from" clause is optional - an ingredient can be another craftable
+        // item used directly (e.g. Astroloy takes "0.5 x Steel" with no ore
+        // source), not just something extracted "from" a raw ore/ice.
+        private static readonly Regex FurnaceVariantPattern = new Regex(
+            @"^Temperature:\s*(?<temp>.+?)\s+Pressure:\s*(?<pressure>.+?)\s+(?<ingredients>(?:[\d.]+\s*x\s*.+?(?:\s+from\s+.+?)?\s*)+)$",
+            RegexOptions.Compiled);
+        private static readonly Regex FurnaceIngredientPattern = new Regex(
+            @"([\d.]+)\s*x\s*(.+?)(?:\s+from\s+(.+?))?(?=(?:\s+[\d.]+\s*x\s)|$)",
+            RegexOptions.Compiled);
+        private static readonly Regex FurnaceYieldPattern = new Regex(
+            @"^(\d+(?:\.\d+)?)\s*x\s*(.+)$", RegexOptions.Compiled);
+
+        private static string GetStringMember(object obj, Type t, string name)
+        {
+            var f = t.GetField(name, BindingFlags.Public | BindingFlags.Instance);
+            if (f != null) return f.GetValue(obj) as string;
+            var p = t.GetProperty(name, BindingFlags.Public | BindingFlags.Instance);
+            if (p != null) return p.GetValue(obj) as string;
+            return null;
+        }
+
+        /// <summary>
+        /// Replaces the generic "Build Steps" (page.HowToBuild) dump with a clean parsed recipe
+        /// for anything smelted (Furnace/Advanced Furnace), deduplicating the two
+        /// printer tiers when they share identical requirements (the usual case).
+        /// Returns false (write nothing, caller falls back to the generic dump)
+        /// for anything that isn't furnace-based - kit-built structures/items
+        /// keep their existing simple rendering.
+        /// </summary>
+        private static bool TryRenderFurnaceRecipes(StationpediaPage page, StringBuilder sb)
+        {
+            var howToBuild = page.HowToBuild;
+            if (howToBuild == null) return false;
+            List<object> items;
+            try { items = howToBuild.Cast<object>().Where(x => x != null).ToList(); }
+            catch { return false; }
+            if (items.Count == 0) return false;
+
+            var rows = new List<(string printer, string desc)>();
+            foreach (var item in items)
+            {
+                Type t = item.GetType();
+                string printer = Clean(GetStringMember(item, t, "PrinterName") ?? "");
+                string desc = GetStringMember(item, t, "Description");
+                if (desc == null) continue;
+                rows.Add((printer, Clean(desc)));
+            }
+
+            bool anyFurnace = rows.Any(r => r.printer.IndexOf("Furnace", StringComparison.OrdinalIgnoreCase) >= 0);
+            if (!anyFurnace) return false;
+
+            var variantsByPrinter = new Dictionary<string, List<string>>();
+            string yieldText = null;
+            foreach (var (printer, desc) in rows)
+            {
+                if (FurnaceVariantPattern.IsMatch(desc))
+                {
+                    if (!variantsByPrinter.TryGetValue(printer, out var list))
+                        variantsByPrinter[printer] = list = new List<string>();
+                    list.Add(desc);
+                }
+                else if (yieldText == null)
+                {
+                    // Some rows (e.g. raw ore/organics burned in an Arc Furnace
+                    // for Energy) yield more than one output in a single
+                    // description ("500 x Energy 1 x Biomass from Biomass").
+                    // Re-templating only the first "N x X" would silently drop
+                    // the rest, so just pass the whole cleaned line through
+                    // when a second "N x" is present instead of guessing at
+                    // its structure.
+                    var ym = FurnaceYieldPattern.Match(desc);
+                    if (ym.Success)
+                    {
+                        string rest = ym.Groups[2].Value;
+                        yieldText = Regex.IsMatch(rest, @"\d+(?:\.\d+)?\s*x\s")
+                            ? desc
+                            : $"{ym.Groups[1].Value} x {rest}";
+                    }
+                }
+            }
+            if (variantsByPrinter.Count == 0) return false;
+
+            // Dedupe printers whose variant sets are identical (Furnace and
+            // Advanced Furnace almost always require the same inputs).
+            var printersByVariantSet = new Dictionary<string, List<string>>();
+            var variantSetContent = new Dictionary<string, List<string>>();
+            foreach (var kv in variantsByPrinter)
+            {
+                string key = string.Join("||", kv.Value);
+                if (!printersByVariantSet.TryGetValue(key, out var printers))
+                {
+                    printersByVariantSet[key] = printers = new List<string>();
+                    variantSetContent[key] = kv.Value;
+                }
+                printers.Add(kv.Key);
+            }
+
+            sb.AppendLine("**Furnace Recipe:**");
+            if (yieldText != null)
+                sb.Append("  - Yield: ").AppendLine(yieldText);
+
+            foreach (var kv in printersByVariantSet)
+            {
+                sb.Append("  - Printer: ").AppendLine(string.Join(" / ", kv.Value.OrderBy(p => p)));
+                foreach (var variantDesc in variantSetContent[kv.Key])
+                {
+                    var m = FurnaceVariantPattern.Match(variantDesc);
+                    if (!m.Success) continue;
+                    string temp = m.Groups["temp"].Value.Trim();
+                    string pressure = m.Groups["pressure"].Value.Trim();
+                    var ingredientParts = new List<string>();
+                    foreach (Match im in FurnaceIngredientPattern.Matches(m.Groups["ingredients"].Value))
+                    {
+                        string src = im.Groups[3].Success ? im.Groups[3].Value.Trim() : null;
+                        string part = $"{im.Groups[1].Value} {im.Groups[2].Value.Trim()}";
+                        if (!string.IsNullOrEmpty(src)) part += $" (from {src})";
+                        ingredientParts.Add(part);
+                    }
+                    if (ingredientParts.Count == 0) continue;
+                    sb.Append("    - ").Append(string.Join(" + ", ingredientParts))
+                      .Append(" | Temp: ").Append(temp).Append(" | Pressure: ").AppendLine(pressure);
+                }
+            }
+            sb.AppendLine();
+            return true;
         }
 
         private static void WriteField(StringBuilder sb, string label, string value)

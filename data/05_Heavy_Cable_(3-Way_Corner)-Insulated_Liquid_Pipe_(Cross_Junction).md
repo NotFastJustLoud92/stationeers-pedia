@@ -1478,9 +1478,11 @@ Due to the original Stationeer manual collapsing into a singularity, Astroloy re
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 1 kK (727oC) to 100 kK (99726oC) Pressure: 30 MPa to 40 MPa 0.25 x Copper from Ore (Copper) 0.5 x Steel 0.25 x Cobalt from Ore (Cobalt) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Astroloy , PageLink=ThingStructureAdvancedFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Astroloy
+  - Printer: Advanced Furnace
+    - 0.25 Copper (from Ore (Copper)) + 0.5 Steel + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1 kK (727oC) to 100 kK (99726oC) | Pressure: 30 MPa to 40 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1503,11 +1505,11 @@ Due to the original Stationeer manual collapsing into a singularity, Astroloy re
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 1 kK (727oC) to 100 kK (99726oC) Pressure: 20 MPa to 100 MPa 0.5 x Copper from Ore (Copper) 0.5 x Nickel from Ore (Nickel) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Constantan , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 1 kK (727oC) to 100 kK (99726oC) Pressure: 20 MPa to 100 MPa 0.5 x Copper from Ore (Copper) 0.5 x Nickel from Ore (Nickel) , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=1 x Constantan , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Constantan
+  - Printer: Advanced Furnace / Furnace
+    - 0.5 Copper (from Ore (Copper)) + 0.5 Nickel (from Ore (Nickel)) | Temp: 1 kK (727oC) to 100 kK (99726oC) | Pressure: 20 MPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1532,10 +1534,11 @@ Copper ingots are created by smelting Ore (Copper) in the Furnace and Arc Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Copper from Ore (Copper) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=500 x Energy 1 x Copper from Ore (Copper) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Copper from Ore (Copper) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 500 x Energy 1 x Copper from Ore (Copper)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Copper (from Ore (Copper)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1558,11 +1561,11 @@ Copper ingots are created by smelting Ore (Copper) in the Furnace and Arc Furnac
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 800 kPa to 2.4 MPa 0.5 x Gold from Ore (Gold) 0.5 x Silver from Ore (Silver) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Electrum , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 800 kPa to 2.4 MPa 0.5 x Gold from Ore (Gold) 0.5 x Silver from Ore (Silver) , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=1 x Electrum , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Electrum
+  - Printer: Advanced Furnace / Furnace
+    - 0.5 Gold (from Ore (Gold)) + 0.5 Silver (from Ore (Silver)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 800 kPa to 2.4 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1587,10 +1590,11 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Gold from Ore (Gold) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=2000 x Energy 1 x Gold from Ore (Gold) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Gold from Ore (Gold) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 2000 x Energy 1 x Gold from Ore (Gold)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Gold (from Ore (Gold)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1613,9 +1617,11 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 950 K (677oC) to 1 kK (727oC) Pressure: 25 MPa to 30 MPa 0.5 x Silver from Ore (Silver) 0.25 x Nickel from Ore (Nickel) 0.25 x Cobalt from Ore (Cobalt) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Hastelloy , PageLink=ThingStructureAdvancedFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Hastelloy
+  - Printer: Advanced Furnace
+    - 0.5 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 950 K (677oC) to 1 kK (727oC) | Pressure: 25 MPa to 30 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1638,9 +1644,11 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 23.5 MPa to 24 MPa 0.5 x Gold from Ore (Gold) 0.25 x Steel 0.25 x Nickel from Ore (Nickel) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Inconel , PageLink=ThingStructureAdvancedFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Inconel
+  - Printer: Advanced Furnace
+    - 0.5 Gold (from Ore (Gold)) + 0.25 Steel + 0.25 Nickel (from Ore (Nickel)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 23.5 MPa to 24 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1663,11 +1671,11 @@ There is an enduring paradox at the heart of the Stationeers project: An initiat
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 1.2 kK (927oC) to 1.5 kK (1227oC) Pressure: 18 MPa to 20 MPa 0.5 x Iron from Ore (Iron) 0.5 x Nickel from Ore (Nickel) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Invar , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 1.2 kK (927oC) to 1.5 kK (1227oC) Pressure: 18 MPa to 20 MPa 0.5 x Iron from Ore (Iron) 0.5 x Nickel from Ore (Nickel) , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=1 x Invar , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Invar
+  - Printer: Advanced Furnace / Furnace
+    - 0.5 Iron (from Ore (Iron)) + 0.5 Nickel (from Ore (Nickel)) | Temp: 1.2 kK (927oC) to 1.5 kK (1227oC) | Pressure: 18 MPa to 20 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1692,10 +1700,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 800 K (527oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Iron from Ore (Iron) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=200 x Energy 1 x Iron from Ore (Iron) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 800 K (527oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Iron from Ore (Iron) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 200 x Energy 1 x Iron from Ore (Iron)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Iron (from Ore (Iron)) | Temp: 800 K (527oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1718,10 +1727,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 400 K (127oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Lead from Ore (Lead) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=1000 x Energy 1 x Lead from Ore (Lead) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 400 K (127oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Lead from Ore (Lead) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1000 x Energy 1 x Lead from Ore (Lead)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1744,10 +1754,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 800 K (527oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Nickel from Ore (Nickel) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=1000 x Energy 1 x Nickel from Ore (Nickel) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 800 K (527oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Nickel from Ore (Nickel) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1000 x Energy 1 x Nickel from Ore (Nickel)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Nickel (from Ore (Nickel)) | Temp: 800 K (527oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1770,10 +1781,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Silicon from Ore (Silicon) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=100 x Energy 1 x Silicon from Ore (Silicon) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Silicon from Ore (Silicon) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 100 x Energy 1 x Silicon from Ore (Silicon)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Silicon (from Ore (Silicon)) | Temp: 900 K (627oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1796,10 +1808,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Silver from Ore (Silver) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Arc Furnace, TierName=Tier One, Description=1000 x Energy 1 x Silver from Ore (Silver) , PageLink=ThingStructureArcFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 600 K (327oC) to 100 kK (99726oC) Pressure: 100 kPa to 100 MPa 1 x Silver from Ore (Silver) , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1000 x Energy 1 x Silver from Ore (Silver)
+  - Printer: Advanced Furnace / Furnace
+    - 1 Silver (from Ore (Silver)) | Temp: 600 K (327oC) to 100 kK (99726oC) | Pressure: 100 kPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Chemistry Station, PrefabHash=1365789392, PageLink=ThingApplianceChemistryStation
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
@@ -1823,11 +1836,11 @@ The most basic unit of construction available to Stationeer-kind, iron ingots ar
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 350 K (76.8oC) to 550 K (277oC) Pressure: 1 MPa to 100 MPa 0.5 x Iron from Ore (Iron) 0.5 x Lead from Ore (Lead) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Solder , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 350 K (76.8oC) to 550 K (277oC) Pressure: 1 MPa to 100 MPa 0.5 x Iron from Ore (Iron) 0.5 x Lead from Ore (Lead) , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=1 x Solder , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Solder
+  - Printer: Advanced Furnace / Furnace
+    - 0.5 Iron (from Ore (Iron)) + 0.5 Lead (from Ore (Lead)) | Temp: 350 K (76.8oC) to 550 K (277oC) | Pressure: 1 MPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1852,13 +1865,12 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa 0.75 x Iron from Ore (Iron) 0.25 x Carbon from Charcoal , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa 0.75 x Iron from Ore (Iron) 0.25 x Hydrocarbon from Ore (Coal) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Steel , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa 0.75 x Iron from Ore (Iron) 0.25 x Carbon from Charcoal , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=Temperature: 900 K (627oC) to 100 kK (99726oC) Pressure: 1 MPa to 100 MPa 0.75 x Iron from Ore (Iron) 0.25 x Hydrocarbon from Ore (Coal) , PageLink=ThingStructureFurnace
-  - PrinterName=Furnace, TierName=Tier One, Description=1 x Steel , PageLink=ThingStructureFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Steel
+  - Printer: Advanced Furnace / Furnace
+    - 0.75 Iron (from Ore (Iron)) + 0.25 Carbon (from Charcoal) | Temp: 900 K (627oC) to 100 kK (99726oC) | Pressure: 1 MPa to 100 MPa
+    - 0.75 Iron (from Ore (Iron)) + 0.25 Hydrocarbon (from Ore (Coal)) | Temp: 900 K (627oC) to 100 kK (99726oC) | Pressure: 1 MPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1881,9 +1893,11 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 1.8 kK (1527oC) to 100 kK (99726oC) Pressure: 10 MPa to 20 MPa 0.25 x Silver from Ore (Silver) 0.5 x Silicon from Ore (Silicon) 0.25 x Cobalt from Ore (Cobalt) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Stellite , PageLink=ThingStructureAdvancedFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Stellite
+  - Printer: Advanced Furnace
+    - 0.25 Silver (from Ore (Silver)) + 0.5 Silicon (from Ore (Silicon)) + 0.25 Cobalt (from Ore (Cobalt)) | Temp: 1.8 kK (1527oC) to 100 kK (99726oC) | Pressure: 10 MPa to 20 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter
@@ -1906,9 +1920,11 @@ Steel ingots are a metal alloy, crafted in a Furnace by smelting Ore (Iron) and 
 - **Paintable:** No
 - **Flashpoint:** 373 K (100oC)
 - **Auto Ignition:** 573 K (300oC)
-**Build Steps:**
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=Temperature: 400 K (127oC) to 800 K (527oC) Pressure: 50 MPa to 100 MPa 0.25 x Silver from Ore (Silver) 0.25 x Nickel from Ore (Nickel) 0.5 x Lead from Ore (Lead) , PageLink=ThingStructureAdvancedFurnace
-  - PrinterName=Advanced Furnace, TierName=Tier One, Description=1 x Waspaloy , PageLink=ThingStructureAdvancedFurnace
+**Furnace Recipe:**
+  - Yield: 1 x Waspaloy
+  - Printer: Advanced Furnace
+    - 0.25 Silver (from Ore (Silver)) + 0.25 Nickel (from Ore (Nickel)) + 0.5 Lead (from Ore (Lead)) | Temp: 400 K (127oC) to 800 K (527oC) | Pressure: 50 MPa to 100 MPa
+
 **Used In:**
   - NameOfThing=Autolathe, PrefabHash=336213101, PageLink=ThingStructureAutolathe
   - NameOfThing=Electronics Printer, PrefabHash=1307165496, PageLink=ThingStructureElectronicsPrinter

@@ -4,8 +4,10 @@ A reference library of Stationeers' Stationpedia (device docs, specs, build reci
 
 ## Contents
 
+- [`search.html`](search.html) — download/clone the repo and open this locally for a searchable interface over all 1,985 pages (title + full-text search, no server or internet connection needed). Regenerate it with `tools/build_search_index.ps1` any time `data/` changes.
 - [`data/`](data/) — the extracted library itself. 1,985 pages, chunked alphabetically into 20 files. Start at [`data/README.md`](data/README.md) for the index and a note on current known gaps.
 - [`mod-source/StationpediaDump/`](mod-source/StationpediaDump/) — the BepInEx/Harmony mod that generates `data/`. Not published to Steam Workshop; it's a one-off extraction tool, run manually against a dedicated server install whenever the library needs refreshing (e.g. after a game update changes device stats or adds new content).
+- [`tools/`](tools/) — `build_search_index.ps1` + its HTML template, regenerates `search.html` from whatever's currently in `data/`.
 
 ## How the extraction works
 
@@ -18,9 +20,13 @@ Confirmed working on a fully headless dedicated server — no client, no renderi
 1. Build `mod-source/StationpediaDump` (`dotnet build -c Release`, targets `net472`) against a dedicated server install's current game DLLs — see the project file for the exact reference paths.
 2. Drop `StationpediaDump.dll` into that server's `BepInEx/plugins/StationpediaDump/`.
 3. Boot the server once. It writes `StationpediaDump_Output/` next to the server root and logs a summary to `BepInEx/LogOutput.log`.
-4. Copy the output over `data/`, remove the plugin, commit.
+4. Copy the output over `data/`, remove the plugin, run `tools/build_search_index.ps1` to refresh `search.html`, commit.
 
 **Always test a rebuilt version of this mod on an isolated test server first, never directly on a live/production dedicated server** — an earlier, buggier version of this diagnostic hard-crashed a live server before this pattern was established.
+
+## Furnace/alloy recipes
+
+Every smeltable ingot (Steel, Invar, Electrum, Constantan, Hastelloy, Inconel, Astroloy, Waspaloy, Stellite, Solder, etc. — 19 furnace-fed recipes total) gets a dedicated **Furnace Recipe** section: ingredient ratios, sources, temperature range, and pressure range, parsed out of the game's raw build-step data and deduplicated across Furnace/Advanced Furnace when they share identical requirements. Search `search.html` for "Ingot" or any specific alloy name to find them.
 
 ## Known limitation
 
