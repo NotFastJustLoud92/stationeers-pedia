@@ -24,9 +24,9 @@ Confirmed working on a fully headless dedicated server — no client, no renderi
 
 **Always test a rebuilt version of this mod on an isolated test server first, never directly on a live/production dedicated server** — an earlier, buggier version of this diagnostic hard-crashed a live server before this pattern was established.
 
-## Furnace/alloy recipes
+## Build recipes
 
-Every smeltable ingot (Steel, Invar, Electrum, Constantan, Hastelloy, Inconel, Astroloy, Waspaloy, Stellite, Solder, etc. — 19 furnace-fed recipes total) gets a dedicated **Furnace Recipe** section: ingredient ratios, sources, temperature range, and pressure range, parsed out of the game's raw build-step data and deduplicated across Furnace/Advanced Furnace when they share identical requirements. Search `search.html` for "Ingot" or any specific alloy name to find them.
+Every printer-built item — furnace-smelted alloys as well as anything made on an Autolathe, Electronics Printer, Rocket Manufactory, etc. — gets a dedicated **Build Recipe** section instead of a raw field dump: printer(s), tier, resource cost, and (for furnace items specifically) temperature/pressure range, parsed out of the game's raw build-step data. Furnace/Advanced Furnace variants are deduplicated when they share identical requirements. Search `search.html` for any item name to find its recipe.
 
 ## Known limitation
 
