@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Net.Sockets;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -120,7 +121,6 @@ namespace StationpediaDump
             string iconDir = Path.Combine(outRoot, "icons");
             Directory.CreateDirectory(iconDir);
             int ok = 0, skipped = 0, failed = 0;
-            int diagLogged = 0;
             foreach (var page in pages)
             {
                 if (page.PrefabHash == 0) { skipped++; continue; }
@@ -132,20 +132,10 @@ namespace StationpediaDump
                     Sprite sprite = thing != null ? thing.Thumbnail : null;
                     if (sprite == null) { skipped++; continue; }
 
-                    if (diagLogged < 5)
-                    {
-                        diagLogged++;
-                        Texture2D dt = sprite.texture;
-                        Log.LogInfo($"[StationpediaDump] ICON DIAG {page.Key}: tex={(dt != null ? dt.name : "null")} " +
-                            $"isReadable={(dt != null ? dt.isReadable.ToString() : "n/a")} " +
-                            $"texSize={(dt != null ? dt.width + "x" + dt.height : "n/a")} " +
-                            $"rect={sprite.textureRect} spriteRect={sprite.rect} " +
-                            $"format={(dt != null ? dt.format.ToString() : "n/a")}");
-                    }
-
                     byte[] png = EncodeSpriteToPng(sprite);
                     if (png == null) { failed++; continue; }
                     File.WriteAllBytes(fname, png);
+                    UploadIcon(page.PrefabHash, png);
                     ok++;
                 }
                 catch (Exception e)
@@ -155,6 +145,64 @@ namespace StationpediaDump
                 }
             }
             Log.LogInfo($"[StationpediaDump] Icons: {ok} exported, {skipped} skipped (no prefab/sprite), {failed} failed.");
+        }
+
+        // Optional: this server's dedicated-server build target has no GPU
+        // rendering backend, so it can't read compressed sprite pixel data
+        // (see EncodeSpriteToPng) - icons only extract cleanly on a real
+        // client. When this plugin runs on a client instead, it can stream
+        // each icon back to a receiver running on the server over a plain
+        // TCP socket, so no manual file transfer is needed. Only active if
+        // upload_target.txt (not committed to git - purely local, created by
+        // whoever runs the client) sits next to the DLL containing a single
+        // "host:port" line; absent by default, so nothing changes for the
+        // normal server-side markdown-only run.
+        private static string _uploadHost;
+        private static int _uploadPort = 27021;
+        private static bool _uploadConfigLoaded;
+
+        private static void LoadUploadConfig()
+        {
+            if (_uploadConfigLoaded) return;
+            _uploadConfigLoaded = true;
+            try
+            {
+                string cfgPath = Path.Combine(Paths.PluginPath, "StationpediaDump", "upload_target.txt");
+                if (!File.Exists(cfgPath)) return;
+                string line = File.ReadAllLines(cfgPath).FirstOrDefault(l => !string.IsNullOrWhiteSpace(l));
+                if (string.IsNullOrWhiteSpace(line)) return;
+                var parts = line.Trim().Split(':');
+                _uploadHost = parts[0];
+                if (parts.Length > 1 && int.TryParse(parts[1], out int p)) _uploadPort = p;
+                Log.LogInfo($"[StationpediaDump] Icon upload target configured: {_uploadHost}:{_uploadPort}");
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning("[StationpediaDump] Failed to read upload_target.txt: " + e.Message);
+            }
+        }
+
+        private static void UploadIcon(int prefabHash, byte[] png)
+        {
+            LoadUploadConfig();
+            if (string.IsNullOrEmpty(_uploadHost)) return;
+            try
+            {
+                using (var client = new TcpClient())
+                {
+                    client.Connect(_uploadHost, _uploadPort);
+                    using (var stream = client.GetStream())
+                    {
+                        stream.Write(BitConverter.GetBytes(prefabHash), 0, 4);
+                        stream.Write(BitConverter.GetBytes(png.Length), 0, 4);
+                        stream.Write(png, 0, png.Length);
+                    }
+                }
+            }
+            catch (Exception e)
+            {
+                Log.LogWarning($"[StationpediaDump] Icon upload failed for {prefabHash}: {e.Message}");
+            }
         }
 
         /// <summary>
