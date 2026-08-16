@@ -1,8 +1,0 @@
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.csproj.AssemblyReference.cache
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.csproj.CoreCompileInputs.cache
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.sourcelink.json
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\bin\Release\net472\StationpediaDump.dll
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\bin\Release\net472\StationpediaDump.pdb
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.dll
-C:\Users\Ryan\Documents\stationeers-pedia\mod-source\StationpediaDump\obj\Release\net472\StationpediaDump.pdb
