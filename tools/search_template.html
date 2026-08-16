@@ -35,13 +35,51 @@
   }
   * { box-sizing: border-box; }
   html, body { margin: 0; padding: 0; height: 100%; }
+  /* Faint fixed starfield + grid + amber vignette behind the whole console -
+     shows through in the gutters outside the 1200px content column and gives
+     the page depth without competing with the readable panels on top. */
   body {
-    background: var(--bg);
+    background-color: var(--bg);
+    background-image:
+      radial-gradient(1.5px 1.5px at 12% 22%, rgba(231,236,240,0.55), transparent),
+      radial-gradient(1px 1px at 32% 68%, rgba(231,236,240,0.35), transparent),
+      radial-gradient(1.5px 1.5px at 52% 14%, rgba(231,236,240,0.4), transparent),
+      radial-gradient(1px 1px at 68% 46%, rgba(231,236,240,0.3), transparent),
+      radial-gradient(1.5px 1.5px at 84% 78%, rgba(231,236,240,0.45), transparent),
+      radial-gradient(1px 1px at 91% 28%, rgba(231,236,240,0.3), transparent),
+      radial-gradient(1px 1px at 22% 90%, rgba(231,236,240,0.25), transparent),
+      radial-gradient(ellipse 70% 50% at 50% -10%, rgba(217,123,74,0.06), transparent 60%),
+      repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0 1px, transparent 1px 48px),
+      repeating-linear-gradient(90deg, rgba(255,255,255,0.012) 0 1px, transparent 1px 48px);
+    background-repeat: no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, no-repeat, repeat, repeat;
+    background-attachment: fixed;
     color: var(--text);
     font-family: var(--sans);
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+  }
+  /* Industrial hazard tape across the very top of the page - the same
+     diagonal-stripe language Stationeers uses on airlocks and warning signage. */
+  .hazard-bar { height: 4px; background: repeating-linear-gradient(135deg, var(--accent) 0 10px, var(--bg) 10px 20px); opacity: 0.9; flex-shrink: 0; }
+  /* Reusable HUD corner-bracket frame - four small L-marks drawn as layered
+     backgrounds so it works on any relatively-positioned box without extra
+     markup (applied to header, the search bar, and the detail item icon). */
+  .hud-corners { position: relative; }
+  .hud-corners::before {
+    content: "";
+    position: absolute;
+    inset: 6px;
+    pointer-events: none;
+    background-image:
+      linear-gradient(var(--accent), var(--accent)), linear-gradient(var(--accent), var(--accent)),
+      linear-gradient(var(--accent), var(--accent)), linear-gradient(var(--accent), var(--accent)),
+      linear-gradient(var(--accent), var(--accent)), linear-gradient(var(--accent), var(--accent)),
+      linear-gradient(var(--accent), var(--accent)), linear-gradient(var(--accent), var(--accent));
+    background-repeat: no-repeat;
+    background-size: 12px 2px, 2px 12px, 12px 2px, 2px 12px, 12px 2px, 2px 12px, 12px 2px, 2px 12px;
+    background-position: 0 0, 0 0, 100% 0, 100% 0, 100% 100%, 100% 100%, 0 100%, 0 100%;
+    opacity: 0.65;
   }
   ::-webkit-scrollbar { width: 10px; height: 10px; }
   ::-webkit-scrollbar-thumb { background: var(--border-strong); border-radius: 5px; }
@@ -129,21 +167,33 @@
     display: flex;
     gap: 8px;
   }
+  /* Chamfered top-right corner marks these as interactive console chips - a
+     single cut corner is enough of a sci-fi signature without needing a
+     border to trace the clipped edge (borders don't follow clip-path). The
+     notch itself gets a thin colored seam line instead. */
   .tab-btn {
+    position: relative;
     font-family: var(--mono);
     font-size: 12px;
     letter-spacing: 0.05em;
     text-transform: uppercase;
     color: var(--text-muted);
-    background: var(--panel);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius);
-    padding: 9px 18px;
+    background-color: var(--panel);
+    background-image: linear-gradient(135deg, transparent calc(100% - 13px), var(--border-strong) calc(100% - 13px), var(--border-strong) calc(100% - 11px), transparent calc(100% - 11px));
+    clip-path: polygon(0 0, calc(100% - 12px) 0, 100% 12px, 100% 100%, 0 100%);
+    border: none;
+    padding: 9px 20px;
     cursor: pointer;
-    transition: background 0.12s, color 0.12s, border-color 0.12s;
+    filter: drop-shadow(0 1px 2px rgba(0,0,0,0.4));
+    transition: background-color 0.12s, color 0.12s, filter 0.12s;
   }
-  .tab-btn:hover { color: var(--text); border-color: var(--text-faint); }
-  .tab-btn.active { background: var(--accent-soft); color: var(--accent-strong); border-color: var(--accent); }
+  .tab-btn:hover { color: var(--text); }
+  .tab-btn.active {
+    background-color: var(--accent-soft);
+    background-image: linear-gradient(135deg, transparent calc(100% - 13px), var(--accent) calc(100% - 13px), var(--accent) calc(100% - 11px), transparent calc(100% - 11px));
+    color: var(--accent-strong);
+    filter: drop-shadow(0 0 8px var(--accent-soft));
+  }
 
   /* ============ SEARCH BAR ============ */
   .search-wrap {
@@ -200,23 +250,27 @@
     gap: 12px;
     padding: 24px;
   }
+  /* Same single-corner chamfer language as the tabs, but the notch seam is
+     tinted per-category (--cat-color) so each tile carries its own accent
+     identity even before you read the label. */
   .category-tile {
+    position: relative;
     display: flex;
     align-items: center;
     gap: 16px;
-    background: var(--panel);
-    border: 1px solid var(--border-strong);
-    border-radius: var(--radius);
+    background-color: var(--panel);
+    background-image: linear-gradient(135deg, transparent calc(100% - 17px), var(--cat-color, var(--cyan)) calc(100% - 17px), var(--cat-color, var(--cyan)) calc(100% - 15px), transparent calc(100% - 15px));
+    clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
     padding: 16px 18px;
     cursor: pointer;
     text-align: left;
-    transition: transform 0.14s ease, border-color 0.14s, background 0.14s, box-shadow 0.14s;
+    filter: drop-shadow(0 1px 3px rgba(0,0,0,0.35));
+    transition: transform 0.14s ease, background-color 0.14s, filter 0.14s;
   }
   .category-tile:hover {
     transform: translateY(-3px);
-    border-color: var(--cat-color, var(--cyan));
-    background: var(--panel-2);
-    box-shadow: 0 6px 18px -6px var(--cat-bg, transparent);
+    background-color: var(--panel-2);
+    filter: drop-shadow(0 6px 16px var(--cat-bg, transparent));
   }
   .category-badge {
     width: 56px; height: 56px;
@@ -355,7 +409,9 @@
     padding-bottom: 22px;
     margin-bottom: 22px;
   }
+  .detail-icon-frame { position: relative; display: inline-block; flex-shrink: 0; }
   .detail-icon {
+    display: block;
     width: 112px;
     height: 112px;
     flex-shrink: 0;
@@ -399,8 +455,9 @@
     margin: 24px 0 10px;
     display: flex;
     align-items: center;
-    gap: 10px;
+    gap: 8px;
   }
+  .section-label::before { content: "\25C6"; font-size: 8px; }
   .section-label::after { content: ""; flex: 1; height: 1px; background: var(--border); }
 
   .plain-list { margin: 0 0 4px; padding: 0; list-style: none; }
@@ -413,12 +470,24 @@
     color: var(--text-muted);
   }
 
+  /* Left edge reads as fabrication hazard tape - Build Recipe is the
+     highlight feature so it gets the one full stripe treatment on the page. */
   .recipe-card {
+    position: relative;
     background: var(--panel-2);
     border: 1px solid var(--accent);
+    border-left: none;
     border-radius: var(--radius);
-    padding: 4px 16px 14px;
+    padding: 4px 16px 14px 22px;
     margin-bottom: 6px;
+    overflow: hidden;
+  }
+  .recipe-card::before {
+    content: "";
+    position: absolute;
+    left: 0; top: 0; bottom: 0;
+    width: 6px;
+    background: repeating-linear-gradient(135deg, var(--accent) 0 4px, var(--panel-2) 4px 8px);
   }
   .recipe-card .section-label { color: var(--accent-strong); }
   .recipe-card .section-label::after { background: var(--border-strong); }
@@ -468,8 +537,34 @@
 
   @media (prefers-reduced-motion: no-preference) {
     .readout .num { animation: flicker 6s ease-in-out infinite; }
+    .status-dot { animation: dot-pulse 2.2s ease-in-out infinite; }
+    header::after { animation: conduit-pulse 5s ease-in-out infinite; }
+    .mark { animation: mark-pulse 5s ease-in-out infinite; }
   }
   @keyframes flicker { 0%, 92%, 100% { opacity: 1; } 94% { opacity: 0.75; } 96% { opacity: 1; } }
+  @keyframes dot-pulse { 0%, 100% { opacity: 1; } 50% { opacity: 0.5; } }
+  @keyframes conduit-pulse { 0%, 100% { opacity: 0.7; } 50% { opacity: 1; } }
+  @keyframes mark-pulse { 0%, 100% { box-shadow: 0 0 0 rgba(217,123,74,0); } 50% { box-shadow: 0 0 14px var(--accent-soft); } }
+
+  /* ============ STATUS READOUT ============ */
+  .status-line {
+    font-family: var(--mono);
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    color: var(--cyan);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 6px;
+  }
+  .status-dot {
+    width: 7px; height: 7px;
+    border-radius: 50%;
+    background: var(--cyan);
+    box-shadow: 0 0 6px var(--cyan);
+    flex-shrink: 0;
+  }
 
   /* Category-grid landing view wants the full page width, not the narrow
      340px results sidebar - widen #results to span the whole main area and
@@ -488,7 +583,8 @@
 </head>
 <body>
 
-<header>
+<div class="hazard-bar" aria-hidden="true"></div>
+<header class="hud-corners">
   <div class="masthead-row">
     <div class="brand">
       <div class="mark">
@@ -500,6 +596,7 @@
       </div>
     </div>
     <div class="readouts">
+      <div class="readout"><div class="status-line"><span class="status-dot"></span>ONLINE</div><div class="lbl">System</div></div>
       <div class="readout"><div class="num">__PAGE_COUNT__</div><div class="lbl">Entries</div></div>
     </div>
   </div>
@@ -510,7 +607,7 @@
     <button class="tab-btn" data-tab="functions">Functions</button>
   </div>
 
-  <div class="search-wrap">
+  <div class="search-wrap hud-corners">
     <span class="search-prompt">&gt;</span>
     <input type="text" id="searchBox" placeholder="Search a device, item, or LogicType... (e.g. &quot;volume pump&quot;, &quot;invar&quot;, &quot;LogicType.Setting&quot;)" autocomplete="off" spellcheck="false">
   </div>
@@ -727,7 +824,7 @@
 
   function showPage(page, btn) {
     selectRow(btn);
-    var icon = page.i ? '<img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.remove()">'
+    var icon = page.i ? '<span class="detail-icon-frame hud-corners"><img class="detail-icon" src="' + escapeHtml(page.i) + '" alt="" loading="lazy" onerror="this.closest(\'.detail-icon-frame\').remove()"></span>'
       : (page.g ? gasBadgeHtml(page.g, 'detail-icon') : '');
     detailEl.innerHTML =
       '<div class="detail-header">' + icon +
