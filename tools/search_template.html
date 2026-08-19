@@ -258,6 +258,7 @@
     display: flex;
     align-items: center;
     gap: 16px;
+    min-width: 0;
     background-color: var(--panel);
     background-image: linear-gradient(135deg, transparent calc(100% - 17px), var(--cat-color, var(--cyan)) calc(100% - 17px), var(--cat-color, var(--cyan)) calc(100% - 15px), transparent calc(100% - 15px));
     clip-path: polygon(0 0, calc(100% - 16px) 0, 100% 16px, 100% 100%, 0 100%);
@@ -297,8 +298,8 @@
   .category-badge img { width: 32px; height: 32px; object-fit: contain; }
   .category-gas-badge { width: 30px; height: 30px; font-size: 9px; border-radius: 7px; }
   .category-tile-text { min-width: 0; }
-  .category-tile-name { font-size: 14.5px; font-weight: 600; color: var(--text); }
-  .category-tile-count { font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 4px; }
+  .category-tile-name { display: block; font-size: 14.5px; font-weight: 600; color: var(--text); overflow-wrap: break-word; }
+  .category-tile-count { display: block; font-family: var(--mono); font-size: 11px; color: var(--text-faint); margin-top: 4px; }
 
   .breadcrumb {
     display: flex;
@@ -578,6 +579,12 @@
     main.category-mode #results { max-height: none; }
     .readouts { display: none; }
     .category-grid { grid-template-columns: 1fr 1fr; padding: 14px; gap: 8px; }
+  }
+  /* Two columns leaves too little room for the badge + a readable category
+     name on true phone widths - single column instead of an awkward
+     mid-word break. */
+  @media (max-width: 480px) {
+    .category-grid { grid-template-columns: 1fr; }
   }
 </style>
 </head>
